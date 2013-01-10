@@ -1,5 +1,5 @@
-Hack.Rice Website
-=========
-Initial design and construction by Andrew Capshaw (github.com/capshaw)
+# Hack.Rice Website
 
-To update the site, just change the file in "/compile/content" and run the compile script.
+Initial design and construction by [Andrew Capshaw](github.com/capshaw)
+
+This is a Jekyll + Github pages site. Pushing to the repository compiles the site.
