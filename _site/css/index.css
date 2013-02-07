@@ -1,8 +1,8 @@
 body, html {
 	background: #fff;
 	font-family: 'Droid Sans', sans-serif;
-	padding: 0px;
-	margin: 0px;
+	padding: 0 0 30px 0;
+	margin: 0;
 	height: 100%;
 }
 
@@ -45,6 +45,7 @@ p {
 
 .sponoser-logo {
 	max-width: 200px;
+	max-height: 100px;
 	margin: 10px;
 }
 
