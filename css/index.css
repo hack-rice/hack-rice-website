@@ -170,5 +170,10 @@ a:hover {
 
 .judge-photo {
 	width: 100%;
+	height: 300px;
+}
+
+.clearfix {
+	clear: both;
 }
 
