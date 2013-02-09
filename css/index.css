@@ -162,3 +162,13 @@ a:hover {
 	background-size: contain;
 	display: inline-block;
 }
+
+.judge-container {
+	float: left;
+	width: 49%;
+}
+
+.judge-photo {
+	width: 100%;
+}
+
