@@ -177,3 +177,21 @@ a:hover {
 	clear: both;
 }
 
+
+.gallery-image-wrapper {
+	height: 300px;
+	width: 300px;
+	display: inline-block;
+	margin: 1em;
+	position: relative;
+	text-align: center;
+}
+.gallery-image {
+	margin: auto;
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	max-height: 100%;
+	max-width: 100%;
+}
+
