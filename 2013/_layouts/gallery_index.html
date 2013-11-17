@@ -1,0 +1,16 @@
+---
+layout: default
+title: Photos
+---
+<div class="container">
+	<h1>HackRice Photos</h1>
+	<hr/>
+	{% for gallery in page.galleries %}
+	<div class="gallery-image-wrapper">
+		<a class="" href="{{ gallery['gallery'] }}">
+			<img class="thumbnail" src="{{ gallery['gallery'] }}/thumbs/{{ gallery['best_image'] }}">
+		</a>
+		<strong><a href="{{ gallery['gallery'] }}">{{ gallery["name"] }} [{{ gallery["images"] | size }} images]</a></strong>
+	</div>
+	{% endfor %}
+</div>
