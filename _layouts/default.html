@@ -3,8 +3,10 @@
 	<head>
 		<title>Hack Rice</title>
         <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-        <link href='http://fonts.googleapis.com/css?family=Viga' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:300' rel='stylesheet' type='text/css'>
+        <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 		<link rel='stylesheet' type='text/css' href='/css/index.css'/>
+        <link rel="shortcut icon" href="/img/code.png">
 		<meta property="og:title" content="HackRice" />
 		<meta property="og:type" content="website" />
 		<meta property="og:url" content="http://hack.rice.edu" />
@@ -14,19 +16,26 @@
 	<body>
         <div class='header'>
             <a href='/' class='logo'></a>
+            <div class='important-info'>
+                <div class='content'>
+                    <i class='fa fa-map-marker'></i> Rice University
+                    <i class='fa fa-clock-o standard-left-margin'></i> January 2014
+                </div>
+            </div>
         </div>
-		<nav class='nav'>
+        <nav class='nav'>
             <div class='content'>
-    			<a href='/rules'>Rules &amp; FAQ</a>
-    			<a href='/prizes'>Judging</a>
-    			<a href='/registration'>Registration</a>
-    			<a href='/schedule'>Schedule</a>
-    			<a href='/sponsors'>Sponsors</a>
+                <a href='/rules'>Rules &amp; FAQ</a>
+                <a href='/prizes'>Judging</a>
+                <a href='/registration'>Registration</a>
+                <a href='/schedule'>Schedule</a>
+                <a href='/sponsors'>Sponsors</a>
                 <a href='/resources'>Resources</a>
-    			<a href='/winners'>Winners</a>
-    			<!-- <a href='/photos'>Photos</a> --><!-- TODO: add back -->
-		    </div>
+                <a href='/winners'>Winners</a>
+                <!-- <a href='/photos'>Photos</a> --><!-- TODO: add back -->
+            </div>
         </nav>
+
 		{{ content }}
 		<script type="text/javascript">
 			var _gaq = _gaq || [];

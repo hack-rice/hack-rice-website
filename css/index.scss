@@ -3,21 +3,35 @@ $standard-padding: 20px;
 $primary-color: #369;
 
 body, html {
-    background: #fff;
+    background: #eee;
     font-family: 'Open Sans', sans-serif;
     padding: 0 0 30px 0;
     margin: 0;
     height: 100%;
+    font-size: 16px;
 }
 
 h1, h2, h3, h4 {
-    font-family: 'Viga', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 300;
+    margin-top: 0;
+}
+
+a {
+    color: $primary-color;
+    text-decoration: none;
+}
+
+.standard-left-margin {
+    margin-left: $standard-padding;
 }
 
 .header {
     background: #eee;
     height: 300px;
     position: relative;
+    background: url(../img/background-blur.png) center center;
+    background-size: cover;
 
     .logo {
         display: block;
@@ -36,6 +50,48 @@ h1, h2, h3, h4 {
         margin-left: -216px;
         margin-top: -41px;
     }
+
+    .important-info {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        padding: $standard-padding;
+        text-align: center;
+    }
+}
+
+.button {
+    display: inline-block;
+    background: $primary-color;
+    border-radius: 4px;
+    padding: 10px;
+    color: #fff;
+    border-bottom: 3px solid darken($primary-color, 20%);
+    font-family: 'Roboto Condensed', sans-serif;
+    transition: all 0.4s ease;
+
+    &:hover {
+        background: lighten($primary-color, 10%);
+    }
+
+    &.alumni {
+        background: #333;
+        border-bottom: 3px solid darken(#333, 20%);
+
+        &:hover {
+            background: lighten(#333, 10%);
+        }
+    }
+
+    &.non-rice {
+        background: #33995F;
+        border-bottom: 3px solid darken(#33995F, 20%);
+
+        &:hover {
+            background: lighten(#33995F, 5%);
+        }
+    }
 }
 
 .content {
@@ -44,22 +100,50 @@ h1, h2, h3, h4 {
 }
 
 .intro {
-    background: pink;
     padding: 2 * $standard-padding;
-    background: #eee;
+    /*background: #eee;*/
+}
+
+.stats {
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 2 * $standard-padding;
+    font-size: 3em;
+}
+
+.apply {
+    padding: 2 * $standard-padding;
+    /*background: #eee;*/
+}
+
+.page {
+    background: #fff;
+    border-bottom: 3px solid #ccc;
+    padding: 2 * $standard-padding;
+    border-radius: 4px;
+
+    .break {
+        margin-top: 2 * $standard-padding;
+        border-top: 1px solid #ccc;
+        margin-bottom: 2 * $standard-padding;
+    }
 }
 
 .nav {
+
     background: #333;
+    text-align: center;
 
     a {
+        font-family: 'Roboto Condensed', sans-serif;
         color: #fff;
         text-decoration: none;
         display: inline-block;
-        padding: 20px;
+        padding: $standard-padding;
+        transition: all 0.4s ease;
 
         &:hover {
             color: #eee;
+            background: #5e6062;
         }
     }
 }
@@ -109,9 +193,12 @@ h1, h2, h3, h4 {
 
     .sponsor-person {
         display: inline-block;
-        background: #eee;
-        line-height: 100px;
-        padding: 0 20px;
+        border: 1px solid #eee;
+        line-height: 40px;
+        padding: 10px 20px;
+        border-radius: 10px;
+        font-family: 'Roboto Condensed', sans-serif;
+        text-align: left;
     }
 }
 
