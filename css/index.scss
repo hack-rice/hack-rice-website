@@ -1,5 +1,5 @@
 $tablet-width: 1000px;
-
+$standard-padding: 20px;
 $primary-color: #369;
 
 body, html {
@@ -10,6 +10,10 @@ body, html {
     height: 100%;
 }
 
+h1, h2, h3, h4 {
+    font-family: 'Viga', sans-serif;
+}
+
 .header {
     background: #eee;
     height: 300px;
@@ -17,15 +21,13 @@ body, html {
 
     .logo {
         display: block;
-        font-family: 'Aldrich', sans-serif;
         font-size: 4em;
         color: #fff;
         text-decoration: none;
         background: $primary-color;
         text-align: center;
         border-radius: 4px;
-        border-bottom: 5px solid darken($primary-color, 20%);
-        // background: url(../img/customLogo.png);
+        background: url(../img/customLogo.png);
         width: 433px;
         height: 83px;
         position: absolute;
@@ -41,6 +43,12 @@ body, html {
     margin: auto;
 }
 
+.intro {
+    background: pink;
+    padding: 2 * $standard-padding;
+    background: #eee;
+}
+
 .nav {
     background: #333;
 
@@ -54,4 +62,79 @@ body, html {
             color: #eee;
         }
     }
+}
+
+.sponsors {
+
+    text-align: center;
+    padding: $standard-padding;
+
+    .sponsor-logo, .chief-sponsor-logo, .sponsor-person {
+        margin-left: 20px;
+        text-decoration: none;
+        display: inline-block;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-top: 20px;
+        vertical-align: top;
+
+        &:hover {
+            opacity: 0.9;
+        }
+    }
+
+    .break {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .chief-sponsor-logo {
+        height: 200px;
+        width: 400px;
+
+        &.square {
+            width: 200px;
+        }
+    }
+
+    .sponsor-logo {
+        height: 100px;
+        width: 400px;
+
+        &.square {
+            width: 100px;
+        }
+    }
+
+    .sponsor-person {
+        display: inline-block;
+        background: #eee;
+        line-height: 100px;
+        padding: 0 20px;
+    }
+}
+
+.chevron {
+    background-image: url(../img/sponsors/Chevron.png);
+}
+
+.microsoft {
+    background-image: url(../img/sponsors/Microsoft.png);
+}
+
+.google {
+    background-image: url(../img/sponsors/Google.png);
+}
+
+.epic {
+    background-image: url(../img/sponsors/Epic.gif);
+}
+
+.rice-cs {
+    background-image: url(../img/sponsors/RiceComputerScience.png);
+}
+
+.rice-eng {
+    background-image: url(../img/sponsors/RiceEngineeringThumb.png);
 }
