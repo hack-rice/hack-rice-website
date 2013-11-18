@@ -59,7 +59,7 @@ table {
         background: $primary-color;
         text-align: center;
         border-radius: 4px;
-        background: url(../img/customLogo.png);
+        background: url(../img/customLogo.png) no-repeat center center;
         width: 433px;
         height: 83px;
         position: absolute;
@@ -67,6 +67,10 @@ table {
         left: 50%;
         margin-left: -216px;
         margin-top: -41px;
+
+        @media (max-width: 800px) {
+            background-size: 60%;
+        }
     }
 
     .important-info {
@@ -95,6 +99,7 @@ table {
     border-bottom: 3px solid darken($primary-color, 20%);
     font-family: 'Roboto Condensed', sans-serif;
     transition: all 0.4s ease;
+    margin-top: 10px;
 
     &:hover {
         background: lighten($primary-color, 10%);
@@ -125,7 +130,7 @@ table {
 }
 
 .intro {
-    padding: 2 * $standard-padding;
+    /*padding: 2 * $standard-padding;*/
     /*background: #eee;*/
 }
 
@@ -170,6 +175,10 @@ table {
             color: #eee;
             background: #5e6062;
         }
+
+        @media (max-width: 800px) {
+            display: block;
+        }
     }
 }
 
@@ -177,21 +186,6 @@ table {
 
     text-align: center;
     padding: $standard-padding;
-
-    .sponsor-logo, .chief-sponsor-logo, .sponsor-person {
-        margin-left: 20px;
-        text-decoration: none;
-        display: inline-block;
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center;
-        margin-top: 20px;
-        vertical-align: top;
-
-        &:hover {
-            opacity: 0.9;
-        }
-    }
 
     .chief-sponsor-logo {
         height: 200px;
@@ -218,6 +212,25 @@ table {
         border-radius: 10px;
         font-family: 'Roboto Condensed', sans-serif;
         text-align: left;
+    }
+
+    .sponsor-logo, .chief-sponsor-logo, .sponsor-person {
+        margin-left: 20px;
+        text-decoration: none;
+        display: inline-block;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-top: 20px;
+        vertical-align: top;
+
+        &:hover {
+            opacity: 0.9;
+        }
+
+        @media (max-width: 800px) {
+            width: 60%;
+        }
     }
 }
 

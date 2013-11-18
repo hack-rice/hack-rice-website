@@ -44,7 +44,7 @@ table {
     background: #336699;
     text-align: center;
     border-radius: 4px;
-    background: url(../img/customLogo.png);
+    background: url(../img/customLogo.png) no-repeat center center;
     width: 433px;
     height: 83px;
     position: absolute;
@@ -52,6 +52,9 @@ table {
     left: 50%;
     margin-left: -216px;
     margin-top: -41px; }
+    @media (max-width: 800px) {
+      .header .logo {
+        background-size: 60%; } }
   .header .important-info {
     position: absolute;
     bottom: 0;
@@ -74,7 +77,8 @@ table {
   color: #fff;
   border-bottom: 3px solid #19334d;
   font-family: 'Roboto Condensed', sans-serif;
-  transition: all 0.4s ease; }
+  transition: all 0.4s ease;
+  margin-top: 10px; }
   .button:hover {
     background: #407fbf; }
   .button.alumni {
@@ -93,7 +97,7 @@ table {
   margin: auto; }
 
 .intro {
-  padding: 40px;
+  /*padding: 2 * $standard-padding;*/
   /*background: #eee;*/ }
 
 .stats {
@@ -128,21 +132,13 @@ table {
     .nav a:hover {
       color: #eee;
       background: #5e6062; }
+    @media (max-width: 800px) {
+      .nav a {
+        display: block; } }
 
 .sponsors {
   text-align: center;
   padding: 20px; }
-  .sponsors .sponsor-logo, .sponsors .chief-sponsor-logo, .sponsors .sponsor-person {
-    margin-left: 20px;
-    text-decoration: none;
-    display: inline-block;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin-top: 20px;
-    vertical-align: top; }
-    .sponsors .sponsor-logo:hover, .sponsors .chief-sponsor-logo:hover, .sponsors .sponsor-person:hover {
-      opacity: 0.9; }
   .sponsors .chief-sponsor-logo {
     height: 200px;
     width: 400px; }
@@ -160,6 +156,20 @@ table {
     border-radius: 10px;
     font-family: 'Roboto Condensed', sans-serif;
     text-align: left; }
+  .sponsors .sponsor-logo, .sponsors .chief-sponsor-logo, .sponsors .sponsor-person {
+    margin-left: 20px;
+    text-decoration: none;
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 20px;
+    vertical-align: top; }
+    .sponsors .sponsor-logo:hover, .sponsors .chief-sponsor-logo:hover, .sponsors .sponsor-person:hover {
+      opacity: 0.9; }
+    @media (max-width: 800px) {
+      .sponsors .sponsor-logo, .sponsors .chief-sponsor-logo, .sponsors .sponsor-person {
+        width: 60%; } }
 
 .chevron {
   background-image: url(../img/sponsors/Chevron.png); }
