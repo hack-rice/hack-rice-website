@@ -22,8 +22,26 @@ a {
     text-decoration: none;
 }
 
+table {
+    width: 100%;
+
+    th {
+        text-align: left;
+        background: #eee;
+        padding: $standard-padding/2;
+    }
+
+    td {
+        padding: $standard-padding/2 0;
+    }
+}
+
 .standard-left-margin {
     margin-left: $standard-padding;
+}
+
+.standard-margin-top {
+    margin-top: $standard-padding;
 }
 
 .header {
@@ -59,6 +77,13 @@ a {
         padding: $standard-padding;
         text-align: center;
     }
+}
+
+.well {
+    background: #efefef;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    padding: $standard-padding;
 }
 
 .button {
@@ -123,7 +148,7 @@ a {
 
     .break {
         margin-top: 2 * $standard-padding;
-        border-top: 1px solid #ccc;
+        border-top: 1px solid #eee;
         margin-bottom: 2 * $standard-padding;
     }
 }
@@ -168,11 +193,6 @@ a {
         }
     }
 
-    .break {
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
-
     .chief-sponsor-logo {
         height: 200px;
         width: 400px;
@@ -193,7 +213,6 @@ a {
 
     .sponsor-person {
         display: inline-block;
-        border: 1px solid #eee;
         line-height: 40px;
         padding: 10px 20px;
         border-radius: 10px;
@@ -224,4 +243,20 @@ a {
 
 .rice-eng {
     background-image: url(../img/sponsors/RiceEngineeringThumb.png);
+}
+
+.rules-list {
+
+    margin-left: 0;
+    padding-left: 0;
+
+    li {
+        list-style-type: none;
+        padding: $standard-padding;
+        margin-left: 0;
+
+        &:nth-child(even) {
+            background: #efefef;
+        }
+    }
 }

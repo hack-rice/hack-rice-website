@@ -15,8 +15,20 @@ a {
   color: #336699;
   text-decoration: none; }
 
+table {
+  width: 100%; }
+  table th {
+    text-align: left;
+    background: #eee;
+    padding: 10px; }
+  table td {
+    padding: 10px 0; }
+
 .standard-left-margin {
   margin-left: 20px; }
+
+.standard-margin-top {
+  margin-top: 20px; }
 
 .header {
   background: #eee;
@@ -47,6 +59,12 @@ a {
     right: 0;
     padding: 20px;
     text-align: center; }
+
+.well {
+  background: #efefef;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  padding: 20px; }
 
 .button {
   display: inline-block;
@@ -94,7 +112,7 @@ a {
   border-radius: 4px; }
   .page .break {
     margin-top: 40px;
-    border-top: 1px solid #ccc;
+    border-top: 1px solid #eee;
     margin-bottom: 40px; }
 
 .nav {
@@ -125,9 +143,6 @@ a {
     vertical-align: top; }
     .sponsors .sponsor-logo:hover, .sponsors .chief-sponsor-logo:hover, .sponsors .sponsor-person:hover {
       opacity: 0.9; }
-  .sponsors .break {
-    margin-top: 10px;
-    margin-bottom: 10px; }
   .sponsors .chief-sponsor-logo {
     height: 200px;
     width: 400px; }
@@ -140,7 +155,6 @@ a {
       width: 100px; }
   .sponsors .sponsor-person {
     display: inline-block;
-    border: 1px solid #eee;
     line-height: 40px;
     padding: 10px 20px;
     border-radius: 10px;
@@ -164,3 +178,13 @@ a {
 
 .rice-eng {
   background-image: url(../img/sponsors/RiceEngineeringThumb.png); }
+
+.rules-list {
+  margin-left: 0;
+  padding-left: 0; }
+  .rules-list li {
+    list-style-type: none;
+    padding: 20px;
+    margin-left: 0; }
+    .rules-list li:nth-child(even) {
+      background: #efefef; }
