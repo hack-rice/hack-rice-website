@@ -5,7 +5,7 @@ $primary-color: #369;
 body, html {
     background: #eee;
     font-family: 'Open Sans', sans-serif;
-    padding: 0 0 30px 0;
+    padding: 0 0 $standard-padding 0;
     margin: 0;
     height: 100%;
     font-size: 16px;
@@ -48,7 +48,7 @@ table {
     background: #eee;
     height: 300px;
     position: relative;
-    background: url(../img/background-blur.png) center center;
+    /*background: url(../img/background-blur.png) center center;*/
     background-size: cover;
 
     .logo {
@@ -103,6 +103,11 @@ table {
 
     &:hover {
         background: lighten($primary-color, 10%);
+    }
+
+    &.large {
+        font-size: 2em;
+        padding: $standard-padding;
     }
 
     &.alumni {
