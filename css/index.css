@@ -201,3 +201,7 @@ table {
     margin-left: 0; }
     .rules-list li:nth-child(even) {
       background: #efefef; }
+
+::selection {
+  color: #fff;
+  background: #336699; }

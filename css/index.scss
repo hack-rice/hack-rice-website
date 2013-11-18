@@ -278,3 +278,8 @@ table {
         }
     }
 }
+
+::selection {
+    color: #fff;
+    background: $primary-color;
+}
