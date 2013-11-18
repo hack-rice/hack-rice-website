@@ -2,23 +2,3 @@ pygments:    true
 permalink: /:categories/:title
 post_dirs: false
 
-gallery:
-  # path to the gallery
-  dir: photos
-  # title for gallery index
-  title: "Photos"
-  # title prefix for gallery page. title=title_prefix+gallery_name
-  title_prefix: "Photos: "
-  # field to control sorting of galleries for the index page
-  # (possible values are: title, date_time, best_image)
-  sort_field: "best_image"
-  # sizes for thumbnails
-  thumbnail_size:
-    x: 400
-    y: 400
-  # custom configu
-  galleries:
-    2013-02-09:
-      best_image: LEneJ8R.jpg
-    2013-02-10:
-      best_image: qhOq3qf.jpg
