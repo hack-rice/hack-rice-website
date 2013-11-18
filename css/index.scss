@@ -20,6 +20,7 @@ h1, h2, h3, h4 {
 a {
     color: $primary-color;
     text-decoration: none;
+    transition: all 0.4s ease;
 }
 
 table {
@@ -67,6 +68,10 @@ table {
         left: 50%;
         margin-left: -216px;
         margin-top: -41px;
+
+        &:hover {
+            opacity: 0.8;
+        }
 
         @media (max-width: 800px) {
             background-size: 60%;

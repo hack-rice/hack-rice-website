@@ -13,7 +13,8 @@ h1, h2, h3, h4 {
 
 a {
   color: #336699;
-  text-decoration: none; }
+  text-decoration: none;
+  transition: all 0.4s ease; }
 
 table {
   width: 100%; }
@@ -52,6 +53,8 @@ table {
     left: 50%;
     margin-left: -216px;
     margin-top: -41px; }
+    .header .logo:hover {
+      opacity: 0.8; }
     @media (max-width: 800px) {
       .header .logo {
         background-size: 60%; } }
