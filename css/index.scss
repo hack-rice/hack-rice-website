@@ -1,0 +1,57 @@
+$tablet-width: 1000px;
+
+$primary-color: #369;
+
+body, html {
+    background: #fff;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0 0 30px 0;
+    margin: 0;
+    height: 100%;
+}
+
+.header {
+    background: #eee;
+    height: 300px;
+    position: relative;
+
+    .logo {
+        display: block;
+        font-family: 'Aldrich', sans-serif;
+        font-size: 4em;
+        color: #fff;
+        text-decoration: none;
+        background: $primary-color;
+        text-align: center;
+        border-radius: 4px;
+        border-bottom: 5px solid darken($primary-color, 20%);
+        // background: url(../img/customLogo.png);
+        width: 433px;
+        height: 83px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-left: -216px;
+        margin-top: -41px;
+    }
+}
+
+.content {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.nav {
+    background: #333;
+
+    a {
+        color: #fff;
+        text-decoration: none;
+        display: inline-block;
+        padding: 20px;
+
+        &:hover {
+            color: #eee;
+        }
+    }
+}
