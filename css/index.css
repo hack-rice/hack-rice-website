@@ -156,11 +156,12 @@ table {
       width: 100px; }
   .sponsors .sponsor-person {
     display: inline-block;
-    line-height: 30px;
+    line-height: 25px;
     padding: 10px 20px;
     border-radius: 10px;
     font-family: 'Roboto Condensed', sans-serif;
-    text-align: left; }
+    text-align: left;
+    width: 200px; }
   .sponsors .sponsor-logo, .sponsors .chief-sponsor-logo, .sponsors .sponsor-person {
     margin-left: 20px;
     text-decoration: none;

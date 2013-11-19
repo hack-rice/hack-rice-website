@@ -216,11 +216,12 @@ table {
 
     .sponsor-person {
         display: inline-block;
-        line-height: 30px;
+        line-height: 25px;
         padding: 10px 20px;
         border-radius: 10px;
         font-family: 'Roboto Condensed', sans-serif;
         text-align: left;
+        width: 200px;
     }
 
     .sponsor-logo, .chief-sponsor-logo, .sponsor-person {
