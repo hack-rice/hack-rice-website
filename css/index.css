@@ -1,5 +1,21 @@
 body, html {
   background: #eee;
+  background: #f9f9f9;
+  /* Old browsers */
+  background: -moz-radial-gradient(center, ellipse cover, #f9f9f9 0%, #eeeeee 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #f9f9f9), color-stop(100%, #eeeeee));
+  /* Chrome,Safari4+ */
+  background: -webkit-radial-gradient(center, ellipse cover, #f9f9f9 0%, #eeeeee 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-radial-gradient(center, ellipse cover, #f9f9f9 0%, #eeeeee 100%);
+  /* Opera 12+ */
+  background: -ms-radial-gradient(center, ellipse cover, #f9f9f9 0%, #eeeeee 100%);
+  /* IE10+ */
+  background: radial-gradient(ellipse at center, #f9f9f9 0%, #eeeeee 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f9f9f9', endColorstr='#eeeeee',GradientType=1 );
+  /* IE6-9 fallback on horizontal gradient */
   font-family: 'Open Sans', sans-serif;
   margin: 0;
   /*height: 100%;*/
@@ -33,7 +49,7 @@ table {
   background: #eee;
   height: 300px;
   position: relative;
-  /*background: url(../img/background-blur.png) center center;*/
+  background: url(../img/Rice.png) 10% 10%;
   background-size: cover; }
   .header .logo {
     display: block;
@@ -64,6 +80,12 @@ table {
     padding: 20px;
     text-align: center; }
 
+.float-right {
+  float: right; }
+
+.clear {
+  clear: both; }
+
 .well {
   background: #efefef;
   border: 1px solid #eee;
@@ -72,29 +94,34 @@ table {
 
 .button {
   display: inline-block;
-  background: #336699;
+  background: #5BB394;
   border-radius: 4px;
   padding: 10px;
   color: #fff;
-  border-bottom: 3px solid #19334d;
+  border-bottom: 3px solid #35735d;
   font-family: 'Roboto Condensed', sans-serif;
   transition: all 0.4s ease;
-  margin-top: 10px; }
+  margin-top: 10px;
+  text-align: center; }
   .button:hover {
-    background: #407fbf; }
+    background: #459679; }
   .button.large {
-    font-size: 2em;
-    padding: 20px; }
+    border-radius: 10px;
+    font-size: 1em;
+    min-width: 100px;
+    padding: 20px;
+    font-weight: bold; }
   .button.alumni {
     background: #333;
     border-bottom: 3px solid black; }
     .button.alumni:hover {
       background: #4d4d4d; }
   .button.non-rice {
-    background: #33995F;
-    border-bottom: 3px solid #194d30; }
+    background: #ccc;
+    color: #333;
+    border-bottom: 3px solid #999999; }
     .button.non-rice:hover {
-      background: #39ac6b; }
+      background: #d9d9d9; }
 
 .content {
   max-width: 1000px;
@@ -102,7 +129,21 @@ table {
 
 .intro {
   /*padding: 2 * $standard-padding;*/
-  /*background: #eee;*/ }
+  /*background: #D8E6F2;*/
+  color: #333;
+  padding: 80px 20px;
+  text-align: center; }
+  .intro .huge {
+    font-weight: bold;
+    font-family: 'Roboto Condensed', sans-serif;
+    display: inline-block;
+    font-size: 3em;
+    margin-right: 20px;
+    /*width: 33%;*/
+    /*text-align: center;*/ }
+  .intro .subtitle {
+    margin-top: 20px;
+    /*font-size: 2em;*/ }
 
 .stats {
   font-family: 'Roboto Condensed', sans-serif;

@@ -4,6 +4,15 @@ $primary-color: #369;
 
 body, html {
     background: #eee;
+    background: rgb(249,249,249); /* Old browsers */
+    background: -moz-radial-gradient(center, ellipse cover,  rgba(249,249,249,1) 0%, rgba(238,238,238,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(249,249,249,1)), color-stop(100%,rgba(238,238,238,1))); /* Chrome,Safari4+ */
+    background: -webkit-radial-gradient(center, ellipse cover,  rgba(249,249,249,1) 0%,rgba(238,238,238,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-radial-gradient(center, ellipse cover,  rgba(249,249,249,1) 0%,rgba(238,238,238,1) 100%); /* Opera 12+ */
+    background: -ms-radial-gradient(center, ellipse cover,  rgba(249,249,249,1) 0%,rgba(238,238,238,1) 100%); /* IE10+ */
+    background: radial-gradient(ellipse at center,  rgba(249,249,249,1) 0%,rgba(238,238,238,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9f9f9', endColorstr='#eeeeee',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
     font-family: 'Open Sans', sans-serif;
     margin: 0;
     /*height: 100%;*/
@@ -47,7 +56,7 @@ table {
     background: #eee;
     height: 300px;
     position: relative;
-    /*background: url(../img/background-blur.png) center center;*/
+    background: url(../img/Rice.png) 10% 10%;
     background-size: cover;
 
     .logo {
@@ -86,6 +95,14 @@ table {
     }
 }
 
+.float-right {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
 .well {
     background: #efefef;
     border: 1px solid #eee;
@@ -95,22 +112,26 @@ table {
 
 .button {
     display: inline-block;
-    background: $primary-color;
+    background: #5BB394;
     border-radius: 4px;
     padding: 10px;
     color: #fff;
-    border-bottom: 3px solid darken($primary-color, 20%);
+    border-bottom: 3px solid darken(#5BB394, 20%);
     font-family: 'Roboto Condensed', sans-serif;
     transition: all 0.4s ease;
     margin-top: 10px;
+    text-align: center;
 
     &:hover {
-        background: lighten($primary-color, 10%);
+        background: darken(#5BB394, 10%);
     }
 
     &.large {
-        font-size: 2em;
+        border-radius: 10px;
+        font-size: 1em;
+        min-width: 100px;
         padding: $standard-padding;
+        font-weight: bold;
     }
 
     &.alumni {
@@ -123,11 +144,12 @@ table {
     }
 
     &.non-rice {
-        background: #33995F;
-        border-bottom: 3px solid darken(#33995F, 20%);
+        background: #ccc;
+        color: #333;
+        border-bottom: 3px solid darken(#ccc, 20%);
 
         &:hover {
-            background: lighten(#33995F, 5%);
+            background: lighten(#ccc, 5%);
         }
     }
 }
@@ -139,7 +161,25 @@ table {
 
 .intro {
     /*padding: 2 * $standard-padding;*/
-    /*background: #eee;*/
+    /*background: #D8E6F2;*/
+    color: #333;
+    padding: 4 * $standard-padding $standard-padding;
+    text-align: center;
+
+    .huge {
+        font-weight: bold;
+        font-family: 'Roboto Condensed', sans-serif;
+        display: inline-block;
+        font-size: 3em;
+        margin-right: $standard-padding;
+        /*width: 33%;*/
+        /*text-align: center;*/
+    }
+
+    .subtitle {
+        margin-top: $standard-padding;
+        /*font-size: 2em;*/
+    }
 }
 
 .stats {
