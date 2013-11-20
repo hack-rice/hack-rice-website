@@ -1,20 +1,19 @@
 body, html {
-  background: #eee;
-  background: #f9f9f9;
+  background: #ffffff;
   /* Old browsers */
-  background: -moz-radial-gradient(center, ellipse cover, #f9f9f9 0%, #eeeeee 100%);
+  background: -moz-radial-gradient(center, ellipse cover, white 0%, #dddddd 100%);
   /* FF3.6+ */
-  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #f9f9f9), color-stop(100%, #eeeeee));
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, white), color-stop(100%, #dddddd));
   /* Chrome,Safari4+ */
-  background: -webkit-radial-gradient(center, ellipse cover, #f9f9f9 0%, #eeeeee 100%);
+  background: -webkit-radial-gradient(center, ellipse cover, white 0%, #dddddd 100%);
   /* Chrome10+,Safari5.1+ */
-  background: -o-radial-gradient(center, ellipse cover, #f9f9f9 0%, #eeeeee 100%);
+  background: -o-radial-gradient(center, ellipse cover, white 0%, #dddddd 100%);
   /* Opera 12+ */
-  background: -ms-radial-gradient(center, ellipse cover, #f9f9f9 0%, #eeeeee 100%);
+  background: -ms-radial-gradient(center, ellipse cover, white 0%, #dddddd 100%);
   /* IE10+ */
-  background: radial-gradient(ellipse at center, #f9f9f9 0%, #eeeeee 100%);
+  background: radial-gradient(ellipse at center, white 0%, #dddddd 100%);
   /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f9f9f9', endColorstr='#eeeeee',GradientType=1 );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#dddddd',GradientType=1 );
   /* IE6-9 fallback on horizontal gradient */
   font-family: 'Open Sans', sans-serif;
   margin: 0;
@@ -35,6 +34,7 @@ table {
   table th {
     text-align: left;
     background: #eee;
+    color: #333;
     padding: 10px; }
   table td {
     padding: 10px 0; }
@@ -47,9 +47,8 @@ table {
 
 .header {
   background: #eee;
-  height: 300px;
+  height: 250px;
   position: relative;
-  background: url(../img/Rice.png) 10% 10%;
   background-size: cover; }
   .header .logo {
     display: block;
@@ -74,9 +73,10 @@ table {
         background-size: 60%; } }
   .header .important-info {
     position: absolute;
-    bottom: 0;
     left: 0;
     right: 0;
+    top: 50%;
+    margin-top: 30px;
     padding: 20px;
     text-align: center; }
 
@@ -129,10 +129,9 @@ table {
 
 .intro {
   /*padding: 2 * $standard-padding;*/
-  /*background: #D8E6F2;*/
+  background: #D8E6F2;
   color: #333;
-  padding: 80px 20px;
-  text-align: center; }
+  padding: 60px 20px 80px 20px; }
   .intro .huge {
     font-weight: bold;
     font-family: 'Roboto Condensed', sans-serif;
@@ -155,6 +154,9 @@ table {
   /*background: #eee;*/ }
 
 .page {
+  max-width: 1000px;
+  margin: auto;
+  margin-top: 20px;
   background: #fff;
   border-bottom: 3px solid #ccc;
   padding: 40px;
@@ -166,21 +168,23 @@ table {
     margin-bottom: 40px; }
 
 .nav {
-  background: #333;
-  text-align: center; }
+  background: #333; }
   .nav a {
     font-family: 'Roboto Condensed', sans-serif;
     color: #fff;
     text-decoration: none;
     display: inline-block;
     padding: 20px;
-    transition: all 0.4s ease; }
+    transition: all 0.4s ease;
+    border-right: 1px solid #222;
+    margin-right: -4px; }
     .nav a:hover {
-      color: #eee;
       background: #5e6062; }
     @media (max-width: 800px) {
       .nav a {
         display: block; } }
+    .nav a:first-child {
+      border-left: 1px solid #222; }
 
 .sponsors {
   text-align: center;

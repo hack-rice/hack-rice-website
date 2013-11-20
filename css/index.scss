@@ -3,15 +3,14 @@ $standard-padding: 20px;
 $primary-color: #369;
 
 body, html {
-    background: #eee;
-    background: rgb(249,249,249); /* Old browsers */
-    background: -moz-radial-gradient(center, ellipse cover,  rgba(249,249,249,1) 0%, rgba(238,238,238,1) 100%); /* FF3.6+ */
-    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(249,249,249,1)), color-stop(100%,rgba(238,238,238,1))); /* Chrome,Safari4+ */
-    background: -webkit-radial-gradient(center, ellipse cover,  rgba(249,249,249,1) 0%,rgba(238,238,238,1) 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-radial-gradient(center, ellipse cover,  rgba(249,249,249,1) 0%,rgba(238,238,238,1) 100%); /* Opera 12+ */
-    background: -ms-radial-gradient(center, ellipse cover,  rgba(249,249,249,1) 0%,rgba(238,238,238,1) 100%); /* IE10+ */
-    background: radial-gradient(ellipse at center,  rgba(249,249,249,1) 0%,rgba(238,238,238,1) 100%); /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9f9f9', endColorstr='#eeeeee',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    background: #ffffff; /* Old browsers */
+    background: -moz-radial-gradient(center, ellipse cover,  #ffffff 0%, #dddddd 100%); /* FF3.6+ */
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#ffffff), color-stop(100%,#dddddd)); /* Chrome,Safari4+ */
+    background: -webkit-radial-gradient(center, ellipse cover,  #ffffff 0%,#dddddd 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-radial-gradient(center, ellipse cover,  #ffffff 0%,#dddddd 100%); /* Opera 12+ */
+    background: -ms-radial-gradient(center, ellipse cover,  #ffffff 0%,#dddddd 100%); /* IE10+ */
+    background: radial-gradient(ellipse at center,  #ffffff 0%,#dddddd 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#dddddd',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 
     font-family: 'Open Sans', sans-serif;
     margin: 0;
@@ -36,6 +35,7 @@ table {
     th {
         text-align: left;
         background: #eee;
+        color: #333;
         padding: $standard-padding/2;
     }
 
@@ -54,9 +54,9 @@ table {
 
 .header {
     background: #eee;
-    height: 300px;
+    height: 250px;
     position: relative;
-    background: url(../img/Rice.png) 10% 10%;
+    // background: url(../img/Rice.png) center 40%;
     background-size: cover;
 
     .logo {
@@ -87,9 +87,10 @@ table {
 
     .important-info {
         position: absolute;
-        bottom: 0;
         left: 0;
         right: 0;
+        top: 50%;
+        margin-top: 30px;
         padding: $standard-padding;
         text-align: center;
     }
@@ -161,10 +162,10 @@ table {
 
 .intro {
     /*padding: 2 * $standard-padding;*/
-    /*background: #D8E6F2;*/
+    background: #D8E6F2;
     color: #333;
-    padding: 4 * $standard-padding $standard-padding;
-    text-align: center;
+    padding: 3 * $standard-padding $standard-padding 4 * $standard-padding $standard-padding;
+    // text-align: center;
 
     .huge {
         font-weight: bold;
@@ -194,6 +195,9 @@ table {
 }
 
 .page {
+    max-width: 1000px;
+    margin: auto;
+    margin-top: $standard-padding;
     background: #fff;
     border-bottom: 3px solid #ccc;
     padding: 2 * $standard-padding;
@@ -210,7 +214,7 @@ table {
 .nav {
 
     background: #333;
-    text-align: center;
+    // text-align: center;
 
     a {
         font-family: 'Roboto Condensed', sans-serif;
@@ -219,14 +223,20 @@ table {
         display: inline-block;
         padding: $standard-padding;
         transition: all 0.4s ease;
+        border-right: 1px solid #222;
+
+        margin-right: -4px;
 
         &:hover {
-            color: #eee;
             background: #5e6062;
         }
 
         @media (max-width: 800px) {
             display: block;
+        }
+
+        &:first-child {
+            border-left: 1px solid #222;
         }
     }
 }
