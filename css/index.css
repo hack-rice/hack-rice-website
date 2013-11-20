@@ -49,6 +49,7 @@ table {
   height: 250px;
   position: relative;
   background: #fff;
+  background: url(../img/skyspace.jpg) center center;
   background-size: cover; }
   .header .logo {
     display: block;
