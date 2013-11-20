@@ -46,16 +46,15 @@ table {
   margin-top: 20px; }
 
 .header {
-  background: #eee;
   height: 250px;
   position: relative;
+  background: #fff;
   background-size: cover; }
   .header .logo {
     display: block;
     font-size: 4em;
     color: #fff;
     text-decoration: none;
-    background: #336699;
     text-align: center;
     border-radius: 4px;
     background: url(../img/customLogo.png) no-repeat center center;
@@ -66,8 +65,6 @@ table {
     left: 50%;
     margin-left: -216px;
     margin-top: -41px; }
-    .header .logo:hover {
-      opacity: 0.8; }
     @media (max-width: 800px) {
       .header .logo {
         background-size: 60%; } }
@@ -87,14 +84,14 @@ table {
   clear: both; }
 
 .well {
-  background: #efefef;
-  border: 1px solid #eee;
+  background: #f3f3f3;
+  border: 1px solid #ddd;
   border-radius: 10px;
   padding: 20px; }
 
 .button {
   display: inline-block;
-  background: #5BB394;
+  background: #5bb394;
   border-radius: 4px;
   padding: 10px;
   color: #fff;
@@ -129,9 +126,8 @@ table {
 
 .intro {
   /*padding: 2 * $standard-padding;*/
-  background: #D8E6F2;
   color: #333;
-  padding: 60px 20px 80px 20px; }
+  padding: 60px 20px 40px 20px; }
   .intro .huge {
     font-weight: bold;
     font-family: 'Roboto Condensed', sans-serif;
@@ -158,7 +154,7 @@ table {
   margin: auto;
   margin-top: 20px;
   background: #fff;
-  border-bottom: 3px solid #ccc;
+  border: 1px solid #ddd;
   padding: 40px;
   border-radius: 4px;
   margin-bottom: 20px; }
@@ -184,7 +180,7 @@ table {
       .nav a {
         display: block; } }
     .nav a:first-child {
-      border-left: 1px solid #222; }
+      border-left: 1px solid #292929; }
 
 .sponsors {
   text-align: center;

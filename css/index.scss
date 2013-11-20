@@ -2,6 +2,8 @@ $tablet-width: 1000px;
 $standard-padding: 20px;
 $primary-color: #369;
 
+$color-green: #5BB394;
+
 body, html {
     background: #ffffff; /* Old browsers */
     background: -moz-radial-gradient(center, ellipse cover,  #ffffff 0%, #dddddd 100%); /* FF3.6+ */
@@ -53,10 +55,10 @@ table {
 }
 
 .header {
-    background: #eee;
     height: 250px;
     position: relative;
-    // background: url(../img/Rice.png) center 40%;
+    background: #fff;
+    // background: url(../img/pages/overview.jpg) 10% 10%;
     background-size: cover;
 
     .logo {
@@ -64,7 +66,6 @@ table {
         font-size: 4em;
         color: #fff;
         text-decoration: none;
-        background: $primary-color;
         text-align: center;
         border-radius: 4px;
         background: url(../img/customLogo.png) no-repeat center center;
@@ -75,10 +76,6 @@ table {
         left: 50%;
         margin-left: -216px;
         margin-top: -41px;
-
-        &:hover {
-            opacity: 0.8;
-        }
 
         @media (max-width: 800px) {
             background-size: 60%;
@@ -105,26 +102,26 @@ table {
 }
 
 .well {
-    background: #efefef;
-    border: 1px solid #eee;
+    background: #f3f3f3;
+    border: 1px solid #ddd;
     border-radius: 10px;
     padding: $standard-padding;
 }
 
 .button {
     display: inline-block;
-    background: #5BB394;
+    background: $color-green;
     border-radius: 4px;
     padding: 10px;
     color: #fff;
-    border-bottom: 3px solid darken(#5BB394, 20%);
+    border-bottom: 3px solid darken($color-green, 20%);
     font-family: 'Roboto Condensed', sans-serif;
     transition: all 0.4s ease;
     margin-top: 10px;
     text-align: center;
 
     &:hover {
-        background: darken(#5BB394, 10%);
+        background: darken($color-green, 10%);
     }
 
     &.large {
@@ -162,10 +159,11 @@ table {
 
 .intro {
     /*padding: 2 * $standard-padding;*/
-    background: #D8E6F2;
+    // background: #D8E6F2;
     color: #333;
-    padding: 3 * $standard-padding $standard-padding 4 * $standard-padding $standard-padding;
-    // text-align: center;
+    padding: 3 * $standard-padding $standard-padding 2 * $standard-padding $standard-padding;
+    // background: #DFE7ED;
+    // border-bottom: 1px solid darken(#DFE7ED, 5%);
 
     .huge {
         font-weight: bold;
@@ -199,7 +197,7 @@ table {
     margin: auto;
     margin-top: $standard-padding;
     background: #fff;
-    border-bottom: 3px solid #ccc;
+    border: 1px solid #ddd;
     padding: 2 * $standard-padding;
     border-radius: 4px;
     margin-bottom: $standard-padding;
@@ -236,7 +234,7 @@ table {
         }
 
         &:first-child {
-            border-left: 1px solid #222;
+            border-left: 1px solid #292929;
         }
     }
 }
