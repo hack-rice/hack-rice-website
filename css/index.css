@@ -174,12 +174,19 @@ table {
     padding: 20px;
     transition: all 0.4s ease;
     border-right: 1px solid #222;
+    box-sizing: border-box;
+    width: 14.28%;
+    text-align: center;
     margin-right: -4px; }
     .nav a:hover {
       background: #5e6062; }
     @media (max-width: 800px) {
       .nav a {
-        display: block; } }
+        display: block;
+        box-sizing: inherit;
+        width: 100%;
+        text-align: left;
+        border-bottom: 1px solid #222222; } }
     .nav a:first-child {
       border-left: 1px solid #292929; }
 

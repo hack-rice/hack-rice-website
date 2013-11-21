@@ -222,7 +222,9 @@ table {
         padding: $standard-padding;
         transition: all 0.4s ease;
         border-right: 1px solid #222;
-
+        box-sizing: border-box;
+        width: 14.28%;
+        text-align: center;
         margin-right: -4px;
 
         &:hover {
@@ -231,6 +233,10 @@ table {
 
         @media (max-width: 800px) {
             display: block;
+            box-sizing: inherit;
+            width: 100%;
+            text-align: left;
+            border-bottom: 1px solid #222
         }
 
         &:first-child {
