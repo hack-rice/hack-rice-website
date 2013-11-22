@@ -10,7 +10,7 @@ To test locally, start the server. Run `jekyll --auto --server` at the root dire
 
 Jekyll will now compile the site any time a change is made to a file in this directory. These changes compile static files that can be found in the `_site` directory.
 
-To push changes live, simply push the `master`. Github automagically compiles the site and makes the changes live!
+To push changes live, simply push the `master`. Github automatically compiles the site and makes the changes live!
 
 ## SASS
 
