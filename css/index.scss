@@ -164,6 +164,7 @@ table {
     padding: 3 * $standard-padding $standard-padding 2 * $standard-padding $standard-padding;
     // background: #DFE7ED;
     // border-bottom: 1px solid darken(#DFE7ED, 5%);
+    text-align: center;
 
     .huge {
         font-weight: bold;
@@ -245,19 +246,28 @@ table {
     }
 }
 
+.registration {
+    text-align: center;
+}
+
+.location {
+    display: inline-block;
+
+    .directions {
+        float: left;
+        width: 580px;
+        margin-right: 15px;
+    }
+
+    .map {
+        float: right;
+    }
+}
+
 .sponsors {
 
     text-align: center;
     padding: $standard-padding;
-
-    .chief-sponsor-logo {
-        height: 200px;
-        width: 400px;
-
-        &.square {
-            width: 200px;
-        }
-    }
 
     .sponsor-logo {
         height: 100px;
@@ -294,6 +304,33 @@ table {
 
         @media (max-width: 800px) {
             width: 60%;
+        }
+    }
+
+    .chief {
+        height: 300px;
+        width: 600px;
+
+        &.square {
+            width: 300px;
+        }
+    }
+
+    .elite {
+        height: 150px;
+        width: 300px;
+
+        &.square {
+            width: 150px;
+        }
+    }
+
+    .agile {
+        height: 100px;
+        width: 200px;
+
+        &.square {
+            width: 100px;
         }
     }
 }

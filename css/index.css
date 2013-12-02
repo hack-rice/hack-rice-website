@@ -128,7 +128,8 @@ table {
 .intro {
   /*padding: 2 * $standard-padding;*/
   color: #333;
-  padding: 60px 20px 40px 20px; }
+  padding: 60px 20px 40px 20px;
+  text-align: center; }
   .intro .huge {
     font-weight: bold;
     font-family: 'Roboto Condensed', sans-serif;
@@ -190,14 +191,21 @@ table {
     .nav a:first-child {
       border-left: 1px solid #292929; }
 
+.registration {
+  text-align: center; }
+
+.location {
+  display: inline-block; }
+  .location .directions {
+    float: left;
+    width: 580px;
+    margin-right: 15px; }
+  .location .map {
+    float: right; }
+
 .sponsors {
   text-align: center;
   padding: 20px; }
-  .sponsors .chief-sponsor-logo {
-    height: 200px;
-    width: 400px; }
-    .sponsors .chief-sponsor-logo.square {
-      width: 200px; }
   .sponsors .sponsor-logo {
     height: 100px;
     width: 400px; }
@@ -225,6 +233,21 @@ table {
     @media (max-width: 800px) {
       .sponsors .sponsor-logo, .sponsors .chief-sponsor-logo, .sponsors .sponsor-person {
         width: 60%; } }
+  .sponsors .chief {
+    height: 300px;
+    width: 600px; }
+    .sponsors .chief.square {
+      width: 300px; }
+  .sponsors .elite {
+    height: 150px;
+    width: 300px; }
+    .sponsors .elite.square {
+      width: 150px; }
+  .sponsors .agile {
+    height: 100px;
+    width: 200px; }
+    .sponsors .agile.square {
+      width: 100px; }
 
 .chevron {
   background-image: url(../img/sponsors/Chevron.png); }
