@@ -46,6 +46,37 @@ table {
     }
 }
 
+div.about {
+    float: right;
+    min-height: 400px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+img.about-right {
+    float: right;
+    max-height: 400px;
+    margin-left: 15px;
+}
+
+img.about-left {
+    float: left;
+    max-height: 400px;
+    margin-right: 15px;
+}
+
+.split-col {
+    width: 45%;
+    display: inline-block;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    img {
+        width: 95%;
+        margin-bottom: 10px;
+    }
+}
+
 .standard-left-margin {
     margin-left: $standard-padding;
 }
