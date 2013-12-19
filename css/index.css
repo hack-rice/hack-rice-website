@@ -202,7 +202,7 @@ img.about-left {
     transition: all 0.4s ease;
     border-right: 1px solid #222;
     box-sizing: border-box;
-    width: 100px;
+    width: 14.28%;
     text-align: center;
     margin-right: -4px; }
     .nav a:hover {
@@ -286,10 +286,10 @@ img.about-left {
 
 .epic {
   background-image: url(../img/sponsors/Epic.gif); }
-
+  
 .two-sig {
   background-image: url(../img/sponsors/2sig.png); }
-
+  
 .sendgrid {
   background-image: url(../img/sponsors/sendgrid.png); }
 
