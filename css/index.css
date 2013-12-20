@@ -274,6 +274,11 @@ img.about-left {
     width: 200px; }
     .sponsors .agile.square {
       width: 100px; }
+  .sponsors .partner {
+    height: 100px;
+    width: 200px; }
+    .sponsors .partner.square {
+      width: 100px; }
 
 .chevron {
   background-image: url(../img/sponsors/Chevron.png); }

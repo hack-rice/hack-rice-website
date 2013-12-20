@@ -4,6 +4,9 @@ $primary-color: #369;
 
 $color-green: #5BB394;
 
+$sponsor-standard-width: 200px;
+$sponsor-standard-height: 100px;
+
 body, html {
     background: #ffffff; /* Old browsers */
     background: -moz-radial-gradient(center, ellipse cover,  #ffffff 0%, #dddddd 100%); /* FF3.6+ */
@@ -339,29 +342,38 @@ img.about-left {
     }
 
     .chief {
-        height: 300px;
-        width: 600px;
+        height: $sponsor-standard-height * 3;
+        width: $sponsor-standard-width * 3;
 
         &.square {
-            width: 300px;
+            width: $sponsor-standard-height * 3;
         }
     }
 
     .elite {
-        height: 150px;
-        width: 300px;
+        height: $sponsor-standard-height * 1.5;
+        width: $sponsor-standard-width * 1.5;
 
         &.square {
-            width: 150px;
+            width: $sponsor-standard-height * 1.5;
         }
     }
 
     .agile {
-        height: 100px;
-        width: 200px;
+        height: $sponsor-standard-height;
+        width: $sponsor-standard-width;
 
         &.square {
-            width: 100px;
+            width: $sponsor-standard-height;
+        }
+    }
+
+    .partner {
+        height: $sponsor-standard-height;
+        width: $sponsor-standard-width;
+
+        &.square {
+            width: $sponsor-standard-height;
         }
     }
 }
