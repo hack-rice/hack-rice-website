@@ -4,6 +4,9 @@ $primary-color: #369;
 
 $color-green: #5BB394;
 
+$logo-width: 500px;
+$logo-height: 162px;
+
 $sponsor-standard-width: 200px;
 $sponsor-standard-height: 100px;
 
@@ -102,14 +105,14 @@ img.about-left {
         text-decoration: none;
         text-align: center;
         border-radius: 4px;
-        background: url(../img/customLogo.png) no-repeat center center;
-        width: 433px;
-        height: 83px;
+        background: url(../img/2014logo.png) no-repeat center center;
+        width: $logo-width;
+        height: $logo-height;
         position: absolute;
         top: 50%;
         left: 50%;
-        margin-left: -216px;
-        margin-top: -41px;
+        margin-left: -$logo-width / 2;
+        margin-top: -$logo-height / 2;
 
         @media (max-width: 800px) {
             background-size: 60%;

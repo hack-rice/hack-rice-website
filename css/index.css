@@ -75,7 +75,7 @@ img.about-left {
   height: 300px;
   position: relative;
   background: #fff;
-  background: url(../img/Rice.jpg) center 70%;
+  background: url(../img/Duncan.png) center 70%;
   background-size: cover; }
   .header .logo {
     display: block;
@@ -84,14 +84,14 @@ img.about-left {
     text-decoration: none;
     text-align: center;
     border-radius: 4px;
-    background: url(../img/customLogo.png) no-repeat center center;
-    width: 433px;
-    height: 83px;
+    background: url(../img/2014logo.png) no-repeat center center;
+    width: 500px;
+    height: 162px;
     position: absolute;
     top: 50%;
     left: 50%;
-    margin-left: -216px;
-    margin-top: -41px; }
+    margin-left: -250px;
+    margin-top: -81px; }
     @media (max-width: 800px) {
       .header .logo {
         background-size: 60%; } }
