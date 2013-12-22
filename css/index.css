@@ -207,7 +207,7 @@ img.about-left {
     margin-right: -4px; }
     .nav a:hover {
       background: #5e6062; }
-    @media (max-width: 960px) {
+    @media (max-width: 965px) {
       .nav a {
         display: block;
         box-sizing: inherit;
