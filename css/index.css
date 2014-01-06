@@ -84,7 +84,7 @@ img.about-left {
     text-decoration: none;
     text-align: center;
     border-radius: 4px;
-    background: url(../img/2014logo.png) no-repeat center center;
+    /*background: url(../img/2014logo.png) no-repeat center center;*/
     width: 500px;
     height: 162px;
     position: absolute;
