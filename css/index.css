@@ -198,11 +198,11 @@ img.about-left {
     color: #fff;
     text-decoration: none;
     display: inline-block;
-    padding: 20px;
+    padding: 16px;
     transition: all 0.4s ease;
     border-right: 1px solid #222;
     /*box-sizing: border-box;*/
-    width: 10%;
+    width: 9%;
     text-align: center;
     margin-right: -4px; }
     .nav a:hover {
