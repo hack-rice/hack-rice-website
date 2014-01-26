@@ -285,7 +285,7 @@ img.about-left {
 
 .rational-systems {
   background-image: url(../img/sponsors/rational-systems.png); }
-  
+
 .palladium {
   background-image: url(../img/sponsors/palladium.png); }
 
@@ -306,7 +306,7 @@ img.about-left {
 
 .texas-instruments {
   background-image: url(../img/sponsors/texas-instruments.png); }
-  
+
 .venmo {
   background-image: url(../img/sponsors/venmo.png); }
 
@@ -321,7 +321,7 @@ img.about-left {
 
 .goldman-sachs {
   background-image: url(../img/sponsors/goldman-sachs.jpg); }
-  
+
 .github {
   background-image: url(../img/sponsors/github.png); }
 
@@ -353,3 +353,13 @@ img.about-left {
 ::selection {
   color: #333;
   background: #eee; }
+
+.judge {
+  clear: both;
+  text-align: left;
+  margin-bottom: 20px;
+  overflow: hidden; }
+  .judge img {
+    height: 150px;
+    float: left;
+    margin-right: 10px; }

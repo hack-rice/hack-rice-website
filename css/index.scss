@@ -481,3 +481,15 @@ img.about-left {
     color: #333;
     background: #eee;
 }
+
+.judge {
+    clear: both;
+    text-align: left;
+    margin-bottom: 20px;
+    overflow: hidden;
+    img {
+        height: 150px;
+        float: left;
+        margin-right: 10px;
+    }
+}
