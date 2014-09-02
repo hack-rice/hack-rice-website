@@ -310,6 +310,10 @@ img.about-left {
 .epic {
   background-image: url(../img/sponsors/Epic.gif); }
 
+.tcs {
+  background-image: url(../img/sponsors/TCS.jpg);
+  width: 200px !important; }
+
 .schlumberger {
   background-image: url(../img/sponsors/schlumberger.png); }
 
