@@ -1,19 +1,19 @@
 body, html {
   background: #ffffff;
   /* Old browsers */
-  background: -moz-radial-gradient(center, ellipse cover, white 0%, #dddddd 100%);
+  background: -moz-radial-gradient(center, ellipse cover, #ffffff 0%, #dddddd 100%);
   /* FF3.6+ */
-  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, white), color-stop(100%, #dddddd));
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #ffffff), color-stop(100%, #dddddd));
   /* Chrome,Safari4+ */
-  background: -webkit-radial-gradient(center, ellipse cover, white 0%, #dddddd 100%);
+  background: -webkit-radial-gradient(center, ellipse cover, #ffffff 0%, #dddddd 100%);
   /* Chrome10+,Safari5.1+ */
-  background: -o-radial-gradient(center, ellipse cover, white 0%, #dddddd 100%);
+  background: -o-radial-gradient(center, ellipse cover, #ffffff 0%, #dddddd 100%);
   /* Opera 12+ */
-  background: -ms-radial-gradient(center, ellipse cover, white 0%, #dddddd 100%);
+  background: -ms-radial-gradient(center, ellipse cover, #ffffff 0%, #dddddd 100%);
   /* IE10+ */
-  background: radial-gradient(ellipse at center, white 0%, #dddddd 100%);
+  background: radial-gradient(ellipse at center, #ffffff 0%, #dddddd 100%);
   /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#dddddd',GradientType=1 );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#dddddd',GradientType=1 );
   /* IE6-9 fallback on horizontal gradient */
   font-family: 'Open Sans', sans-serif;
   margin: 0;
@@ -26,7 +26,7 @@ h1, h2, h3, h4 {
   margin-top: 0; }
 
 a {
-  color: #336699;
+  color: #369;
   text-decoration: none; }
 
 table {
@@ -52,7 +52,7 @@ img.about-right {
 
 img.about-left {
   float: left;
-  max-height: 400px;
+  height: 400px;
   margin-right: 15px; }
 
 .split-col {
@@ -62,6 +62,18 @@ img.about-left {
   padding-left: 10px;
   padding-right: 10px; }
   .split-col img {
+    width: 95%;
+    margin-bottom: 10px; }
+
+.center-col {
+  width: 45%;
+  display: block;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 20px;
+  margin: 0 auto; }
+  .center-col img {
     width: 95%;
     margin-bottom: 10px; }
 
@@ -118,7 +130,7 @@ img.about-left {
 
 .button {
   display: inline-block;
-  background: #5bb394;
+  background: #5BB394;
   border-radius: 4px;
   padding: 10px;
   color: #fff;
@@ -213,7 +225,7 @@ img.about-left {
         box-sizing: inherit;
         width: 100%;
         text-align: left;
-        border-bottom: 1px solid #222222; } }
+        border-bottom: 1px solid #222; } }
     .nav a:first-child {
       border-left: 1px solid #292929; }
 
@@ -363,3 +375,5 @@ img.about-left {
     height: 150px;
     float: left;
     margin-right: 10px; }
+
+/*# sourceMappingURL=index.css.map */
