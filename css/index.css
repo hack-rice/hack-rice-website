@@ -52,7 +52,7 @@ img.about-right {
 
 img.about-left {
   float: left;
-  height: 400px;
+  max-height: 400px;
   margin-right: 15px; }
 
 .split-col {
@@ -214,7 +214,7 @@ img.about-left {
     transition: all 0.4s ease;
     border-right: 1px solid #222;
     /*box-sizing: border-box;*/
-    width: 9%;
+    width: 21%;
     text-align: center;
     margin-right: -4px; }
     .nav a:hover {
