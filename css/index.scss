@@ -83,6 +83,20 @@ img.about-left {
     }
 }
 
+.center-col {
+    width: 45%;
+    display: block;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    img {
+        width: 95%;
+        margin-bottom: 10px;
+    }   
+    margin: 0 auto;
+}
+
 .standard-left-margin {
     margin-left: $standard-padding;
 }
@@ -261,7 +275,7 @@ img.about-left {
         transition: all 0.4s ease;
         border-right: 1px solid #222;
         /*box-sizing: border-box;*/
-        width: 9%;
+        width: 21%;
         text-align: center;
         margin-right: -4px;
 
@@ -398,11 +412,20 @@ img.about-left {
 }
  
 .google {
-    background-image: url(../img/sponsors/Google.png);
+    background-image: url(../img/sponsors/Google_Logo_2015.png);
+}
+
+.indeed {
+    background-image: url(../img/sponsors/indeed_logo.jpg);
 }
 
 .epic {
     background-image: url(../img/sponsors/Epic.gif);
+}
+
+.tcs {
+    background-image: url(../img/sponsors/TCS.jpg);
+    width: 200px !important;
 }
 
 .schlumberger {
