@@ -381,11 +381,42 @@ img.about-left {
         width: $sponsor-standard-width;
 
         &.square {
-            width: $sponsor-standard-height;
+            width: $sponsor-standard-height * 1.25;
         }
     }
 
     .partner {
+        height: $sponsor-standard-height;
+        width: $sponsor-standard-width;
+
+        &.square {
+            width: $sponsor-standard-height;
+        }
+    }
+
+    .big-o-notation {
+        font-weight: bold;
+    }
+
+    .o-1 {
+        //height: $sponsor-standard-height * 3;
+        width: $sponsor-standard-width * 3;
+
+        &.square {
+            width: $sponsor-standard-height * 3;
+        }
+    }
+
+    .o-n {
+        //height: $sponsor-standard-height * 1.5;
+        width: $sponsor-standard-width * 1.5;
+
+        &.square {
+            width: $sponsor-standard-height * 1.5;
+        }
+    }
+
+    .o-nlogn {
         height: $sponsor-standard-height;
         width: $sponsor-standard-width;
 
@@ -446,6 +477,10 @@ img.about-left {
 
 .two-sig {
     background-image: url(../img/sponsors/2sig.png);
+}
+
+.two-sig-cropped {
+    background-image: url(../img/sponsors/2sig-cropped.png);
 }
 
 .sendgrid {
