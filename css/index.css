@@ -214,7 +214,7 @@ img.about-left {
     transition: all 0.4s ease;
     border-right: 1px solid #222;
     /*box-sizing: border-box;*/
-    width: 21%;
+    width: 16%;
     text-align: center;
     margin-right: -4px; }
     .nav a:hover {
@@ -294,6 +294,7 @@ img.about-left {
   .sponsors .big-o-notation {
     font-weight: bold; }
   .sponsors .o-1 {
+    height: 300px;
     width: 600px; }
     .sponsors .o-1.square {
       width: 300px; }
