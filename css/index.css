@@ -333,6 +333,9 @@ img.about-left {
 .epic {
   background-image: url(../img/sponsors/Epic.gif); }
 
+.facebook {
+  background-image: url(../img/sponsors/facebook.png); }
+
 .tcs {
   background-image: url(../img/sponsors/TCS.jpg);
   width: 200px !important; }
