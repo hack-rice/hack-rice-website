@@ -6,7 +6,7 @@ This is a Jekyll + Github pages site. Pushing to the repository on the `master` 
 
 The site is built upon Jekyll, a static site generator. Install Jekyll via ruby gem. There's a good installation guide [here](http://jekyllrb.com/docs/installation/). You might have to update ruby or several other dependencies as well.
 
-To test locally, start the server. Run `jekyll --auto --server` at the root directory of the codebase. The site will be hosted on `http://localhost:4000/` (there's a chance your port could be different).
+To test locally, start the server. Run `jekyll serve --watch` at the root directory of the codebase. The site will be hosted on `http://localhost:4000/` (there's a chance your port could be different).
 
 Jekyll will now compile the site any time a change is made to a file in this directory. These changes compile static files that can be found in the `_site` directory.
 
