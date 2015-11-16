@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+	<title>Hack Rice &middot; {{page.title}}</title>
+    <!-- Styles + Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+	<link rel='stylesheet' type='text/css' href='/css/notify.css'>
+    <link rel='shortcut icon' href='/img/code.png'>
+    <!-- Meta -->
+	<meta property='og:title' content='HackRice' />
+	<meta property='og:type' content='website' />
+    <meta property='og:image' content='http://hack.rice.edu/img/customLogoSquared.png' />
+	<meta property='og:url' content='http://hack.rice.edu/' />
+    <meta property='og:description' content='Rice University's annual student-run hackathon! Over $6000 in prizes! Come meet coders from Rice and other great schools, collaborate in teams, and build something awesome in only 36 hours. It will be a blast. Invite your friends from other schools to apply! We'll provide food, caffeine, T-shirts, prizes, mentors, and more!' />
+</head>
+
+<body>
+    <!-- full screen background -->
+    <div id='background'>
+        <!-- logo -->
+        <a href='/' class='logo'><img src='/img/2016logo.svg' width='250'></img></a>
+        <!-- info -->
+        <div id='notify-info'>
+            <h1> RICE UNIVERSITY </h1>
+            <h1> JAN. 16th - 18th, 2016 </h1>
+        </div>
+        
+        <div class='notify-btn btn'>
+            <h3>GET UPDATED</h3>
+        </div>
+        
+        <div id='notify-link'> 
+            <a href='http://csclub.rice.edu'><span>Rice CS Club</span></a>
+            <span class='accent-blue'> | </span>
+            <a href='http://www.rice.edu'><span>Rice University</span></a>
+        </div>
+    </div>
+    
+    <div id='notify-view'>
+        <!-- main content -->
+        {{ content }}
+
+    </div>
+
+    <!-- javascript -->
+    <script type="text/javascript">
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-37523631-1']);
+            _gaq.push(['_trackPageview']);
+
+            (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+        </script>
+
+
+
+
+
+</body>
+
+</html>
