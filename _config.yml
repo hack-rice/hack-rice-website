@@ -1,4 +1,4 @@
-highlighter:    true
+highlighter:    pygments
 permalink: /:categories/:title
 post_dirs: false
 
