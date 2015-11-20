@@ -49,6 +49,9 @@ a {
     width: 250px;
     @extend .center-block;
     margin-top: 7.5%;
+    @media (min-width: 600px) {
+        width: 40%;
+    }
 }
 .btn{
     width: 200px;

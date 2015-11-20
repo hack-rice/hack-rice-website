@@ -38,6 +38,9 @@ a {
 .logo {
   width: 250px;
   margin-top: 7.5%; }
+  @media (min-width: 600px) {
+    .logo {
+      width: 40%; } }
 
 .btn {
   width: 200px;
