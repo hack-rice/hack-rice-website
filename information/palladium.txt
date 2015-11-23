@@ -1,0 +1,11 @@
+http://www.palladiumconsulting.com/
+
+Mission statement
+-
+Based in Houston, Texas, Palladium Consulting is a boutique software consulting firm with over 14 years’ experience building bespoke scientific and economic applications for technology leaders.
+
+We like to tackle hard problems, design new systems, take apart old ones, use the best tools for the job, and build the tools that aren’t invented yet.
+
+We like to operate at scale, enabled by a clear grasp of computing and systems architecture fundamentals.
+
+Our principals have deep experience in databases, computation, visualization and product strategy. We deliver impactful research and development to large, sophisticated companies.
