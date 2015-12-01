@@ -1,57 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<title>Hack Rice &middot; {{page.title}}</title>
-        <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-        <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:300' rel='stylesheet' type='text/css'>
-        <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-		<link rel='stylesheet' type='text/css' href='/css/index.css'>
-        <link rel="shortcut icon" href="/img/code.png">
-		<meta property="og:title" content="HackRice" />
-		<meta property="og:type" content="website" />
-        <meta property="og:image" content="http://hack.rice.edu/img/customLogoSquared.png" />
-		<meta property="og:url" content="http://hack.rice.edu/" />
-        <meta property="og:description" content="Rice University's annual student-run hackathon! Over $6000 in prizes! Come meet coders from Rice and other great schools, collaborate in teams, and build something awesome in only 36 hours. It will be a blast. Invite your friends from other schools to apply! We'll provide food, caffeine, T-shirts, prizes, mentors, and more!" />
-	</head>
-	<body>
-        <!-- <img src="http://hack.rice.edu/img/customLogoSquared.png" width="500" height="500"></img> -->
-        <div class='header'>
-            <a href='/' class='logo'><img src="/img/2014logo.png"></img></a>
-            <!--<div class='important-info'>
-                <div class='content'>
-                    <i class='fa fa-map-marker'></i> Rice University
-                    <i class='fa fa-clock-o standard-left-margin'></i> January 24th - January 26th 2014
-                </div>
-            </div>-->
+
+<!--    
+        Hack Rice 2016
+        We look forward to seeing you all here! :)
+        Site Design: Copyright Jeffrey Xiong, 12/01/15
+-->
+
+<head>
+    <title>HackRice &middot; {{page.title}}</title>
+    <!-- meta -->
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <!-- stylin' -->
+    <link rel='stylesheet' type='text/css' href='/css/styles.css'>
+    <link rel="shortcut icon" href="/img/favicon.png">
+    <!-- facebook -->
+    <meta property="og:title" content="HackRice">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="http://hack.rice.edu/img/hackrice-fb.png">
+    <meta property="og:image:width" content="470">
+    <meta property="og:image:width" content="190">
+    <meta property="og:url" content="http://hack.rice.edu/">
+    <meta property="og:description" content="Rice University's annual student-run hackathon! Jan 15th - 17th">
+    <!-- twitter -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@hackrice">
+    <meta name="twitter:title" content="HackRice 2016">
+    <meta name="twitter:description" content="Rice University's annual student-run hackathon! Jan 15th - 17th">
+    <meta name="twitter:image" content="https://hack.rice.edu/img/hackrice-twtr.png">
+    <meta name="twitter:image:width" content="512">
+    <meta name="twitter:image:height" content="512">
+</head>
+
+<body>
+    <!-- navigation -->
+    <nav id='nav'>
+        <a href='/' class='logo-w nav-logo'> <img src="/img/navbar-logo-w.svg" height="40"></a>
+        <a href='/' class='logo-b nav-logo'> <img src="/img/navbar-logo-b.svg" height="40"></a>
+        <div id='nav-menu'>
+            <a class='nav-link' href='/#about'>About</a>
+            <a class='nav-link' href='/#schedule'>Schedule</a>
+            <a class='nav-link' href='/#faq'>FAQ</a>
+            <a class='nav-link' href='/#sponsor'>Sponsors</a>
+            <a class='nav-link' href='mailto:officialhackrice@gmail.com'>Contact</a>
         </div>
-        <nav class='nav'>
-            <div class='content'>
-                <a href='/'>Home</a>
-                <a href='/about'>About</a>
-                <a href='/apply'>Apply</a>
-                <a href='/rules-prizes'>Rules & Prizes</a>
-                <a href='/schedule'>Schedule</a>
-                <!-- <a href='/judges'>Judges</a> -->
-                <a href='/sponsors'>Sponsors</a>
-                <!-- <a href='/resources'>Resources</a> -->
-                <!-- <a href='/winners'>Winners</a> -->
-                <!-- <a href='/photos'>Photos</a> --><!-- TODO: add back -->
-            </div>
-        </nav>
+        <svg class='nav-mini' version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="-294.1 377.3 41.3 40" style="enable-background:new -294.1 377.3 41.3 40;" xml:space="preserve">
+            <style type="text/css">
+                .st0{fill:none;stroke:#FFFFFF;stroke-width:3;stroke-linecap:round;stroke-miterlimit:10;}
+            </style>
+            <g id="Layer_1">
+                <line class="st0" x1="-282" y1="390.3" x2="-264.9" y2="390.3"/>
+                <line class="st0" x1="-282" y1="397.2" x2="-264.9" y2="397.2"/>
+                <line class="st0" x1="-282" y1="404.3" x2="-264.9" y2="404.3"/>
+            </g>
+        </svg>
+    </nav>
 
-		  {{ content }}
+    {{content}}
 
-        <script type="text/javascript">
-			var _gaq = _gaq || [];
-			_gaq.push(['_setAccount', 'UA-37523631-1']);
-			_gaq.push(['_trackPageview']);
+    <!-- google analytics -->
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-37523631-1']);
+        _gaq.push(['_trackPageview']);
 
-			(function() {
-			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-			})();
-		</script>
-	</body>
+        (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+
+</body>
+
 </html>
 

@@ -1,4 +1,4 @@
-# Hack Rice Site
+# HackRice Site
 
 This is a Jekyll + Github pages site. Pushing to the repository on the `master` branch compiles the site and pushes it live. If developing non-live changes, don't push to `master`!
 
