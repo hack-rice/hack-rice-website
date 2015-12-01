@@ -5043,6 +5043,50 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/information\/chevron.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 178000,
+		"inputAbbreviatedPath": "\/information\/chevron.png",
+		"outputAbbreviatedPath": "\/information\/chevron.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/information\/indeed.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 63727,
+		"inputAbbreviatedPath": "\/information\/indeed.jpg",
+		"outputAbbreviatedPath": "\/information\/indeed.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/information\/palladium.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5626,
+		"inputAbbreviatedPath": "\/information\/palladium.png",
+		"outputAbbreviatedPath": "\/information\/palladium.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/information\/twosigma.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9679,
+		"inputAbbreviatedPath": "\/information\/twosigma.png",
+		"outputAbbreviatedPath": "\/information\/twosigma.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/js\/min\/script-min.js": {
 		"fileType": 64,
 		"ignore": 1,

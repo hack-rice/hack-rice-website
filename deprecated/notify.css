@@ -47,7 +47,11 @@ a {
   color: #314255; }
 
 #background {
-  background: url("../img/bg-filter.png") center no-repeat;
+  background: url("../img/bg-filter.png") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   width: 100%;
   height: 100%;
   position: fixed; }
