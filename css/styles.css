@@ -330,8 +330,8 @@ section {
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
-  -webkit-justify-content: space-around;
-  justify-content: space-around;
+  -webkit-justify-content: center;
+  justify-content: center;
   -webkit-align-items: flex-start;
   align-items: flex-start;
   -webkit-flex-wrap: wrap;
@@ -342,7 +342,7 @@ section {
   width: 240px;
   height: auto;
   padding: 30px;
-  margin: 0px 5px 25px 5px;
+  margin: 0px 10px 25px 10px;
   font-size: 14px;
   background-color: #EEEEEE;
   cursor: pointer;
