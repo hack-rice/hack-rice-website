@@ -10,6 +10,10 @@ section {
     background-color: #465362;
     margin-bottom: 15px; }
 
+@media (max-device-width: 860px), (max-width: 860px) {
+  .section-text p {
+    text-align: left; } }
+
 table {
   width: 100%;
   margin: 0 auto;

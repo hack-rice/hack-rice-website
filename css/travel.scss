@@ -13,6 +13,14 @@ section {
 		margin-bottom: 15px;
 	}
 }
+.section-text {
+    @media (max-device-width: 860px), (max-width: 860px) {
+        p {
+        	text-align: left;
+        }
+    }
+}
+
 table {
     width: 100%;
     margin: 0 auto;
