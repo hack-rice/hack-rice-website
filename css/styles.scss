@@ -2,50 +2,7 @@
 
 // RESET
 @import 'reset';
-
-// VARS
-    // colors
-    $color-dark-blue: #465362;
-    $color-light-blue: #516E8E;
-    $color-dark-grey: #515151;
-    $color-light-grey: #EEEEEE;
-    $color-medium-grey: #BBBBBB;
-    $color-light-green: #CBD2D0;
-    $color-accent-red: #30011E;
-    $color-accent-orange: #F2AE6A;
-    $color-accent-green: #87B38D;
-    $color-off-white: #FFFCF9;
-    $color-accent-offwhite: #F4EFEB;
-
-// MIXINS
-    // transitions
-    @mixin transition($time, $animate, $property: all) {
-        -webkit-transition: $property $time $animate;
-        -o-transition: $property $time $animate;
-        transition: $property $time $animate;
-    }
-    // flexbox properties
-    @mixin flex() {
-        display: -ms-flexbox;
-        display: -webkit-flex;
-        display: flex;
-    }
-    @mixin flex-justify-content($property) {
-        -webkit-justify-content: $property;
-        justify-content: $property;
-    }
-    @mixin flex-wrap($property) {
-        -webkit-flex-wrap: $property;
-        flex-wrap: $property;
-    }
-    @mixin flex-align($property) {
-        -webkit-align-items: $property;
-        align-items: $property;
-    }
-    @mixin flex-direction($property) {
-        -webkit-flex-direction: $property;
-        flex-direction: $property;
-    }
+@import 'general';
 
 // DEFAULT
     // text
@@ -70,7 +27,7 @@
             font-size: 20px;
         }
     }
-    p, span, a, li{
+    p, span, a, li, td, th {
         font-family: 'Open Sans', sans-serif;
         font-weight: 400;
         color: $color-dark-grey;
@@ -405,7 +362,14 @@
             @include transition(0.25s, ease-in-out);
         }
     }
-
+// PARTNERS
+    #s-partner {
+        background-color: $color-light-grey;
+        padding-bottom: 5px;
+        h3 {
+            padding-bottom: 15px;
+        }
+    }
 // SPONSORS
     #s-sponsor {
         background-color: $color-light-grey;

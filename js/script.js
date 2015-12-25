@@ -6,6 +6,7 @@ $(document).ready(function(){
 	// initialize variables
 	var menuActive = false;
 	var sponsorHeight = $('#s-sponsor').outerHeight();
+	var partnerHeight = $('#s-partner').outerHeight();
 	var faqHeight = $('#s-faq').outerHeight();
 	var scheduleHeight = $('#s-schedule').outerHeight();
 	var aboutHeight = $('#s-about').outerHeight() + $('#s-numbers').outerHeight();
@@ -75,6 +76,7 @@ $(document).ready(function(){
 	function updateProperties() {
 		// update heights for scroll navigation
 		sponsorHeight = $('#s-sponsor').outerHeight();
+		partnerHeight = $('#s-partner').outerHeight();
 		faqHeight = $('#s-faq').outerHeight();
 		scheduleHeight = $('#s-schedule').outerHeight();
 		aboutHeight = $('#s-about').outerHeight() + $('#s-numbers').outerHeight();
@@ -173,30 +175,41 @@ $(document).ready(function(){
 		}
 
 		// update nav bar links
-		if ($(this).scrollTop() >= faqHeight + scheduleHeight + aboutHeight + coverHeight) {
+		if ($(this).scrollTop() >= faqHeight + scheduleHeight + aboutHeight + coverHeight + partnerHeight) {
 			$('a[href="/#about"]').removeClass('selected');
 			$('a[href="/#schedule"]').removeClass('selected');
 			$('a[href="/#faq"]').removeClass('selected');
+			$('a[href="/#partner"]').removeClass('selected');
 			$('a[href="/#sponsor"]').addClass('selected');
+		} else if ($(this).scrollTop() >= faqHeight + scheduleHeight + aboutHeight + coverHeight) {
+			$('a[href="/#about"]').removeClass('selected');
+			$('a[href="/#schedule"]').removeClass('selected');
+			$('a[href="/#faq"]').removeClass('selected');
+			$('a[href="/#partner"]').addClass('selected');
+			$('a[href="/#sponsor"]').removeClass('selected');
 		} else if ($(this).scrollTop() >= scheduleHeight + aboutHeight + coverHeight) {
 	    	$('a[href="/#about"]').removeClass('selected');
 			$('a[href="/#schedule"]').removeClass('selected');
 			$('a[href="/#faq"]').addClass('selected');
+			$('a[href="/#partner"]').removeClass('selected');
 			$('a[href="/#sponsor"]').removeClass('selected');
 		} else if ($(this).scrollTop() >= aboutHeight + coverHeight) {
 	    	$('a[href="/#about"]').removeClass('selected');
 			$('a[href="/#schedule"]').addClass('selected');
 			$('a[href="/#faq"]').removeClass('selected');
+			$('a[href="/#partner"]').removeClass('selected');
 			$('a[href="/#sponsor"]').removeClass('selected');
 		} else if ($(this).scrollTop() >= coverHeight) {
 			$('a[href="/#about"]').addClass('selected');
 			$('a[href="/#schedule"]').removeClass('selected');
 			$('a[href="/#faq"]').removeClass('selected');
+			$('a[href="/#partner"]').removeClass('selected');
 			$('a[href="/#sponsor"]').removeClass('selected');
 		} else {
 			$('a[href="/#about"]').removeClass('selected');
 			$('a[href="/#schedule"]').removeClass('selected');
 			$('a[href="/#faq"]').removeClass('selected');
+			$('a[href="/#partner"]').removeClass('selected');
 			$('a[href="/#sponsor"]').removeClass('selected');
 		}
 	});

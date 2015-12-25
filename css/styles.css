@@ -36,13 +36,13 @@ h2 {
     h2 {
       font-size: 20px; } }
 
-p, span, a, li {
+p, span, a, li, td, th {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   color: #515151;
   font-size: 16px; }
   @media (max-device-width: 860px), (max-width: 860px) {
-    p, span, a, li {
+    p, span, a, li, td, th {
       font-size: 14px; } }
 
 .link {
@@ -360,6 +360,12 @@ section {
     -o-transition: all 0.25s ease-in-out;
     transition: all 0.25s ease-in-out; }
 
+#s-partner {
+  background-color: #EEEEEE;
+  padding-bottom: 5px; }
+  #s-partner h3 {
+    padding-bottom: 15px; }
+
 #s-sponsor {
   background-color: #EEEEEE; }
   @media (max-device-width: 860px), (max-width: 860px) {
@@ -497,7 +503,7 @@ section {
   background-image: url("../img/sponsors/ChallengePost.png"); }
 
 .mlh {
-  background-image: url("../img/sponsors/mlh-color.png"); }
+  background-image: url("../img/sponsors/mlh.png"); }
 
 .hacker-rank {
   background-image: url("../img/sponsors/hackerrank.png"); }
