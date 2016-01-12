@@ -3,6 +3,7 @@
 body {
 	background-color: $color-off-white;
 }
+
 section {
 	padding-top: 15px;
 	padding-bottom: 15px;
@@ -43,29 +44,6 @@ table {
 	}
 	.table-dark {
 		background-color: $color-accent-offwhite;
-	}
-
-#nav {
-	position: relative;
-	h1 {
-		font-size: 28px;
-		a {
-			color: $color-light-blue;
-			font-family: 'Montserrat', sans-serif;
-			font-weight: 700;
-			font-size: 28px;
-			&:hover{
-				color: $color-accent-orange;
-			}
-		}
-	}
-}
-	.nav-link{
-		color: white;
-		@include transition(0.25s, ease-in-out);
-        &:hover {
-            color: $color-accent-orange;
-        }
 	}
 
 #s-travel {

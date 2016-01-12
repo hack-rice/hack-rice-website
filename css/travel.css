@@ -37,26 +37,6 @@ tr {
 .table-dark {
   background-color: #F4EFEB; }
 
-#nav {
-  position: relative; }
-  #nav h1 {
-    font-size: 28px; }
-    #nav h1 a {
-      color: #516E8E;
-      font-family: 'Montserrat', sans-serif;
-      font-weight: 700;
-      font-size: 28px; }
-      #nav h1 a:hover {
-        color: #F2AE6A; }
-
-.nav-link {
-  color: white;
-  -webkit-transition: all 0.25s ease-in-out;
-  -o-transition: all 0.25s ease-in-out;
-  transition: all 0.25s ease-in-out; }
-  .nav-link:hover {
-    color: #F2AE6A; }
-
 #s-travel {
   margin-top: 25px; }
 

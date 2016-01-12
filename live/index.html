@@ -1,0 +1,68 @@
+---
+layout: live
+title: Live Feed
+---
+
+<section id="s-cover" class="s-cover3"></section>
+
+<section id="s-live-title">
+	<a href="/"><img id="banner-logo" src="/img/2016logo.svg" width="100"></a>
+	<h1> <b class="live-accent"> Live </b> Feed </h1>
+</section>
+
+
+<!-- level 1 subtitle -->
+<h3 class="full-subtitle"> Announcements </h3>
+
+<!-- important announcements -->
+<section id="s-announce" class="s-live">
+	<div class="section-text">
+		<!-- follow this format when posting announcements -->
+		<!-- manual entry - angular + sql db later on? -->
+		<!-- get text of certain tweets using twitter api possibly -->
+		<p> <b>[Jan-12 12:04 AM]</b> &nbsp; &nbsp; Get excited for HackRice!!! </p>
+		<p> <b>[Jan-12 12:05 AM]</b> &nbsp; &nbsp; 3 days left. </p>
+	</div>
+</section>
+
+<!-- level 2 subtitle -->
+<section class="s-side s-live">
+	<h3 class="half-subtitle"> Twitter Feed </h3>
+	<h3 class="half-subtitle"> Upcoming Events </h3>
+</section>
+
+<!-- twitter & upcoming events -->
+<section class="s-side s-live">
+	<div id="tweet-timeline" class="section-text side-sect">
+		<a class="twitter-timeline" href="https://twitter.com/hack_rice" data-widget-id="686745676995104768">Tweets by @hack_rice</a>
+		<script>
+			!function(d,s,id){
+				var js,fjs = d.getElementsByTagName(s)[0], p=/^http:/.test(d.location)?'http':'https';
+				if (!d.getElementById(id)) {
+					js=d.createElement(s);
+					js.id=id;
+					js.src=p+"://platform.twitter.com/widgets.js";
+					fjs.parentNode.insertBefore(js,fjs);
+				}
+			}(document,"script","twitter-wjs");
+		</script>
+	</div>
+	<div id="s-live-events" class="section-text side-sect">
+		<!-- display upcoming events, use angular and js date-time! -->
+		<div class="live-event">
+			<p>Event TBD</p>
+		</div>
+		<div class="live-event">
+			<p>Event TBD</p>
+		</div>
+		<div class="live-event">
+			<p>Event TBD</p>
+		</div>
+		<div class="live-event">
+			<p>Event TBD</p>
+		</div>
+	</div>
+</section>
+
+
+
