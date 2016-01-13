@@ -315,7 +315,40 @@ section {
     margin-top: 15px; }
 
 .schedule-list {
-  height: 50px; }
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 50%; }
+  .schedule-list ul {
+    padding-left: 0; }
+  .schedule-list li {
+    padding: 10px; }
+    @media (max-device-width: 860px), (max-width: 860px) {
+      .schedule-list li {
+        font-size: 12px; } }
+  @media (max-device-width: 860px), (max-width: 860px) {
+    .schedule-list {
+      width: 85%; } }
+
+.list-time {
+  width: 50%;
+  text-align: right;
+  margin-right: 25px; }
+
+.list-name {
+  width: 50%;
+  text-align: left;
+  margin-left: 25px; }
+
+.list-event {
+  color: #465362;
+  font-weight: 600; }
+  @media (max-device-width: 860px), (max-width: 860px) {
+    .list-event {
+      font-size: 12px; } }
 
 #s-faq {
   background-color: #FFFCF9; }

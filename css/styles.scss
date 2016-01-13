@@ -319,8 +319,41 @@
         }
     }
     .schedule-list {
-        height: 50px;
+        // height: 50px;
+        @include flex();
+        @include flex-justify-content(space-between);
+        margin: 0 auto;
+        width: 50%;
+        ul {
+            padding-left: 0;
+        }
+        li {
+            padding: 10px;
+            @media (max-device-width: 860px), (max-width: 860px) {
+                font-size: 12px;
+            }
+        }
+        @media (max-device-width: 860px), (max-width: 860px) {
+            width: 85%;
+        }
     }
+        .list-time {
+            width: 50%;
+            text-align: right;
+            margin-right: 25px;
+        }
+        .list-name {
+            width: 50%;
+            text-align: left;
+            margin-left: 25px;
+        }
+        .list-event {
+            color: $color-dark-blue;
+            font-weight: 600;
+            @media (max-device-width: 860px), (max-width: 860px) {
+                font-size: 12px;
+            }
+        }
 
 // FAQ
     #s-faq {

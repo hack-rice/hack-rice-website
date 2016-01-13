@@ -28,7 +28,7 @@ title: Live Feed
 <!-- level 2 subtitle -->
 <section class="s-side s-live">
 	<h3 class="half-subtitle"> Twitter Feed </h3>
-	<h3 class="half-subtitle"> Upcoming Events </h3>
+	<h3 class="half-subtitle"> Upcoming Workshops </h3>
 </section>
 
 <!-- twitter & upcoming events -->
@@ -47,22 +47,19 @@ title: Live Feed
 			}(document,"script","twitter-wjs");
 		</script>
 	</div>
-	<div id="s-live-events" class="section-text side-sect">
+	<div id="s-live-workshops" class="section-text side-sect">
 		<!-- display upcoming events, use angular and js date-time! -->
-		<div class="live-event">
-			<p>Event TBD</p>
-		</div>
-		<div class="live-event">
-			<p>Event TBD</p>
-		</div>
-		<div class="live-event">
-			<p>Event TBD</p>
-		</div>
-		<div class="live-event">
-			<p>Event TBD</p>
+		<div class="live-workshop" ng-repeat="workshop in workshops">
+			<p><b ng-bind="workshop.name"></b></p>
+			<p><span class="workshop-subtitle"> TIME: </span> &nbsp;&nbsp;FRI 6:00 PM </p>
+			<p ng-bind="workshop.location"><span class="workshop-subtitle"> LOCATION: </span> &nbsp;&nbsp; </p>
 		</div>
 	</div>
 </section>
 
+<section id="s-footer">
+</section>
 
+<script src="js/node_modules/angular/angular.js"></script>
+<script src="js/live-model.js"></script>
 
