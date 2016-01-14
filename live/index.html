@@ -20,8 +20,10 @@ title: Live Feed
 		<!-- follow this format when posting announcements -->
 		<!-- manual entry - angular + sql db later on? -->
 		<!-- get text of certain tweets using twitter api possibly -->
-		<p> <b>[Jan-12 12:04 AM]</b> &nbsp; &nbsp; Get excited for HackRice!!! </p>
-		<p> <b>[Jan-12 12:05 AM]</b> &nbsp; &nbsp; 3 days left. </p>
+		<p> <b>[Jan-13 9:47 PM]</b> &nbsp; &nbsp; 2 days left!!! </p>
+		<p> <b>[Jan-12 12:05 AM]</b> &nbsp; &nbsp; 3 days left!! </p>
+		<p> <b>[Jan-12 12:04 AM]</b> &nbsp; &nbsp; Get excited for HackRice! </p>
+		
 	</div>
 </section>
 
@@ -48,11 +50,36 @@ title: Live Feed
 		</script>
 	</div>
 	<div id="s-live-workshops" class="section-text side-sect">
-		<!-- display upcoming events, use angular and js date-time! -->
-		<div class="live-workshop" ng-repeat="workshop in workshops">
-			<p><b ng-bind="workshop.name"></b></p>
-			<p><span class="workshop-subtitle"> TIME: </span> &nbsp;&nbsp;FRI 6:00 PM </p>
-			<p ng-bind="workshop.location"><span class="workshop-subtitle"> LOCATION: </span> &nbsp;&nbsp; </p>
+		<!-- display upcoming events; hard-coded since jekyll / github-pages doesn't support angular -->
+		<div class="live-workshop">
+			<p><b>Intro to Git</b></p>
+			<p><span class="workshop-subtitle"> TIME: </span> &nbsp;&nbsp;FRI 9:00 PM </p>
+			<p><span class="workshop-subtitle"> LOCATION: </span> &nbsp;&nbsp; </p>
+		</div>
+		<div class="live-workshop">
+			<p><b>Civic Hacking</b></p>
+			<p><span class="workshop-subtitle"> TIME: </span> &nbsp;&nbsp;FRI 10:30 PM </p>
+			<p><span class="workshop-subtitle"> LOCATION: </span> &nbsp;&nbsp; </p>
+		</div>
+		<div class="live-workshop">
+			<p><b>Intro to Arduino Boards</b></p>
+			<p><span class="workshop-subtitle"> TIME: </span> &nbsp;&nbsp;SAT 9:00 AM </p>
+			<p><span class="workshop-subtitle"> LOCATION: </span> &nbsp;&nbsp; </p>
+		</div>
+		<div class="live-workshop">
+			<p><b>Machine Learning</b></p>
+			<p><span class="workshop-subtitle"> TIME: </span> &nbsp;&nbsp;SAT 10:30 AM </p>
+			<p><span class="workshop-subtitle"> LOCATION: </span> &nbsp;&nbsp; </p>
+		</div>
+		<div class="live-workshop">
+			<p><b>React Native</b></p>
+			<p><span class="workshop-subtitle"> TIME: </span> &nbsp;&nbsp;SAT 12:00 PM </p>
+			<p><span class="workshop-subtitle"> LOCATION: </span> &nbsp;&nbsp; </p>
+		</div>
+		<div class="live-workshop">
+			<p><b>Building a Twitter Clone: Node JS/Javascript</b></p>
+			<p><span class="workshop-subtitle"> TIME: </span> &nbsp;&nbsp;SAT 1:30 PM </p>
+			<p><span class="workshop-subtitle"> LOCATION: </span> &nbsp;&nbsp; </p>
 		</div>
 	</div>
 </section>
