@@ -53,3 +53,24 @@ tr {
 
 #s-last {
   padding-bottom: 50px; }
+
+.flex-wrap {
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+  -webkit-align-items: top;
+  align-items: top; }
+
+.s-bring {
+  margin: 10px;
+  width: 40%; }
+  @media (max-device-width: 860px), (max-width: 860px) {
+    .s-bring {
+      width: 90%; } }
+
+.bring-list {
+  text-align: left; }
