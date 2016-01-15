@@ -62,7 +62,7 @@ section {
 	.s-cover3 {
 	    background: url('../img/bg-live.jpg') center bottom no-repeat;
 	    background-size: cover;
-	    @include transition(0.25s, ease-in--ut, all);
+	    @include transition(0.25s, ease-in-out, all);
 	}
 #s-live-title {
 	margin-top: 50px;

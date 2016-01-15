@@ -47,9 +47,9 @@ section {
 .s-cover3 {
   background: url("../img/bg-live.jpg") center bottom no-repeat;
   background-size: cover;
-  -webkit-transition: all 0.25s ease-in--ut;
-  -o-transition: all 0.25s ease-in--ut;
-  transition: all 0.25s ease-in--ut; }
+  -webkit-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out; }
 
 #s-live-title {
   margin-top: 50px; }

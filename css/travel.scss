@@ -21,6 +21,16 @@ section {
         }
     }
 }
+.link-map img {
+	width: 100%;
+	&:hover {
+		opacity: 0.6;
+		@include transition(0.25s, ease-in-out, all);
+	}
+	@media (max-device-width: 860px), (max-width: 860px) {
+		width: 80%;
+	}
+}
 
 table {
     width: 100%;

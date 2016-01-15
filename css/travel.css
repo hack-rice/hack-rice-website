@@ -14,6 +14,17 @@ section {
   .section-text p {
     text-align: left; } }
 
+.link-map img {
+  width: 100%; }
+  .link-map img:hover {
+    opacity: 0.6;
+    -webkit-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out; }
+  @media (max-device-width: 860px), (max-width: 860px) {
+    .link-map img {
+      width: 80%; } }
+
 table {
   width: 100%;
   margin: 0 auto;
