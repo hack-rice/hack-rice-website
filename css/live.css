@@ -120,6 +120,7 @@ section {
   width: 100%; }
 
 #s-live-workshops {
+  overflow-x: hidden;
   overflow-y: scroll;
   height: 600px; }
 
