@@ -70,19 +70,33 @@ section {
 		width: 125px;
 		display: block;
 	}
-#s-announce {
-	width: 80%;
-	margin: 0 auto;
+// #s-announce {
+// 	width: 80%;
+// 	margin: 0 auto;
+// }
+// #s-announce .section-text {
+// 	background-color: white;
+// 	width: 100%;
+// 	padding: 30px;
+// 	background-clip: padding-box;
+// 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+//     -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+//     box-sizing: border-box;         /* Opera/IE 8+ */
+// }
+.links-wrap {
+	@include flex();
+	@include flex-wrap(wrap);
+    @include flex-justify-content(space-around);
+    @include flex-align(top);
+    width: 80%;
 }
-#s-announce .section-text {
-	background-color: white;
-	width: 100%;
-	padding: 30px;
-	background-clip: padding-box;
-	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
-    box-sizing: border-box;         /* Opera/IE 8+ */
-}
+	.links-box {
+		margin: 10px;
+		padding: 60px;
+		background-color: white;
+		text-align: center;
+	}
+
 .s-side {
 	@include flex();
 	@include flex-wrap(wrap);
@@ -99,7 +113,6 @@ section {
 	}
 #s-live-workshops {
 	overflow: scroll;
-	height: 600px;
 }
 	.live-workshop {
 		width: 100%;
@@ -110,6 +123,9 @@ section {
 		span, p {
 			color: white;
 		}
+	}
+	.company-workshop {
+		background-color: rgba(242, 174, 106, 0.3);
 	}
 	.workshop-subtitle {
 		font-size: 13px;
