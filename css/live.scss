@@ -36,6 +36,9 @@ section {
 .full-subtitle {
 	margin-top: 30px;
 	margin-left: 10%;
+	@media (max-device-width: 860px), (max-width: 860px) {
+		margin-left: 20%;
+	}
 }
 .half-subtitle {
 	margin-left: 0;
@@ -70,31 +73,33 @@ section {
 		width: 125px;
 		display: block;
 	}
-// #s-announce {
-// 	width: 80%;
-// 	margin: 0 auto;
-// }
-// #s-announce .section-text {
-// 	background-color: white;
-// 	width: 100%;
-// 	padding: 30px;
-// 	background-clip: padding-box;
-// 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-//     -moz-box-sizing: border-box;    /* Firefox, other Gecko */
-//     box-sizing: border-box;         /* Opera/IE 8+ */
-// }
+
 .links-wrap {
 	@include flex();
 	@include flex-wrap(wrap);
-    @include flex-justify-content(space-around);
+    @include flex-justify-content(space-between);
     @include flex-align(top);
     width: 80%;
+    @media (max-device-width: 860px), (max-width: 860px) {
+    	margin: 0 auto;
+    }
 }
 	.links-box {
 		margin: 10px;
-		padding: 60px;
+		width: 16%;
+		padding: 25px;
 		background-color: white;
 		text-align: center;
+		@media (max-device-width: 860px), (max-width: 860px) {
+			margin: 0 auto;
+			margin-bottom: 10px;
+			width: 60%;
+		}
+		&:hover {
+			background-color: $color-accent-orange;
+			color: white;
+		}
+		@include transition(0.25s, ease-in-out);
 	}
 
 .s-side {
@@ -107,12 +112,21 @@ section {
     margin-bottom: 0;
     padding-bottom: 0;
 }
+	.live-column {
+		width: 48%;
+		@media (max-device-width: 860px), (max-width: 860px) {
+			width: 80%;
+			margin: 0 auto;
+		}
+	}
 	.side-sect {
 		margin: 0;
-		width: 48%;
+		width: 100%;
 	}
+
 #s-live-workshops {
 	overflow: scroll;
+	height: 600px;
 }
 	.live-workshop {
 		width: 100%;
@@ -131,6 +145,20 @@ section {
 		font-size: 13px;
 		color: $color-accent-orange !important;
 	}
+.s-links {
+	.section-text, .links-wrap {
+		margin-top: 0;
+	}
+}
+.s-map {
+	margin: 0 auto;
+	h3 {
+		margin-left: 20%;
+	}
+}
+.map-img {
+	width: 80%;
+}
 #s-footer {
 	background-color: transparent;
 }

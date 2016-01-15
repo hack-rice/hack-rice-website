@@ -22,88 +22,85 @@ title: Live Feed
 	</div>
 </section>
 
-<!-- important announcements -->
-<!-- <section id="s-announce" class="s-live">
-	<div class="section-text"> -->
-		<!-- follow this format when posting announcements -->
-		<!-- manual entry - angular + sql db later on? -->
-		<!-- get text of certain tweets using twitter api possibly -->
-<!-- 		<p> <b>[Jan-13 9:47 PM]</b> &nbsp; &nbsp; 2 days left!!! </p>
-		<p> <b>[Jan-12 12:05 AM]</b> &nbsp; &nbsp; 3 days left!! </p>
-		<p> <b>[Jan-12 12:04 AM]</b> &nbsp; &nbsp; Get excited for HackRice! </p>
-		
-	</div>
-</section> -->
-
-<!-- level 2 subtitle -->
-<section class="s-side s-live">
-	<h3 class="half-subtitle"> Twitter Feed </h3>
-	<h3 class="half-subtitle"> Upcoming Workshops </h3>
-</section>
-
 <!-- twitter & upcoming events -->
 <section class="s-side s-live">
-	<div id="tweet-timeline" class="section-text side-sect">
-		<a class="twitter-timeline" href="https://twitter.com/hack_rice" data-widget-id="686745676995104768">Tweets by @hack_rice</a>
-		<script>
-			!function(d,s,id){
-				var js,fjs = d.getElementsByTagName(s)[0], p=/^http:/.test(d.location)?'http':'https';
-				if (!d.getElementById(id)) {
-					js=d.createElement(s);
-					js.id=id;
-					js.src=p+"://platform.twitter.com/widgets.js";
-					fjs.parentNode.insertBefore(js,fjs);
-				}
-			}(document,"script","twitter-wjs");
-		</script>
+	<div class="live-column">
+		<h3 class="half-subtitle"> Twitter Feed </h3>
+		<div id="tweet-timeline" class="section-text side-sect">
+			<a class="twitter-timeline" href="https://twitter.com/hack_rice" data-widget-id="686745676995104768">Tweets by @hack_rice</a>
+			<script>
+				!function(d,s,id){
+					var js,fjs = d.getElementsByTagName(s)[0], p=/^http:/.test(d.location)?'http':'https';
+					if (!d.getElementById(id)) {
+						js=d.createElement(s);
+						js.id=id;
+						js.src=p+"://platform.twitter.com/widgets.js";
+						fjs.parentNode.insertBefore(js,fjs);
+					}
+				}(document,"script","twitter-wjs");
+			</script>
+		</div>
 	</div>
-	<div id="s-live-workshops" class="section-text side-sect">
-		<!-- display upcoming events; hard-coded since jekyll / github-pages doesn't support angular -->
-		<div class="live-workshop">
-			<p><b>Intro to Git</b></p>
-			<p><span class="workshop-subtitle"> TIME: </span> &nbsp;&nbsp;FRI 9:00 PM </p>
-			<p><span class="workshop-subtitle"> LOCATION: </span> &nbsp;&nbsp; Miner Lounge</p>
+	
+	<div class="live-column">
+		<h3 class="half-subtitle"> Upcoming Workshops (Scroll) </h3>
+		<div id="s-live-workshops" class="section-text side-sect">
+			<!-- display upcoming events; hard-coded since jekyll / github-pages doesn't support angular -->
+			<div class="live-workshop">
+				<p><b>Intro to Git</b></p>
+				<p><span class="workshop-subtitle"> TIME: </span> &nbsp;&nbsp;FRI 9:00 PM </p>
+				<p><span class="workshop-subtitle"> LOCATION: </span> &nbsp;&nbsp; Miner Lounge</p>
+			</div>
+			<div class="live-workshop company-workshop">
+				<p><b>Chevron Workshop</b></p>
+				<p><span class="workshop-subtitle"> TIME: </span> &nbsp;&nbsp;FRI 10:30 PM </p>
+				<p><span class="workshop-subtitle"> LOCATION: </span> &nbsp;&nbsp; Miner Lounge</p>
+			</div>
+			<div class="live-workshop">
+				<p><b>Intro to Arduino Boards</b></p>
+				<p><span class="workshop-subtitle"> TIME: </span> &nbsp;&nbsp;SAT 9:00 AM </p>
+				<p><span class="workshop-subtitle"> LOCATION: </span> &nbsp;&nbsp; Miner Lounge</p>
+			</div>
+			<div class="live-workshop">
+				<p><b>Machine Learning</b></p>
+				<p><span class="workshop-subtitle"> TIME: </span> &nbsp;&nbsp;SAT 10:30 AM </p>
+				<p><span class="workshop-subtitle"> LOCATION: </span> &nbsp;&nbsp; Miner Lounge</p>
+			</div>
+			<div class="live-workshop">
+				<p><b>React Native</b></p>
+				<p><span class="workshop-subtitle"> TIME: </span> &nbsp;&nbsp;SAT 12:00 PM </p>
+				<p><span class="workshop-subtitle"> LOCATION: </span> &nbsp;&nbsp; Miner Lounge</p>
+			</div>
+			<div class="live-workshop">
+				<p><b>Building a Twitter Clone: Node JS/Javascript</b></p>
+				<p><span class="workshop-subtitle"> TIME: </span> &nbsp;&nbsp;SAT 1:30 PM </p>
+				<p><span class="workshop-subtitle"> LOCATION: </span> &nbsp;&nbsp; Miner Lounge</p>
+			</div>
+			<div class="live-workshop company-workshop">
+				<p><b>Microsoft: Design</b></p>
+				<p><span class="workshop-subtitle"> TIME: </span> &nbsp;&nbsp;SAT 3:00 PM </p>
+				<p><span class="workshop-subtitle"> LOCATION: </span> &nbsp;&nbsp; Miner Lounge</p>
+			</div>
+			<div class="live-workshop company-workshop">
+				<p><b>Google: Cloud Platform</b></p>
+				<p><span class="workshop-subtitle"> TIME: </span> &nbsp;&nbsp;SAT 4:30 PM </p>
+				<p><span class="workshop-subtitle"> LOCATION: </span> &nbsp;&nbsp; Miner Lounge</p>
+			</div>
+			<div class="live-workshop company-workshop">
+				<p><b>ForeFlight Workshop</b></p>
+				<p><span class="workshop-subtitle"> TIME: </span> &nbsp;&nbsp;SAT 6:00 PM </p>
+				<p><span class="workshop-subtitle"> LOCATION: </span> &nbsp;&nbsp; Miner Lounge</p>
+			</div>
 		</div>
-		<div class="live-workshop company-workshop">
-			<p><b>Chevron Workshop</b></p>
-			<p><span class="workshop-subtitle"> TIME: </span> &nbsp;&nbsp;FRI 10:30 PM </p>
-			<p><span class="workshop-subtitle"> LOCATION: </span> &nbsp;&nbsp; Miner Lounge</p>
-		</div>
-		<div class="live-workshop">
-			<p><b>Intro to Arduino Boards</b></p>
-			<p><span class="workshop-subtitle"> TIME: </span> &nbsp;&nbsp;SAT 9:00 AM </p>
-			<p><span class="workshop-subtitle"> LOCATION: </span> &nbsp;&nbsp; Miner Lounge</p>
-		</div>
-		<div class="live-workshop">
-			<p><b>Machine Learning</b></p>
-			<p><span class="workshop-subtitle"> TIME: </span> &nbsp;&nbsp;SAT 10:30 AM </p>
-			<p><span class="workshop-subtitle"> LOCATION: </span> &nbsp;&nbsp; Miner Lounge</p>
-		</div>
-		<div class="live-workshop">
-			<p><b>React Native</b></p>
-			<p><span class="workshop-subtitle"> TIME: </span> &nbsp;&nbsp;SAT 12:00 PM </p>
-			<p><span class="workshop-subtitle"> LOCATION: </span> &nbsp;&nbsp; Miner Lounge</p>
-		</div>
-		<div class="live-workshop">
-			<p><b>Building a Twitter Clone: Node JS/Javascript</b></p>
-			<p><span class="workshop-subtitle"> TIME: </span> &nbsp;&nbsp;SAT 1:30 PM </p>
-			<p><span class="workshop-subtitle"> LOCATION: </span> &nbsp;&nbsp; Miner Lounge</p>
-		</div>
-		<div class="live-workshop company-workshop">
-			<p><b>Microsoft: Design</b></p>
-			<p><span class="workshop-subtitle"> TIME: </span> &nbsp;&nbsp;SAT 3:00 PM </p>
-			<p><span class="workshop-subtitle"> LOCATION: </span> &nbsp;&nbsp; Miner Lounge</p>
-		</div>
-		<div class="live-workshop company-workshop">
-			<p><b>Google: Cloud Platform</b></p>
-			<p><span class="workshop-subtitle"> TIME: </span> &nbsp;&nbsp;SAT 4:30 PM </p>
-			<p><span class="workshop-subtitle"> LOCATION: </span> &nbsp;&nbsp; Miner Lounge</p>
-		</div>
-		<div class="live-workshop company-workshop">
-			<p><b>ForeFlight Workshop</b></p>
-			<p><span class="workshop-subtitle"> TIME: </span> &nbsp;&nbsp;SAT 6:00 PM </p>
-			<p><span class="workshop-subtitle"> LOCATION: </span> &nbsp;&nbsp; Miner Lounge</p>
-		</div>
+	</div>
+	
+</section>
+
+
+<section class="s-map">
+	<h3 class="half-subtitle"> Floor Plan</h3>
+	<div class="section-text">
+		<a href="../img/rmc-map.jpg"><img src="../img/rmc-map.jpg" alt="" class="map-img"></a>
 	</div>
 </section>
 
