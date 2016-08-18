@@ -441,6 +441,9 @@ section {
   width: 150px;
   height: 75px; }
 
+.ibm {
+  background-image: url("../img/sponsors/ibm.svg"); }
+
 .chevron {
   background-image: url("../img/sponsors/Chevron.png"); }
 
@@ -579,3 +582,5 @@ section {
     transition: color 0.25s ease-in-out; }
     .footer-text a:hover {
       color: #BBBBBB; }
+
+/*# sourceMappingURL=styles.css.map */
