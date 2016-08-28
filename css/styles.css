@@ -441,9 +441,6 @@ section {
   width: 150px;
   height: 75px; }
 
-.ibm {
-  background-image: url("../img/sponsors/ibm.svg"); }
-
 .chevron {
   background-image: url("../img/sponsors/Chevron.png"); }
 
@@ -565,6 +562,18 @@ section {
 .foreflight {
   background-image: url("../img/sponsors/foreflight.png"); }
 
+.ibm {
+  background-image: url("../img/sponsors/ibm.svg"); }
+
+.ricecs {
+  background-image: url("../img/sponsors/RiceComputerScience.png"); }
+
+.capitalone {
+  background-image: url("../img/sponsors/capitalone.png"); }
+
+.wolframalpha {
+  background-image: url("../img/sponsors/wolframalpha.png"); }
+
 #s-footer {
   background-color: #515151;
   height: 60px; }
@@ -582,5 +591,3 @@ section {
     transition: color 0.25s ease-in-out; }
     .footer-text a:hover {
       color: #BBBBBB; }
-
-/*# sourceMappingURL=styles.css.map */
