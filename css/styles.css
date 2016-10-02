@@ -441,6 +441,11 @@ section {
   width: 150px;
   height: 75px; }
 
+.sponsor-desc {
+  display:none;
+}
+
+
 .chevron {
   background-image: url("../img/sponsors/Chevron.png"); }
 
@@ -479,7 +484,9 @@ section {
   width: 200px !important; }
 
 .schlumberger {
-  background-image: url("../img/sponsors/schlumberger.png"); }
+  background-image: url("../img/sponsors/schlumberger.png");
+  cursor: pointer;
+}
 
 .delphix {
   background-image: url("../img/sponsors/delphix.png"); }
@@ -491,7 +498,9 @@ section {
   background-image: url("../img/sponsors/venmo.png"); }
 
 .two-sig {
-  background-image: url("../img/sponsors/2sig-cropped.png"); }
+  background-image: url("../img/sponsors/2sig-cropped.png");
+  cursor: pointer;
+}
 
 .two-sig-cropped {
   background-image: url("../img/sponsors/2sig-cropped.png"); }
@@ -557,16 +566,22 @@ section {
   background-image: url("../img/sponsors/intuitive-machines.png"); }
 
 .pros {
-  background-image: url("../img/sponsors/pros.png"); }
+  background-image: url("../img/sponsors/pros.png"); 
+  cursor: pointer;
+}
 
 .foreflight {
   background-image: url("../img/sponsors/foreflight.png"); }
 
 .ibm {
-  background-image: url("../img/sponsors/ibm.svg"); }
+  background-image: url("../img/sponsors/ibm.svg");
+  cursor: pointer;
+}
 
 .ricecs {
-  background-image: url("../img/sponsors/RiceComputerScience.png"); }
+  background-image: url("../img/sponsors/RiceComputerScience.png"); 
+  cursor: pointer;
+}
 
 .capitalone {
   background-image: url("../img/sponsors/capitalone.png"); }
