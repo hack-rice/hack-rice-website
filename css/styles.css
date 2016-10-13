@@ -334,7 +334,7 @@ section {
       width: 85%; } }
 
 .list-time {
-  width: 50%;
+  width: 23%;
   text-align: right;
   margin-right: 25px; }
 
@@ -343,6 +343,16 @@ section {
   text-align: left;
   margin-left: 25px; }
 
+.list-location{
+  width: 30%;
+}
+.list-location > li {
+  padding:7px;
+  font-size:14px;
+}
+.list-location.secondDay > li{
+  padding-bottom:16px;
+}
 .list-event {
   color: #465362;
   font-weight: 600; }
