@@ -328,7 +328,7 @@ section {
     padding: 10px; }
     @media (max-device-width: 860px), (max-width: 860px) {
       .schedule-list li {
-        font-size: 12px; } }
+        font-size: 12px !important; } }
   @media (max-device-width: 860px), (max-width: 860px) {
     .schedule-list {
       width: 85%; } }
