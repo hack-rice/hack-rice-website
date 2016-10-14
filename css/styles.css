@@ -321,7 +321,7 @@ section {
   -webkit-justify-content: space-between;
   justify-content: space-between;
   margin: 0 auto;
-  width: 50%; }
+  width: 60%; }
   .schedule-list ul {
     padding-left: 0; }
   .schedule-list li {
@@ -344,7 +344,7 @@ section {
   margin-left: 25px; }
 
 .list-location{
-  width: 30%;
+  width: 25%;
 }
 .list-location > li {
   padding:7px;
