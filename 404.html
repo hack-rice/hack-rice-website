@@ -4,55 +4,80 @@ permalink: /404.html
 ---
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="height:100%;">
 
-<!--    
-        Hack Rice 2016
-        We look forward to seeing you all here! :)
-        Site Design: Copyright Jeffrey Xiong, 12/01/15
+<!--
+
+    HackRice 7
+    Site Design by William Wang
+
 -->
 
 <head>
-    <title>HackRice &middot; {{page.title}} </title>
-    <!-- meta -->
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <!-- stylin' -->
-    <link rel='stylesheet' type='text/css' href='/css/styles.css'>
-    <link rel="shortcut icon" href="/img/favicon.png">
-    <!-- facebook -->
-    <meta property="og:title" content="HackRice">
+    <!-- Metadata -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    
+    <!-- Facebook -->
+    <meta property="og:title" content="HackRice 7">
     <meta property="og:type" content="website">
     <meta property="og:image" content="http://hack.rice.edu/img/hackrice-fb.png">
     <meta property="og:image:url" content="http://hack.rice.edu/img/hackrice-fb.png">
     <meta property="og:image:width" content="470">
     <meta property="og:image:width" content="190">
     <meta property="og:url" content="http://hack.rice.edu/">
-    <meta property="og:description" content="Rice University's annual student-run hackathon! Oct 14th - 16th, 2016">
-    <!-- twitter -->
+    <meta property="og:description" content="Rice University's annual student-run hackathon! Sept 22-24, 2017">
+
+    <!-- Twitter -->
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@hackrice">
     <meta name="twitter:title" content="HackRice 2016">
-    <meta name="twitter:description" content="Rice University's annual student-run hackathon! Oct 14th - 16th, 2016">
+    <meta name="twitter:description" content="Rice University's annual student-run hackathon! Sept 22-24, 2017">
     <meta name="twitter:image" content="https://hack.rice.edu/img/hackrice-twtr.png">
     <meta name="twitter:image:width" content="512">
     <meta name="twitter:image:height" content="512">
+
+    <title>HackRice 7 &middot; {{page.title}} </title>
+
+    <!-- Bulma -->
+    <link rel="stylesheet" href="/vendor/bulma.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:500" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="shortcut icon" href="/img/favicon.png">
+    <link rel="stylesheet" href="/css/main.css">
 </head>
 
-<body style="background-color: #F4EFEB">
+<body style="background-color:#F0F2F4;height:100%">
 
-<section>
-	<h1>HACKRICE</h1>
-	<br/>
-	<h2>404: PAGE NOT FOUND</h2>
-	<br/>
-	<p style="text-align: center;"> Aww shucks. Looks like what you're looking for no longer exists. </p>
-	<p style="text-align: center; text-transform: uppercase;"> <a href="/" class="link">Redirect back to our main site!!!</a> </p>
-	<iframe src="//giphy.com/embed/ZeNmLY6FISq4M" width="480" height="269" style="display: block; margin: 0 auto; margin-top: 30px"frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
-	
+<section style="padding-top:50px;">
+
+    <div class="container">
+        <h1 class="title is-1 mobile-margin" 
+        style="font-family: 'Quicksand',Arial,sans-serif;font-weight:500;">
+            HackRice
+        </h1>
+        <h2 class="subtitle is-3 mobile-margin">
+            404: Page Not Found
+        </h2>
+        <br/>
+        <p class="box-p" style="text-align:center;">
+            Oops! Seems like what you're looking for doesn't exist.
+        </p>
+        <br/>
+        <p class="box-p" style="text-align:center;">
+            <a href="/" class="button is-primary is-medium">
+                <i class="fa fa-fw fa-undo"></i>&nbsp;
+                Back to Main Site
+            </a>
+        </p>
+    </div>
+    
 </section>
 
 

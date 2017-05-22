@@ -1,0 +1,6 @@
+_site
+css/.sass-cache/
+.codekit-cache/
+config.codekit
+Gemfile
+Gemfile.lock
