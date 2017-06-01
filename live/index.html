@@ -2,3 +2,137 @@
 layout: live
 title: 
 ---
+
+<!-- Fixed Background Container -->
+<div id="full-container">
+</div>
+
+<!-- True Container -->
+<div id="content-container">
+<!-- Hero -->
+<section class="hero is-primary" style="background: none;">
+  <div class="hero-body">
+    <div class="container is-fluid">
+      <h1 class="title" style="font-weight: 400;">
+        HackRice Live
+      </h1>
+      <h2 class="subtitle">
+        stay up to date
+      </h2>
+    </div>
+  </div>
+</section>
+
+<!-- Tiles -->
+<div class="container is-fluid section-container">
+  <!-- Workshop Schedule -->
+  <div class="tile is-ancestor">
+    <div class="tile is-parent">
+      <div class="tile is-child box">
+        <h3 class="title is-4">
+          <i class="fa fa-calendar fa-fw"></i>
+          Workshop Schedule
+        </h3>
+        <p>
+          <table class="table">
+            <thead>
+              <tr>
+                <th>Workshop Title</th>
+                <th>Time</th>
+                <th>Location</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th>Coming Soon!</th>
+                <th>-</th>
+                <th>-</th>
+              </tr>
+            </tbody>
+          </table>
+        </p>
+      </div>
+    </div>
+  </div>
+  <!-- Other Tiles -->
+  <div class="tile is-ancestor">
+    <div class="tile is-parent is-vertical is-4">
+      <div id="useful-links" class="tile is-child box">
+        <h3 class="title is-4">
+          <i class="fa fa-link fa-fw"></i>
+          Useful Links
+        </h3>
+        <p>
+          <ul class="box-p spaced">
+            <!-- TODO: darken link colors just for live feed boxes? -->
+            <li><a>Resources</a></li>
+            <li><a>Devpost</a></li>
+            <li><a>Request a Mentor</a></li>
+            <li><a>FAQ</a></li>
+          </ul>
+        </p>
+      </div>
+      <div class="tile is-child box">
+        <h3 class="title is-4">
+          <i class="fa fa-thumb-tack fa-fw"></i>
+          Important Locations
+        </h3>
+        <p>
+          <ul class="box-p spaced">
+            <li>
+              <b>Food</b>
+              <ul><li>Location: TBD</li></ul>
+            </li>
+            <li>
+              <b>Hardware Lab</b>
+              <ul><li>Location: TBD</li></ul>
+            </li>
+            <li>
+              <b>Workshops</b>
+              <ul><li>Location: TBD</li></ul>
+            </li>
+          </ul>
+        </p>
+      </div>
+    </div>
+    <div class="tile is-parent is-vertical is-4">
+      <div class="tile is-child box">
+        <h3 class="title is-4">
+          <i class="fa fa-twitter fa-fw"></i>
+          Twitter Feed
+        </h3>
+        <p>
+          <!-- Twitter Widget -->
+          <div id="tweet-timeline" class="section-text side-sect">
+            <a class="twitter-timeline" href="https://twitter.com/hack_rice" data-widget-id="686745676995104768"></a>
+            <script>
+              !function(d,s,id){
+                var js,fjs = d.getElementsByTagName(s)[0], p=/^http:/.test(d.location)?'http':'https';
+                if (!d.getElementById(id)) {
+                  js=d.createElement(s);
+                  js.id=id;
+                  js.src=p+"://platform.twitter.com/widgets.js";
+                  fjs.parentNode.insertBefore(js,fjs);
+                }
+              }(document,"script","twitter-wjs");
+            </script>
+          </div>
+        </p>
+      </div>
+    </div>
+    <div class="tile is-parent is-vertical is-4">
+      <div class="tile is-child box">
+        <h3 class="title is-4">
+          <i class="fa fa-map fa-fw"></i>
+          Floor Plan
+        </h3>
+        <p class="has-text-centered">
+          <a href="../img/rmc-map.jpg" target="_blank">
+            <img src="../img/rmc-map.jpg" alt="RMC Floor Plan" style="max-height: 600px;">
+          </a>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
