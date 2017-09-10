@@ -115,6 +115,10 @@
 	margin-bottom: 25px;
 }
 
+.s-blurbable {
+	cursor: pointer;
+}
+
 /* Notification */
 
 #notification {
@@ -127,6 +131,16 @@
 .notification .delete {
 	/* https://github.com/jgthms/bulma/issues/490 */
 	padding: 0;
+}
+
+/* Modal */
+
+#modal-content {
+	color: #fff;
+}
+
+#modal-close {
+	z-index: 10000;
 }
 
 

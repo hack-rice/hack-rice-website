@@ -34,8 +34,44 @@ document.addEventListener("DOMContentLoaded", function() {
 	//  Notification handler
 	document
 		.getElementById('dismiss-notification')
-		.addEventListener("click", function() {
-			document.getElementById('notification').style.display = "none";
+		.addEventListener('click', function() {
+			document.getElementById('notification').style.display = 'none';
 		});
+
+	//  Blurb handler
+	var toggleModal = function() {
+		document.getElementById('modal').classList.toggle('is-active');
+	}
+
+	document
+		.getElementById('modal-close')
+		.addEventListener('click', toggleModal);
+
+	document
+		.getElementById('modal')
+		.addEventListener('click', toggleModal);
+
+	document.onkeydown = function(evt) {
+	    evt = evt || window.event;
+	    if (evt.keyCode == 27) {
+	        document.getElementById('modal').classList.remove('is-active');
+	    }
+	};
+
+	var logos = document.getElementsByClassName('s-logo');
+	for (var i = 0; i < logos.length; i++) {
+		logos[i].addEventListener('click', function(event) {
+			if (event.target.id === 'jpmc') {
+				document.getElementById('modal-content').innerHTML = 
+					"JPMorgan Chase, a leading global financial services firm, is reinventing the way the industry does business through technology. " +
+					"With an annual investment of over $9.5 billion in technology and 40,000 technologists, technology and innovation are critical to " +
+					"delivering to over 40 million digital customers and processing $5 trillion in payments each day. " + 
+					"Visit jpmorganchase.com/techcareers to learn more. We also run our own coding challenge called Code for Good, where " +
+					"university students use their coding skills to solve real-world problems for non-profit organizations. " +
+					"Visit jpmorganchase.com/codeforgood to learn more and apply for our upcoming events.";
+				toggleModal();
+			}
+		})
+	}
 
 });
