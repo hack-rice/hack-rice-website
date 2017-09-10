@@ -48,7 +48,7 @@ document.addEventListener("DOMContentLoaded", function() {
 		.addEventListener('click', toggleModal);
 
 	document
-		.getElementById('modal')
+		.getElementById('modal-background')
 		.addEventListener('click', toggleModal);
 
 	document.onkeydown = function(evt) {
