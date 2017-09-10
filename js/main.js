@@ -66,9 +66,10 @@ document.addEventListener("DOMContentLoaded", function() {
 					"JPMorgan Chase, a leading global financial services firm, is reinventing the way the industry does business through technology. " +
 					"With an annual investment of over $9.5 billion in technology and 40,000 technologists, technology and innovation are critical to " +
 					"delivering to over 40 million digital customers and processing $5 trillion in payments each day. " + 
-					"Visit jpmorganchase.com/techcareers to learn more. We also run our own coding challenge called Code for Good, where " +
+					"Visit <a target='_blank' href='https://jpmorganchase.com/techcareers'>jpmorganchase.com/techcareers</a> to learn more. " +
+					"We also run our own coding challenge called Code for Good, where " +
 					"university students use their coding skills to solve real-world problems for non-profit organizations. " +
-					"Visit jpmorganchase.com/codeforgood to learn more and apply for our upcoming events.";
+					"Visit <a target='_blank' href='https://jpmorganchase.com/codeforgood'>jpmorganchase.com/codeforgood</a> to learn more and apply for our upcoming events.";
 				toggleModal();
 			}
 		})
