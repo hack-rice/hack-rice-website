@@ -64,7 +64,7 @@
 }
 
 ul.spaced > li:not(:first-child) {
-	margin: 10px 0;
+	margin: 12.5px 0;
 }
 
 a {
