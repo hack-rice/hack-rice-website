@@ -67,6 +67,13 @@ ul.spaced > li:not(:first-child) {
 	margin: 10px 0;
 }
 
+a {
+	color: #272f45;
+}
+a:hover {
+	color: #0b1328;
+}
+
 /* Media queries */
 
 @media (min-width: 769px) {
