@@ -80,6 +80,7 @@ ul.spaced > li:not(:first-child) {
 
 a {
 	color: #272f45;
+	text-decoration: underline;
 }
 a:hover {
 	color: #0b1328;
