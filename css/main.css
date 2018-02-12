@@ -51,7 +51,7 @@
 
 }
 
-/* General styles 
+/* General styles
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 hr.dark {
@@ -59,7 +59,7 @@ hr.dark {
 	margin: 1.25rem 0;
 }
 
-body, button, input, 
+body, button, input,
 select, textarea {
 	font-family: "Segoe UI", "Roboto Light", "Helvetica Neue", "Helvetica", Arial, sans-serif;
 }
@@ -183,7 +183,7 @@ select, textarea {
 	.blurb {
 		font-size: 1.125rem;
 	}
-	
+
 	.columns {
 		margin-left: -0.75rem;
 		margin-right: -0.75rem;
@@ -192,11 +192,11 @@ select, textarea {
 
 /* FULL HD */
 @media (min-width: 1384px) {
-	
+
 	.blurb {
 		font-size: 1.25rem;
 	}
-	
+
 	.tile.is-ancestor {
 	    margin-left: -0.75rem;
     	margin-right: -0.75rem;
