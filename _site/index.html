@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--
+
+    HackRice 7
+    Site Design by William Wang
+
+-->
+
+<head>
+	<!-- Metadata -->
+	<meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+
+  <!-- Facebook -->
+  <meta property="og:title" content="HackRice 7">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="http://hack.rice.edu/img/hackrice-fb.png">
+  <meta property="og:image:width" content="1248">
+  <meta property="og:image:height" content="505">
+  <meta property="og:url" content="http://hack.rice.edu/">
+  <meta property="og:description" content="Rice University's annual student-run hackathon! March 2-3, 2018">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@hackrice">
+  <meta name="twitter:title" content="HackRice 2016">
+  <meta name="twitter:description" content="Rice University's annual student-run hackathon! March 2-3, 2018">
+  <meta name="twitter:image" content="https://hack.rice.edu/img/hackrice-twtr.png">
+  <meta name="twitter:image:width" content="512">
+  <meta name="twitter:image:height" content="512">
+
+  <title>HackRice 7</title>
+
+  <!-- Bulma -->
+  <link rel="stylesheet" href="/vendor/bulma.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<!-- Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Quicksand:500" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="shortcut icon" href="/img/favicon.png">
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/css/landing.css">
+</head>
+
+<body>
+
+	<!-- Topbar -->
+	<nav class="header">
+	  <div id="header-bg" class="header-bg"></div>
+	  <div class="header-block" id="header-left">
+	    <img id="header-logo" src="/img/logo-navbar.png" alt="HackRice">
+	    <div id="header-info" class="vertical-align-parent">
+	      <div class="vertical-align-child">
+	        <h3>March 2-3</h3>
+	        <p>Rice Memorial Center</p>
+	      </div>
+	    </div>
+	  </div>
+	</nav>
+
+	<!-- Page content -->
+	<!-- HERO -->
+<section id="hero" bgcolor="black">
+  <div class="header-padding">
+  </div>
+
+  <div id="hero-shout" class="container">
+    <div id="hero-top" class="columns">
+      <div class="column mobile-margin">
+        <img id="hero-logo" src="/img/2016logo.svg" alt="HackRice Logo">
+        <br class="responsive-show"/>
+        <h1 id="hero-title">
+          HackRice 7.5
+        </h1>
+      </div>
+    </div>
+    <div id="hero-bottom" class="columns">
+      <div class="column is-4 mobile-margin">
+        <h2 id="hero-subtitle">
+          March 2 - 3, 2018<br/>
+          Rice Liu Lab<br/>
+          Rice University
+        </h2>
+      </div>
+      <div class="mobile-margin">
+        <div id="hero-button-wrapper" class="vertical-align-parent">
+          <div class="vertical-align-child">
+            <h2><b><a href="https://docs.google.com/forms/d/e/1FAIpQLScn5kiKstf8N4nBgzbRvpL3PCfpN6SA6ALq-eBuNXxziRPfhw/viewform">Click here to sign up! (This even is for Rice student only)</a></b></h2><br/>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--
+  <div id="mlh-badge">
+    <a id="mlh-trust-badge" style="display:block;max-width:100px;min-width:60px;position:fixed;right:5%;top:0;width:10%;z-index:10000" href="https://mlh.io/seasons/na-2018/events?utm_source=na-2018&utm_medium=TrustBadge&utm_campaign=na-2018&utm_content=white" target="_blank"><img src="https://s3.amazonaws.com/logged-assets/trust-badge/2018/white.svg" alt="Major League Hacking 2018 Hackathon Season" style="width:100%"></a>
+  </div>
+-->
+</section>
+
+<!-- INTRO
+<section id="intro">
+  <video playsinline autoplay muted loop poster id="teaser">
+        <source src="/media/teaser480.mp4" type="video/mp4">
+    </video>
+    <div class="floating">
+      <div class="header-padding responsive-hide"></div>
+      <div class="container">
+        <div id="intro-container">
+          <h2 id="intro-title">
+            ~$ HackRice is for
+            <span class="typer"></span>
+          </h2>
+          <div id="intro-blurb" class="blurb">
+          <p>
+            HackRice is Rice University's annual hackathon event.<br/><br/>
+            Participants trade their sleep for a weekend and join a team to create a project - typically software - in an environment optimized for creativity.<br/>
+            At the end of the event, the participants demonstrate their projects to fellow hackers, visitors, and a panel of judges.<br/><br/>
+            Hosted by the <a href="http://csclub.rice.edu/" target="_blank">Rice Computer Science Club</a>.
+          </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+</section>
+-->
+
+<!-- NEW INFO
+<section>
+  <section class="hero is-warning">
+    <div class="hero-body">
+      <div class="container">
+        <h1 class="title" style="font-weight: 400;">
+          New at HackRice 7.5
+        </h1>
+        <h2 class="subtitle">
+          it'll be lit
+        </h2>
+      </div>
+    </div>
+  </section>
+
+  <div class="container section-container">
+    <div class="tile is-ancestor">
+      <div class="tile is-parent is-vertical is-6">
+        <article class="tile is-child notification">
+          <h3 class="title is-4">
+            <i class="fa fa-leaf fa-fw"></i>&nbsp;
+            First-Timers
+          </h3>
+          <hr class="dark">
+          <p class="box-p">
+            If you’re a first-timer, HackRice is the perfect Hackathon for you! <b>This year, we’ll be presenting a special
+            “First-Time Hacker Only” prize for first-time individuals, or teams totally comprised of first-timers.</b>
+            If you’re coming without a team but looking to join one, we also host a team formation meetup at the start of
+            the hacking period. This year, we’re also offering “tracks” that provide structure and project ideas so you
+            won’t get stuck in the initial idea phase if you’ve never hacked before!
+          </p>
+        </article>
+        <article class="tile is-child notification">
+          <h3 class="title is-4">
+            <i class="fa fa-map-signs fa-fw"></i>&nbsp;
+            Tracks
+          </h3>
+          <hr class="dark">
+          <p class="box-p">
+            Tracks are designed to provide structure for people who might not have a perfectly clear project idea.
+            There are five tracks: <br/>
+            <b>(1) Data Science, (2) Environment/Transportation, (3) Design, (4) Healthcare,</b> and <b>(5) Hardware.</b>
+            <br/>
+            Each track includes an open-ended prompt related to the category, a list of potential solutions,
+            and code of one partial sample solution. We’ll also have dedicated staff members who will help answer questions
+            about tracks or hash out potential development ideas. <br/>
+            <i>To learn more about tracks, check out the section below.</i>
+          </p>
+        </article>
+      </div>
+      <div class="tile is-parent is-vertical is-6">
+        <article class="tile is-child notification">
+          <h3 class="title is-4">
+            <i class="fa fa-heartbeat fa-fw"></i>&nbsp;
+            Healthcare
+          </h3>
+          <hr class="dark">
+          <p class="box-p">
+            Healthcare and computer science are becoming more interwoven every year, and at this HackRice we want you to
+            explore what’s happening at the junction between CS and health. <b>More healthcare-related sponsor companies will
+            be at HackRice this year than in any previous year.</b> We’re working with different groups in the Texas Medical
+            Center to make sure hackers can explore the cutting edge of new health technology at HackRice 7.5.
+          </p>
+        </article>
+        <article class="tile is-child notification">
+          <h3 class="title is-4">
+            <i class="fa fa-paint-brush fa-fw"></i>&nbsp;
+            Design
+          </h3>
+          <hr class="dark">
+          <p class="box-p">
+            UI/UX design is often neglected at time-sensitive hackathons like HackRice, but <b> this year we’ve included
+            special prizes for best UI/UX design that are intended to encourage hackers to explore user interaction
+            with their applications.</b> Designers are welcome at HackRice, and we want teams to focus on having a well rounded
+            application, rather than a complete back-end and unusable interface.
+          </p>
+        </article>
+      </div>
+    </div>
+  </div>
+
+</section>
+-->
+
+<!-- TRACKS
+<section>
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container">
+        <h1 class="title" style="font-weight: 400;">
+          More About Tracks
+        </h1>
+        <h2 class="subtitle">
+          a guiding light
+        </h2>
+      </div>
+    </div>
+  </section>
+
+  <div class="container section-container">
+    <div class="tile is-ancestor">
+      <div class="tile is-parent is-vertical is-6">
+        <article class="tile is-child notification">
+          <h3 class="title is-4">
+            <i class="fa fa-pencil fa-fw"></i>&nbsp;
+            Design Tracks
+          </h3>
+          <hr class="dark">
+          <p class="box-p">
+            An essential element of modern software development is design, but unfortunately at hackathons
+            design is often neglected for the sake of completing a functioning back end within tight time constraints.
+            This year at HackRice, you’ll have the option to work on a User Interface design project,
+            and be judged on the merit of your design rather than the backend functionality.
+            We’re looking for innovative and creative user interfaces that rethink interaction between people and software across all platforms.
+            See the Design Track for more details.
+          </p>
+        </article>
+        <article class="tile is-child notification">
+          <h3 class="title is-4">
+            <i class="fa fa-stethoscope fa-fw"></i>&nbsp;
+            Healthcare Tracks
+          </h3>
+          <hr class="dark">
+          <p class="box-p">
+            Healthcare and technology go hand in hand. Right now, some of the most exciting developments in healthcare are driven by innovations in technology,
+            such as machine learning illness diagnosis, improved patient compliance, and new medical records technology. <br/>
+            Working with <b>Texas Children’s Hospital</b> in the Texas Medical Center, along with <b>Mark III Systems</b>, we have gathered serious challenges
+            currently faced by healthcare experts to challenge you during HackRice. See the Healthcare Track for more details.
+          </p>
+        </article>
+      </div>
+      <div class="tile is-parent is-vertical is-6">
+        <article class="tile is-child notification">
+          <h3 class="title is-4">
+            <i class="fa fa-area-chart fa-fw"></i>&nbsp;
+            Data Science Track
+          </h3>
+          <hr class="dark">
+          <p class="box-p">
+           With paintings selling for hundreds of millions of dollars, telling real paintings from forgeries is a high-stakes business.
+           This year at HackRice, you’ll have the option to work on a computer vision task, and be judged on your model’s ability to tell
+           whether two paintings were painted by the same artist. In order to perform well in this task you’ll need to leverage recent
+           advances in the field of computer vision as well as your own ingenuity and creativity.
+          </p>
+        </article>
+        <article class="tile is-child notification">
+          <h3 class="title is-4">
+            <i class="fa fa-question fa-fw"></i>&nbsp;
+            To be announced
+          </h3>
+          <hr class="dark">
+          <p class="box-p">
+            More coming soon!
+          </p>
+        </article>
+      </div>
+    </div>
+  </div>
+
+</section>
+-->
+
+
+<!-- GENERAL INFO -->
+<section>
+  <section class="hero is-danger">
+    <div class="hero-body">
+      <div class="container">
+        <h1 class="title" style="font-weight: 400;">
+          Essential Info
+        </h1>
+        <h2 class="subtitle">
+          event at a glance
+        </h2>
+      </div>
+    </div>
+  </section>
+
+  <div class="container section-container">
+    <div class="tile is-ancestor">
+      <div class="tile is-parent is-vertical is-4">
+        <div class="tile is-child box">
+          <h3 class="title is-4">
+            <i class="fa fa-clock-o fa-fw"></i>
+            Logistics
+          </h3>
+            <p class="box-p">
+              <b>24</b> Hours<br/>
+              <b>100</b> Hackers<br/>
+              Top-notch mentors, workshops, and prizes
+            </p>
+        </div>
+        <div class="tile is-child box">
+          <h3 class="title is-4">
+            <i class="fa fa-check fa-fw"></i>
+            Check-In
+          </h3>
+          <p class="box-p">
+            4:00PM - 6:00PM<br/>
+            Friday, March 2, 2018<br/>
+          </p>
+        </div>
+        <div class="tile is-child box">
+          <h3 class="title is-4">
+          <i class="fa fa-facebook-square fa-fw"></i>
+            Facebook
+          </h3>
+          <p>
+            <a href="https://www.facebook.com/events/1955298894716855/" class="button is-primary" target="_blank">Event page</a>
+          </p>
+        </div>
+      </div>
+      <div class="tile is-parent">
+        <div class="tile is-child box">
+          <h3 class="title is-4">
+            <i class="fa fa-map-marker fa-fw"></i>
+            Location
+          </h3>
+          <p class="box-p">
+            <a href="https://www.google.com/maps/place/Lovett+Lot,+Houston,+TX+77005/@29.718175,-95.4002468,17z/data=!4m12!1m6!3m5!1s0x0:0x33c8974bfe985837!2sRice+Memorial+Center+-+Grand+Hall!8m2!3d29.7179698!4d-95.4017815!3m4!1s0x8640c0790f10e27d:0x7a96477e3d2fc36d!8m2!3d29.7171815!4d-95.3974729?hl=en-US" target="_blank">Rice Liu Lab</a><br/>
+            Houston, Texas 77005
+          </p>
+          <br/>
+          <p>
+            <a href="http://www.rice.edu/maps/Rice-University-Color-Campus-Map.pdf" class="button is-primary" target="_blank">Campus Map</a>
+          </p>
+          <br/>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3465.0546912433597!2d-95.40024677644348!3d29.71817499001491!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640c0790f10e27d%3A0x7a96477e3d2fc36d!2sLovett+Lot%2C+Houston%2C+TX+77005!5e0!3m2!1sen!2sus!4v1518403603442" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+          <br/>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SCHEDULE
+<section>
+  <section class="hero is-primary">
+    <div class="hero-body">
+      <div class="container">
+        <h1 class="title" style="font-weight: 400;">
+          Schedule
+        </h1>
+        <h2 class="subtitle">
+          what to do, and when
+        </h2>
+      </div>
+    </div>
+  </section>
+
+  <div class="container section-container" style="margin-top:50px;">
+    <div class="subtitle mobile-margin">
+      <div>
+        <div class="title is-4" style="margin-bottom: 15px;">friday, march 2</div>
+        <table class="table">
+          <thead>
+            <th>event</th>
+            <th>time</th>
+            <th>location</th>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Check-in + Sponsor Booth Visits</td>
+              <td>4 - 6 pm</td>
+              <td>Grand Hall</td>
+            </tr>
+            <tr>
+              <td>Opening Ceremony</td>
+              <td>6 - 7:30 pm</td>
+              <td>Grand Hall</td>
+            </tr>
+            <tr>
+              <td>Dinner + Team Formation</td>
+              <td>7:30 pm - 8 pm</td>
+              <td>Farnsworth/Grand Hall</td>
+            </tr>
+            <tr>
+              <td>Hacking Begins</td>
+              <td>8 pm</td>
+              <td>everywhere!</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <br/>
+      <div>
+        <div class="title is-4" style="margin-bottom: 15px;">saturday, sept. 23</div>
+        <table class="table">
+          <thead>
+            <th>event</th>
+            <th>time</th>
+            <th>location</th>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Breakfast</td>
+              <td>8 - 9 am</td>
+              <td>Farnsworth</td>
+            </tr>
+            <tr>
+              <td>Lunch</td>
+              <td>12 - 1 pm</td>
+              <td>Farnsworth</td>
+            </tr>
+            <tr>
+              <td><a href="https://localhost.mlh.io/activities/no-light/" target="_blank">!Light</a> presented by MLH</td>
+              <td>4 - 5 pm</td>
+              <td>Farnsworth</td>
+            </tr>
+            <tr>
+              <td>Dinner</td>
+              <td>6 - 7 pm</td>
+              <td>Farnsworth</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <br/>
+      <div>
+        <div class="title is-4" style="margin-bottom: 15px;">sunday, sept. 24</div>
+        <table class="table">
+          <thead>
+            <th>event</th>
+            <th>time</th>
+            <th>location</th>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Hacking Ends</td>
+              <td>9 am</td>
+              <td>everywhere!</td>
+            </tr>
+            <tr>
+              <td>Submission Deadline</td>
+              <td>9 am</td>
+              <td><a href="https://hackrice-7.devpost.com/" target="_blank">Devpost</a></td>
+            </tr>
+            <tr>
+              <td>Brunch</td>
+              <td>9 - 10 am&emsp;(open until 1 pm)</td>
+              <td>Farnsworth</td>
+            </tr>
+            <tr>
+              <td>First Round Judging</td>
+              <td>10 am - 1 pm</td>
+              <td>Grand Hall</td>
+            </tr>
+            <tr>
+              <td>Final Round Judging and Deliberations</td>
+              <td>1 - 2 pm</td>
+              <td>Grand Hall</td>
+            </tr>
+            <tr>
+              <td>Closing Ceremony and Awards</td>
+              <td>2 - 3 pm</td>
+              <td>Grand Hall</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</section>
+-->
+
+<!-- FAQ
+<section id="faq">
+  <section class="hero is-info">
+    <div class="hero-body">
+      <div class="container">
+        <h1 class="title" style="font-weight:400;">
+          FAQ
+        </h1>
+        <h2 class="subtitle">
+          for the inquisitive
+        </h2>
+      </div>
+    </div>
+  </section>
+
+  <div class="container section-container">
+    <div class="tile is-ancestor">
+    -->
+      <!-- COLUMN 1
+      <div class="tile is-parent is-vertical is-4">
+        <article class="tile is-child notification is-danger">
+          <p class="subtitle">Who is eligible for HackRice?</p>
+          <p>
+            Any current student over the age of 18 is eligible to apply to HackRice.
+            Since we are an MLH member event, participants must also accept the
+            <a href="http://static.mlh.io/docs/mlh-code-of-conduct.pdf" class="link" target="_blank">MLH Code of Conduct.</a>
+          </p>
+        </article>
+        <article class="tile is-child notification is-success">
+          <p class="subtitle">Will my travel be reimbursed?</p>
+          <p>
+            Yes! We'll be providing travel reimbursements for all visiting
+            hackers. Click <a href="/reimbursement/">here</a> for details.
+          </p>
+        </article>
+        <article class="tile is-child notification is-primary">
+          <p class="subtitle">Will there be prizes?</p>
+          <p>
+            We will have prizes for 1st, 2nd, 3rd place, as well as a best
+            hardware hack, and many other company sponsored prizes. This year, we're
+            also offering first-time hacker and best UI/UX design prizes!
+            For a list of available prizes, please visit our
+            <a href="https://hackrice-7.devpost.com/" target="_blank">Devpost</a> or
+            check out our <a href="/live/prizes" target="_blank">prizes page</a>.
+          </p>
+        </article>
+        <article class="tile is-child notification is-primary">
+          <p class="subtitle">Will there be free food?</p>
+          <p>
+            Yes! We will provide catered meals during the day along with snacks and free caffeine through the night to keep you going.
+          </p>
+        </article>
+        <article class="tile is-child notification is-info">
+          <p class="subtitle">Any other questions?</p>
+          <p>
+            Send us an email at <a href="mailto:info@hackrice.com" class="link">info@hackrice.com</a>
+            or message us on Facebook <a href="http://m.me/hackrice" class="link" target="_blank">http://m.me/hackrice</a>.
+          </p>
+        </article>
+      </div>
+      -->
+      <!-- COLUMN 2
+      <div class="tile is-parent is-vertical is-4">
+        <article class="tile is-child notification is-primary">
+          <p class="subtitle">What are the acceptance criteria?</p>
+          <p>
+            Rice students and alumni are guaranteed acceptance.
+            For Non-Rice students, we ask for their previous hackathon and coding experiences, so that we can invite people who have demonstrated interest and skill.
+            The admission process will be competitive and rolling! We also will take into account people who have never been to a hackathon before, so please apply!
+          </p>
+        </article>
+        <article class="tile is-child notification is-info">
+          <p class="subtitle">What do I need to bring?</p>
+          <p>
+            Please bring a student ID so we can verify and register you on-site! You'll also need to bring a computer,
+            whatever software you feel might be necessary for development, sleeping bag, and pillow. We also recommend
+            that you bring power strips for convenience. Teammates are free to share equipment with each other.
+          </p>
+        </article>
+        <article class="tile is-child notification is-success">
+          <p class="subtitle">What if I'm not very experienced?</p>
+          <p>
+            We will try our best to point people in the right direction and use tools and languages that allow rapid
+            development with the least amount of frustration. There will also be upperclassmen participating
+            in the hackathon who can help you out. Furthermore, you can look up tutorials and sample code online.
+            We will also be having workshops the week before the hackathon!
+          </p>
+        </article>
+      </div>
+      -->
+      <!-- COLUMN 3
+      <div class="tile is-parent is-vertical is-4">
+        <article class="tile is-child notification is-success">
+          <p class="subtitle">Can Rice alumni attend?</p>
+          <p>
+            Rice alumni are eligible to attend the event to hack or mentor
+            other students, but alumni submissions will not be eligible for
+            prizes. We will not be able to reimburse alumni for travel.
+            To register as an alumnus please fill out our
+            <a target="_blank" href="https://hackrice.typeform.com/to/b3E8uR">alumni application</a>.
+          </p>
+        </article>
+        <article class="tile is-child notification is-danger">
+          <p class="subtitle">What about teams?</p>
+          <p>
+            You don't have to form a team before the event, or at all. At the start of the event,
+            we will provide plenty of time to break out and form a new one if you choose to.
+            Teams will be limited to 5 members.
+          </p>
+        </article>
+        <article class="tile is-child notification is-danger">
+          <p class="subtitle">What external sources can I use?</p>
+          <p>
+            Third party libraries and APIs are permitted if they are publicly available and free to use.
+            A brief collection of some commonly-used resources is available <a target="_blank" href="/resources/">here</a>.
+          </p>
+        </article>
+        <article class="tile is-child notification is-info">
+          <p class="subtitle">Do I need to stay the whole time?</p>
+          <p>
+            Nope, we are not a lock-in. We realize that 36 hours is a long time, and that some people might have other
+            commitments during that time. Feel free to stay and leave as you choose. However, we would prefer that
+            people stay to promote the environment.
+          </p>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+-->
+
+<!-- SPONSORS
+<section>
+  <section class="hero is-success">
+    <div class="hero-body">
+      <div class="container">
+        <h1 class="title" style="font-weight:400;">
+          Sponsors
+        </h1>
+        <h2 class="subtitle">
+          you complete us
+        </h2>
+      </div>
+    </div>
+  </section>
+
+  <div class="container section-container">
+    <div id="s-blurb">
+      <p class="box-p">
+          <b>Sponsors help support every aspect of HackRice.</b> Contributions from
+          sponsors go towards the costs of space rentals, food, t-shirts,
+          transportation, staffing expenses, and many, many other things that
+          make a hackathon successful and exciting. Being a HackRice sponsor
+          allows you to reach out to talented students looking to innovate
+          and build awesome projects. Sponsors can get involved at many
+          levels, check out our sponsorship packet or shoot us an email to
+          find out how you can be a part of our greatest hackathon yet!
+      </p>
+      <br/>
+      <h3 class="box-p">Want to become a sponsor?</h3>
+      <h4 class="box-p">
+      <a href="/files/hackrice-sponsorship-2018.pdf" target="_blank">Sponsorship Packet</a>
+      &nbsp;/&nbsp;
+      <a href="mailto:sponsor@hackrice.com" class="link">sponsor@hackrice.com </a>
+      </h4>
+    </div>
+    <br/><br/>
+
+
+    <h3 class="title is-4 mobile-margin">This Year's Sponsors</h3>
+    <div class="tile is-ancestor has-text-centered">
+    -->
+      <!-- COLUMN 1
+      <div class="tile is-parent is-vertical is-3">
+        <div class="tile is-child">
+          <img class="s-logo" data-original="/img/sponsors/ibm.svg">
+        </div>
+        <div class="tile is-child">
+          <img class="s-logo" data-original="/img/sponsors/markiii.png">
+        </div>
+        <div class="tile is-child">
+          <img class="s-logo" data-original="/img/sponsors/exxonmobil.png">
+        </div>
+        <div class="tile is-child">
+          <img class="s-logo" data-original="/img/sponsors/healthcatalyst.svg">
+        </div>
+        <div class="tile is-child">
+          <img class="s-logo" data-original="/img/sponsors/mireaux.png">
+          <img class="s-logo" data-original="/img/sponsors/webqms.jpg">
+        </div>
+      </div>
+      -->
+      <!-- COLUMN 2
+      <div class="tile is-parent is-vertical is-3">
+        <div class="tile is-child">
+          <img class="s-logo s-blurbable" id="2sigma" data-original="/img/sponsors/twosigma.png">
+        </div>
+        <div class="tile is-child">
+          <img class="s-logo" data-original="/img/sponsors/pros.png">
+        </div>
+        <div class="tile is-child">
+          <img class="s-logo" data-original="/img/sponsors/foreflight2018.png">
+        </div>
+        <div class="tile is-child">
+          <img class="s-logo" data-original="/img/sponsors/indeed.png">
+        </div>
+        <div class="tile is-child">
+          <img class="s-logo" data-original="/img/sponsors/credera.png">
+        </div>
+      </div>
+      -->
+      <!-- COLUMN 3
+      <div class="tile is-parent is-vertical is-3">
+        <div class="tile is-child">
+          <img class="s-logo s-blurbable" id="jpmc" data-original="/img/sponsors/jpmc.png" style="margin-top:50px;">
+        </div>
+        <div class="tile is-child">
+          <img class="s-logo" data-original="/img/sponsors/capitalone.png">
+        </div>
+        <div class="tile is-child">
+          <img class="s-logo" data-original="/img/sponsors/GE.svg">
+        </div>
+        <div class="tile is-child">
+          <img class="s-logo" data-original="/img/sponsors/facebook.png">
+        </div>
+        <div class="tile is-child">
+          <img class="s-logo" data-original="/img/sponsors/slalom.png">
+        </div>
+      </div>
+      -->
+      <!-- COLUMN 4
+      <div class="tile is-parent is-vertical is-3">
+        <div class="tile is-child">
+          <img class="s-logo" data-original="/img/sponsors/ricecs.png">
+        </div>
+        <div class="tile is-child">
+          <img class="s-logo" data-original="/img/sponsors/Chevron.png">
+        </div>
+        <div class="tile is-child">
+          <img class="s-logo" data-original="/img/sponsors/hbk.jpg">
+        </div>
+        <div class="tile is-child">
+          <img class="s-logo" data-original="/img/sponsors/Microsoft.png">
+        </div>
+        <div class="tile is-child">
+        </div>
+      </div>
+    </div>
+    <br/>
+
+    <h3 class="title is-4 mobile-margin">Event Sponsor</h3>
+    <div class="has-text-centered">
+      <img data-original="/img/sponsors/mlh-color.png" style="width:20%;min-width:200px;">
+    </div>
+  </div>
+</section>
+-->
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container">
+      <div class="content has-text-centered">
+        <a href="http://csclub.rice.edu" target="_blank">Rice CS Club</a>&nbsp;&nbsp;/&nbsp;&nbsp;
+        <a href="http://www.rice.edu" target="_blank">Rice University</a>&nbsp;&nbsp;/&nbsp;&nbsp;
+        &copy; HackRice 2018
+      </div>
+
+      <div class="content has-text-centered">
+        <p>Questions? Contact Us</p>
+        <p>
+          <a href="mailto:info@hackrice.com">Email</a><br/>
+          <a href="https://m.me/hackrice" target="_blank">Messenger</a>
+        </p>
+      </div>
+  </div>
+</footer>
+
+<!-- NOTIFICATION
+<div id="notification" class="notification box is-primary">
+  <button id="dismiss-notification" class="delete"></button>
+  HackRice 7.5 is now over!<br/>
+  See you next year :)
+</div>
+-->
+
+<!-- BLURB MODAL -->
+<div class="modal" id="modal">
+  <div id="modal-background" class="modal-background"></div>
+  <div id="modal-content" class="modal-content">
+    <!-- Blurb Text -->
+  </div>
+  <button id="modal-close" class="modal-close is-large" aria-label="close"></button>
+</div>
+
+</body>
+
+<!-- Vendor scripts -->
+<script src="/vendor/typed.js"></script>
+<script src="/vendor/noframework.waypoints.min.js"></script>
+<script src="/vendor/lazyload.transpiled.min.js"></script>
+<script>
+  // Lazy loading for sponsor images
+  new LazyLoad();
+</script>
+
+<!-- JS -->
+<script src="/js/main.js"></script>
+
+
+	<!-- GA -->
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-37523631-1']);
+    _gaq.push(['_trackPageview']);
+    (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+</body>
