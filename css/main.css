@@ -202,3 +202,15 @@ select, textarea {
     	margin-right: -0.75rem;
 	}
 }
+
+.button {
+	background-color: #f4b75d; /* Green */
+	border: none;
+    color: white;
+    padding: -5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+	margin-top: 10vh;
+}
