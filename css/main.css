@@ -214,3 +214,10 @@ select, textarea {
     font-size: 16px;
 	margin-top: 10vh;
 }
+
+/* FULL HD */
+@media (max-width: 1384px) {
+
+	.button {
+		margin-top: 5vh;
+}
