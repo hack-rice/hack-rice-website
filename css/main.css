@@ -34,7 +34,8 @@
 }
 
 .title, .subtitle {
-	font-family: "Roboto", "Arial", sans-serif;
+	font-family: "Quicksand", "Arial", sans-serif;
+	font-weight: bold;
 }
 
 .mobile-margin {
@@ -61,7 +62,7 @@ hr.dark {
 
 body, button, input,
 select, textarea {
-	font-family: "Segoe UI", "Roboto Light", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+	font-family: "Quicksand", Arial, sans-serif;
 }
 
 /* Reusable styles
