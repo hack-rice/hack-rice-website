@@ -1,8 +1,18 @@
 import PropTypes from 'prop-types';
-import FontAwesomeIcon from '@fortawesome/react-fontawesome'
+
 
 const Header = (props) => (
     <header id="header" style={props.timeout ? {display: 'none'} : {}}>
+        <div className="logo">
+            <img src="../static/images/logo.png" transform="grow-18" className="logo"/>
+        </div>
+        <div className="content">
+            <div className="inner">
+                <h1>hackrice8</h1>
+                <p>September 14-16, 2018</p>
+                <p>Rice Memorial Center</p>
+            </div>
+        </div>
         <nav>
             <ul>
                 <li><a href="javascript:;" onClick={() => {props.onOpenArticle('intro')}}>About</a></li>

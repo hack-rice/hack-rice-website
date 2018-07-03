@@ -11,6 +11,9 @@
 	}
 
 /* Header */
+	#header {
+		color: black;
+	}
 
 	#header .logo {
 		margin: 0 auto;
