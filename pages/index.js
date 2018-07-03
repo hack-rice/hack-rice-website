@@ -4,6 +4,7 @@ import stylesheet from '../styles/main.scss'
 import Header from "../components/Header"
 import Main from "../components/Main"
 import Footer from "../components/Footer"
+import MLH from "../components/MLH"
 
 class IndexPage extends React.Component {
     constructor(props) {
@@ -80,6 +81,7 @@ class IndexPage extends React.Component {
                     <style dangerouslySetInnerHTML={{ __html: stylesheet }} />
 
                     <div id="wrapper">
+                        <MLH timeout={this.state.timeout} />
                         <Header onOpenArticle={this.handleOpenArticle} timeout={this.state.timeout} />
                         <Main
                             isArticleVisible={this.state.isArticleVisible}

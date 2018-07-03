@@ -1,0 +1,26 @@
+///
+/// Dimension by HTML5 UP
+/// html5up.net | @ajlkn
+/// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+///
+
+/* Footer */
+
+	#mlh {
+		@include vendor('transition', (
+			'transform #{_duration(article)} ease-in-out',
+			'filter #{_duration(article)} ease-in-out',
+			'opacity #{_duration(article)} ease-in-out',
+		));
+		width: 8%;
+		max-width: 100%;
+		position:absolute;
+		right: 10%;
+		top: 0vh;
+		border-bottom: 0;
+
+
+		.body.is-loading & {
+			opacity: 0;
+		}
+	}
