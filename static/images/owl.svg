@@ -1,0 +1,19 @@
+<svg width="181" height="335" viewBox="0 0 181 335" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 0L89.928 50.3426V151.028L0 100.685V0Z" transform="translate(0.53418)" fill="#D1D2E9"/>
+<path d="M0 0L89.928 50.3426V151.028L0 100.685V0Z" transform="translate(180.39) scale(-1 1)" fill="#9FA5C3"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M89.9282 50.167L0 0L89.9277 132.98L89.9282 50.167Z" transform="translate(0.53418 201.37)" fill="#3E3F69"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M89.9277 132.98V50.167L0 0L89.9277 132.98Z" transform="translate(180.39 201.37) scale(-1 1)" fill="#282954"/>
+<path d="M0 0L89.928 50.3426V151.028L0 100.685V0Z" transform="translate(180.39 100.685) scale(-1 1)" fill="#E4E5F2"/>
+<path d="M0 0L89.928 50.3426V151.028L0 100.685V0Z" transform="translate(0.53418 100.685)" fill="white"/>
+<ellipse cx="27.0729" cy="27.071" rx="27.0729" ry="27.071" transform="translate(18.5825 48.4424)" fill="#282954"/>
+<ellipse cx="27.0729" cy="27.071" rx="27.0729" ry="27.071" transform="translate(108.827 48.4424)" fill="#282954"/>
+<path d="M41.0975 21.3718C41.0975 32.3516 32.2284 41.2437 21.2987 41.2437C10.369 41.2437 1.5 32.3516 1.5 21.3718C1.5 10.3921 10.369 1.5 21.2987 1.5C32.2284 1.5 41.0975 10.3921 41.0975 21.3718Z" transform="translate(24.1997 54.1426)" stroke="#D1D2E9" stroke-width="3"/>
+<path d="M42.0441 21.3718C42.0441 32.3206 32.9943 41.2437 21.772 41.2437C10.5497 41.2437 1.5 32.3206 1.5 21.3718C1.5 10.423 10.5497 1.5 21.772 1.5C32.9943 1.5 42.0441 10.423 42.0441 21.3718Z" transform="translate(114.128 54.1421)" stroke="#D1D2E9" stroke-width="3"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M89.9282 50.167L0 0L89.9277 132.98L89.9282 50.167Z" transform="translate(0.53418)" fill="#3E3F69"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M89.9277 132.98V50.167L0 0L89.9277 132.98Z" transform="translate(180.39) scale(-1 1)" fill="#282954"/>
+<path d="M16.9633 25.1537L0 0L17.0227 9.52247L33.9265 0L16.9633 25.1537Z" transform="translate(26.0928 155.778)" fill="#3E3F69"/>
+<path d="M16.9633 25.1537L0 0L17.0227 9.52247L33.9265 0L16.9633 25.1537Z" transform="translate(73.499 155.777)" fill="#3E3F69"/>
+<path d="M16.9633 25.1537L0 0L17.0227 9.52247L33.9265 0L16.9633 25.1537Z" transform="translate(120.906 155.777)" fill="#3E3F69"/>
+<path d="M16.9633 25.1537L0 0L17.0227 9.52247L33.9265 0L16.9633 25.1537Z" transform="translate(49.7583 183.323)" fill="#3E3F69"/>
+<path d="M16.9633 25.1537L0 0L17.0227 9.52247L33.9265 0L16.9633 25.1537Z" transform="translate(97.0884 183.323)" fill="#3E3F69"/>
+</svg>

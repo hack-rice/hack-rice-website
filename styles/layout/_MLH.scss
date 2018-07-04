@@ -6,28 +6,32 @@
 
 /* Footer */
 
-	#mlh {
-		@include vendor('transition', (
-			'transform #{_duration(article)} ease-in-out',
-			'filter #{_duration(article)} ease-in-out',
-			'opacity #{_duration(article)} ease-in-out',
-		));
-		width: 8%;
-		max-width: 100px;
-		min-width: 80px;
-		position:absolute;
-		right: 10%;
-		top: 0vh;
-		border-bottom: 0;
-
-		.body.is-article-visible & {
-			@include vendor('transform', 'scale(0.95)');
-			@include vendor('filter', 'blur(0.1rem)');
-			opacity: 0;
-		}
-
-
-		.body.is-loading & {
-			opacity: 0;
-		}
+#mlh {
+	a {
+		text-decoration: none;
+		border-bottom: 0px;
 	}
+
+	@include vendor(
+		'transition',
+		(
+			'transform #{_duration(article)} ease-in-out',
+			'translateY 0.2s ease-in-out'
+		)
+	);
+	width: 8%;
+	max-width: 100px;
+	min-width: 80px;
+	position: absolute;
+	right: 10%;
+	top: 0vh;
+	border-bottom: 0;
+
+	.body.is-article-visible & {
+		@include vendor('transform', 'translateY(-125px)');
+	}
+
+	.body.is-loading & {
+		opacity: 0;
+	}
+}
