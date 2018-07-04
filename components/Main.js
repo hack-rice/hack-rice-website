@@ -13,6 +13,16 @@ class Main extends React.Component {
     return (
       <div id="main" style={this.props.timeout ? {display: 'flex'} : {display: 'none'}}>
 
+        <article id="about" className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
+          <h2 className="major">About</h2>
+          <span className="image main"><img src="/static/images/logo.png" alt="" /></span>
+          <p>HackRice is Rice University's annual hackathon event.</p>
+          <p>Participants trade their sleep for a weekend and join a team to create a project - typically software - in an environment optimized for creativity.
+             At the end of the event, the participants demonstrate their projects to fellow hackers, visitors, and a panel of judges.</p>
+          <p>Hosted by the <a href="http://csclub.rice.edu/">Rice Computer Science Club</a>.</p>
+          {close}
+        </article>
+
         <article id="intro" className={`${this.props.article === 'intro' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Intro</h2>
           <span className="image main"><img src="/static/images/pic01.jpg" alt="" /></span>
@@ -29,12 +39,6 @@ class Main extends React.Component {
           {close}
         </article>
 
-        <article id="about" className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
-          <h2 className="major">About</h2>
-          <span className="image main"><img src="/static/images/pic03.jpg" alt="" /></span>
-          <p>Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices. Aliquam libero et malesuada fames ac ante ipsum primis in faucibus. Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit amet.</p>
-          {close}
-        </article>
 
         <article id="contact" className={`${this.props.article === 'contact' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Contact</h2>

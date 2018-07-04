@@ -74,8 +74,8 @@ class IndexPage extends React.Component {
             <div className={`body ${this.state.loading} ${this.state.isArticleVisible ? "is-article-visible" : ""}`}>
                 <div>
                     <Head>
-                        <title>HackRice8</title>
-                        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,600,600i" rel="stylesheet" />
+                        <title>HackRice8.0</title>
+                        <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono" rel="stylesheet" />
                     </Head>
 
                     <style dangerouslySetInnerHTML={{ __html: stylesheet }} />
