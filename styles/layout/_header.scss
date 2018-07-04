@@ -46,7 +46,7 @@
 		.logo {
 			width: 10rem;
 			height: 10rem;
-			line-height: 10rem;
+			line-height: 11rem;
 			border: solid _size(border-width) _palette(border);
 			border-radius: 100%;
 
@@ -84,7 +84,7 @@
 				text-transform: uppercase;
 				letter-spacing: _font(letter-spacing);
 				font-size: 0.8rem;
-				line-height: 2;
+				line-height: 0;
 			}
 		}
 

@@ -13,7 +13,8 @@
 			'opacity #{_duration(article)} ease-in-out',
 		));
 		width: 8%;
-		max-width: 100%;
+		max-width: 100px;
+		min-width: 80px;
 		position:absolute;
 		right: 10%;
 		top: 0vh;
