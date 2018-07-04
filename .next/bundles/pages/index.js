@@ -609,7 +609,7 @@ function (_React$Component) {
           fileName: _jsxFileName,
           lineNumber: 70
         }
-      }, "Frequently Asked Questions"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("ol", {
+      }, "FAQ"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("ol", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 71
@@ -660,7 +660,7 @@ function (_React$Component) {
           fileName: _jsxFileName,
           lineNumber: 74
         }
-      }, "Will there be prizes?"), "We will have prizes for 1st, 2nd, 3rd place, as well as a best hardware hack, and many other company sponsored prizes."), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", {
+      }, "Will there be prizes?"), "We will have prizes for 1st, 2nd, 3rd place, several track prizes, and many other company sponsored prizes."), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 74

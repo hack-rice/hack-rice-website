@@ -67,11 +67,11 @@ class Main extends React.Component {
 						this.props.articleTimeout ? 'timeout' : ''
 					}`}
 					style={{ display: 'none' }}>
-					<h2 className="major">Frequently Asked Questions</h2>
+					<h2 className="major">FAQ</h2>
 					<ol>
 						<li><h3>Who is eligible for HackRice?</h3>Any current student over the age of 18 is eligible to apply to HackRice. Since we are an MLH member event, participants must also accept the <a href="http://static.mlh.io/docs/mlh-code-of-conduct.pdf">MLH Code of Conduct.</a></li><br />
 						<li><h3>Will my travel be reimbursed?</h3>Yes! We'll be providing travel reimbursements for all visiting hackers. More details coming soon!</li><br />
-						<li><h3>Will there be prizes?</h3>We will have prizes for 1st, 2nd, 3rd place, as well as a best hardware hack, and many other company sponsored prizes.</li><br />
+						<li><h3>Will there be prizes?</h3>We will have prizes for 1st, 2nd, 3rd place, several track prizes, and many other company sponsored prizes.</li><br />
 						<li><h3>Will there be free food?</h3>Yes! We will provide catered meals during the day along with snacks and free caffeine through the night to keep you going.</li><br />
 						<li><h3>What are the acceptance criteria?</h3>Rice students and alumni are guaranteed acceptance. For Non-Rice students, we ask for their previous hackathon and coding experiences, so that we can invite people who have demonstrated interest and skill. The admission process will be competitive and rolling! We also will take into account people who have never been to a hackathon before, so please apply!</li><br />
 						<li><h3>What do I need to bring?</h3>Please bring a student ID so we can verify and register you on-site! You'll also need to bring a computer, whatever software you feel might be necessary for development, sleeping bag, and pillow. We also recommend that you bring power strips for convenience. Teammates are free to share equipment with each other.</li><br />
