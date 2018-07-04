@@ -217,7 +217,7 @@ var MLH = function MLH(props) {
       lineNumber: 5
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
-    src: "https://s3.amazonaws.com/logged-assets/trust-badge/2018/gray.svg",
+    src: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-gray.svg",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 6
@@ -374,12 +374,12 @@ function (_React$Component) {
           fileName: _jsxFileName,
           lineNumber: 40
         }
-      }, "hardware and API's"), ". That being said, if you can solve a technically challenging problem with a simple solution, we will be very impressed! Additionally, we would like to emphasize that ", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("b", {
+      }, "hardware and APIs"), ". That being said, if you can solve a technically challenging problem with a simple solution, we will be very impressed! Additionally, we would like to emphasize that ", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("b", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 40
         }
-      }, "API's should only be used when necessary.")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", {
+      }, "APIs should only be used when necessary.")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 40
@@ -404,7 +404,7 @@ function (_React$Component) {
           fileName: _jsxFileName,
           lineNumber: 41
         }
-      }, "new angles on existing ideas"), ". For example, using an API in a unique way. We know API's work - we want to see if you can do something new and awesome with them!"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", {
+      }, "new angles on existing ideas"), ". For example, using an API in a unique way. We know APIs work - we want to see if you can do something new and awesome with them!"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 41
@@ -536,7 +536,7 @@ function (_React$Component) {
           fileName: _jsxFileName,
           lineNumber: 57
         }
-      }, "here"), " for the HackRice facebook even page"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", {
+      }, "here"), " for the HackRice Facebook event page"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 57
@@ -551,7 +551,13 @@ function (_React$Component) {
           fileName: _jsxFileName,
           lineNumber: 58
         }
-      }, "Devpost"), " Coming soon!"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", {
+      }, "Devpost"), " Click ", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
+        href: "https://hackrice8.devpost.com/",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 58
+        }
+      }, "here"), " for the HackRice Devpost page"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 58

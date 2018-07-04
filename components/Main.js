@@ -37,8 +37,8 @@ class Main extends React.Component {
 					style={{ display: 'none' }}>
 					<h2 className="major">Judging Criteria</h2>
 					<ol>
-						<li><h3>Technical Difficulty</h3> We are looking for <b>technically advanced solutions to technically challenging problems</b> that make use of <b>hardware and API's</b>. That being said, if you can solve a technically challenging problem with a simple solution, we will be very impressed! Additionally, we would like to emphasize that <b>API's should only be used when necessary.</b></li><br />
-						<li><h3>Creativity</h3> We are looking for <b>original ideas</b> or <b>new angles on existing ideas</b>. For example, using an API in a unique way. We know API's work - we want to see if you can do something new and awesome with them!</li><br />
+						<li><h3>Technical Difficulty</h3> We are looking for <b>technically advanced solutions to technically challenging problems</b> that make use of <b>hardware and APIs</b>. That being said, if you can solve a technically challenging problem with a simple solution, we will be very impressed! Additionally, we would like to emphasize that <b>APIs should only be used when necessary.</b></li><br />
+						<li><h3>Creativity</h3> We are looking for <b>original ideas</b> or <b>new angles on existing ideas</b>. For example, using an API in a unique way. We know APIs work - we want to see if you can do something new and awesome with them!</li><br />
 						<li><h3>Design & Polish</h3> We are looking for <b>aesthetically pleasing</b> projects with <b>smooth and clear user experience.</b></li><br />
 						<li><h3>Practicality & Usefulness</h3> We are looking for <b>socially good projects</b> that <b>people would use</b>. Additionally, we would like to emphasize that we will extensively check to make sure that your project is one that people can use in the real world and <b>doesn't only work on the cases you demo.</b></li>
 					</ol>
@@ -54,8 +54,8 @@ class Main extends React.Component {
 					<h2 className="major">Essential Information</h2>
 					<ol>
 						<li><h3>Logistics</h3><b>36</b> Hours<br/><b>400</b> Hackers<br/><b>5</b> Hackers Per Team</li><br />
-						<li><h3>Facebook</h3> Click <a href="https://www.facebook.com/hackrice/">here</a> for the HackRice facebook even page</li><br />
-						<li><h3>Devpost</h3> Coming soon!</li><br />
+						<li><h3>Facebook</h3> Click <a href="https://www.facebook.com/hackrice/">here</a> for the HackRice Facebook event page</li><br />
+						<li><h3>Devpost</h3> Click <a href="https://hackrice8.devpost.com/">here</a> for the HackRice Devpost page</li><br />
 						<li><h3>Location</h3> <b>Rice Memorial Center (RMC)</b><br />Houston, Texas 77005<br /> Click <a href="https://www.google.com/maps/place/Rice+Memorial+Center+-+Grand+Hall/@29.7179144,-95.403988,17z/data=!3m1!4b1!4m5!3m4!1s0x8640c07ba073db39:0x33c8974bfe985837!8m2!3d29.7179098!4d-95.4017993?hl=en-US">here</a> to see the RMC on Google Maps</li>
 					</ol>
 					{close}
