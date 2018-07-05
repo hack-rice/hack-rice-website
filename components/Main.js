@@ -16,12 +16,12 @@ class Main extends React.Component {
 				id="main"
 				style={this.props.timeout ? { display: 'flex' } : { display: 'none' }}>
 				<article
-					id="about"
-					className={`${this.props.article === 'about' ? 'active' : ''} ${
+					id="intro"
+					className={`${this.props.article === 'intro' ? 'active' : ''} ${
 						this.props.articleTimeout ? 'timeout' : ''
 					}`}
 					style={{ display: 'none' }}>
-					<h2 className="major">About</h2>
+					<h2 className="major">intro</h2>
 					<p>HackRice is Rice University's annual hackathon event.</p>
           <p>Participants trade their sleep for a weekend and join a team to create a project - typically software - in an environment optimized for creativity.
              At the end of the event, the participants demonstrate their projects to fellow hackers, visitors, and a panel of judges.</p>
@@ -69,6 +69,12 @@ class Main extends React.Component {
 					style={{ display: 'none' }}>
 					<h2 className="major">FAQ</h2>
 					<ol>
+						<li><h3>How long is HackRice?</h3>36 hours</li><br />
+						<li><h3>How many hackers will there be?</h3>Around 400</li><br />
+						<li><h3>How many hackers per team are permitted?</h3>Team are limited to 5 hackers. That being said, you don't have to have 5 hackers to win a prize!</li><br />
+						<li><h3>Is there a HackRice Facebook page?</h3>Yes there is! Click <a href="https://www.facebook.com/hackrice/">here</a> to access it</li><br />
+						<li><h3>How do I submit my project?</h3>You can submit your project on <a href="https://hackrice8.devpost.com/">this Devpost link</a></li><br />
+						<li><h3>Where is HackRice?</h3>Rice Memorial Center (RMC)<br />Houston, Texas 77005<br /> Click <a href="https://www.google.com/maps/place/Rice+Memorial+Center+-+Grand+Hall/@29.7179144,-95.403988,17z/data=!3m1!4b1!4m5!3m4!1s0x8640c07ba073db39:0x33c8974bfe985837!8m2!3d29.7179098!4d-95.4017993?hl=en-US">here</a> to see the RMC on Google Maps</li><br />
 						<li><h3>Who is eligible for HackRice?</h3>Any current student over the age of 18 is eligible to apply to HackRice. Since we are an MLH member event, participants must also accept the <a href="http://static.mlh.io/docs/mlh-code-of-conduct.pdf">MLH Code of Conduct.</a></li><br />
 						<li><h3>Will my travel be reimbursed?</h3>Yes! We'll be providing travel reimbursements for all visiting hackers. More details coming soon!</li><br />
 						<li><h3>Will there be prizes?</h3>We will have prizes for 1st, 2nd, 3rd place, several track prizes, and many other company sponsored prizes.</li><br />
@@ -77,7 +83,7 @@ class Main extends React.Component {
 						<li><h3>What do I need to bring?</h3>Please bring a student ID so we can verify and register you on-site! You'll also need to bring a computer, whatever software you feel might be necessary for development, sleeping bag, and pillow. We also recommend that you bring power strips for convenience. Teammates are free to share equipment with each other.</li><br />
 						<li><h3>What if I'm not very experienced?</h3>We will try our best to point people in the right direction and use tools and languages that allow rapid development with the least amount of frustration. There will also be upperclassmen participating in the hackathon who can help you out. Furthermore, you can look up tutorials and sample code online. We will also be having workshops the week before the hackathon!</li><br />
 						<li><h3>Can Rice alumni attend?</h3>Rice alumni are eligible to attend the event to hack or mentor other students, but alumni submissions will not be eligible for prizes. We will not be able to reimburse alumni for travel.</li><br />
-						<li><h3>What if I don't have a team before the event?</h3>You don't have to form a team before the event, or at all. At the start of the event, we will provide plenty of time to break out and form a new one if you choose to. Teams will be limited to 5 members.</li><br />
+						<li><h3>What if I don't have a team before the event?</h3>You don't have to form a team before the event, or at all. At the start of the event, we will provide plenty of time to break out and form a new one if you choose to.</li><br />
 						<li><h3>Do I need to stay the whole time?</h3>Nope, we are not a lock-in. We realize that 36 hours is a long time, and that some people might have other commitments during that time. Feel free to stay and leave as you choose. However, we would prefer that people stay to promote the environment.</li><br />
 
 					</ol>
@@ -95,6 +101,36 @@ class Main extends React.Component {
 						<li><h3>Email</h3>Click <a href="mailto:officialhackrice@gmail.com">here</a> to email us at officialhackrice@gmail.com</li><br />
 						<li><h3>Messenger</h3>Click <a href="https://m.me/hackrice">here</a> to message us on Facebook messenger</li><br />
 					</ol>
+					{close}
+				</article>
+
+				<article
+					id="sponsors"
+					className={`${this.props.article === 'sponsors' ? 'active' : ''} ${
+						this.props.articleTimeout ? 'timeout' : ''
+					}`}
+					style={{ display: 'none' }}>
+					<h2 className="major">Sponsors</h2>
+					<table>
+					  <tr>
+					    <th><a href="https://www.chevron.com/"><img src="static/images/sponsors/Chevron.png" style= {{ width: '5vw'}}/></a></th>
+					    <th><a href="https://www.twosigma.com/"><img src="static/images/sponsors/twosigma.png" style= {{ width: "15vw"}}/></a></th>
+					  </tr>
+					  <tr>
+					    <td><a href="https://www.indeed.com/"><img src="static/images/sponsors/indeed.png" style= {{ width: "10vw"}}/></a></td>
+					    <td><a href="https://www.microsoft.com/en-us/"><img src="static/images/sponsors/microsoft.png" style= {{ width: "15vw"}}/></a></td>
+					  </tr>
+					  <tr>
+					    <td><a href="https://mlh.io/"><img src="static/images/sponsors/mlh.png" style= {{ width: "10vw"}}/></a></td>
+					    <td><a href="https://www.slb.com/"><img src="static/images/sponsors/schlumberger.png" style= {{ width: "15vw"}}/></a></td>
+					  </tr>
+					</table>
+
+
+
+
+
+
 					{close}
 				</article>
 			</div>

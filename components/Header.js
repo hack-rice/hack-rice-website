@@ -22,9 +22,9 @@ const Header = props => (
 					<a
 						href="javascript:;"
 						onClick={() => {
-							props.onOpenArticle('about');
+							props.onOpenArticle('intro');
 						}}>
-						About
+						Intro
 					</a>
 				</li>
 				<li>
@@ -40,18 +40,18 @@ const Header = props => (
 					<a
 						href="javascript:;"
 						onClick={() => {
-							props.onOpenArticle('info');
+							props.onOpenArticle('faq');
 						}}>
-						Info
+						FAQ
 					</a>
 				</li>
 				<li>
 					<a
 						href="javascript:;"
 						onClick={() => {
-							props.onOpenArticle('faq');
+							props.onOpenArticle('sponsors');
 						}}>
-						FAQ
+						Sponsors
 					</a>
 				</li>
 				<li>
