@@ -1176,6 +1176,31 @@ function (_React$Component) {
           fileName: _jsxFileName,
           lineNumber: 125
         }
+      })))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("tr", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 127
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("td", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 128
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
+        href: "https://csweb.rice.edu/",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 128
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
+        src: "static/images/sponsors/ricecs.png",
+        style: {
+          width: "12vw"
+        },
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 128
+        }
       }))))), close));
     }
   }]);

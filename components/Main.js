@@ -124,6 +124,9 @@ class Main extends React.Component {
 					    <td><a href="https://mlh.io/"><img src="static/images/sponsors/mlh.png" style= {{ width: "10vw"}}/></a></td>
 					    <td><a href="https://www.slb.com/"><img src="static/images/sponsors/schlumberger.png" style= {{ width: "15vw"}}/></a></td>
 					  </tr>
+						<tr>
+						 <td><a href="https://csweb.rice.edu/"><img src="static/images/sponsors/ricecs.png" style= {{ width: "12vw"}}/></a></td>
+					 </tr>
 					</table>
 
 
