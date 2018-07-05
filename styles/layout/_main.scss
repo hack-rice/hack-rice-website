@@ -35,6 +35,10 @@
 			overflow-y: auto;
 			height: 50vh;
 
+			th {
+				text-align: center;
+			}
+
 			&.timeout {
 				display: none;
 			}

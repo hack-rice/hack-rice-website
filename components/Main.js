@@ -1,4 +1,10 @@
 import PropTypes from 'prop-types';
+import FontAwesomeIcon from '@fortawesome/react-fontawesome'
+import facebook from '@fortawesome/fontawesome-free-brands/faFacebook'
+import facebookMessenger from '@fortawesome/fontawesome-free-brands/faFacebookMessenger'
+import email from '@fortawesome/fontawesome-free-regular/faEnvelope'
+
+
 
 class Main extends React.Component {
 	render() {
@@ -23,7 +29,7 @@ class Main extends React.Component {
 					style={{ display: 'none' }}>
 					<h2 className="major">intro</h2>
 					<p>HackRice is Rice University's annual hackathon event.</p>
-          <p>Participants trade their sleep for a weekend and join a team to create a project - typically software - in an environment optimized for creativity.
+          <p>400 participants trade their sleep for 36 hours at the <a href="https://www.facebook.com/hackrice/">Rice Memorial Center</a> and join a team of up to 5 hackers to create a project - typically software - in an environment optimized for creativity.
              At the end of the event, the participants demonstrate their projects to fellow hackers, visitors, and a panel of judges.</p>
           <p>Hosted by the <a href="http://csclub.rice.edu/">Rice Computer Science Club</a>.</p>
 					{close}
@@ -69,12 +75,7 @@ class Main extends React.Component {
 					style={{ display: 'none' }}>
 					<h2 className="major">FAQ</h2>
 					<ol>
-						<li><h3>How long is HackRice?</h3>36 hours</li><br />
-						<li><h3>How many hackers will there be?</h3>Around 400</li><br />
-						<li><h3>How many hackers per team are permitted?</h3>Team are limited to 5 hackers. That being said, you don't have to have 5 hackers to win a prize!</li><br />
-						<li><h3>Is there a HackRice Facebook page?</h3>Yes there is! Click <a href="https://www.facebook.com/hackrice/">here</a> to access it</li><br />
 						<li><h3>How do I submit my project?</h3>You can submit your project on <a href="https://hackrice8.devpost.com/">this Devpost link</a></li><br />
-						<li><h3>Where is HackRice?</h3>Rice Memorial Center (RMC)<br />Houston, Texas 77005<br /> Click <a href="https://www.google.com/maps/place/Rice+Memorial+Center+-+Grand+Hall/@29.7179144,-95.403988,17z/data=!3m1!4b1!4m5!3m4!1s0x8640c07ba073db39:0x33c8974bfe985837!8m2!3d29.7179098!4d-95.4017993?hl=en-US">here</a> to see the RMC on Google Maps</li><br />
 						<li><h3>Who is eligible for HackRice?</h3>Any current student over the age of 18 is eligible to apply to HackRice. Since we are an MLH member event, participants must also accept the <a href="http://static.mlh.io/docs/mlh-code-of-conduct.pdf">MLH Code of Conduct.</a></li><br />
 						<li><h3>Will my travel be reimbursed?</h3>Yes! We'll be providing travel reimbursements for all visiting hackers. More details coming soon!</li><br />
 						<li><h3>Will there be prizes?</h3>We will have prizes for 1st, 2nd, 3rd place, several track prizes, and many other company sponsored prizes.</li><br />
@@ -97,10 +98,13 @@ class Main extends React.Component {
 					}`}
 					style={{ display: 'none' }}>
 					<h2 className="major">Contact Us</h2>
-					<ol>
-						<li><h3>Email</h3>Click <a href="mailto:officialhackrice@gmail.com">here</a> to email us at officialhackrice@gmail.com</li><br />
-						<li><h3>Messenger</h3>Click <a href="https://m.me/hackrice">here</a> to message us on Facebook messenger</li><br />
-					</ol>
+					<table>
+						<tr>
+							<th><a href="mailto:officialhackrice@gmail.com"><FontAwesomeIcon icon={email} style={{fontSize: "3vw"}}/></a></th>
+							<th><a href="https://www.facebook.com/hackrice/"><FontAwesomeIcon icon={facebook} style={{fontSize: "3vw"}}/></a></th>
+							<th><a href="https://m.me/hackrice"><FontAwesomeIcon icon={facebookMessenger} style={{fontSize: "3vw"}}/></a></th>
+						</tr>
+					</table>
 					{close}
 				</article>
 
