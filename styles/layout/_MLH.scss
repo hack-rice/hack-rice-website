@@ -16,7 +16,7 @@
 		'transition',
 		(
 			'transform #{_duration(article)} ease-in-out',
-			'translateY 0.2s ease-in-out'
+			'translateY #{_duration(article)} ease-in-out'
 		)
 	);
 	width: 8%;
@@ -32,6 +32,6 @@
 	}
 
 	.body.is-loading & {
-		opacity: 0;
+		@include vendor('transform', 'translateY(-200px)');
 	}
 }

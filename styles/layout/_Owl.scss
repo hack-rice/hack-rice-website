@@ -8,7 +8,7 @@
 
 		@include vendor(
 			'transition',
-			('transform 0.2s ease-in-out', 'translateX 0.3s ease-in-out')
+			('transform #{_duration(article)} ease-in-out', 'translateX #{_duration(article)} ease-in-out')
 		);
 
 		.body.is-article-visible & {
@@ -16,7 +16,7 @@
 		}
 
 		.body.is-loading & {
-			opacity: 0;
+			@include vendor('transform', 'translateY(-500px)');
 		}
 	}
 
@@ -28,11 +28,11 @@
 
 		@include vendor(
 			'transition',
-			('transform 0.2s ease-in-out', 'translateX 0.3s ease-in-out')
+			('transform #{_duration(article)} ease-in-out', 'translateX #{_duration(article)} ease-in-out')
 		);
 
 		.body.is-loading & {
-			opacity: 0;
+			@include vendor('transform', 'translateX(-400px)');
 		}
 	}
 }
