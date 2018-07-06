@@ -102,13 +102,10 @@ class Main extends React.Component {
 					}`}
 					style={{ display: 'none' }}>
 					<h2 className="major">Contact Us</h2>
-					<table>
-						<tr>
-							<th><a href="mailto:officialhackrice@gmail.com"><FontAwesomeIcon icon={email} style={{fontSize: "3vw"}}/></a></th>
-							<th><a href="https://www.facebook.com/hackrice/"><FontAwesomeIcon icon={facebook} style={{fontSize: "3vw"}}/></a></th>
-							<th><a href="https://m.me/hackrice"><FontAwesomeIcon icon={facebookMessenger} style={{fontSize: "3vw"}}/></a></th>
-						</tr>
-					</table>
+					<ol>
+						<li><h3><FontAwesomeIcon icon={email} style={{fontSize: "3vw"}}/></h3>Click <a href="mailto:officialhackrice@gmail.com">here</a> to email us at officialhackrice@gmail.com</li><br />
+						<li><h3><FontAwesomeIcon icon={facebookMessenger} style={{fontSize: "3vw"}}/></h3>Click <a href="https://m.me/hackrice">here</a> to message us on Facebook messenger</li><br />
+					</ol>
 					{close}
 				</article>
 

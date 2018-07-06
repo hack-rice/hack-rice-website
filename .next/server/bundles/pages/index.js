@@ -1018,26 +1018,20 @@ function (_React$Component) {
           fileName: _jsxFileName,
           lineNumber: 104
         }
-      }, "Contact Us"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("table", {
+      }, "Contact Us"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("ol", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 105
         }
-      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("tr", {
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("li", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 106
         }
-      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("th", {
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h3", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 107
-        }
-      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
-        href: "mailto:officialhackrice@gmail.com",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 107
+          lineNumber: 106
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__fortawesome_react_fontawesome___default.a, {
         icon: __WEBPACK_IMPORTED_MODULE_5__fortawesome_fontawesome_free_regular_faEnvelope___default.a,
@@ -1046,38 +1040,28 @@ function (_React$Component) {
         },
         __source: {
           fileName: _jsxFileName,
+          lineNumber: 106
+        }
+      })), "Click ", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
+        href: "mailto:officialhackrice@gmail.com",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 106
+        }
+      }, "here"), " to email us at officialhackrice@gmail.com"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 106
+        }
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("li", {
+        __source: {
+          fileName: _jsxFileName,
           lineNumber: 107
         }
-      }))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("th", {
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h3", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 108
-        }
-      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
-        href: "https://www.facebook.com/hackrice/",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 108
-        }
-      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__fortawesome_react_fontawesome___default.a, {
-        icon: __WEBPACK_IMPORTED_MODULE_3__fortawesome_fontawesome_free_brands_faFacebook___default.a,
-        style: {
-          fontSize: "3vw"
-        },
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 108
-        }
-      }))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("th", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 109
-        }
-      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
-        href: "https://m.me/hackrice",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 109
+          lineNumber: 107
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__fortawesome_react_fontawesome___default.a, {
         icon: __WEBPACK_IMPORTED_MODULE_4__fortawesome_fontawesome_free_brands_faFacebookMessenger___default.a,
@@ -1086,9 +1070,20 @@ function (_React$Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 109
+          lineNumber: 107
         }
-      }))))), close), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("article", {
+      })), "Click ", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
+        href: "https://m.me/hackrice",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 107
+        }
+      }, "here"), " to message us on Facebook messenger"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 107
+        }
+      })), close), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("article", {
         id: "sponsors",
         className: "".concat(this.props.article === 'sponsors' ? 'active' : '', " ").concat(this.props.articleTimeout ? 'timeout' : ''),
         style: {
@@ -1096,34 +1091,34 @@ function (_React$Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 115
+          lineNumber: 112
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h2", {
         className: "major",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 121
+          lineNumber: 118
         }
       }, "Sponsors"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("table", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 122
+          lineNumber: 119
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("tr", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 123
+          lineNumber: 120
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("th", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 124
+          lineNumber: 121
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
         href: "https://www.chevron.com/",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 124
+          lineNumber: 121
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
         src: "static/images/sponsors/Chevron.png",
@@ -1132,18 +1127,18 @@ function (_React$Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 124
+          lineNumber: 121
         }
       }))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("th", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 125
+          lineNumber: 122
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
         href: "https://www.twosigma.com/",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 125
+          lineNumber: 122
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
         src: "static/images/sponsors/twosigma.png",
@@ -1152,23 +1147,23 @@ function (_React$Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 125
+          lineNumber: 122
         }
       })))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("tr", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 127
+          lineNumber: 124
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("td", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 128
+          lineNumber: 125
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
         href: "https://www.indeed.com/",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 128
+          lineNumber: 125
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
         src: "static/images/sponsors/indeed.png",
@@ -1177,18 +1172,18 @@ function (_React$Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 128
+          lineNumber: 125
         }
       }))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("td", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 129
+          lineNumber: 126
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
         href: "https://www.microsoft.com/en-us/",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 129
+          lineNumber: 126
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
         src: "static/images/sponsors/microsoft.png",
@@ -1197,23 +1192,23 @@ function (_React$Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 129
+          lineNumber: 126
         }
       })))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("tr", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 131
+          lineNumber: 128
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("td", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 132
+          lineNumber: 129
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
         href: "https://mlh.io/",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 132
+          lineNumber: 129
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
         src: "static/images/sponsors/mlh.png",
@@ -1222,18 +1217,18 @@ function (_React$Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 132
+          lineNumber: 129
         }
       }))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("td", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 133
+          lineNumber: 130
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
         href: "https://www.slb.com/",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 133
+          lineNumber: 130
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
         src: "static/images/sponsors/schlumberger.png",
@@ -1242,23 +1237,23 @@ function (_React$Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 133
+          lineNumber: 130
         }
       })))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("tr", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 135
+          lineNumber: 132
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("td", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 136
+          lineNumber: 133
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
         href: "https://csweb.rice.edu/",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 136
+          lineNumber: 133
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
         src: "static/images/sponsors/ricecs.png",
@@ -1267,7 +1262,7 @@ function (_React$Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 136
+          lineNumber: 133
         }
       }))))), close));
     }
