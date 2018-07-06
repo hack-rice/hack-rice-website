@@ -75,6 +75,10 @@ class Main extends React.Component {
 					style={{ display: 'none' }}>
 					<h2 className="major">FAQ</h2>
 					<ol>
+						<li><h3>How long is HackRice?</h3>36 hours</li><br />
+						<li><h3>How many hackers will there be?</h3>Around 400</li><br />
+						<li><h3>How many hackers per team are permitted?</h3>Team are limited to 5 hackers. That being said, you don't have to have 5 hackers to win a prize!</li><br />
+						<li><h3>Is there a HackRice Facebook page?</h3>Yes there is! Click <a href="https://www.facebook.com/hackrice/">here</a> to access it</li><br />
 						<li><h3>How do I submit my project?</h3>You can submit your project on <a href="https://hackrice8.devpost.com/">this Devpost link</a></li><br />
 						<li><h3>Who is eligible for HackRice?</h3>Any current student over the age of 18 is eligible to apply to HackRice. Since we are an MLH member event, participants must also accept the <a href="http://static.mlh.io/docs/mlh-code-of-conduct.pdf">MLH Code of Conduct.</a></li><br />
 						<li><h3>Will my travel be reimbursed?</h3>Yes! We'll be providing travel reimbursements for all visiting hackers. <br /><br />Hackers who ride in team cars or take buses or trains to HackRice will receive full reimbursement for their travel costs (up to $100). <br /><br /> Hackers who fly to Hackrice will recieve reimbursement on a first-come, first-served basis. Initially, reimbursement up to $200 will be provided. As funds are exhausted, reimbursement up to $100 will be provided. Tickets must be standard economy or lower. We cannot reimburse hackers flying internationally any more than is listed above, and international hackers should contact us at <a href="mailto:officialhackrice@gmail.com">officialhackrice@gmail.com</a>.<br /><br />To recieve your reimbursement, please fill out the reimbursement section of the admission form <b>within one week</b>. There will be a reimbursment booth at the event where you will be able to finalize your reimbursment details!</li><br />
