@@ -1417,38 +1417,46 @@ function (_React$Component) {
           fileName: _jsxFileName,
           lineNumber: 82
         }
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("link", {
+        rel: "icon",
+        type: "image/x-icon",
+        href: "/static/images/logo.png",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 86
+        }
       })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("style", {
         dangerouslySetInnerHTML: {
           __html: __WEBPACK_IMPORTED_MODULE_2__styles_main_scss___default.a
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 88
+          lineNumber: 89
         }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
         id: "wrapper",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 90
+          lineNumber: 91
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_6__components_MLH__["a" /* default */], {
         timeout: this.state.timeout,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 91
+          lineNumber: 92
         }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3__components_Header__["a" /* default */], {
         onOpenArticle: this.handleOpenArticle,
         timeout: this.state.timeout,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 92
+          lineNumber: 93
         }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_7__components_Owl__["a" /* default */], {
         timeout: this.state.timeout,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 96
+          lineNumber: 97
         }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_4__components_Main__["a" /* default */], {
         isArticleVisible: this.state.isArticleVisible,
@@ -1458,19 +1466,19 @@ function (_React$Component) {
         onCloseArticle: this.handleCloseArticle,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 97
+          lineNumber: 98
         }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_5__components_Footer__["a" /* default */], {
         timeout: this.state.timeout,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 104
+          lineNumber: 105
         }
       })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
         id: "bg",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 107
+          lineNumber: 108
         }
       })));
     }
