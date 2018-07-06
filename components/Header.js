@@ -14,6 +14,7 @@ const Header = props => (
 				<img className="type" src="../static/images/type.png" />
 				<p>September 14-16, 2018</p>
 				<p>Rice Memorial Center</p>
+				<p><a href="https://hackrice.typeform.com/to/QGbctn?uid=xxxxx"><div className ="register">Click here to apply</div></a></p>
 			</div>
 		</div>
 		<nav>

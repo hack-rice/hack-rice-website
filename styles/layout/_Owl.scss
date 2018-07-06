@@ -32,7 +32,7 @@
 		);
 
 		.body.is-loading & {
-			@include vendor('transform', 'translateX(-400px)');
+			@include vendor('transform', 'translateX(-450px)');
 		}
 	}
 }

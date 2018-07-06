@@ -3,6 +3,7 @@ import stylesheet from '../styles/main.scss';
 
 import Header from '../components/Header';
 import Main from '../components/Main';
+import Footer from '../components/Footer';
 import MLH from '../components/MLH';
 import Owl from '../components/Owl';
 
@@ -100,6 +101,7 @@ class IndexPage extends React.Component {
 							article={this.state.article}
 							onCloseArticle={this.handleCloseArticle}
 						/>
+						<Footer timeout={this.state.timeout} />
 					</div>
 
 					<div id="bg" />
