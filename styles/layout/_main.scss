@@ -19,6 +19,10 @@
 		display: none;
 		overflow: none;
 
+		nav {
+			margin-top: 1em;
+		}
+
 		article {
 			@include vendor('transform', 'translateY(0.25rem)');
 			@include vendor('transition', (
@@ -27,13 +31,13 @@
 			));
 			@include padding(2.5rem, 2.5rem, (2rem, 0, 1rem, 0));
 			position: relative;
-			width: 40rem;
+			width: 60rem;
 			max-width: 100%;
-			background-color: transparentize(_palette(bg), 0.15);
+			background-color: rgba(0,0,0,0.3);
 			border-radius: _size(border-radius);
 			opacity: 0;
 			overflow-y: auto;
-			height: 50vh;
+			height: 70vh;
 
 			th {
 				text-align: center;

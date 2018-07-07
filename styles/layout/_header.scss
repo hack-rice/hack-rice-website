@@ -22,7 +22,6 @@
 			@include vendor('transition', 'opacity #{_duration(article)} ease-in-out');
 			position: relative;
 
-
 		}
 
 		> :first-child {
@@ -53,6 +52,13 @@
 
 		.content {
 			.inner {
+
+				.subtitle {
+					display: block;
+					font-size: 1em;
+					text-transform: uppercase;
+				}
+
 				@include vendor('transition', (
 					'max-height #{_duration(intro)} ease',
 					'padding #{_duration(intro)} ease',
@@ -80,6 +86,7 @@
 			ul {
 				@include vendor('display', 'flex');
 				margin-bottom: 0;
+				margin-top: 1.5em;
 				list-style: none;
 				padding-left: 0;
 				border: solid _size(border-width) _palette(border);
@@ -101,7 +108,7 @@
 						padding: 0 1.25rem 0 (1.25rem + _font(letter-spacing));
 						text-transform: uppercase;
 						letter-spacing: _font(letter-spacing);
-						font-size: 0.8rem;
+						font-size: 1.1rem;
 						border-bottom: 0;
 
 						&:hover {
@@ -213,6 +220,7 @@
 			}
 
 			nav {
+
 				ul {
 					@include vendor('flex-direction', 'column');
 					min-width: 10rem;

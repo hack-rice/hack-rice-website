@@ -1,0 +1,39 @@
+#sallyport {
+	#building {
+		position: absolute;
+		left: 25%;
+		right: 25%;
+		bottom: 0%;
+		z-index: 2;
+		width: 50%;
+
+		@include vendor(
+			'transition',
+			('transform #{_duration(article)} ease-in-out', 'translateX #{_duration(article)} ease-in-out')
+		);
+
+		.body.is-article-visible & {
+			@include vendor('transform', 'translateX(-100%) translateY(-10%)');
+		}
+
+		.body.is-loading & {
+			@include vendor('transform', 'translateY(-500px)');
+		}
+	}
+
+	#branch {
+		position: absolute;
+		left: 0px;
+		top: 25%;
+		width: 20%;
+
+		@include vendor(
+			'transition',
+			('transform #{_duration(article)} ease-in-out', 'translateX #{_duration(article)} ease-in-out')
+		);
+
+		.body.is-loading & {
+			@include vendor('transform', 'translateX(-450px)');
+		}
+	}
+}

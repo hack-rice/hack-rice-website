@@ -2,8 +2,8 @@
 	#owl {
 		position: absolute;
 		left: 8%;
-		top: 10%;
-		width: 10%;
+		top: 12%;
+		width: 8%;
 		z-index: 2;
 
 		@include vendor(
@@ -24,7 +24,8 @@
 		position: absolute;
 		left: 0px;
 		top: 25%;
-		width: 20%;
+		width: 15%;
+		z-index: 3;
 
 		@include vendor(
 			'transition',

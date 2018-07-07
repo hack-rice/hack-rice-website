@@ -6,6 +6,7 @@ import Main from '../components/Main';
 import Footer from '../components/Footer';
 import MLH from '../components/MLH';
 import Owl from '../components/Owl';
+import Rice from '../components/Rice';
 
 class IndexPage extends React.Component {
 	constructor(props) {
@@ -83,7 +84,7 @@ class IndexPage extends React.Component {
 							href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:300,400,500,600,700"
 							rel="stylesheet"
 						/>
-						<link rel="icon" type="image/x-icon" href="/static/images/logo.png" />
+						<link rel="icon" type="image/x-icon" href="/static/images/favicon.ico" />
 					</Head>
 
 					<style dangerouslySetInnerHTML={{ __html: stylesheet }} />
@@ -102,6 +103,7 @@ class IndexPage extends React.Component {
 							article={this.state.article}
 							onCloseArticle={this.handleCloseArticle}
 						/>
+						<Rice timeout={this.state.timeout} />
 						<Footer timeout={this.state.timeout} />
 					</div>
 

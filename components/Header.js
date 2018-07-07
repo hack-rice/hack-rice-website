@@ -1,5 +1,13 @@
 import PropTypes from 'prop-types';
 
+// Icons
+import FontAwesomeIcon from '@fortawesome/react-fontawesome'
+import calendar from '@fortawesome/fontawesome-free-regular/faCalendar'
+import map from '@fortawesome/fontawesome-free-regular/faMap'
+import handSpock from '@fortawesome/fontawesome-free-regular/faHandSpock'
+import trophy from '@fortawesome/fontawesome-free-solid/faTrophy'
+import question from '@fortawesome/fontawesome-free-solid/faQuestion'
+
 const Header = props => (
 	<header id="header" style={props.timeout ? { display: 'none' } : {}}>
 		<div className="logo">
@@ -12,9 +20,8 @@ const Header = props => (
 		<div className="content">
 			<div className="inner">
 				<img className="type" src="../static/images/type.png" />
-				<p>September 14-16, 2018</p>
-				<p>Rice Memorial Center</p>
-				<p><a href="https://hackrice.typeform.com/to/QGbctn?uid=xxxxx"><div className ="register">Click here to apply</div></a></p>
+				<span className="subtitle"><FontAwesomeIcon icon={calendar}/> September 14-16, 2018</span>
+				<span className="subtitle"><FontAwesomeIcon icon={map} /> Rice Memorial Center</span>
 			</div>
 		</div>
 		<nav>
@@ -25,7 +32,7 @@ const Header = props => (
 						onClick={() => {
 							props.onOpenArticle('intro');
 						}}>
-						Intro
+						<FontAwesomeIcon icon={handSpock} /> Intro
 					</a>
 				</li>
 				<li>
@@ -34,7 +41,7 @@ const Header = props => (
 						onClick={() => {
 							props.onOpenArticle('criteria');
 						}}>
-						Criteria
+						<FontAwesomeIcon icon={trophy} /> Criteria
 					</a>
 				</li>
 				<li>
@@ -43,7 +50,7 @@ const Header = props => (
 						onClick={() => {
 							props.onOpenArticle('faq');
 						}}>
-						FAQ
+						<FontAwesomeIcon icon={question} /> FAQ
 					</a>
 				</li>
 				<li>
