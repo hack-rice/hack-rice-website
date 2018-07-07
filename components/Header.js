@@ -7,6 +7,8 @@ import map from '@fortawesome/fontawesome-free-regular/faMap'
 import handSpock from '@fortawesome/fontawesome-free-regular/faHandSpock'
 import trophy from '@fortawesome/fontawesome-free-solid/faTrophy'
 import question from '@fortawesome/fontawesome-free-solid/faQuestion'
+import donate from '@fortawesome/fontawesome-free-solid/faDonate'
+import mobileAlt from '@fortawesome/fontawesome-free-solid/faMobileAlt'
 
 const Header = props => (
 	<header id="header" style={props.timeout ? { display: 'none' } : {}}>
@@ -59,7 +61,7 @@ const Header = props => (
 						onClick={() => {
 							props.onOpenArticle('sponsors');
 						}}>
-						Sponsors
+						<FontAwesomeIcon icon={donate} /> Sponsors
 					</a>
 				</li>
 				<li>
@@ -68,7 +70,7 @@ const Header = props => (
 						onClick={() => {
 							props.onOpenArticle('contact');
 						}}>
-						Contact
+						<FontAwesomeIcon icon={mobileAlt} /> Contact
 					</a>
 				</li>
 			</ul>

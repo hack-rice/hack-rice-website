@@ -19,17 +19,13 @@
 		display: none;
 		overflow: none;
 
-		nav {
-			margin-top: 1em;
-		}
-
 		article {
 			@include vendor('transform', 'translateY(0.25rem)');
 			@include vendor('transition', (
 				'opacity #{_duration(article)} ease-in-out',
 				'transform #{_duration(article)} ease-in-out'
 			));
-			@include padding(2.5rem, 2.5rem, (2rem, 0, 1rem, 0));
+			@include padding(2.5rem, 2.5rem, (1rem, 0, 1rem, 0));
 			position: relative;
 			width: 60rem;
 			max-width: 100%;
@@ -38,6 +34,56 @@
 			opacity: 0;
 			overflow-y: auto;
 			height: 70vh;
+
+			h3 {
+				font-family: 'IBM Plex Sans';
+				font-weight: 600;
+				color: #CCD4FF;
+				font-size: 1.2em;
+			}
+
+			li {
+				font-family: 'IBM Plex Sans';
+			}
+
+			.introTitle {
+				font-weight: 600;
+				font-size: 2em;
+				letter-spacing: -0.3px;
+			}
+
+			.introText {
+				font-family: "IBM Plex Sans";
+				font-weight: 300;
+				font-size: 1.4em;
+				line-height: 2.5em;
+
+				svg {
+					margin-right: 0.3em;
+				}
+
+				.bullet {
+					margin-top: 1em !important;
+					display: block;
+				}
+
+			}
+
+			.faqList {
+
+				.faqItem {
+					font-size: 1em;
+					margin-bottom: 0.5em;
+					h3 {
+						font-size: 1.2em;
+						margin-bottom: 0.5em;
+						margin-top: 1em;
+						display: block;
+					}
+				}
+
+
+			}
 
 			th {
 				text-align: center;
