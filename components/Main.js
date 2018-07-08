@@ -4,6 +4,20 @@ import facebook from '@fortawesome/fontawesome-free-brands/faFacebook'
 import facebookMessenger from '@fortawesome/fontawesome-free-brands/faFacebookMessenger'
 import email from '@fortawesome/fontawesome-free-regular/faEnvelope'
 
+// Accordion
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+import {
+    Accordion,
+    AccordionItem,
+    AccordionItemTitle,
+    AccordionItemBody,
+} from 'react-accessible-accordion';
+
+// Demo styles, see 'Styles' section below for some notes on use.
+import '../node_modules/react-accessible-accordion/dist/fancy-example.css';
+
 // Icons
 import calendar from '@fortawesome/fontawesome-free-regular/faCalendar'
 import map from '@fortawesome/fontawesome-free-regular/faMap'
@@ -75,8 +89,17 @@ class Main extends React.Component {
 					}`}
 					style={{ display: 'none' }}>
 					<h2 className="introTitle">FAQ</h2>
+					<Accordion className="demo-container">
+						<AccordionItem>
+							<AccordionItemTitle>
+									<h3>How long is HackRice?</h3>
+							</AccordionItemTitle>
+							<AccordionItemBody>
+									<p>36 hours</p>
+							</AccordionItemBody>
+						</AccordionItem>
+					</Accordion>
 					<span className="faqList">
-						<span className="faqItem"><h3>How long is HackRice?</h3>36 hours</span><br />
 						<span className="faqItem"><h3>How many hackers will there be?</h3>Around 400</span><br />
 						<span className="faqItem"><h3>How many hackers per team are permitted?</h3>Team are limited to 5 hackers. That being said, you don&#39;t have to have 5 hackers to win a prize!</span><br />
 						<span className="faqItem"><h3>Is there a HackRice Facebook page?</h3>Yes there is! Click <a href="https://www.facebook.com/hackrice/">here</a> to access it</span><br />
