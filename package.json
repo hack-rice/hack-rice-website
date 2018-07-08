@@ -33,6 +33,7 @@
     "react": "^16.4.1",
     "react-accessible-accordion": "^2.4.3",
     "react-dom": "^16.4.1",
+    "react-grid-gallery": "^0.5.1",
     "sass-loader": "^6.0.6"
   }
 }

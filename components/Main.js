@@ -32,6 +32,9 @@ import paintBrush from '@fortawesome/fontawesome-free-solid/faPaintBrush'
 import { faGrinStars } from '@fortawesome/free-solid-svg-icons/faGrinStars'
 import userPlus from '@fortawesome/fontawesome-free-solid/faUserPlus'
 
+// Gallery
+import Gallery from 'react-grid-gallery';
+
 
 class Main extends React.Component {
 	render() {
@@ -43,6 +46,44 @@ class Main extends React.Component {
 				}}
 			/>
 		);
+
+		const IMAGES =
+		[{
+	      src: "../static/sponsors/twosigma.png",
+	      thumbnail: "../static/images/sponsors/twosigma.png",
+	      thumbnailHeight: 200,
+		},
+		{
+	      src: "../static/sponsors/schlumberger.png",
+	      thumbnail: "../static/images/sponsors/schlumberger.png",
+	      thumbnailHeight: 200,
+		},
+		{
+	      src: "../static/sponsors/indeed.png",
+	      thumbnail: "../static/images/sponsors/indeed.png",
+	      thumbnailHeight: 200,
+		},
+		{
+	      src: "../static/sponsors/mlh.png",
+	      thumbnail: "../static/images/sponsors/mlh.png",
+	      thumbnailHeight: 200,
+		},
+		{
+	      src: "../static/sponsors/ricecs.png",
+	      thumbnail: "../static/images/sponsors/ricecs.png",
+	      thumbnailHeight: 200,
+		},
+		{
+	      src: "../static/sponsors/chevron.png",
+	      thumbnail: "../static/images/sponsors/chevron.png",
+	      thumbnailHeight: 200,
+		},
+		{
+	      src: "../static/sponsors/microsoft.png",
+	      thumbnail: "../static/images/sponsors/microsoft.png",
+	      thumbnailHeight: 200,
+		},
+	];
 
 		return (
 			<div
@@ -89,7 +130,7 @@ class Main extends React.Component {
 					}`}
 					style={{ display: 'none' }}>
 					<h2 className="introTitle">FAQ</h2>
-					<Accordion className="demo-container" accordion="true" expanded="true">
+					<Accordion className="demo-container" accordion="true" expanded="false">
 						<AccordionItem>
 							<AccordionItemTitle>
 									<h3>How long is HackRice?</h3>
@@ -134,6 +175,17 @@ class Main extends React.Component {
 					}`}
 					style={{ display: 'none' }}>
 					{close}
+					<div style={{
+					 display: "block",
+					 height: "100%",
+					 width: "100%",
+					 overflow: "auto"}}
+					>
+						<Gallery images={IMAGES}
+					 		enableLightbox={false}
+					 		enableImageSelection={false}
+						/>
+						</div>
 				</article>
 			</div>
 		);
