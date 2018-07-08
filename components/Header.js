@@ -41,9 +41,9 @@ const Header = props => (
 					<a
 						href="javascript:;"
 						onClick={() => {
-							props.onOpenArticle('criteria');
+							props.onOpenArticle('judging');
 						}}>
-						<FontAwesomeIcon icon={trophy} /> Criteria
+						<FontAwesomeIcon icon={trophy} /> Judging
 					</a>
 				</li>
 				<li>

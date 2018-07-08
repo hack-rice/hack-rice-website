@@ -108,8 +108,8 @@ class Main extends React.Component {
 				</article>
 
 				<article
-					id="criteria"
-					className={`${this.props.article === 'criteria' ? 'active' : ''} ${
+					id="judging"
+					className={`${this.props.article === 'judging' ? 'active' : ''} ${
 						this.props.articleTimeout ? 'timeout' : ''
 					}`}
 					style={{ display: 'none' }}>
@@ -140,22 +140,146 @@ class Main extends React.Component {
 							</AccordionItemBody>
 						</AccordionItem>
 					</Accordion>
-					<span className="faqList">
-						<span className="faqItem"><h3>How many hackers will there be?</h3>Around 400</span><br />
-						<span className="faqItem"><h3>How many hackers per team are permitted?</h3>Team are limited to 5 hackers. That being said, you don&#39;t have to have 5 hackers to win a prize!</span><br />
-						<span className="faqItem"><h3>Is there a HackRice Facebook page?</h3>Yes there is! Click <a href="https://www.facebook.com/hackrice/">here</a> to access it</span><br />
-						<span className="faqItem"><h3>How do I submit my project?</h3>You can submit your project on <a href="https://hackrice8.devpost.com/">this Devpost link</a></span><br />
-						<span className="faqItem"><h3>Who is eligible for HackRice?</h3>Any current student over the age of 18 is eligible to apply to HackRice. Since we are an MLH member event, participants must also accept the <a href="http://static.mlh.io/docs/mlh-code-of-conduct.pdf">MLH Code of Conduct.</a></span><br />
-						<span className="faqItem"><h3>Will my travel be reimbursed?</h3>Yes! We&#39;ll be providing travel reimbursements for all visiting hackers. <br /><br />Hackers who ride in team cars or take buses or trains to HackRice will receive full reimbursement for their travel costs (up to $100). <br /><br /> Hackers who fly to Hackrice will recieve reimbursement on a first-come, first-served basis. Initially, reimbursement up to $200 will be provided. As funds are exhausted, reimbursement up to $100 will be provided. Tickets must be standard economy or lower. We cannot reimburse hackers flying internationally any more than is listed above, and international hackers should contact us at <a href="mailto:officialhackrice@gmail.com">officialhackrice@gmail.com</a>.<br /><br />To recieve your reimbursement, please fill out the reimbursement section of the admission form <b>within one week</b>. There will be a reimbursment booth at the event where you will be able to finalize your reimbursment details!</span><br />
-						<span className="faqItem"><h3>Will there be prizes?</h3>We will have prizes for 1st, 2nd, 3rd place, several track prizes, and many other company sponsored prizes.</span><br />
-						<span className="faqItem"><h3>Will there be free food?</h3>Yes! We will provide catered meals during the day along with snacks and free caffeine through the night to keep you going.</span><br />
-						<span className="faqItem"><h3>What are the acceptance criteria?</h3>Rice students and alumni are guaranteed acceptance. For Non-Rice students, we ask for their previous hackathon and coding experiences, so that we can invite people who have demonstrated interest and skill. The admission process will be competitive and rolling! We also will take into account people who have never been to a hackathon before, so please apply!</span><br />
-						<span className="faqItem"><h3>What do I need to bring?</h3>Please bring a student ID so we can verify and register you on-site! You&#39;ll also need to bring a computer, whatever software you feel might be necessary for development, sleeping bag, and pillow. We also recommend that you bring power strips for convenience. Teammates are free to share equipment with each other.</span><br />
-						<span className="faqItem"><h3>What if I&#39;m not very experienced?</h3>We will try our best to point people in the right direction and use tools and languages that allow rapid development with the least amount of frustration. There will also be upperclassmen participating in the hackathon who can help you out. Furthermore, you can look up tutorials and sample code online. We will also be having workshops the week before the hackathon!</span><br />
-						<span className="faqItem"><h3>Can Rice alumni attend?</h3>Rice alumni are eligible to attend the event to hack or mentor other students, but alumni submissions will not be eligible for prizes. We will not be able to reimburse alumni for travel.</span><br />
-						<span className="faqItem"><h3>What if I don&#39;t have a team before the event?</h3>You don&#39;t have to form a team before the event, or at all. At the start of the event, we will provide plenty of time to break out and form a new one if you choose to.</span><br />
-						<span className="faqItem"><h3>Do I need to stay the whole time?</h3>Nope, we are not a lock-in. We realize that 36 hours is a long time, and that some people might have other commitments during that time. Feel free to stay and leave as you choose. However, we would prefer that people stay to promote the environment.</span><br />
-					</span>
+          <Accordion className="demo-container" accordion="true" expanded="false">
+						<AccordionItem>
+							<AccordionItemTitle>
+									<h3>How many hackers will there be?</h3>
+							</AccordionItemTitle>
+							<AccordionItemBody>
+									<p>Around 400</p>
+							</AccordionItemBody>
+						</AccordionItem>
+					</Accordion>
+          <Accordion className="demo-container" accordion="true" expanded="false">
+						<AccordionItem>
+							<AccordionItemTitle>
+									<h3>How many hackers per team are permitted?</h3>
+							</AccordionItemTitle>
+							<AccordionItemBody>
+									<p>Team are limited to 5 hackers. That being said, you don&#39;t have to have 5 hackers to win a prize!</p>
+							</AccordionItemBody>
+						</AccordionItem>
+					</Accordion>
+          <Accordion className="demo-container" accordion="true" expanded="false">
+						<AccordionItem>
+							<AccordionItemTitle>
+									<h3>Is there a HackRice Facebook page?</h3>
+							</AccordionItemTitle>
+							<AccordionItemBody>
+									<p>Yes there is! Click <a href="https://www.facebook.com/hackrice/">here</a> to access it!</p>
+							</AccordionItemBody>
+						</AccordionItem>
+					</Accordion>
+          <Accordion className="demo-container" accordion="true" expanded="false">
+						<AccordionItem>
+							<AccordionItemTitle>
+									<h3>How do I submit my project? Is there a Devpost?</h3>
+							</AccordionItemTitle>
+							<AccordionItemBody>
+									<p>You can submit your project on <a href="https://hackrice8.devpost.com/">this Devpost link</a></p>
+							</AccordionItemBody>
+						</AccordionItem>
+					</Accordion>
+          <Accordion className="demo-container" accordion="true" expanded="false">
+						<AccordionItem>
+							<AccordionItemTitle>
+									<h3>Who is eligible for HackRice?</h3>
+							</AccordionItemTitle>
+							<AccordionItemBody>
+									<p>Any current student over the age of 18 is eligible to apply to HackRice. Since we are an MLH member event, participants must also accept the <a href="http://static.mlh.io/docs/mlh-code-of-conduct.pdf">MLH Code of Conduct.</a></p>
+							</AccordionItemBody>
+						</AccordionItem>
+					</Accordion>
+          <Accordion className="demo-container" accordion="true" expanded="false">
+						<AccordionItem>
+							<AccordionItemTitle>
+									<h3>Will my travel be reimbursed?</h3>
+							</AccordionItemTitle>
+							<AccordionItemBody>
+									<p>Yes! We&#39;ll be providing travel reimbursements for all visiting hackers. <br /><br />Hackers who ride in team cars or take buses or trains to HackRice will receive full reimbursement for their travel costs (up to $100). <br /><br /> Hackers who fly to Hackrice will recieve reimbursement on a first-come, first-served basis. Initially, reimbursement up to $200 will be provided. As funds are exhausted, reimbursement up to $100 will be provided. Tickets must be standard economy or lower. We cannot reimburse hackers flying internationally any more than is listed above, and international hackers should contact us at <a href="mailto:officialhackrice@gmail.com">officialhackrice@gmail.com</a>.<br /><br />To recieve your reimbursement, please fill out the reimbursement section of the admission form <b>within one week</b>. There will be a reimbursment booth at the event where you will be able to finalize your reimbursment details!</p>
+							</AccordionItemBody>
+						</AccordionItem>
+					</Accordion>
+          <Accordion className="demo-container" accordion="true" expanded="false">
+						<AccordionItem>
+							<AccordionItemTitle>
+									<h3>Will there be prizes?</h3>
+							</AccordionItemTitle>
+							<AccordionItemBody>
+									<p>We will have prizes for 1st, 2nd, 3rd place, several track prizes, and many other company sponsored prizes.</p>
+							</AccordionItemBody>
+						</AccordionItem>
+					</Accordion>
+          <Accordion className="demo-container" accordion="true" expanded="false">
+						<AccordionItem>
+							<AccordionItemTitle>
+									<h3>Will there be free food?</h3>
+							</AccordionItemTitle>
+							<AccordionItemBody>
+									<p>Yes! We will provide catered meals during the day along with snacks and free caffeine through the night to keep you going.</p>
+							</AccordionItemBody>
+						</AccordionItem>
+					</Accordion>
+          <Accordion className="demo-container" accordion="true" expanded="false">
+						<AccordionItem>
+							<AccordionItemTitle>
+									<h3>What are the acceptance criteria?</h3>
+							</AccordionItemTitle>
+							<AccordionItemBody>
+									<p>Rice students and alumni are guaranteed acceptance. For Non-Rice students, we ask for their previous hackathon and coding experiences, so that we can invite people who have demonstrated interest and skill. The admission process will be competitive and rolling! We also will take into account people who have never been to a hackathon before, so please apply!</p>
+							</AccordionItemBody>
+						</AccordionItem>
+					</Accordion>
+          <Accordion className="demo-container" accordion="true" expanded="false">
+						<AccordionItem>
+							<AccordionItemTitle>
+									<h3>What do I need to bring?</h3>
+							</AccordionItemTitle>
+							<AccordionItemBody>
+									<p>Please bring a student ID so we can verify and register you on-site! You&#39;ll also need to bring a computer, whatever software you feel might be necessary for development, sleeping bag, and pillow. We also recommend that you bring power strips for convenience. Teammates are free to share equipment with each other.</p>
+							</AccordionItemBody>
+						</AccordionItem>
+					</Accordion>
+          <Accordion className="demo-container" accordion="true" expanded="false">
+						<AccordionItem>
+							<AccordionItemTitle>
+									<h3>What if I&#39;m not very experienced?</h3>
+							</AccordionItemTitle>
+							<AccordionItemBody>
+									<p>We will try our best to point people in the right direction and use tools and languages that allow rapid development with the least amount of frustration. There will also be upperclassmen participating in the hackathon who can help you out. Furthermore, you can look up tutorials and sample code online. We will also be having workshops the week before the hackathon!</p>
+							</AccordionItemBody>
+						</AccordionItem>
+					</Accordion>
+          <Accordion className="demo-container" accordion="true" expanded="false">
+						<AccordionItem>
+							<AccordionItemTitle>
+									<h3>Can Rice alumni attend?</h3>
+							</AccordionItemTitle>
+							<AccordionItemBody>
+									<p>Rice alumni are eligible to attend the event to hack or mentor other students, but alumni submissions will not be eligible for prizes. We will not be able to reimburse alumni for travel.></p>
+							</AccordionItemBody>
+						</AccordionItem>
+					</Accordion>
+          <Accordion className="demo-container" accordion="true" expanded="false">
+						<AccordionItem>
+							<AccordionItemTitle>
+									<h3>What if I don&#39;t have a team before the event?</h3>
+							</AccordionItemTitle>
+							<AccordionItemBody>
+									<p>You don&#39;t have to form a team before the event, or at all. At the start of the event, we will provide plenty of time to break out and form a new one if you choose to.</p>
+							</AccordionItemBody>
+						</AccordionItem>
+					</Accordion>
+          <Accordion className="demo-container" accordion="true" expanded="false">
+						<AccordionItem>
+							<AccordionItemTitle>
+									<h3>Do I need to stay the whole time?</h3>
+							</AccordionItemTitle>
+							<AccordionItemBody>
+									<p>Nope, we are not a lock-in. We realize that 36 hours is a long time, and that some people might have other commitments during that time. Feel free to stay and leave as you choose. However, we would prefer that people stay to promote the environment.</p>
+							</AccordionItemBody>
+						</AccordionItem>
+					</Accordion>
 					{close}
 				</article>
 
