@@ -89,7 +89,7 @@ class Main extends React.Component {
 					}`}
 					style={{ display: 'none' }}>
 					<h2 className="introTitle">FAQ</h2>
-					<Accordion className="demo-container">
+					<Accordion className="demo-container" accordion="true" expanded="true">
 						<AccordionItem>
 							<AccordionItemTitle>
 									<h3>How long is HackRice?</h3>
