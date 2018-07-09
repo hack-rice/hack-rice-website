@@ -9,6 +9,7 @@ import trophy from '@fortawesome/fontawesome-free-solid/faTrophy'
 import question from '@fortawesome/fontawesome-free-solid/faQuestion'
 import donate from '@fortawesome/fontawesome-free-solid/faDonate'
 import mobileAlt from '@fortawesome/fontawesome-free-solid/faMobileAlt'
+import edit from '@fortawesome/fontawesome-free-regular/faEdit'
 
 const Header = props => (
 	<header id="header" style={props.timeout ? { display: 'none' } : {}}>
@@ -71,6 +72,16 @@ const Header = props => (
 							props.onOpenArticle('contact');
 						}}>
 						<FontAwesomeIcon icon={mobileAlt} /> Contact
+					</a>
+				</li>
+				<li>
+					<a
+						className="invert"
+						href="javascript:;"
+						onClick={() => {
+							window.location = 'https://hackrice.typeform.com/to/QGbctn';
+						}}>
+						<FontAwesomeIcon icon={edit} /> Apply
 					</a>
 				</li>
 			</ul>

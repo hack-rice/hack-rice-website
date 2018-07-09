@@ -95,7 +95,6 @@
 				li {
 					padding-left: 0;
 					border-left: solid _size(border-width) _palette(border);
-
 					&:first-child {
 						border-left: 0;
 					}
@@ -110,6 +109,11 @@
 						letter-spacing: _font(letter-spacing);
 						font-size: 1.1rem;
 						border-bottom: 0;
+
+						.invert {
+							background: white;
+							color: #6164B2;
+						}
 
 						&:hover {
 							background-color: _palette(border-bg);

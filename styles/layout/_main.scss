@@ -76,6 +76,13 @@
 				font-family: 'IBM Plex Sans';
 			}
 
+			li > .invert {
+				background-color: #FFF;
+				a {
+					color: #6164B2;
+				}
+			}
+
 			.introTitle {
 				font-weight: 600;
 				font-size: 2em;
@@ -86,14 +93,14 @@
 				font-family: "IBM Plex Sans";
 				font-weight: 300;
 				font-size: 1.4em;
-				line-height: 2.5em;
+				line-height: 1.7em;
 
 				svg {
 					margin-right: 0.3em;
 				}
 
 				.bullet {
-					margin-top: 1em !important;
+					margin-top: 1.25em !important;
 					display: block;
 				}
 
