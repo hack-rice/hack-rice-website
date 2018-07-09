@@ -85,7 +85,7 @@ class IndexPage extends React.Component {
 							rel="stylesheet"
 						/>
 						<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,400,500,600" rel="stylesheet" />
-						<link rel="icon" type="image/x-icon" href="/static/images/favicon.ico" />
+						<link rel='shortcut icon' type='image/x-icon' href='/static/images/favicon.png' />
 					</Head>
 
 					<style dangerouslySetInnerHTML={{ __html: stylesheet }} />

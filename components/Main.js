@@ -1,8 +1,5 @@
 import PropTypes from 'prop-types';
-import FontAwesomeIcon from '@fortawesome/react-fontawesome'
-import facebook from '@fortawesome/fontawesome-free-brands/faFacebook'
-import facebookMessenger from '@fortawesome/fontawesome-free-brands/faFacebookMessenger'
-import email from '@fortawesome/fontawesome-free-regular/faEnvelope'
+import Link from 'next/link'
 
 // Accordion
 import React from 'react';
@@ -19,6 +16,10 @@ import {
 import '../node_modules/react-accessible-accordion/dist/fancy-example.css';
 
 // Icons
+import FontAwesomeIcon from '@fortawesome/react-fontawesome'
+import facebook from '@fortawesome/fontawesome-free-brands/faFacebook'
+import facebookMessenger from '@fortawesome/fontawesome-free-brands/faFacebookMessenger'
+import email from '@fortawesome/fontawesome-free-regular/faEnvelope'
 import calendar from '@fortawesome/fontawesome-free-regular/faCalendar'
 import map from '@fortawesome/fontawesome-free-regular/faMap'
 import handSpock from '@fortawesome/fontawesome-free-regular/faHandSpock'
@@ -289,6 +290,14 @@ class Main extends React.Component {
 						this.props.articleTimeout ? 'timeout' : ''
 					}`}
 					style={{ display: 'none' }}>
+					<div className="contact">
+						<div className="method">
+							<a href='https://facebook.com/hackrice'> <FontAwesomeIcon icon={facebookMessenger} color="#CCD4FF" /></a>
+						</div>
+						<div className="method">
+							<a href='https://facebook.com/hackrice'> <FontAwesomeIcon icon={email} color="#CCD4FF" /></a>
+						</div>
+					</div>
 					{close}
 				</article>
 
