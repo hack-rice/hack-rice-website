@@ -1,0 +1,46 @@
+// Misc.
+$misc: (
+	z-index-base: 10000
+);
+
+// Duration.
+$duration: (
+	transition: 0.3s,
+	bg: 0.5s,
+	intro: 1s,
+	article: 0.4s
+);
+// Size.
+$size: (
+	border-radius: 0px,
+	border-width: 1px,
+	element-height: 2.75rem,
+	element-margin: 2rem
+);
+// Font.
+$font: (
+	family: (
+		'IBM Plex Mono',
+		sans-serif
+	),
+	family-fixed: (
+		'IBM Plex Mono',
+		monospace
+	),
+	weight: 300,
+	weight-bold: 600,
+	letter-spacing: 0.2rem,
+	letter-spacing-heading: 0.5rem
+);
+// Palette.
+$palette: (
+	bg: #1b1f22,
+	bg-alt: #000000,
+	bg-overlay: rgba(19, 21, 25, 0.5),
+	fg: #ffffff,
+	fg-bold: #ffffff,
+	fg-light: rgba(255, 255, 255, 0.5),
+	border: #ffffff,
+	border-bg: rgba(255, 255, 255, 0.075),
+	border-bg-alt: rgba(255, 255, 255, 0.175)
+);

@@ -1,0 +1,42 @@
+#sallyport {
+	#building {
+		margin-top: 2em;
+		position: absolute;
+		left: 25%;
+		right: 25%;
+		bottom: 0%;
+		z-index: 2;
+		width: 50%;
+
+		@include vendor(
+			'transition',
+			('transform #{_duration(article)} ease-in-out', 'translateX #{_duration(article)} ease-in-out')
+		);
+
+		.body.is-article-visible & {
+			@include vendor('transform', 'translateY(30%)');
+		}
+
+		.body.is-loading & {
+			@include vendor('transform', 'translateY(500px)');
+		}
+	}
+
+	@include breakpoint(small) {
+		#building {
+			width: 90% !important;
+			left: 5% !important;
+			right: 5% !important;
+			margin-top: none;
+		}
+	}
+
+	@include breakpoint(medium) {
+		#building {
+			width: 60%;
+			left: 20%;
+			right: 20%;
+		}
+	}
+
+}

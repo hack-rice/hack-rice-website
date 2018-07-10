@@ -1,0 +1,59 @@
+/* BG */
+
+#bg {
+	-webkit-backface-visibility: hidden;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+	z-index: 1;
+	background-color: #6164b2;
+
+	&:before,
+	&:after {
+		content: '';
+		display: block;
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		width: 105%;
+		height: 105%;
+	}
+
+	&:before {
+			@include vendor('transition', 'background-color #{_duration(bg)} ease-in-out');
+			@include vendor('transition-delay', '#{_duration(intro)}');
+			background-size:		auto,
+									256px 256px;
+			background-position:	center,
+									center;
+			background-repeat:		no-repeat,
+									repeat;
+			z-index: 2;
+		}
+
+	&:after {
+		@include vendor(
+			'transition',
+			('transform #{_duration(article)} ease-in-out')
+		);
+		background-position: center;
+		background-color: #6164B2;
+		background-size: cover;
+		background-repeat: no-repeat;
+		z-index: 1;
+	}
+
+	.body.is-article-visible & {
+		&:after {
+			@include vendor('transform', 'translateY(50px)');
+		}
+	}
+
+	.body.is-loading & {
+		&:before {
+			background-color: _palette(bg-alt);
+		}
+	}
+}
