@@ -1,5 +1,11 @@
 /* BG */
 
+body {
+	overflow: hidden;
+	width: 100%;
+	height: 100vw;
+}
+
 #bg {
 	-webkit-backface-visibility: hidden;
 	position: fixed;
