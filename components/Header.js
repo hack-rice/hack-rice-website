@@ -23,7 +23,7 @@ const Header = props => (
 		<div className="content">
 			<div className="inner">
 				<img className="type" src="../static/images/type.png" />
-				<div className="subtitle-bold">APPS CLOSE WEDNESDAY, AUGUST 8</div>
+				<div className="subtitle-bold">OUT-OF-RICE APPS CLOSE WEDNESDAY, AUGUST 8</div>
 				<span className="subtitle"><FontAwesomeIcon icon={calendar}/> September 14-16, 2018</span>
 				<span className="subtitle"><FontAwesomeIcon icon={map} /> Rice Memorial Center</span>
 			</div>

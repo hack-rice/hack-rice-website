@@ -80,12 +80,20 @@ class IndexPage extends React.Component {
 				<div>
 					<Head>
 						<title>HackRice 8</title>
+						<div className="subtitle">APPS CLOSE WEDNESDAY, AUGUST 8</div>
 						<link
 							href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:300,400,500,600,700"
 							rel="stylesheet"
 						/>
-						<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,400,500,600" rel="stylesheet" />
-						<link rel='shortcut icon' type='image/x-icon' href='/static/images/favicon.png' />
+						<link
+							href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,400,500,600"
+							rel="stylesheet"
+						/>
+						<link
+							rel="shortcut icon"
+							type="image/x-icon"
+							href="/static/images/favicon.png"
+						/>
 					</Head>
 
 					<style dangerouslySetInnerHTML={{ __html: stylesheet }} />
