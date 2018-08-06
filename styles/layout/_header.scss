@@ -59,6 +59,13 @@
 					text-transform: uppercase;
 				}
 
+				.subtitle-bold {
+					font-weight: bold;
+					margin-bottom: 1em;
+					background: #fff;
+					color: #6164b2;
+				}
+
 				@include vendor('transition', (
 					'max-height #{_duration(intro)} ease',
 					'padding #{_duration(intro)} ease',
