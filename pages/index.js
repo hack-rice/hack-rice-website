@@ -80,7 +80,6 @@ class IndexPage extends React.Component {
 				<div>
 					<Head>
 						<title>HackRice 8</title>
-						<div className="subtitle">APPS CLOSE WEDNESDAY, AUGUST 8</div>
 						<link
 							href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:300,400,500,600,700"
 							rel="stylesheet"
