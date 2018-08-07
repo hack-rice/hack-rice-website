@@ -791,9 +791,7 @@ function (_React$Component) {
     value: function render() {
       return external__react__default.a.createElement("div", {
         className: "body ".concat(this.state.loading, " ").concat(this.state.isArticleVisible ? 'is-article-visible' : '')
-      }, external__react__default.a.createElement("div", null, external__react__default.a.createElement(head__default.a, null, external__react__default.a.createElement("title", null, "HackRice 8"), external__react__default.a.createElement("div", {
-        className: "subtitle"
-      }, "APPS CLOSE WEDNESDAY, AUGUST 8"), external__react__default.a.createElement("link", {
+      }, external__react__default.a.createElement("div", null, external__react__default.a.createElement(head__default.a, null, external__react__default.a.createElement("title", null, "HackRice 8"), external__react__default.a.createElement("link", {
         href: "https://fonts.googleapis.com/css?family=IBM+Plex+Mono:300,400,500,600,700",
         rel: "stylesheet"
       }), external__react__default.a.createElement("link", {
