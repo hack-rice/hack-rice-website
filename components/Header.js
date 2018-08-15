@@ -23,7 +23,7 @@ const Header = props => (
 		<div className="content">
 			<div className="inner">
 				<img className="type" src="../static/images/type.png" />
-				<div className="subtitle-bold">OUT-OF-RICE APPS CLOSE WEDNESDAY, AUGUST 8</div>
+				<div className="subtitle-bold">OUT-OF-RICE APPS ARE NOW CLOSED!</div>
 				<span className="subtitle"><FontAwesomeIcon icon={calendar}/> September 14-16, 2018</span>
 				<span className="subtitle"><FontAwesomeIcon icon={map} /> Rice Memorial Center</span>
 			</div>
@@ -80,7 +80,7 @@ const Header = props => (
 						className="invert"
 						href="javascript:;"
 						onClick={() => {
-							window.location = 'https://hackrice.typeform.com/to/QGbctn';
+							window.location = 'https://hackrice.typeform.com/to/s2Mllk';
 						}}>
 						<FontAwesomeIcon icon={edit} /> Apply
 					</a>
