@@ -1,125 +1,53 @@
-import Head from 'next/head';
-import stylesheet from '../styles/main.scss';
+import { Provider, Heading } from "rebass";
+import { injectGlobal } from "styled-components";
 
-import Header from '../components/Header';
-import Main from '../components/Main';
-import Footer from '../components/Footer';
-import MLH from '../components/MLH';
-import Owl from '../components/Owl';
-import Rice from '../components/Rice';
+import Head from "../components/head";
+import Nav from "../components/nav";
+import Intro from "../components/intro";
+import About from "../components/about";
+import Calendar from "../components/calendar";
+import Questions from "../components/faq";
+import Judging from "../components/judging";
+import Sponsors from "../components/sponsors";
 
-class IndexPage extends React.Component {
-	constructor(props) {
-		super(props);
-		this.state = {
-			isArticleVisible: false,
-			timeout: false,
-			articleTimeout: false,
-			article: '',
-			loading: 'is-loading'
-		};
-		this.handleOpenArticle = this.handleOpenArticle.bind(this);
-		this.handleCloseArticle = this.handleCloseArticle.bind(this);
-	}
+// Ensure `grid-styled` Box and Flex components work properly.
+injectGlobal`
+  * { box-sizing: border-box; }
+  body { max-width: 900px; margin: 2% auto; color: #fff; }
+  a {
+      color: #fff;
+      font-family: 'Overpass Mono';
+      font-size: 0.9em !important;
+      font-weight: 300;
+      text-decoration: none;
+      text-transform: uppercase;
+    }
+`;
 
-	componentDidMount() {
-		this.timeoutId = setTimeout(() => {
-			this.setState({ loading: '' });
-		}, 100);
-	}
+// Variables for <head>
+let title = "HackRice 8";
+let url = "https://hack.rice.edu";
+let ogImage = "../static/og.png";
+let description = "The premier hackathon of the south.";
 
-	componentWillUnmount() {
-		if (this.timeoutId) {
-			clearTimeout(this.timeoutId);
-		}
-	}
+const Home = () => (
+  <Provider
+    theme={{
+      fonts: {
+        sans: "'Open Sans', sans-serif",
+        mono: "'Overpass Mono', monospace"
+      }
+    }}
+  >
+    <Head title={title} description={description} url={url} ogImage={ogImage} />
+    <Nav />
+    <Intro />
+    <About />
+    <Calendar />
+    <Questions />
+    <Judging />
+    <Sponsors />
+  </Provider>
+);
 
-	handleOpenArticle(article) {
-		this.setState({
-			isArticleVisible: !this.state.isArticleVisible,
-			article
-		});
-
-		setTimeout(() => {
-			this.setState({
-				timeout: !this.state.timeout
-			});
-		}, 100);
-
-		setTimeout(() => {
-			this.setState({
-				articleTimeout: !this.state.articleTimeout
-			});
-		}, 100);
-	}
-
-	handleCloseArticle() {
-		this.setState({
-			articleTimeout: !this.state.articleTimeout
-		});
-
-		setTimeout(() => {
-			this.setState({
-				timeout: !this.state.timeout
-			});
-		}, 100);
-
-		setTimeout(() => {
-			this.setState({
-				isArticleVisible: !this.state.isArticleVisible,
-				article: ''
-			});
-		}, 100);
-	}
-	render() {
-		return (
-			<div
-				className={`body ${this.state.loading} ${
-					this.state.isArticleVisible ? 'is-article-visible' : ''
-				}`}>
-				<div>
-					<Head>
-						<title>HackRice 8</title>
-						<link
-							href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:300,400,500,600,700"
-							rel="stylesheet"
-						/>
-						<link
-							href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,400,500,600"
-							rel="stylesheet"
-						/>
-						<link
-							rel="shortcut icon"
-							type="image/x-icon"
-							href="/static/images/favicon.png"
-						/>
-					</Head>
-
-					<style dangerouslySetInnerHTML={{ __html: stylesheet }} />
-
-					<div id="wrapper">
-						<MLH timeout={this.state.timeout} />
-						<Header
-							onOpenArticle={this.handleOpenArticle}
-							timeout={this.state.timeout}
-						/>
-						<Owl timeout={this.state.timeout} />
-						<Main
-							isArticleVisible={this.state.isArticleVisible}
-							timeout={this.state.timeout}
-							articleTimeout={this.state.articleTimeout}
-							article={this.state.article}
-							onCloseArticle={this.handleCloseArticle}
-						/>
-						<Rice timeout={this.state.timeout} />
-						<Footer timeout={this.state.timeout} />
-					</div>
-
-					<div id="bg" />
-				</div>
-			</div>
-		);
-	}
-}
-
-export default IndexPage;
+export default Home;

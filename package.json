@@ -1,40 +1,27 @@
 {
-  "name": "nextjs-starter",
+  "name": "hackrice",
   "version": "1.0.0",
-  "description": "",
+  "description": "website for rice university hackathon",
   "main": "index.js",
   "scripts": {
     "dev": "next",
     "build": "next build",
     "start": "next start",
     "export": "next build && next export -o docs",
-    "deploy": "next build && next export -o docs && git checkout -- docs/CNAME && git checkout -- docs/.nojekyll && git add docs && git commit -m \"chore: regen site\" && git push origin master"
+    "deploy": "next build && next export -o docs && cd docs && touch CNAME && echo \"hack.rice.edu\" >> CNAME && touch .nojekyll && cd .. && git add docs && git commit -m \"regen site\""
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@fortawesome/fontawesome": "^1.1.5",
-    "@fortawesome/fontawesome-free-brands": "^5.0.10",
-    "@fortawesome/fontawesome-free-regular": "^5.0.10",
-    "@fortawesome/fontawesome-free-solid": "^5.0.13",
-    "@fortawesome/free-brands-svg-icons": "^5.1.0-11",
-    "@fortawesome/free-solid-svg-icons": "^5.1.0",
-    "@fortawesome/react-fontawesome": "0.0.18",
-    "autoprefixer": "7.1.5",
-    "babel-plugin-module-resolver": "^2.7.1",
-    "babel-plugin-wrap-in-js": "^1.1.0",
-    "font-awesome": "^4.7.0",
-    "glob": "^7.1.2",
-    "next": "latest",
-    "node-sass": "^4.4.0",
-    "postcss-easy-import": "^3.0.0",
-    "postcss-loader": "^2.0.7",
-    "raw-loader": "^0.5.1",
-    "react": "^16.4.1",
-    "react-accessible-accordion": "^2.4.3",
-    "react-dom": "^16.4.1",
-    "react-grid-gallery": "^0.5.1",
-    "sass-loader": "^6.0.6"
+    "@zeit/next-css": "^0.2.0",
+    "fs": "0.0.1-security",
+    "next": "^6.1.1",
+    "rc-collapse": "^1.10.0",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-scroll": "^1.7.10",
+    "rebass": "^2.0.0-10",
+    "styled-components": "^3.4.5",
+    "styled-jsx": "^3.0.2"
   }
 }
