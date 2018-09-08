@@ -31,7 +31,7 @@ const Calendar = () => (
           </ul>
         </Box>
         <Box px={3} width={[1, 1 / 3]}>
-          <h2 className="day">{dayTwo}</h2>
+          <h2 className="dayName">{dayTwo}</h2>
           <ul className="dayContent">
             {saturday.map(({ key, title, time, detail }) => (
               <li key={key} className="dayItem">
@@ -43,7 +43,7 @@ const Calendar = () => (
           </ul>
         </Box>
         <Box px={3} width={[1, 1 / 3]}>
-          <h2 className="day">{dayThree}</h2>
+          <h2 className="dayName">{dayThree}</h2>
           <ul className="dayContent">
             {sunday.map(({ key, title, time, detail }) => (
               <li key={key} className="dayItem">

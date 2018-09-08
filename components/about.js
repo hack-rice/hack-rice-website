@@ -1,6 +1,16 @@
-import { Box, Flex, Image } from "rebass";
 import { Element } from "react-scroll";
-import { title, info, p1, p2, p3, button1, button2 } from "../content/about";
+import { Box, Flex, Image } from "rebass";
+import {
+  title,
+  info,
+  p1,
+  p2,
+  p3,
+  button1,
+  button2,
+  link1,
+  link2
+} from "../content/about";
 import colors from "../styles/colors.json";
 
 const About = () => (
@@ -13,10 +23,10 @@ const About = () => (
         <p>{p1}</p>
         <p>{p2}</p>
         <p>{p3}</p>
-        <a href="https://hackrice.typeform.com/to/s2Mllk">
+        <a href={link1}>
           <button>{button1}</button>
         </a>
-        <a href="../static/sponsors.pdf">
+        <a href={link2}>
           <button>{button2}</button>
         </a>
       </Box>

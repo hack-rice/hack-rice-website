@@ -1,4 +1,5 @@
 export const title = "What is HackRice?";
+
 export const p1 = (
   <>
     HackRice is a hackathon held bi-annually at Rice University. It brings
@@ -12,6 +13,7 @@ export const p1 = (
     </span>
   </>
 );
+
 export const p2 = (
   <>
     Participants join into{" "}
@@ -20,6 +22,7 @@ export const p2 = (
     <span style={{ fontWeight: "600" }}>designed for collaboration.</span>
   </>
 );
+
 export const p3 = (
   <>
     Teams showcase projects after{" "}
@@ -31,5 +34,8 @@ export const p3 = (
     <span style={{ fontWeight: "600" }}>learn modern tools & systems.</span>
   </>
 );
+
+export const link1 = "https://hackrice.typeform.com/to/s2Mllk";
+export const link2 = "../static/sponsors.pdf";
 export const button1 = "I want to apply.";
 export const button2 = "I want to become a sponsor.";
