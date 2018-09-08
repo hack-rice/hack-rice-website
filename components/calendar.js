@@ -14,10 +14,10 @@ import colors from "../styles/colors.json";
 const Calendar = () => (
   <Element name="calendar">
     <Box mx={-2} bg={colors["gray"][1]} color={colors["base"]}>
-      <Box mx={4} pt={3}>
+      <Box mx={4} px={3} pt={4}>
         <h2 className="title">{title}</h2>
       </Box>
-      <Flex my={1} pb={3} mx={4} flexWrap="wrap">
+      <Flex my={1} pb={4} mx={4} flexWrap="wrap">
         <Box px={3} width={[1, 1 / 3]}>
           <h2 className="dayName">{dayOne}</h2>
           <ul className="dayContent">

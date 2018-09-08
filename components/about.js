@@ -13,8 +13,12 @@ const About = () => (
         <p>{p1}</p>
         <p>{p2}</p>
         <p>{p3}</p>
-        <button>{button1}</button>
-        <button>{button2}</button>
+        <a href="https://hackrice.typeform.com/to/s2Mllk">
+          <button>{button1}</button>
+        </a>
+        <a href="../static/sponsors.pdf">
+          <button>{button2}</button>
+        </a>
       </Box>
       <Flex justifyContent="center" width={[1]}>
         <Image

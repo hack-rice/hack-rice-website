@@ -28,6 +28,7 @@ const Judging = () => (
             background: ${colors["base"]};
             padding: 2px 10px;
             margin: unset;
+            margin-bottom: 1em;
             font-family: "Overpass Mono", monospace;
           }
 

@@ -16,12 +16,12 @@ const Sponsors = () => (
     >
       <h2 className="title">{title}</h2>
       {files.map(({ name, height, link }) => (
-        <Link href={link}>
+        <a href={link}>
           <Image
             style={{ margin: "2em 1em", height: `${height}` }}
             src={`../static/sponsors/${name}`}
           />
-        </Link>
+        </a>
       ))}
     </Flex>
     <style jsx>
