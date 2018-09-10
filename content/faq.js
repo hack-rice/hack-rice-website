@@ -1,3 +1,5 @@
+export const title = "QUESTIONS & ANSWERS";
+
 export const questions = [
   {
     question: "How long is HackRice?",

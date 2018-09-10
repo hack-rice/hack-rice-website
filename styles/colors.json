@@ -4,7 +4,7 @@
   "black": "#3d3e4c",
   "gray": [
     "#f9f9fa",
-    "#ecedf0",
+    "#eff0f9",
     "#dfe0e6",
     "#d1d2db",
     "#c2c2cf",
@@ -26,7 +26,5 @@
     "#3f5c73",
     "#2c4152"
   ],
-  "white": [
-    "#ffffff"
-  ]
+  "white": ["#ffffff"]
 }

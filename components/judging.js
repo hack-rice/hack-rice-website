@@ -13,9 +13,12 @@ const Judging = () => (
       py={5}
     >
       <h2 className="title">{title}</h2>
-      {criteria.map(({ key, subtitle, description }) => (
+      {criteria.map(({ key, subtitle, description, icon }) => (
         <Box width={1}>
-          <h2 className="subtitle">{subtitle}</h2>
+          <h2 className="subtitle">
+            <img src={icon} height={20} style={{ marginRight: "0.5em" }} />
+            {subtitle}
+          </h2>
           <p className="description">{description}</p>
         </Box>
       ))}

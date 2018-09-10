@@ -88,7 +88,7 @@ const Calendar = () => (
         }
 
         .dayItem {
-          border: 1px solid ${colors["gray"][5]};
+          border: 1px solid rgba(0, 0, 0, 0.1);
           background: rgba(255, 255, 255, 0.2);
           color: ${colors["base"]};
           padding: 8px 10px;

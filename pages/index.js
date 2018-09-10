@@ -9,6 +9,7 @@ import Calendar from "../components/calendar";
 import Questions from "../components/faq";
 import Judging from "../components/judging";
 import Sponsors from "../components/sponsors";
+import Tracks from "../components/tracks";
 
 // Ensure `grid-styled` Box and Flex components work properly.
 injectGlobal`
@@ -46,6 +47,7 @@ const Home = () => (
     <Calendar />
     <Questions />
     <Judging />
+    <Tracks />
     <Sponsors />
   </Provider>
 );

@@ -3,7 +3,7 @@ import Collapse, { Panel } from "rc-collapse";
 import defaultCss from "rc-collapse/assets/index.css";
 import customCss from "../styles/collapse.css";
 import { Box, Flex } from "rebass";
-import { questions } from "../content/faq";
+import { title, questions } from "../content/faq";
 import colors from "../styles/colors.json";
 import { Element } from "react-scroll";
 
@@ -58,9 +58,30 @@ export default class Questions extends React.Component {
 
     return (
       <Element name="faq">
-        <Flex flexDirection="row" flexWrap="wrap" my={4} pt={2}>
+        <Box mx={2} mt={5}>
+          <h2 className="title">{title}</h2>
+        </Box>
+        <Flex flexDirection="row" flexWrap="wrap" mt={2} mb={5} pt={2}>
           {cols}
         </Flex>
+        <style jsx>
+          {`
+            .title {
+              display: inline-block;
+              text-transform: uppercase;
+              background: ${colors["base"]};
+              border-top: 4px solid rgba(255, 255, 255, 1) !important;
+              border-left: 4px solid rgba(255, 255, 255, 1) !important;
+              border: 1px solid rgba(255, 255, 255, 0.2);
+              font-family: "Overpass Mono", monospace;
+              padding: 5px 10px 2px 10px;
+              box-sizing: content-box;
+              margin: unset;
+              height: 40px;
+              font-family: "Overpass Mono", monospace;
+            }
+          `}
+        </style>
       </Element>
     );
   }
