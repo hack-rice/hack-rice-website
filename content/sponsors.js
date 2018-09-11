@@ -12,6 +12,11 @@ export const files = [
     link: "https://www.facebook.com/"
   },
   {
+    name: "palantir.svg",
+    height: "30px",
+    link: "https://palantir.com"
+  },
+  {
     name: "jpmorgan.svg",
     height: "20px",
     link: "https://www.jpmorgan.com/country/US/en/jpmorgan",

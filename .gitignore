@@ -1,9 +1,2 @@
-_site
-css/.sass-cache/
-.codekit-cache/
-config.codekit
-Gemfile
-Gemfile.lock
-img/Thumbs.db
-img/sponsors/Thumbs.db
-media/Thumbs.db
+.next
+.DS_Store
