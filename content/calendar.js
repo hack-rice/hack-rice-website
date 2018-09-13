@@ -38,6 +38,18 @@ export const friday = [
     detail: "Start building your project!."
   },
   {
+    time: "9-10 PM",
+    title: "DELFI",
+    detail:
+      "DELFI is the newest cloud-based software platform from Schlumberger which will stretch the boundaries of the oil & gas industry."
+  },
+  {
+    time: "9-10 PM",
+    title: "Intelligent Oilfields",
+    detail:
+      "Schlumberger’s next-gen advisory system that enables intelligent production operations by transforming the way we work."
+  },
+  {
     time: "11 PM",
     title: "Late Night...",
     detail: "Tiff's Treats cookies..."
@@ -52,6 +64,11 @@ export const saturday = [
     time: "9 AM",
     title: "Breakfast",
     detail: "Bagels from Einstein Bros!"
+  },
+  {
+    time: "10 AM",
+    title: "Oil Rig VR Demo",
+    detail: "Schlumberger will host a workshop using Virtual Reality headsets."
   },
   {
     time: "12 PM",

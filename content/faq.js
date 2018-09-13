@@ -4,7 +4,7 @@ export const questions = [
   {
     question: "How long is HackRice?",
     answer:
-      "The event is held from Friday, October 14th to Sunday, October 16th. Students hack for 36 hours. View the schedule for more info."
+      "The event is held from Friday, September 14th to Sunday, September 16th. Students hack for 36 hours. View the schedule for more info."
   },
   {
     question: "How many hackers attend HackRice? Where are they from?",

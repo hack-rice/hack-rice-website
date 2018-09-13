@@ -10,6 +10,7 @@ import Questions from "../components/faq";
 import Judging from "../components/judging";
 import Sponsors from "../components/sponsors";
 import Tracks from "../components/tracks";
+import Map from "../components/map";
 
 // Ensure `grid-styled` Box and Flex components work properly.
 injectGlobal`
@@ -48,6 +49,7 @@ const Home = () => (
     <Questions />
     <Judging />
     <Tracks />
+    <Map />
     <Sponsors />
   </Provider>
 );

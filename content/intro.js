@@ -71,7 +71,7 @@ export const cards = [
   {
     icon: "https://icon.now.sh/map/ffffff",
     title: "Maps",
-    href: "https://www.rice.edu/maps/Rice-University-Color-Campus-Map.pdf",
+    to: "maps",
     text: "Need help finding your way around Rice? →"
   },
   {

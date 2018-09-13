@@ -14,6 +14,10 @@ const CustomTooltip = styled(Tooltip)`
     background-color: rgba(255, 255, 255, 1);
     color: ${colors["base"]};
   }
+
+  &::after {
+    border-top-color: rgba(255, 255, 255, 1) !important;
+  }
 `;
 
 const Sponsors = () => (

@@ -55,11 +55,27 @@ export const cards = [
       "The winner of this challenge will best utilize Microsoft API’s in their hackathon project."
   },
   {
+    icon: "https://icon.now.sh/web/ffffff",
+    type: "challenge",
+    href:
+      "https://docs.google.com/document/d/1yKpxWSMUDDJjBQIiDxlCc3Fta7OwZ9GbHRpQ0fC1y_U/edit?usp=sharing",
+    title: ".TECH",
+    text:
+      "Feature your cool hackathon project on your free .tech domain name. Make sure to make your full .tech domain your official team name and mention the URL while submitting your project! Click through for more details."
+  },
+  {
     icon: "https://icon.now.sh/domain/ffffff",
     type: "challenge",
     title: "Capital One",
     text:
       "The winner of this challenge will best answer the following question: how will you reimagine banking?"
+  },
+  {
+    icon: "https://icon.now.sh/merge_type/ffffff",
+    type: "challenge",
+    title: "Indeed",
+    text:
+      " We would like to see innovative projects and solutions that tackle societal problems. This could be anything from connecting unemployed jobseekers to jobs to linking hurricane victims to disaster relief resources."
   },
   {
     icon: "https://icon.now.sh/report_problem/ffffff",
@@ -71,12 +87,6 @@ export const cards = [
     icon: "https://icon.now.sh/report_problem/ffffff",
     type: "challenge",
     title: "Extrahop",
-    text: "Information about this challenge is coming soon."
-  },
-  {
-    icon: "https://icon.now.sh/report_problem/ffffff",
-    type: "challenge",
-    title: "Indeed",
     text: "Information about this challenge is coming soon."
   }
 ].map(card => {
