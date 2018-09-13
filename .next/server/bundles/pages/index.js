@@ -67,7 +67,7 @@ module.exports =
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 6);
+/******/ 	return __webpack_require__(__webpack_require__.s = 11);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -92,7 +92,7 @@ module.exports = require("styled-jsx/style");
 /* 3 */
 /***/ (function(module, exports) {
 
-module.exports = {"base":"#6164B2","light":"#b6baf9","black":"#3d3e4c","gray":["#f9f9fa","#ecedf0","#dfe0e6","#d1d2db","#c2c2cf","#b1b1c2","#9d9eb2","#8687a0","#696a82","#3d3e4c"],"gray2":["#ebf1f5","#d6e2eb","#bfd1e0","#a5bfd3","#86a9c4","#618eb2","#5780a0","#4c708c","#3f5c73","#2c4152"],"white":["#ffffff"]}
+module.exports = {"base":"#6164B2","light":"#b6baf9","black":"#3d3e4c","gray":["#f9f9fa","#eff0f9","#dfe0e6","#d1d2db","#c2c2cf","#b1b1c2","#9d9eb2","#8687a0","#696a82","#3d3e4c"],"gray2":["#ebf1f5","#d6e2eb","#bfd1e0","#a5bfd3","#86a9c4","#618eb2","#5780a0","#4c708c","#3f5c73","#2c4152"],"white":["#ffffff"]}
 
 /***/ }),
 /* 4 */
@@ -104,17 +104,27 @@ module.exports = require("react-scroll");
 /* 5 */
 /***/ (function(module, exports) {
 
-module.exports = require("next/link");
+module.exports = require("styled-components");
 
 /***/ }),
 /* 6 */
+/***/ (function(module, exports) {
+
+module.exports = require("next/link");
+
+/***/ }),
+/* 7 */,
+/* 8 */,
+/* 9 */,
+/* 10 */,
+/* 11 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(7);
+module.exports = __webpack_require__(12);
 
 
 /***/ }),
-/* 7 */
+/* 12 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -129,15 +139,15 @@ var external__rebass_ = __webpack_require__(1);
 var external__rebass__default = /*#__PURE__*/__webpack_require__.n(external__rebass_);
 
 // EXTERNAL MODULE: external "styled-components"
-var external__styled_components_ = __webpack_require__(8);
+var external__styled_components_ = __webpack_require__(5);
 var external__styled_components__default = /*#__PURE__*/__webpack_require__.n(external__styled_components_);
 
 // EXTERNAL MODULE: external "next/head"
-var head_ = __webpack_require__(9);
+var head_ = __webpack_require__(13);
 var head__default = /*#__PURE__*/__webpack_require__.n(head_);
 
 // EXTERNAL MODULE: external "prop-types"
-var external__prop_types_ = __webpack_require__(10);
+var external__prop_types_ = __webpack_require__(14);
 var external__prop_types__default = /*#__PURE__*/__webpack_require__.n(external__prop_types_);
 
 // CONCATENATED MODULE: ./components/head.js
@@ -216,7 +226,7 @@ var style_ = __webpack_require__(2);
 var style__default = /*#__PURE__*/__webpack_require__.n(style_);
 
 // EXTERNAL MODULE: external "next/link"
-var link_ = __webpack_require__(5);
+var link_ = __webpack_require__(6);
 var link__default = /*#__PURE__*/__webpack_require__.n(link_);
 
 // CONCATENATED MODULE: ./components/nav.js
@@ -299,17 +309,17 @@ var intro = "HackRice 8: the premier hackathon of the south.";
 var bullets = [{
   icon: "https://icon.now.sh/compose/ffffff",
   button: "apply now",
-  href: "",
+  href: "https://hackrice.typeform.com/to/s2Mllk",
   note: "out-of-rice applications have closed!"
 }, {
   icon: "https://icon.now.sh/calendar/ffffff",
   button: "september 14–16, 2018",
-  href: "",
+  href: "https://calendar.google.com/event?action=TEMPLATE&tmeid=MnN1MjB1bWdiMGt2cWFtbWl1dXE1aWt0Z3AgYXZzN0ByaWNlLmVkdQ&tmsrc=achal%40rice.edu",
   note: "36 hours of non-stop building"
 }, {
   icon: "https://icon.now.sh/wb_sunny/ffffff",
   button: "held @ rice memorial center",
-  href: "",
+  href: "https://goo.gl/maps/mnRG8hDRQj52",
   note: "on our majestic campus in houston"
 }].map(function (bullet) {
   bullet.key = "bullet-".concat(bullet.button);
@@ -336,10 +346,10 @@ var cards = [{
   to: "judging",
   text: "How will your project be evaluated? Read on →"
 }, {
-  icon: "https://icon.now.sh/insert_comment/ffffff",
-  title: "About",
-  to: "about",
-  text: "Read about the mission behind HackRice →"
+  icon: "https://icon.now.sh/done_all/ffffff",
+  title: "Tracks & Challenges",
+  to: "tracks",
+  text: "Complete a track or compete to win a sponsor challenge →"
 }, {
   icon: "https://icon.now.sh/phone/ffffff",
   title: "Contact",
@@ -509,6 +519,8 @@ var p3 = external__react__default.a.createElement(external__react__default.a.Fra
     fontWeight: "600"
   }
 }, "learn modern tools & systems."));
+var link1 = "https://hackrice.typeform.com/to/s2Mllk";
+var link2 = "../static/sponsors.pdf";
 var button1 = "I want to apply.";
 var button2 = "I want to become a sponsor.";
 // CONCATENATED MODULE: ./components/about.js
@@ -541,11 +553,17 @@ var about_About = function About() {
     className: style__default.a.dynamic([["1028647368", [colors_default.a["gray"][1], colors_default.a["gray"][1], colors_default.a["gray"][1]]]])
   }, p2), external__react__default.a.createElement("p", {
     className: style__default.a.dynamic([["1028647368", [colors_default.a["gray"][1], colors_default.a["gray"][1], colors_default.a["gray"][1]]]])
-  }, p3), external__react__default.a.createElement("button", {
+  }, p3), external__react__default.a.createElement("a", {
+    href: link1,
     className: style__default.a.dynamic([["1028647368", [colors_default.a["gray"][1], colors_default.a["gray"][1], colors_default.a["gray"][1]]]])
-  }, button1), external__react__default.a.createElement("button", {
+  }, external__react__default.a.createElement("button", {
     className: style__default.a.dynamic([["1028647368", [colors_default.a["gray"][1], colors_default.a["gray"][1], colors_default.a["gray"][1]]]])
-  }, button2)), external__react__default.a.createElement(external__rebass_["Flex"], {
+  }, button1)), external__react__default.a.createElement("a", {
+    href: link2,
+    className: style__default.a.dynamic([["1028647368", [colors_default.a["gray"][1], colors_default.a["gray"][1], colors_default.a["gray"][1]]]])
+  }, external__react__default.a.createElement("button", {
+    className: style__default.a.dynamic([["1028647368", [colors_default.a["gray"][1], colors_default.a["gray"][1], colors_default.a["gray"][1]]]])
+  }, button2))), external__react__default.a.createElement(external__rebass_["Flex"], {
     justifyContent: "center",
     width: [1]
   }, external__react__default.a.createElement(external__rebass_["Image"], {
@@ -662,21 +680,22 @@ var calendar_Calendar = function Calendar() {
     color: colors_default.a["base"]
   }, external__react__default.a.createElement(external__rebass_["Box"], {
     mx: 4,
-    pt: 3
+    px: 3,
+    pt: 4
   }, external__react__default.a.createElement("h2", {
-    className: style__default.a.dynamic([["1960507595", [colors_default.a["white"], colors_default.a["base"], colors_default.a["base"], colors_default.a["gray"][5], colors_default.a["base"], colors_default.a["base"], colors_default.a["base"]]]]) + " " + "title"
+    className: style__default.a.dynamic([["2522240098", [colors_default.a["white"], colors_default.a["base"], colors_default.a["base"], colors_default.a["base"], colors_default.a["base"], colors_default.a["base"]]]]) + " " + "title"
   }, calendar_title)), external__react__default.a.createElement(external__rebass_["Flex"], {
     my: 1,
-    pb: 3,
+    pb: 4,
     mx: 4,
     flexWrap: "wrap"
   }, external__react__default.a.createElement(external__rebass_["Box"], {
     px: 3,
     width: [1, 1 / 3]
   }, external__react__default.a.createElement("h2", {
-    className: style__default.a.dynamic([["1960507595", [colors_default.a["white"], colors_default.a["base"], colors_default.a["base"], colors_default.a["gray"][5], colors_default.a["base"], colors_default.a["base"], colors_default.a["base"]]]]) + " " + "dayName"
+    className: style__default.a.dynamic([["2522240098", [colors_default.a["white"], colors_default.a["base"], colors_default.a["base"], colors_default.a["base"], colors_default.a["base"], colors_default.a["base"]]]]) + " " + "dayName"
   }, dayOne), external__react__default.a.createElement("ul", {
-    className: style__default.a.dynamic([["1960507595", [colors_default.a["white"], colors_default.a["base"], colors_default.a["base"], colors_default.a["gray"][5], colors_default.a["base"], colors_default.a["base"], colors_default.a["base"]]]]) + " " + "dayContent"
+    className: style__default.a.dynamic([["2522240098", [colors_default.a["white"], colors_default.a["base"], colors_default.a["base"], colors_default.a["base"], colors_default.a["base"], colors_default.a["base"]]]]) + " " + "dayContent"
   }, friday.map(function (_ref) {
     var key = _ref.key,
         title = _ref.title,
@@ -684,21 +703,21 @@ var calendar_Calendar = function Calendar() {
         detail = _ref.detail;
     return external__react__default.a.createElement("li", {
       key: key,
-      className: style__default.a.dynamic([["1960507595", [colors_default.a["white"], colors_default.a["base"], colors_default.a["base"], colors_default.a["gray"][5], colors_default.a["base"], colors_default.a["base"], colors_default.a["base"]]]]) + " " + "dayItem"
+      className: style__default.a.dynamic([["2522240098", [colors_default.a["white"], colors_default.a["base"], colors_default.a["base"], colors_default.a["base"], colors_default.a["base"], colors_default.a["base"]]]]) + " " + "dayItem"
     }, external__react__default.a.createElement("span", {
-      className: style__default.a.dynamic([["1960507595", [colors_default.a["white"], colors_default.a["base"], colors_default.a["base"], colors_default.a["gray"][5], colors_default.a["base"], colors_default.a["base"], colors_default.a["base"]]]]) + " " + "itemTitle"
+      className: style__default.a.dynamic([["2522240098", [colors_default.a["white"], colors_default.a["base"], colors_default.a["base"], colors_default.a["base"], colors_default.a["base"], colors_default.a["base"]]]]) + " " + "itemTitle"
     }, title), external__react__default.a.createElement("span", {
-      className: style__default.a.dynamic([["1960507595", [colors_default.a["white"], colors_default.a["base"], colors_default.a["base"], colors_default.a["gray"][5], colors_default.a["base"], colors_default.a["base"], colors_default.a["base"]]]]) + " " + "itemTime"
+      className: style__default.a.dynamic([["2522240098", [colors_default.a["white"], colors_default.a["base"], colors_default.a["base"], colors_default.a["base"], colors_default.a["base"], colors_default.a["base"]]]]) + " " + "itemTime"
     }, time), external__react__default.a.createElement("span", {
-      className: style__default.a.dynamic([["1960507595", [colors_default.a["white"], colors_default.a["base"], colors_default.a["base"], colors_default.a["gray"][5], colors_default.a["base"], colors_default.a["base"], colors_default.a["base"]]]]) + " " + "itemDetail"
+      className: style__default.a.dynamic([["2522240098", [colors_default.a["white"], colors_default.a["base"], colors_default.a["base"], colors_default.a["base"], colors_default.a["base"], colors_default.a["base"]]]]) + " " + "itemDetail"
     }, detail));
   }))), external__react__default.a.createElement(external__rebass_["Box"], {
     px: 3,
     width: [1, 1 / 3]
   }, external__react__default.a.createElement("h2", {
-    className: style__default.a.dynamic([["1960507595", [colors_default.a["white"], colors_default.a["base"], colors_default.a["base"], colors_default.a["gray"][5], colors_default.a["base"], colors_default.a["base"], colors_default.a["base"]]]]) + " " + "day"
+    className: style__default.a.dynamic([["2522240098", [colors_default.a["white"], colors_default.a["base"], colors_default.a["base"], colors_default.a["base"], colors_default.a["base"], colors_default.a["base"]]]]) + " " + "dayName"
   }, dayTwo), external__react__default.a.createElement("ul", {
-    className: style__default.a.dynamic([["1960507595", [colors_default.a["white"], colors_default.a["base"], colors_default.a["base"], colors_default.a["gray"][5], colors_default.a["base"], colors_default.a["base"], colors_default.a["base"]]]]) + " " + "dayContent"
+    className: style__default.a.dynamic([["2522240098", [colors_default.a["white"], colors_default.a["base"], colors_default.a["base"], colors_default.a["base"], colors_default.a["base"], colors_default.a["base"]]]]) + " " + "dayContent"
   }, saturday.map(function (_ref2) {
     var key = _ref2.key,
         title = _ref2.title,
@@ -706,21 +725,21 @@ var calendar_Calendar = function Calendar() {
         detail = _ref2.detail;
     return external__react__default.a.createElement("li", {
       key: key,
-      className: style__default.a.dynamic([["1960507595", [colors_default.a["white"], colors_default.a["base"], colors_default.a["base"], colors_default.a["gray"][5], colors_default.a["base"], colors_default.a["base"], colors_default.a["base"]]]]) + " " + "dayItem"
+      className: style__default.a.dynamic([["2522240098", [colors_default.a["white"], colors_default.a["base"], colors_default.a["base"], colors_default.a["base"], colors_default.a["base"], colors_default.a["base"]]]]) + " " + "dayItem"
     }, external__react__default.a.createElement("span", {
-      className: style__default.a.dynamic([["1960507595", [colors_default.a["white"], colors_default.a["base"], colors_default.a["base"], colors_default.a["gray"][5], colors_default.a["base"], colors_default.a["base"], colors_default.a["base"]]]]) + " " + "itemTitle"
+      className: style__default.a.dynamic([["2522240098", [colors_default.a["white"], colors_default.a["base"], colors_default.a["base"], colors_default.a["base"], colors_default.a["base"], colors_default.a["base"]]]]) + " " + "itemTitle"
     }, title), external__react__default.a.createElement("span", {
-      className: style__default.a.dynamic([["1960507595", [colors_default.a["white"], colors_default.a["base"], colors_default.a["base"], colors_default.a["gray"][5], colors_default.a["base"], colors_default.a["base"], colors_default.a["base"]]]]) + " " + "itemTime"
+      className: style__default.a.dynamic([["2522240098", [colors_default.a["white"], colors_default.a["base"], colors_default.a["base"], colors_default.a["base"], colors_default.a["base"], colors_default.a["base"]]]]) + " " + "itemTime"
     }, time), external__react__default.a.createElement("span", {
-      className: style__default.a.dynamic([["1960507595", [colors_default.a["white"], colors_default.a["base"], colors_default.a["base"], colors_default.a["gray"][5], colors_default.a["base"], colors_default.a["base"], colors_default.a["base"]]]]) + " " + "itemDetail"
+      className: style__default.a.dynamic([["2522240098", [colors_default.a["white"], colors_default.a["base"], colors_default.a["base"], colors_default.a["base"], colors_default.a["base"], colors_default.a["base"]]]]) + " " + "itemDetail"
     }, detail));
   }))), external__react__default.a.createElement(external__rebass_["Box"], {
     px: 3,
     width: [1, 1 / 3]
   }, external__react__default.a.createElement("h2", {
-    className: style__default.a.dynamic([["1960507595", [colors_default.a["white"], colors_default.a["base"], colors_default.a["base"], colors_default.a["gray"][5], colors_default.a["base"], colors_default.a["base"], colors_default.a["base"]]]]) + " " + "day"
+    className: style__default.a.dynamic([["2522240098", [colors_default.a["white"], colors_default.a["base"], colors_default.a["base"], colors_default.a["base"], colors_default.a["base"], colors_default.a["base"]]]]) + " " + "dayName"
   }, dayThree), external__react__default.a.createElement("ul", {
-    className: style__default.a.dynamic([["1960507595", [colors_default.a["white"], colors_default.a["base"], colors_default.a["base"], colors_default.a["gray"][5], colors_default.a["base"], colors_default.a["base"], colors_default.a["base"]]]]) + " " + "dayContent"
+    className: style__default.a.dynamic([["2522240098", [colors_default.a["white"], colors_default.a["base"], colors_default.a["base"], colors_default.a["base"], colors_default.a["base"], colors_default.a["base"]]]]) + " " + "dayContent"
   }, sunday.map(function (_ref3) {
     var key = _ref3.key,
         title = _ref3.title,
@@ -728,24 +747,24 @@ var calendar_Calendar = function Calendar() {
         detail = _ref3.detail;
     return external__react__default.a.createElement("li", {
       key: key,
-      className: style__default.a.dynamic([["1960507595", [colors_default.a["white"], colors_default.a["base"], colors_default.a["base"], colors_default.a["gray"][5], colors_default.a["base"], colors_default.a["base"], colors_default.a["base"]]]]) + " " + "dayItem"
+      className: style__default.a.dynamic([["2522240098", [colors_default.a["white"], colors_default.a["base"], colors_default.a["base"], colors_default.a["base"], colors_default.a["base"], colors_default.a["base"]]]]) + " " + "dayItem"
     }, external__react__default.a.createElement("span", {
-      className: style__default.a.dynamic([["1960507595", [colors_default.a["white"], colors_default.a["base"], colors_default.a["base"], colors_default.a["gray"][5], colors_default.a["base"], colors_default.a["base"], colors_default.a["base"]]]]) + " " + "itemTitle"
+      className: style__default.a.dynamic([["2522240098", [colors_default.a["white"], colors_default.a["base"], colors_default.a["base"], colors_default.a["base"], colors_default.a["base"], colors_default.a["base"]]]]) + " " + "itemTitle"
     }, title), external__react__default.a.createElement("span", {
-      className: style__default.a.dynamic([["1960507595", [colors_default.a["white"], colors_default.a["base"], colors_default.a["base"], colors_default.a["gray"][5], colors_default.a["base"], colors_default.a["base"], colors_default.a["base"]]]]) + " " + "itemTime"
+      className: style__default.a.dynamic([["2522240098", [colors_default.a["white"], colors_default.a["base"], colors_default.a["base"], colors_default.a["base"], colors_default.a["base"], colors_default.a["base"]]]]) + " " + "itemTime"
     }, time), external__react__default.a.createElement("span", {
-      className: style__default.a.dynamic([["1960507595", [colors_default.a["white"], colors_default.a["base"], colors_default.a["base"], colors_default.a["gray"][5], colors_default.a["base"], colors_default.a["base"], colors_default.a["base"]]]]) + " " + "itemDetail"
+      className: style__default.a.dynamic([["2522240098", [colors_default.a["white"], colors_default.a["base"], colors_default.a["base"], colors_default.a["base"], colors_default.a["base"], colors_default.a["base"]]]]) + " " + "itemDetail"
     }, detail));
   })))), external__react__default.a.createElement(style__default.a, {
-    styleId: "1960507595",
-    css: ["h1.__jsx-style-dynamic-selector,h2.__jsx-style-dynamic-selector{font-family:\"Overpass Mono\",monospace;}", ".title.__jsx-style-dynamic-selector{display:inline-block;text-transform:uppercase;color:".concat(colors_default.a["white"], ";background:").concat(colors_default.a["base"], ";padding:2px 10px;}"), ".dayName.__jsx-style-dynamic-selector{font-size:1.2em;font-weight:600;color:".concat(colors_default.a["base"], ";text-transform:uppercase;}"), ".dayContent.__jsx-style-dynamic-selector{display:inline-block;vertical-align:top;width:48%;float:left;margin:0px;list-style-type:none;padding:0;width:100%;}", ".dayItem.__jsx-style-dynamic-selector{border:1px solid ".concat(colors_default.a["gray"][5], ";background:rgba(255,255,255,0.2);color:").concat(colors_default.a["base"], ";padding:8px 10px;-webkit-transition:border 0.3s ease-in-out,box-shadow 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;-webkit-transition:border 0.3s ease-in-out,box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;transition:border 0.3s ease-in-out,box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;margin-bottom:1em;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-flow:row wrap;-ms-flex-flow:row wrap;flex-flow:row wrap;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}"), ".dayItem.__jsx-style-dynamic-selector:hover{border:1px solid ".concat(colors_default.a["base"], ";box-shadow:0px 3px 5px 2px rgba(97,100,178,0.05);-webkit-transform:scale(1.05);-ms-transform:scale(1.05);transform:scale(1.05);}"), ".dayContent.__jsx-style-dynamic-selector ul.__jsx-style-dynamic-selector li.__jsx-style-dynamic-selector{-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;-webkit-flex-flow:row wrap;-ms-flex-flow:row wrap;flex-flow:row wrap;-webkit-align-content:center;-ms-flex-line-pack:center;align-content:center;}", ".itemTime.__jsx-style-dynamic-selector{display:block;margin-top:2px;font-size:0.8em;font-family:\"Overpass Mono\";}", ".itemTitle.__jsx-style-dynamic-selector{margin-top:5px;display:inline-block;font-size:0.8em;font-weight:400;font-family:\"Overpass Mono\";background:rgba(97,100,178,0.15);padding:2px 5px;color:".concat(colors_default.a["base"], ";}"), ".itemDetail.__jsx-style-dynamic-selector{clear:both;display:block;-webkit-flex:1 1 100%;-ms-flex:1 1 100%;flex:1 1 100%;font-size:0.8em;margin-top:0.5em;}"],
-    dynamic: [colors_default.a["white"], colors_default.a["base"], colors_default.a["base"], colors_default.a["gray"][5], colors_default.a["base"], colors_default.a["base"], colors_default.a["base"]]
+    styleId: "2522240098",
+    css: ["h1.__jsx-style-dynamic-selector,h2.__jsx-style-dynamic-selector{font-family:\"Overpass Mono\",monospace;}", ".title.__jsx-style-dynamic-selector{display:inline-block;text-transform:uppercase;color:".concat(colors_default.a["white"], ";background:").concat(colors_default.a["base"], ";padding:2px 10px;}"), ".dayName.__jsx-style-dynamic-selector{font-size:1.2em;font-weight:600;color:".concat(colors_default.a["base"], ";text-transform:uppercase;}"), ".dayContent.__jsx-style-dynamic-selector{display:inline-block;vertical-align:top;width:48%;float:left;margin:0px;list-style-type:none;padding:0;width:100%;}", ".dayItem.__jsx-style-dynamic-selector{border:1px solid rgba(0,0,0,0.1);background:rgba(255,255,255,0.2);color:".concat(colors_default.a["base"], ";padding:8px 10px;-webkit-transition:border 0.3s ease-in-out,box-shadow 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;-webkit-transition:border 0.3s ease-in-out,box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;transition:border 0.3s ease-in-out,box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;margin-bottom:1em;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-flow:row wrap;-ms-flex-flow:row wrap;flex-flow:row wrap;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}"), ".dayItem.__jsx-style-dynamic-selector:hover{border:1px solid ".concat(colors_default.a["base"], ";box-shadow:0px 3px 5px 2px rgba(97,100,178,0.05);-webkit-transform:scale(1.05);-ms-transform:scale(1.05);transform:scale(1.05);}"), ".dayContent.__jsx-style-dynamic-selector ul.__jsx-style-dynamic-selector li.__jsx-style-dynamic-selector{-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;-webkit-flex-flow:row wrap;-ms-flex-flow:row wrap;flex-flow:row wrap;-webkit-align-content:center;-ms-flex-line-pack:center;align-content:center;}", ".itemTime.__jsx-style-dynamic-selector{display:block;margin-top:2px;font-size:0.8em;font-family:\"Overpass Mono\";}", ".itemTitle.__jsx-style-dynamic-selector{margin-top:5px;display:inline-block;font-size:0.8em;font-weight:400;font-family:\"Overpass Mono\";background:rgba(97,100,178,0.15);padding:2px 5px;color:".concat(colors_default.a["base"], ";}"), ".itemDetail.__jsx-style-dynamic-selector{clear:both;display:block;-webkit-flex:1 1 100%;-ms-flex:1 1 100%;flex:1 1 100%;font-size:0.8em;margin-top:0.5em;}"],
+    dynamic: [colors_default.a["white"], colors_default.a["base"], colors_default.a["base"], colors_default.a["base"], colors_default.a["base"], colors_default.a["base"]]
   })));
 };
 
 /* harmony default export */ var calendar = (calendar_Calendar);
 // EXTERNAL MODULE: external "rc-collapse"
-var external__rc_collapse_ = __webpack_require__(11);
+var external__rc_collapse_ = __webpack_require__(15);
 var external__rc_collapse__default = /*#__PURE__*/__webpack_require__.n(external__rc_collapse_);
 
 // CONCATENATED MODULE: ./node_modules/rc-collapse/assets/index.css
@@ -755,13 +774,14 @@ _defaultExport.__scoped = [".rc-collapse.jsx-3908273469{background-color:#f7f7f7
 _defaultExport.__scopedHash = "3908273469";
 /* harmony default export */ var assets = (_defaultExport);
 // CONCATENATED MODULE: ./styles/collapse.css
-var collapse__defaultExport = [".rc-collapse{background-color:unset;color:#fff;border:unset;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:space-around;-webkit-justify-content:space-around;-ms-flex-pack:space-around;justify-content:space-around;padding:0.5em;}", ".rc-collapse-header{text-indent:unset !important;}", ".rc-collapse-header:focus{border:none;box-shadow:unset;outline:none;}", ".rc-collapse>.rc-collapse-item:first-child{border-top:4px solid rgba(255,255,255,1) !important;border-left:4px solid rgba(255,255,255,1) !important;}", ".faqCard{border:1px solid rgba(255,255,255,0.2);color:#ecedf0;font-family:\"Overpass Mono\",monospace;font-weight:300;padding:18px;text-align:left;-webkit-text-decoration:none;text-decoration:none;-webkit-transition:border-color 0.3s ease-in-out,background 0.3s ease-in-out;transition:border-color 0.3s ease-in-out,background 0.3s ease-in-out;height:auto;width:300px;}", ".rc-collapse-item-active{height:auto !important;}", ".arrow{display:none;content:\"\";margin-right:0px !important;border:none !important;}", ".rc-collapse-header{color:#fff !important;height:auto !important;line-height:unset !important;}", ".rc-collapse-content{background-color:unset;color:#fff;padding:0px;font-family:\"Inter UI\" !important;font-size:0.9em;line-height:1.5em !important;}", ".rc-collapse-content-box{margin-bottom:15px !important;}", ".rc-collapse-content-box>p{margin:0px !important;padding:0px !important;}", "tr:nth-child(even){background-color:rgba(255,255,255,0.05);}"];
-collapse__defaultExport.__hash = "4053960696";
-collapse__defaultExport.__scoped = [".rc-collapse.jsx-406283449{background-color:unset;color:#fff;border:unset;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:space-around;-webkit-justify-content:space-around;-ms-flex-pack:space-around;justify-content:space-around;padding:0.5em;}", ".rc-collapse-header.jsx-406283449{text-indent:unset !important;}", ".rc-collapse-header.jsx-406283449:focus{border:none;box-shadow:unset;outline:none;}", ".rc-collapse.jsx-406283449>.rc-collapse-item.jsx-406283449:first-child{border-top:4px solid rgba(255,255,255,1) !important;border-left:4px solid rgba(255,255,255,1) !important;}", ".faqCard.jsx-406283449{border:1px solid rgba(255,255,255,0.2);color:#ecedf0;font-family:\"Overpass Mono\",monospace;font-weight:300;padding:18px;text-align:left;-webkit-text-decoration:none;text-decoration:none;-webkit-transition:border-color 0.3s ease-in-out,background 0.3s ease-in-out;transition:border-color 0.3s ease-in-out,background 0.3s ease-in-out;height:auto;width:300px;}", ".rc-collapse-item-active.jsx-406283449{height:auto !important;}", ".arrow.jsx-406283449{display:none;content:\"\";margin-right:0px !important;border:none !important;}", ".rc-collapse-header.jsx-406283449{color:#fff !important;height:auto !important;line-height:unset !important;}", ".rc-collapse-content.jsx-406283449{background-color:unset;color:#fff;padding:0px;font-family:\"Inter UI\" !important;font-size:0.9em;line-height:1.5em !important;}", ".rc-collapse-content-box.jsx-406283449{margin-bottom:15px !important;}", ".rc-collapse-content-box.jsx-406283449>p.jsx-406283449{margin:0px !important;padding:0px !important;}", "tr.jsx-406283449:nth-child(even){background-color:rgba(255,255,255,0.05);}"];
-collapse__defaultExport.__scopedHash = "406283449";
+var collapse__defaultExport = [".rc-collapse{background-color:unset;color:#fff;border:unset;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:space-around;-webkit-justify-content:space-around;-ms-flex-pack:space-around;justify-content:space-around;padding:0.5em;}", ".rc-collapse-header{text-indent:unset !important;}", ".rc-collapse-header:focus{border:none;box-shadow:unset;outline:none;}", ".rc-collapse>.rc-collapse-item:first-child{border-top:4px solid rgba(255,255,255,1) !important;border-left:4px solid rgba(255,255,255,1) !important;}", ".faqCard{border:1px solid rgba(255,255,255,0.2);color:#ecedf0;font-family:\"Overpass Mono\",monospace;font-weight:300;padding:18px;text-align:left;-webkit-text-decoration:none;text-decoration:none;-webkit-transition:border-color 0.3s ease-in-out,background 0.3s ease-in-out;transition:border-color 0.3s ease-in-out,background 0.3s ease-in-out;height:auto;width:300px;-webkit-transition:-webkit-transform 0.15s ease-in-out;-webkit-transition:transform 0.15s ease-in-out;transition:transform 0.15s ease-in-out;}", ".faqCard:hover{-webkit-transform:scale(1.05);-ms-transform:scale(1.05);transform:scale(1.05);}", ".rc-collapse-item-active{height:auto !important;}", ".arrow{display:none;content:\"\";margin-right:0px !important;border:none !important;}", ".rc-collapse-header{color:#fff !important;height:auto !important;line-height:unset !important;}", ".rc-collapse-content{background-color:unset;color:#fff;padding:0px;font-family:\"Open Sans\",sans-serif !important;font-size:0.9em;line-height:1.5em !important;}", ".rc-collapse-content-box{margin-bottom:15px !important;}", ".rc-collapse-content-box>p{margin:0px !important;padding:0px !important;}", "tr:nth-child(even){background-color:rgba(255,255,255,0.05);}"];
+collapse__defaultExport.__hash = "1381846463";
+collapse__defaultExport.__scoped = [".rc-collapse.jsx-488722942{background-color:unset;color:#fff;border:unset;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:space-around;-webkit-justify-content:space-around;-ms-flex-pack:space-around;justify-content:space-around;padding:0.5em;}", ".rc-collapse-header.jsx-488722942{text-indent:unset !important;}", ".rc-collapse-header.jsx-488722942:focus{border:none;box-shadow:unset;outline:none;}", ".rc-collapse.jsx-488722942>.rc-collapse-item.jsx-488722942:first-child{border-top:4px solid rgba(255,255,255,1) !important;border-left:4px solid rgba(255,255,255,1) !important;}", ".faqCard.jsx-488722942{border:1px solid rgba(255,255,255,0.2);color:#ecedf0;font-family:\"Overpass Mono\",monospace;font-weight:300;padding:18px;text-align:left;-webkit-text-decoration:none;text-decoration:none;-webkit-transition:border-color 0.3s ease-in-out,background 0.3s ease-in-out;transition:border-color 0.3s ease-in-out,background 0.3s ease-in-out;height:auto;width:300px;-webkit-transition:-webkit-transform 0.15s ease-in-out;-webkit-transition:transform 0.15s ease-in-out;transition:transform 0.15s ease-in-out;}", ".faqCard.jsx-488722942:hover{-webkit-transform:scale(1.05);-ms-transform:scale(1.05);transform:scale(1.05);}", ".rc-collapse-item-active.jsx-488722942{height:auto !important;}", ".arrow.jsx-488722942{display:none;content:\"\";margin-right:0px !important;border:none !important;}", ".rc-collapse-header.jsx-488722942{color:#fff !important;height:auto !important;line-height:unset !important;}", ".rc-collapse-content.jsx-488722942{background-color:unset;color:#fff;padding:0px;font-family:\"Open Sans\",sans-serif !important;font-size:0.9em;line-height:1.5em !important;}", ".rc-collapse-content-box.jsx-488722942{margin-bottom:15px !important;}", ".rc-collapse-content-box.jsx-488722942>p.jsx-488722942{margin:0px !important;padding:0px !important;}", "tr.jsx-488722942:nth-child(even){background-color:rgba(255,255,255,0.05);}"];
+collapse__defaultExport.__scopedHash = "488722942";
 /* harmony default export */ var collapse = (collapse__defaultExport);
 // CONCATENATED MODULE: ./content/faq.js
 
+var faq_title = "QUESTIONS & ANSWERS";
 var questions = [{
   question: "How long is HackRice?",
   answer: "The event is held from Friday, October 14th to Sunday, October 16th. Students hack for 36 hours. View the schedule for more info."
@@ -932,12 +952,22 @@ function (_React$Component) {
 
       return external__react__default.a.createElement(external__react_scroll_["Element"], {
         name: "faq"
-      }, external__react__default.a.createElement(external__rebass_["Flex"], {
+      }, external__react__default.a.createElement(external__rebass_["Box"], {
+        mx: 2,
+        mt: 5
+      }, external__react__default.a.createElement("h2", {
+        className: style__default.a.dynamic([["4026621112", [colors_default.a["base"]]]]) + " " + "title"
+      }, faq_title)), external__react__default.a.createElement(external__rebass_["Flex"], {
         flexDirection: "row",
         flexWrap: "wrap",
-        my: 4,
+        mt: 2,
+        mb: 5,
         pt: 2
-      }, cols));
+      }, cols), external__react__default.a.createElement(style__default.a, {
+        styleId: "4026621112",
+        css: [".title.__jsx-style-dynamic-selector{display:inline-block;text-transform:uppercase;background:".concat(colors_default.a["base"], ";border-top:4px solid rgba(255,255,255,1) !important;border-left:4px solid rgba(255,255,255,1) !important;border:1px solid rgba(255,255,255,0.2);font-family:\"Overpass Mono\",monospace;padding:5px 10px 2px 10px;box-sizing:content-box;margin:unset;height:40px;font-family:\"Overpass Mono\",monospace;}")],
+        dynamic: [colors_default.a["base"]]
+      }));
     }
   }]);
 
@@ -948,15 +978,19 @@ function (_React$Component) {
 // CONCATENATED MODULE: ./content/judging.js
 var judging_title = "Judging Criteria";
 var criteria = [{
+  icon: "https://icon.now.sh/settings/6164B2",
   subtitle: "Technical Difficulty",
   description: "Solutions should address technically challenging problems while falling anywhere between being beautifully simple to implementing complex, cutting-edge technologies."
 }, {
+  icon: "https://icon.now.sh/calendar/6164B2",
   subtitle: "Creativity",
   description: "Solutions should be original and either (1) define a new method for solving an unaddressed problem, or (2) present a new approach to a proven solution for a known problem. Solutions should demonstrate that intentional and appropriate design decisions have been made."
 }, {
+  icon: "https://icon.now.sh/format_paint/6164B2",
   subtitle: "Design & Polish",
   description: "We are looking for aesthetically and functionally pleasing projects with an intuitive and polished user experience."
 }, {
+  icon: "https://icon.now.sh/tag_faces/6164B2",
   subtitle: "Practicality & Usefulness",
   description: "Projects will be evaluated based on their utility and applicability to a set of problems experienced by people in the real world. Emphasis is placed on ensuring solutions can be extrapolated meaningfully outside of the demonstrated use case."
 }].map(function (item) {
@@ -981,21 +1015,29 @@ var judging_Judging = function Judging() {
     px: 5,
     py: 5
   }, external__react__default.a.createElement("h2", {
-    className: style__default.a.dynamic([["4106871781", [colors_default.a["white"], colors_default.a["base"]]]]) + " " + "title"
+    className: style__default.a.dynamic([["2259400939", [colors_default.a["white"], colors_default.a["base"]]]]) + " " + "title"
   }, judging_title), criteria.map(function (_ref) {
     var key = _ref.key,
         subtitle = _ref.subtitle,
-        description = _ref.description;
+        description = _ref.description,
+        icon = _ref.icon;
     return external__react__default.a.createElement(external__rebass_["Box"], {
       width: 1
     }, external__react__default.a.createElement("h2", {
-      className: style__default.a.dynamic([["4106871781", [colors_default.a["white"], colors_default.a["base"]]]]) + " " + "subtitle"
-    }, subtitle), external__react__default.a.createElement("p", {
-      className: style__default.a.dynamic([["4106871781", [colors_default.a["white"], colors_default.a["base"]]]]) + " " + "description"
+      className: style__default.a.dynamic([["2259400939", [colors_default.a["white"], colors_default.a["base"]]]]) + " " + "subtitle"
+    }, external__react__default.a.createElement("img", {
+      src: icon,
+      height: 20,
+      style: {
+        marginRight: "0.5em"
+      },
+      className: style__default.a.dynamic([["2259400939", [colors_default.a["white"], colors_default.a["base"]]]])
+    }), subtitle), external__react__default.a.createElement("p", {
+      className: style__default.a.dynamic([["2259400939", [colors_default.a["white"], colors_default.a["base"]]]]) + " " + "description"
     }, description));
   }), external__react__default.a.createElement(style__default.a, {
-    styleId: "4106871781",
-    css: [".title.__jsx-style-dynamic-selector{display:inline-block;text-transform:uppercase;color:".concat(colors_default.a["white"], ";background:").concat(colors_default.a["base"], ";padding:2px 10px;margin:unset;font-family:\"Overpass Mono\",monospace;}"), ".subtitle.__jsx-style-dynamic-selector{font-family:\"Overpass Mono\",monospace;text-transform:uppercase;margin-bottom:0px;}", ".description.__jsx-style-dynamic-selector{margin-top:0.5em;font-size:1em;font-weight:400;}"],
+    styleId: "2259400939",
+    css: [".title.__jsx-style-dynamic-selector{display:inline-block;text-transform:uppercase;color:".concat(colors_default.a["white"], ";background:").concat(colors_default.a["base"], ";padding:2px 10px;margin:unset;margin-bottom:1em;font-family:\"Overpass Mono\",monospace;}"), ".subtitle.__jsx-style-dynamic-selector{font-family:\"Overpass Mono\",monospace;text-transform:uppercase;margin-bottom:0px;}", ".description.__jsx-style-dynamic-selector{margin-top:0.5em;font-size:1em;font-weight:400;}"],
     dynamic: [colors_default.a["white"], colors_default.a["base"]]
   })));
 };
@@ -1004,82 +1046,100 @@ var judging_Judging = function Judging() {
 // CONCATENATED MODULE: ./content/sponsors.js
 var sponsors_title = "Sponsored by";
 var files = [{
-  name: 'twosigma.svg',
-  height: '30px',
-  link: ''
+  name: "facebook.svg",
+  height: "30px",
+  link: "https://www.facebook.com/",
+  blurb: "People are at the heart of every connection we build. We design products and deliver services that bring the world closer together — one connection at a time."
 }, {
-  name: 'facebook.svg',
-  height: '30px',
-  link: ''
+  name: "bp.svg",
+  height: "40px",
+  link: "https://www.bp.com/",
+  blurb: "Heat. Light. Power. Meeting society’s growing demand for energy is an immense responsibility. And at BP, it’s a responsibility we all share. We find, develop and produce energy resources every day – energy that’s behind the products we all rely on. Doing all of that sustainably, securely and at a reasonable cost is our challenge. It’s one we rise to as a team. A team made of diverse people with different perspectives who work together to make change happen. Scientific breakthroughs, engineering firsts, process improvements – everything we achieve is down to the drive, ambition and collaboration of our people. And you could be one of them."
 }, {
-  name: 'jpmorgan.svg',
-  height: '20px',
-  link: ''
+  name: "schlumberger.svg",
+  height: "30px",
+  link: "https://www.slb.com/",
+  blurb: "Schlumberger is the world's leading provider of technology for reservoir \n characterization, drilling, production, and processing to the oil and gas industry. Working in more than 85 countries and employing approximately 100,000 people who represent over 140 nationalities, Schlumberger supplies the industry's most comprehensive range of products and services, from exploration through production and integrated pore-to-pipeline solutions for hydrocarbon recovery that optimize reservoir performance."
 }, {
-  name: 'bp.svg',
-  height: '40px',
-  link: ''
+  name: "jpmorgan.svg",
+  height: "20px",
+  link: "https://www.jpmorgan.com/country/US/en/jpmorgan",
+  blurb: "J.P. Morgan is a leader in financial services, offering solutions to clients in more than 100 countries with one of the most comprehensive global product platforms available. We have been helping our clients to do business and manage their wealth for more than 200 years. Our business has been built upon our core principle of putting our clients’ interests first. J.P. Morgan is a leader in asset management, investment banking, private banking, treasury and securities services, and commercial banking. Our broad global platform and strength enable us to create long-lasting value for clients."
 }, {
-  name: 'capital.svg',
-  height: '35px',
-  link: ''
+  name: "twosigma.svg",
+  height: "30px",
+  link: "https://www.twosigma.com/"
 }, {
-  name: 'chevron.svg',
-  height: '40px',
-  link: ''
+  name: "palantir.svg",
+  height: "30px",
+  link: "https://palantir.com"
 }, {
-  name: 'extrahop.svg',
-  height: '30px',
-  link: ''
+  name: "capital.svg",
+  height: "35px",
+  link: "https://www.capitalone.com/"
 }, {
-  name: 'hbk.svg',
-  height: '30px',
-  link: ''
+  name: "chevron.svg",
+  height: "40px",
+  link: "https://www.chevron.com/"
 }, {
-  name: 'hcss.svg',
-  height: '30px',
-  link: ''
+  name: "extrahop.svg",
+  height: "30px",
+  link: "https://www.extrahop.com/"
 }, {
-  name: 'indeed.svg',
-  height: '30px',
-  link: ''
+  name: "hbk.svg",
+  height: "30px",
+  link: "https://www.hbk.com"
 }, {
-  name: 'ricecs.svg',
-  height: '30px',
-  link: ''
+  name: "hcss.svg",
+  height: "30px",
+  link: "https://www.hcss.com/"
 }, {
-  name: 'schlumberger.svg',
-  height: '30px',
-  link: ''
+  name: "indeed.svg",
+  height: "30px",
+  link: "https://www.indeed.com/"
 }, {
-  name: 'tech.svg',
-  height: '30px',
-  link: ''
+  name: "ricecs.svg",
+  height: "30px",
+  link: "https://csweb.rice.edu/"
 }, {
-  name: 'tiffs.svg',
-  height: '40px',
-  link: ''
+  name: "tech.svg",
+  height: "30px",
+  link: "https://get.tech/"
 }, {
-  name: 'mlh.svg',
-  height: '40px',
-  link: ''
+  name: "tiffs.svg",
+  height: "40px",
+  link: "https://www.cookiedelivery.com/"
+}, {
+  name: "mlh.svg",
+  height: "40px",
+  link: "https://mlh.io/"
 }].map(function (item) {
   item.key = "image-".concat(item.name);
   return item;
 });
 // CONCATENATED MODULE: ./components/sponsors.js
+var _templateObject = /*#__PURE__*/ _taggedTemplateLiteral(["\n  &::before {\n    white-space: normal;\n    width: 350px;\n    padding: 1.5em;\n    font-family: \"Open Sans\", sans-serif;\n    font-weight: 400;\n    background-color: rgba(255, 255, 255, 1);\n    color: ", ";\n  }\n"]);
+
+
+
+
+function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 
 
 
 
 
+var CustomTooltip = external__styled_components__default()(external__rebass_["Tooltip"])(_templateObject, colors_default.a["base"]);
 
 var sponsors_Sponsors = function Sponsors() {
   return external__react__default.a.createElement(external__rebass_["Flex"], {
     flexWrap: "wrap",
     width: 1,
-    my: 2
+    mb: 4,
+    css: {
+      background: "rgba(97, 100, 178, 0.2)"
+    }
   }, external__react__default.a.createElement(external__rebass_["Flex"], {
     flexWrap: "wrap",
     flexDirection: "row",
@@ -1087,22 +1147,35 @@ var sponsors_Sponsors = function Sponsors() {
     alignItems: "center",
     width: 1,
     mx: 5,
-    my: 5
+    my: 3
   }, external__react__default.a.createElement("h2", {
     className: style__default.a.dynamic([["2533503331", [colors_default.a["base"], colors_default.a["white"]]]]) + " " + "title"
   }, sponsors_title), files.map(function (_ref) {
     var name = _ref.name,
         height = _ref.height,
-        link = _ref.link;
-    return external__react__default.a.createElement(link__default.a, {
-      href: link
+        link = _ref.link,
+        blurb = _ref.blurb;
+    return blurb === undefined ? external__react__default.a.createElement("a", {
+      href: link,
+      className: style__default.a.dynamic([["2533503331", [colors_default.a["base"], colors_default.a["white"]]]])
     }, external__react__default.a.createElement(external__rebass_["Image"], {
       style: {
         margin: "2em 1em",
         height: "".concat(height)
       },
       src: "../static/sponsors/".concat(name)
-    }));
+    })) : external__react__default.a.createElement(CustomTooltip, {
+      text: blurb
+    }, external__react__default.a.createElement("a", {
+      href: link,
+      className: style__default.a.dynamic([["2533503331", [colors_default.a["base"], colors_default.a["white"]]]])
+    }, external__react__default.a.createElement(external__rebass_["Image"], {
+      style: {
+        margin: "2em 1em",
+        height: "".concat(height)
+      },
+      src: "../static/sponsors/".concat(name)
+    })));
   })), external__react__default.a.createElement(style__default.a, {
     styleId: "2533503331",
     css: [".title.__jsx-style-dynamic-selector{display:inline-block;text-transform:uppercase;color:".concat(colors_default.a["base"], ";background:").concat(colors_default.a["white"], ";padding:2px 10px;margin:unset;height:40px;font-family:\"Overpass Mono\",monospace;}")],
@@ -1111,12 +1184,162 @@ var sponsors_Sponsors = function Sponsors() {
 };
 
 /* harmony default export */ var sponsors = (sponsors_Sponsors);
+// CONCATENATED MODULE: ./content/tracks.js
+var tracks_title = "Tracks & Challenges";
+var tracks_cards = [{
+  icon: "https://icon.now.sh/bubble_chart/ffffff",
+  type: "track",
+  title: "Build a bot!",
+  href: "https://github.com/jpa99/HR8-First-Timers-Track",
+  text: "Hackers will create a bot integrated with an existing platform (e.g. Facebook Messenger, Slack, Alexa, Twitter, Reddit, etc.). First-time hackers can follow the provided walkthrough to set up a basic bot, and then extend it to provide additional functionality. Examples include connecting to a DB and storing user information, integrating ML/NLP for contextual rather than rules-based conversation, creating a specific service (e.g. pizza delivery), allowing users to play a game, etc. Judges will evaluate the project on its technical difficulty, effectiveness, creativity, and quality of user experience."
+}, {
+  icon: "https://icon.now.sh/timeline/ffffff",
+  type: "track",
+  title: "Make sense of data!",
+  href: "https://github.com/abhmul/DataScienceTrack",
+  text: "Have you shopped online and found advertisements on Facebook and Google for the same item? Or, say you’re chatting with your best friend and the keyboard suggests to you the exact words that you want to use in your sentence? How does YouTube recommend such great videos?\nData science & machine learning have changed the usability of technology. This track will give you a brief introduction into some basic applications of machine learning and data science along with example prompts to compete in this track."
+}, {
+  icon: "https://icon.now.sh/border_color/ffffff",
+  type: "track",
+  title: "(re)Design a beautiful app!",
+  href: "https://github.com/jpa99/HR8-Design-Track",
+  text: "Accessibility and visual appeal are vital attributes of any app or website’s user interface. While still remaining functional on the back end, many apps and websites on many different platforms have deplorable user interfaces that needs lots of work.  This year’s HackRice “reDesign” track hopes to improve those interfaces.  Using your knowledge of design and graphics, you will be tasked with redesigning the user interface of an app or website used by the public today that you believe needs overhaul"
+}, {
+  icon: "https://icon.now.sh/chevron/ffffff",
+  type: "challenge",
+  title: "Chevron",
+  text: "Optimize the work order process in Chevrons complex process facilities (refineries and liquified natural gas production facilities).  The idea is to optimize work order completions by having a system that tracks (1) the orders that are submitted and (2) the workers that are completing them (including any necessary certifications / qualifications) to optimize how they are assigned and completed."
+}, {
+  icon: "https://icon.now.sh/local_gas_station/ffffff",
+  type: "challenge",
+  title: "Schlumberger",
+  href: "https://github.com/Schlumberger/hackathon/",
+  text: "Ask an engineer how to improve an application, and they will likely say, 'give me a way to see more data'. Surveillance engineers may analyze output from a dozen or more sensors in the same visualization.​ Line charts are the default choice for this workflow, but they are cumbersome, especially if the data streams have different scaling and units. And as IIoT becomes pervasive at the wellsite, this problem will only grow.​ Show us how to do it better! Deliver a web application to display/query/analyze time-series data from downhole equipment in innovative ways.​​"
+}, {
+  icon: "https://icon.now.sh/poll/ffffff",
+  type: "challenge",
+  title: "HBK",
+  text: "The winner of this project will demonstrate the best use of technology for a financially driven problem."
+}, {
+  icon: "https://icon.now.sh/microsoft/ffffff",
+  type: "challenge",
+  title: "Microsoft",
+  text: "The winner of this challenge will best utilize Microsoft API’s in their hackathon project."
+}, {
+  icon: "https://icon.now.sh/domain/ffffff",
+  type: "challenge",
+  title: "Capital One",
+  text: "The winner of this challenge will best answer the following question: how will you reimagine banking?"
+}, {
+  icon: "https://icon.now.sh/report_problem/ffffff",
+  type: "challenge",
+  title: "JP Morgan Chase",
+  text: "Information about this challenge is coming soon."
+}, {
+  icon: "https://icon.now.sh/report_problem/ffffff",
+  type: "challenge",
+  title: "Extrahop",
+  text: "Information about this challenge is coming soon."
+}, {
+  icon: "https://icon.now.sh/report_problem/ffffff",
+  type: "challenge",
+  title: "Indeed",
+  text: "Information about this challenge is coming soon."
+}].map(function (card) {
+  card.key = "card-".concat(card.title);
+  return card;
+});
+// CONCATENATED MODULE: ./components/tracks.js
+
+
+
+
+
+
+
+
+var tracks_Tracks = function Tracks() {
+  return external__react__default.a.createElement(external__react_scroll_["Element"], {
+    name: "tracks"
+  }, external__react__default.a.createElement(external__rebass_["Box"], {
+    px: 3,
+    pt: 4,
+    pb: 4,
+    bg: colors_default.a["base"],
+    color: colors_default.a["gray"][1]
+  }, external__react__default.a.createElement(external__rebass_["Box"], {
+    mx: 1,
+    mt: 4
+  }, external__react__default.a.createElement("h2", {
+    className: style__default.a.dynamic([["4229634349", [colors_default.a["white"], colors_default.a["gray"][1], colors_default.a["white"], colors_default.a["white"]]]]) + " " + "title"
+  }, tracks_title)), external__react__default.a.createElement(external__rebass_["Flex"], {
+    flexWrap: "wrap",
+    mx: -2,
+    pt: 2
+  }, tracks_cards.map(function (_ref) {
+    var key = _ref.key,
+        href = _ref.href,
+        title = _ref.title,
+        type = _ref.type,
+        text = _ref.text,
+        icon = _ref.icon;
+    return href !== undefined ? external__react__default.a.createElement(external__rebass_["Box"], {
+      key: key,
+      width: [1]
+    }, external__react__default.a.createElement("a", {
+      href: href,
+      className: style__default.a.dynamic([["4229634349", [colors_default.a["white"], colors_default.a["gray"][1], colors_default.a["white"], colors_default.a["white"]]]])
+    }, external__react__default.a.createElement("div", {
+      className: style__default.a.dynamic([["4229634349", [colors_default.a["white"], colors_default.a["gray"][1], colors_default.a["white"], colors_default.a["white"]]]]) + " " + "card"
+    }, external__react__default.a.createElement("h3", {
+      className: style__default.a.dynamic([["4229634349", [colors_default.a["white"], colors_default.a["gray"][1], colors_default.a["white"], colors_default.a["white"]]]])
+    }, external__react__default.a.createElement("img", {
+      src: icon,
+      className: style__default.a.dynamic([["4229634349", [colors_default.a["white"], colors_default.a["gray"][1], colors_default.a["white"], colors_default.a["white"]]]])
+    }), external__react__default.a.createElement("span", {
+      className: style__default.a.dynamic([["4229634349", [colors_default.a["white"], colors_default.a["gray"][1], colors_default.a["white"], colors_default.a["white"]]]]) + " " + "spacer"
+    }), external__react__default.a.createElement("span", {
+      className: style__default.a.dynamic([["4229634349", [colors_default.a["white"], colors_default.a["gray"][1], colors_default.a["white"], colors_default.a["white"]]]]) + " " + "cardTitle"
+    }, title), external__react__default.a.createElement("span", {
+      className: style__default.a.dynamic([["4229634349", [colors_default.a["white"], colors_default.a["gray"][1], colors_default.a["white"], colors_default.a["white"]]]]) + " " + "detail"
+    }, type)), external__react__default.a.createElement("p", {
+      className: style__default.a.dynamic([["4229634349", [colors_default.a["white"], colors_default.a["gray"][1], colors_default.a["white"], colors_default.a["white"]]]])
+    }, text), external__react__default.a.createElement("p", {
+      className: style__default.a.dynamic([["4229634349", [colors_default.a["white"], colors_default.a["gray"][1], colors_default.a["white"], colors_default.a["white"]]]]) + " " + "link"
+    }, "LEARN MORE \u2192")))) : external__react__default.a.createElement(external__rebass_["Box"], {
+      key: key,
+      width: [1]
+    }, external__react__default.a.createElement("div", {
+      className: style__default.a.dynamic([["4229634349", [colors_default.a["white"], colors_default.a["gray"][1], colors_default.a["white"], colors_default.a["white"]]]]) + " " + "card"
+    }, external__react__default.a.createElement("h3", {
+      className: style__default.a.dynamic([["4229634349", [colors_default.a["white"], colors_default.a["gray"][1], colors_default.a["white"], colors_default.a["white"]]]])
+    }, external__react__default.a.createElement("img", {
+      src: icon,
+      className: style__default.a.dynamic([["4229634349", [colors_default.a["white"], colors_default.a["gray"][1], colors_default.a["white"], colors_default.a["white"]]]])
+    }), external__react__default.a.createElement("span", {
+      className: style__default.a.dynamic([["4229634349", [colors_default.a["white"], colors_default.a["gray"][1], colors_default.a["white"], colors_default.a["white"]]]]) + " " + "spacer"
+    }), external__react__default.a.createElement("span", {
+      className: style__default.a.dynamic([["4229634349", [colors_default.a["white"], colors_default.a["gray"][1], colors_default.a["white"], colors_default.a["white"]]]]) + " " + "cardTitle"
+    }, title), external__react__default.a.createElement("span", {
+      className: style__default.a.dynamic([["4229634349", [colors_default.a["white"], colors_default.a["gray"][1], colors_default.a["white"], colors_default.a["white"]]]]) + " " + "detail"
+    }, type)), external__react__default.a.createElement("p", {
+      className: style__default.a.dynamic([["4229634349", [colors_default.a["white"], colors_default.a["gray"][1], colors_default.a["white"], colors_default.a["white"]]]])
+    }, text)));
+  })), external__react__default.a.createElement(style__default.a, {
+    styleId: "4229634349",
+    css: [".title.__jsx-style-dynamic-selector{display:inline-block;text-transform:uppercase;color:".concat(colors_default.a["white"], ";border:1px solid rgba(255,255,255,0.2);padding:2px 10px;margin:unset;font-family:\"Overpass Mono\",monospace;box-sizing:content-box;}"), ".card.__jsx-style-dynamic-selector{border:1px solid rgba(255,255,255,0.2);color:".concat(colors_default.a["gray"][1], ";font-family:\"Overpass Mono\",monospace;margin:10px;min-height:110px !important;padding:18px 18px 18px;text-align:left;-webkit-text-decoration:none;text-decoration:none;-webkit-transition:border-color 0.3s ease-in-out,background 0.3s ease-in-out;transition:border-color 0.3s ease-in-out,background 0.3s ease-in-out;}"), ".cardTitle.__jsx-style-dynamic-selector{text-transform:uppercase;}", ".card.__jsx-style-dynamic-selector:hover{background:rgba(255,255,255,0.1);border:1px solid white;cursor:pointer;}", ".card.__jsx-style-dynamic-selector h3.__jsx-style-dynamic-selector{margin:0;font-size:18px;}", ".card.__jsx-style-dynamic-selector p.__jsx-style-dynamic-selector{margin:0;padding:12px 0 0;font-size:14px;font-family:\"Open Sans\",sans-serif;line-height:1.5em;font-weight:300;text-transform:none;}", ".card.__jsx-style-dynamic-selector p.link.__jsx-style-dynamic-selector{font-family:\"Overpass Mono\",sans-serif;line-height:1.5em;font-weight:300;text-transform:none;}", ".detail.__jsx-style-dynamic-selector{float:right;border:1px solid ".concat(colors_default.a["white"], ";color:").concat(colors_default.a["white"], ";padding:4px 5px 2px 5px;font-size:0.7em;box-sizing:content-box;text-transform:uppercase;}")],
+    dynamic: [colors_default.a["white"], colors_default.a["gray"][1], colors_default.a["white"], colors_default.a["white"]]
+  })));
+};
+
+/* harmony default export */ var tracks = (tracks_Tracks);
 // CONCATENATED MODULE: ./pages/index.js
-var _templateObject = /*#__PURE__*/ _taggedTemplateLiteral(["\n  * { box-sizing: border-box; }\n  body { max-width: 900px; margin: 2% auto; color: #fff; }\n  a {\n      color: #fff;\n      font-family: 'Overpass Mono';\n      font-size: 0.9em !important;\n      font-weight: 300;\n      text-decoration: none;\n      text-transform: uppercase;\n    }\n"]);
+var pages__templateObject = /*#__PURE__*/ pages__taggedTemplateLiteral(["\n  * { box-sizing: border-box; }\n  body { max-width: 900px; margin: 2% auto; color: #fff; }\n  a {\n      color: #fff;\n      font-family: 'Overpass Mono';\n      font-size: 0.9em !important;\n      font-weight: 300;\n      text-decoration: none;\n      text-transform: uppercase;\n    }\n"]);
 
 
 
-function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function pages__taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+
 
 
 
@@ -1129,7 +1352,7 @@ function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(
 
  // Ensure `grid-styled` Box and Flex components work properly.
 
-Object(external__styled_components_["injectGlobal"])(_templateObject); // Variables for <head>
+Object(external__styled_components_["injectGlobal"])(pages__templateObject); // Variables for <head>
 
 var pages_title = "HackRice 8";
 var url = "https://hack.rice.edu";
@@ -1149,31 +1372,25 @@ var pages_Home = function Home() {
     description: pages_description,
     url: url,
     ogImage: ogImage
-  }), external__react__default.a.createElement(nav, null), external__react__default.a.createElement(components_intro, null), external__react__default.a.createElement(about, null), external__react__default.a.createElement(calendar, null), external__react__default.a.createElement(faq_Questions, null), external__react__default.a.createElement(judging, null), external__react__default.a.createElement(sponsors, null));
+  }), external__react__default.a.createElement(nav, null), external__react__default.a.createElement(components_intro, null), external__react__default.a.createElement(about, null), external__react__default.a.createElement(calendar, null), external__react__default.a.createElement(faq_Questions, null), external__react__default.a.createElement(judging, null), external__react__default.a.createElement(tracks, null), external__react__default.a.createElement(sponsors, null));
 };
 
 /* harmony default export */ var pages = __webpack_exports__["default"] = (pages_Home);
 
 /***/ }),
-/* 8 */
-/***/ (function(module, exports) {
-
-module.exports = require("styled-components");
-
-/***/ }),
-/* 9 */
+/* 13 */
 /***/ (function(module, exports) {
 
 module.exports = require("next/head");
 
 /***/ }),
-/* 10 */
+/* 14 */
 /***/ (function(module, exports) {
 
 module.exports = require("prop-types");
 
 /***/ }),
-/* 11 */
+/* 15 */
 /***/ (function(module, exports) {
 
 module.exports = require("rc-collapse");
