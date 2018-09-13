@@ -51,10 +51,10 @@ export const cards = [
     text: "How will your project be evaluated? Read on →"
   },
   {
-    icon: "https://icon.now.sh/insert_comment/ffffff",
-    title: "About",
-    to: "about",
-    text: "Read about the mission behind HackRice →"
+    icon: "https://icon.now.sh/done_all/ffffff",
+    title: "Tracks & Challenges",
+    to: "tracks",
+    text: "Complete a track or compete to win a sponsor challenge →"
   },
   {
     icon: "https://icon.now.sh/phone/ffffff",

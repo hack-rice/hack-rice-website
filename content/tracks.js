@@ -24,6 +24,60 @@ export const cards = [
     href: "https://github.com/jpa99/HR8-Design-Track",
     text:
       "Accessibility and visual appeal are vital attributes of any app or website’s user interface. While still remaining functional on the back end, many apps and websites on many different platforms have deplorable user interfaces that needs lots of work.  This year’s HackRice “reDesign” track hopes to improve those interfaces.  Using your knowledge of design and graphics, you will be tasked with redesigning the user interface of an app or website used by the public today that you believe needs overhaul"
+  },
+  {
+    icon: "https://icon.now.sh/chevron/ffffff",
+    type: "challenge",
+    title: "Chevron",
+    text:
+      "Optimize the work order process in Chevrons complex process facilities (refineries and liquified natural gas production facilities).  The idea is to optimize work order completions by having a system that tracks (1) the orders that are submitted and (2) the workers that are completing them (including any necessary certifications / qualifications) to optimize how they are assigned and completed."
+  },
+  {
+    icon: "https://icon.now.sh/local_gas_station/ffffff",
+    type: "challenge",
+    title: "Schlumberger",
+    href: "https://github.com/Schlumberger/hackathon/",
+    text:
+      "Ask an engineer how to improve an application, and they will likely say, 'give me a way to see more data'. Surveillance engineers may analyze output from a dozen or more sensors in the same visualization.​ Line charts are the default choice for this workflow, but they are cumbersome, especially if the data streams have different scaling and units. And as IIoT becomes pervasive at the wellsite, this problem will only grow.​ Show us how to do it better! Deliver a web application to display/query/analyze time-series data from downhole equipment in innovative ways.​​"
+  },
+  {
+    icon: "https://icon.now.sh/poll/ffffff",
+    type: "challenge",
+    title: "HBK",
+    text:
+      "The winner of this project will demonstrate the best use of technology for a financially driven problem."
+  },
+  {
+    icon: "https://icon.now.sh/microsoft/ffffff",
+    type: "challenge",
+    title: "Microsoft",
+    text:
+      "The winner of this challenge will best utilize Microsoft API’s in their hackathon project."
+  },
+  {
+    icon: "https://icon.now.sh/domain/ffffff",
+    type: "challenge",
+    title: "Capital One",
+    text:
+      "The winner of this challenge will best answer the following question: how will you reimagine banking?"
+  },
+  {
+    icon: "https://icon.now.sh/report_problem/ffffff",
+    type: "challenge",
+    title: "JP Morgan Chase",
+    text: "Information about this challenge is coming soon."
+  },
+  {
+    icon: "https://icon.now.sh/report_problem/ffffff",
+    type: "challenge",
+    title: "Extrahop",
+    text: "Information about this challenge is coming soon."
+  },
+  {
+    icon: "https://icon.now.sh/report_problem/ffffff",
+    type: "challenge",
+    title: "Indeed",
+    text: "Information about this challenge is coming soon."
   }
 ].map(card => {
   card.key = `card-${card.title}`;

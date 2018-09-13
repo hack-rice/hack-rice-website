@@ -9,6 +9,10 @@ const CustomTooltip = styled(Tooltip)`
     white-space: normal;
     width: 350px;
     padding: 1.5em;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    background-color: rgba(255, 255, 255, 1);
+    color: ${colors["base"]};
   }
 `;
 
