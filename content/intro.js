@@ -87,7 +87,7 @@ export const cards = [
     text: "Submit your project through the HackRice Devpost →"
   },
   {
-    icon: "https://icon.now.sh/send/ffffff",
+    icon: "https://icon.now.sh/accessibility/ffffff",
     title: "Find a Team",
     href: "https://crowdforge.io/hackathons/hackrice",
     text: "Looking for a team to hack with? Click here →"

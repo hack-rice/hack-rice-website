@@ -29,6 +29,7 @@ export const cards = [
     icon: "https://icon.now.sh/chevron/ffffff",
     type: "challenge",
     title: "Chevron",
+    href: "../static/files/chevron.xlsx",
     text:
       "Optimize the work order process in Chevrons complex process facilities (refineries and liquified natural gas production facilities).  The idea is to optimize work order completions by having a system that tracks (1) the orders that are submitted and (2) the workers that are completing them (including any necessary certifications / qualifications) to optimize how they are assigned and completed."
   },
@@ -86,6 +87,7 @@ export const cards = [
   {
     icon: "https://icon.now.sh/domain/ffffff",
     type: "challenge",
+    href: "http://api.reimaginebanking.com/",
     title: "Capital One",
     text:
       "The winner of this challenge will best answer the following question: how will you reimagine banking?"
@@ -95,7 +97,7 @@ export const cards = [
     type: "challenge",
     title: "Indeed",
     text:
-      " We would like to see innovative projects and solutions that tackle societal problems. This could be anything from connecting unemployed jobseekers to jobs to linking hurricane victims to disaster relief resources."
+      "We would like to see innovative projects and solutions that tackle societal problems. This could be anything from connecting unemployed jobseekers to jobs to linking hurricane victims to disaster relief resources."
   },
   {
     icon: "https://icon.now.sh/report_problem/ffffff",

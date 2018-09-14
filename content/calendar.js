@@ -97,6 +97,12 @@ export const saturday = [
     detail: "Details coming soon..."
   },
   {
+    time: "4 PM",
+    title: "MLH Cupstacking Mini-Event",
+    detail:
+      "Take a break in Farnsworth Pavilion from hacking with our Cup Stacking Mini-Event!"
+  },
+  {
     time: "8 PM",
     title: "Dinner",
     detail: "Tacos-a-Go-Go for our happy hackers!"
