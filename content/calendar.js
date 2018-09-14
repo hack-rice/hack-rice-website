@@ -76,9 +76,29 @@ export const saturday = [
     detail: "Potbelly Sandwiches for lunch."
   },
   {
+    time: "1-2 PM",
+    title: "Capital One Workshop",
+    detail: "Details coming soon..."
+  },
+  {
     time: "8 PM",
     title: "Dinner",
     detail: "Tacos-a-Go-Go for our happy hackers!"
+  },
+  {
+    time: "10-11 PM",
+    title: "Extrahop Workshop",
+    detail: "Web App Development, led by Matt Schurr"
+  },
+  {
+    time: "11-12 AM",
+    title: "JP Morgan Workshop",
+    detail: "Details coming soon..."
+  },
+  {
+    time: "11-12 AM",
+    title: "JP Morgan Workshop",
+    detail: "Details coming soon..."
   }
 ].map(item => {
   item.key = `item-${item.detail}`;

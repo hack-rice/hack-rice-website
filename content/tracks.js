@@ -86,7 +86,7 @@ export const cards = [
   {
     icon: "https://icon.now.sh/report_problem/ffffff",
     type: "challenge",
-    title: "Extrahop",
+    title: "LILIE Center Challenge",
     text: "Information about this challenge is coming soon."
   }
 ].map(card => {

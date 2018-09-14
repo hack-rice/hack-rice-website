@@ -75,6 +75,11 @@ export const files = [
     link: "https://csweb.rice.edu/"
   },
   {
+    name: "lilie.png",
+    height: "50px",
+    link: "https://entrepreneurship.rice.edu/lab/"
+  },
+  {
     name: "tech.svg",
     height: "30px",
     link: "https://get.tech/"

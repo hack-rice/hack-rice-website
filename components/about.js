@@ -15,6 +15,12 @@ import colors from "../styles/colors.json";
 
 const About = () => (
   <Element name="about">
+    <a
+      href="https://crowdforge.io/hackathons/hackrice"
+      style={{ marginLeft: "1.75%" }}
+    >
+      Looking for a team to hack with? Click here →
+    </a>
     <Flex mx={2} mt={4} flexWrap="wrap">
       <Box width={1} mx={2}>
         <h2 className="title">{title}</h2>
