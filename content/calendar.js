@@ -50,9 +50,19 @@ export const friday = [
       "Schlumberger’s next-gen advisory system that enables intelligent production operations by transforming the way we work."
   },
   {
+    time: "10-11 PM",
+    title: "Extrahop Workshop",
+    detail: "Web App Development, led by Matt Schurr"
+  },
+  {
     time: "11 PM",
     title: "Late Night...",
     detail: "Tiff's Treats cookies..."
+  },
+  {
+    time: "11-12 AM",
+    title: "JP Morgan Workshop",
+    detail: "Details coming soon..."
   }
 ].map(item => {
   item.key = `item-${item.title}`;
@@ -84,21 +94,6 @@ export const saturday = [
     time: "8 PM",
     title: "Dinner",
     detail: "Tacos-a-Go-Go for our happy hackers!"
-  },
-  {
-    time: "10-11 PM",
-    title: "Extrahop Workshop",
-    detail: "Web App Development, led by Matt Schurr"
-  },
-  {
-    time: "11-12 AM",
-    title: "JP Morgan Workshop",
-    detail: "Details coming soon..."
-  },
-  {
-    time: "11-12 AM",
-    title: "JP Morgan Workshop",
-    detail: "Details coming soon..."
   }
 ].map(item => {
   item.key = `item-${item.detail}`;

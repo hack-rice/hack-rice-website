@@ -28,7 +28,7 @@ export default class Questions extends React.Component {
 
     for (let i = 0; i < questions.length; i += shift) {
       cols.push(
-        <Flex flexWrap="wrap" flexDirection="column" width={[1, 1 / 3]}>
+        <Flex flexWrap="wrap" flexDirection="column" width={[1, 1 / 2, 1 / 3]}>
           {questions.slice(i, i + shift).map(({ key, question, answer }) => (
             <Collapse
               key={key}
@@ -58,9 +58,9 @@ export default class Questions extends React.Component {
 
     return (
       <Element name="faq">
-        <Box mx={2} mt={5}>
+        <Flex mt={4} justifyContent="center">
           <h2 className="title">{title}</h2>
-        </Box>
+        </Flex>
         <Flex flexDirection="row" flexWrap="wrap" mt={2} mb={5} pt={2}>
           {cols}
         </Flex>
@@ -76,7 +76,8 @@ export default class Questions extends React.Component {
               font-family: "Overpass Mono", monospace;
               padding: 5px 10px 2px 10px;
               box-sizing: content-box;
-              margin: unset;
+              margin-left: auto;
+              margin-right: auto;
               height: 40px;
               font-family: "Overpass Mono", monospace;
             }

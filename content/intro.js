@@ -78,7 +78,25 @@ export const cards = [
     icon: "https://icon.now.sh/slack/ffffff",
     title: "Slack",
     href: "https://hackrice8.slack.com",
-    text: "Join our Slack to meet hackers & receive updates →"
+    text: "Join our Slack to chat with hackers & receive updates →"
+  },
+  {
+    icon: "https://icon.now.sh/send/ffffff",
+    title: "Submissions",
+    href: "https://hackrice8.devpost.com/",
+    text: "Submit your project through the HackRice Devpost →"
+  },
+  {
+    icon: "https://icon.now.sh/send/ffffff",
+    title: "Find a Team",
+    href: "https://crowdforge.io/hackathons/hackrice",
+    text: "Looking for a team to hack with? Click here →"
+  },
+  {
+    icon: "https://icon.now.sh/help_outline/ffffff",
+    title: "Need help?",
+    href: "https://m.me/hackrice",
+    text: "If you're having an urgent problem, message us! →"
   }
 ].map(card => {
   card.key = `card-${card.title}`;

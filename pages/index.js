@@ -15,7 +15,7 @@ import Map from "../components/map";
 // Ensure `grid-styled` Box and Flex components work properly.
 injectGlobal`
   * { box-sizing: border-box; }
-  body { max-width: 900px; margin: 2% auto; color: #fff; }
+  body { max-width: 900px; margin: 2% auto; color: #fff;}
   a {
       color: #fff;
       font-family: 'Overpass Mono';

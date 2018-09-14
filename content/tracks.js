@@ -55,6 +55,26 @@ export const cards = [
       "The winner of this challenge will best utilize Microsoft API’s in their hackathon project."
   },
   {
+    icon: "https://icon.now.sh/facebook/ffffff",
+    type: "challenge",
+    title: "Facebook",
+    text: (
+      <p>
+        Facebook will award a prize to the team that makes the best game using
+        the Facebook Instant Games SDK. The game is expected to run on
+        Messenger. Judges will be looking for engagement, quality, and
+        completeness in the hack. The winning team will be invited to
+        participate in Facebook's Global Hackathon in Menlo Park, CA. For
+        details, see{" "}
+        <a href="https://developers.facebook.com/docs/games/instant-games/">
+          Instant Games Documentation
+        </a>. Only the{" "}
+        <a href="https://fb.gg/igengines">Game Engines listed on this page</a>{" "}
+        are compatible with Instant Games.
+      </p>
+    )
+  },
+  {
     icon: "https://icon.now.sh/web/ffffff",
     type: "challenge",
     href:

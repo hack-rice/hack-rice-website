@@ -14,13 +14,7 @@ import {
 import colors from "../styles/colors.json";
 
 const About = () => (
-  <Element name="about">
-    <a
-      href="https://crowdforge.io/hackathons/hackrice"
-      style={{ marginLeft: "1.75%" }}
-    >
-      Looking for a team to hack with? Click here →
-    </a>
+  <Element name="about" style={{ overflowX: "hidden" }}>
     <Flex mx={2} mt={4} flexWrap="wrap">
       <Box width={1} mx={2}>
         <h2 className="title">{title}</h2>
@@ -38,7 +32,11 @@ const About = () => (
       </Box>
       <Flex justifyContent="center" width={[1]}>
         <Image
-          style={{ maxWidth: "200%", height: "150px", bottom: "0px" }}
+          style={{
+            maxWidth: "200%",
+            height: "150px",
+            bottom: "0px"
+          }}
           mt={4}
           src="../static/sallyport.svg"
         />

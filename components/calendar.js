@@ -13,7 +13,7 @@ import colors from "../styles/colors.json";
 
 const Calendar = () => (
   <Element name="calendar">
-    <Box mx={-2} bg={colors["gray"][1]} color={colors["base"]}>
+    <Box bg={colors["gray"][1]} color={colors["base"]}>
       <Box mx={4} px={3} pt={4}>
         <h2 className="title">{title}</h2>
       </Box>

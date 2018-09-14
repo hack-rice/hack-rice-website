@@ -13,7 +13,7 @@ const Map = () => (
       <Image width={1} px={2} py={2} src="../static/map.png" />
       <a
         href="https://www.rice.edu/maps/Rice-University-Color-Campus-Map.pdf"
-        style={{ marginTop: "20px" }}
+        style={{ margin: "20px" }}
       >
         Looking for a map of Rice University? Click here →
       </a>
