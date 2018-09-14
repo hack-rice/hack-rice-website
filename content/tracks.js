@@ -52,8 +52,13 @@ export const cards = [
     icon: "https://icon.now.sh/microsoft/ffffff",
     type: "challenge",
     title: "Microsoft",
-    text:
-      "The winner of this challenge will best utilize Microsoft API’s in their hackathon project."
+    text: (
+      <p>
+        The winner of this challenge will best use Microsoft Azure in a way that
+        empowers individuals or groups to achieve more. Find free trials and
+        credits <a href="https://azure.microsoft.com/en-us/free/">here</a>.
+      </p>
+    )
   },
   {
     icon: "https://icon.now.sh/facebook/ffffff",
@@ -90,7 +95,7 @@ export const cards = [
     href: "http://api.reimaginebanking.com/",
     title: "Capital One",
     text:
-      "The winner of this challenge will best answer the following question: how will you reimagine banking?"
+      "The winner of this challenge will best answer the following question: how will you reimagine banking? Each member of the winning team will receive a $250 gift card."
   },
   {
     icon: "https://icon.now.sh/merge_type/ffffff",
@@ -103,13 +108,16 @@ export const cards = [
     icon: "https://icon.now.sh/report_problem/ffffff",
     type: "challenge",
     title: "JP Morgan Chase",
-    text: "Information about this challenge is coming soon."
+    href: "../static/files/jpmorgan.pdf",
+    text:
+      "We challenge you to create a web or mobile application that would either promote financial literacy for individuals (college students, unbanked adults, small businesses, etc) on or provide financial advisory/education on derivatives, futures trading, or how to invest to companies. In addition to providing gamified, guided learning, the application should present users with interactive scenarios. Click through for more details about this challenge."
   },
   {
     icon: "https://icon.now.sh/report_problem/ffffff",
     type: "challenge",
     title: "LILIE Center Challenge",
-    text: "Information about this challenge is coming soon."
+    text:
+      "The winner of this challenge will best answer the following question: how might we end homelessness in Houston, Texas?"
   }
 ].map(card => {
   card.key = `card-${card.title}`;
