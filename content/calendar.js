@@ -38,6 +38,12 @@ export const friday = [
     detail: "Start building your project!."
   },
   {
+    time: "8:30 PM",
+    title: "First-Timers Track Workshop",
+    detail:
+      "Come to Miner Lounge to walk through the first workshop for the First-Timers track."
+  },
+  {
     time: "9-10 PM",
     title: "DELFI",
     detail:
