@@ -96,7 +96,8 @@ export const saturday = [
   {
     time: "1-2 PM",
     title: "Capital One Workshop",
-    detail: "Details coming soon... Held at Farnsworth Pavilion."
+    detail:
+      "Build a Straw Poll using the Angular CLI and Firebase! Held at Farnsworth Pavilion."
   },
   {
     time: "4 PM",
@@ -121,7 +122,7 @@ export const sunday = [
     detail: "Judges will have arrived, prepared to evaluate hackers & projects."
   },
   {
-    time: "9 AM",
+    time: "8:30 AM",
     title: "Hacking Ends!",
     detail: "Submissions close on DevPost."
   },
