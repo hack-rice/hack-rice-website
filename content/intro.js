@@ -3,9 +3,9 @@ export const intro = "HackRice 8: the premier hackathon of the south.";
 export const bullets = [
   {
     icon: "https://icon.now.sh/compose/ffffff",
-    button: "apply now",
-    href: "https://hackrice.typeform.com/to/s2Mllk",
-    note: "out-of-rice applications have closed!"
+    button: "view opening slideshow",
+    href: "../static/files/openingceremony.pdf",
+    note: "view the slides from the opening ceremony!"
   },
   {
     icon: "https://icon.now.sh/calendar/ffffff",
@@ -26,6 +26,12 @@ export const bullets = [
 });
 
 export const cards = [
+  {
+    icon: "https://icon.now.sh/send/ffffff",
+    title: "Submissions",
+    href: "https://hackrice8.devpost.com/",
+    text: "Submit your project through the HackRice Devpost →"
+  },
   {
     icon: "https://icon.now.sh/calendar/ffffff",
     title: "Schedule",
@@ -79,12 +85,6 @@ export const cards = [
     title: "Slack",
     href: "https://hackrice8.slack.com",
     text: "Join our Slack to chat with hackers & receive updates →"
-  },
-  {
-    icon: "https://icon.now.sh/send/ffffff",
-    title: "Submissions",
-    href: "https://hackrice8.devpost.com/",
-    text: "Submit your project through the HackRice Devpost →"
   },
   {
     icon: "https://icon.now.sh/accessibility/ffffff",

@@ -53,12 +53,13 @@ export const friday = [
     time: "9-10 PM",
     title: "Intelligent Oilfields",
     detail:
-      "Schlumberger’s next-gen advisory system that enables intelligent production operations by transforming the way we work."
+      "Schlumberger’s next-gen advisory system that enables intelligent production operations by transforming the way we work. Held at Farnsworth Pavilion."
   },
   {
     time: "10-11 PM",
     title: "Extrahop Workshop",
-    detail: "Web App Development, led by Matt Schurr"
+    detail:
+      "Web App Development, led by Matt Schurr. Held at Farnsworth Pavilion."
   },
   {
     time: "11 PM",
@@ -68,7 +69,7 @@ export const friday = [
   {
     time: "11-12 AM",
     title: "JP Morgan Workshop",
-    detail: "Details coming soon..."
+    detail: "Details coming soon... Held at Farnsworth Pavilion."
   }
 ].map(item => {
   item.key = `item-${item.title}`;
@@ -84,7 +85,8 @@ export const saturday = [
   {
     time: "10 AM",
     title: "Oil Rig VR Demo",
-    detail: "Schlumberger will host a workshop using Virtual Reality headsets."
+    detail:
+      "Schlumberger will host a workshop using Virtual Reality headsets. Held at Farnsworth Pavilion."
   },
   {
     time: "12 PM",
@@ -94,7 +96,7 @@ export const saturday = [
   {
     time: "1-2 PM",
     title: "Capital One Workshop",
-    detail: "Details coming soon..."
+    detail: "Details coming soon... Held at Farnsworth Pavilion."
   },
   {
     time: "4 PM",
