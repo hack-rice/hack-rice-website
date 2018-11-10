@@ -50,6 +50,13 @@ const Nav = () => (
         </li>
       </ul>
       <ul>
+        <Image src="../static/mlh.svg"
+          css={{
+            height: "105px !important",
+            paddingRight: "20px"
+          }}
+          ml={10}
+        />
         {links.map(({ key, href, label, icon }) => (
           <li key={key}>
             <Link href={href}>
