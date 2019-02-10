@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="161px" height="139px" viewBox="0 0 161 139" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-128.000000, -102.000000)">
+            <g id="Group" transform="translate(128.000000, 96.000000)">
+                <g id="Group-3" transform="translate(89.000000, 8.000000)">
+                    <polygon id="Path" fill="#CF8282" transform="translate(59.977597, 67.252195) scale(1, -1) translate(-59.977597, -67.252195) " points="72 41 47.9551945 53.5043893 49.0031346 93.5043893 72 84.4508236"></polygon>
+                    <polygon id="Path" fill="#CF8282" transform="translate(59.000000, 14.500000) scale(1, -1) translate(-59.000000, -14.500000) " points="70 -5.15143483e-14 48 13.4753722 48 29 70 16.8560362"></polygon>
+                    <polygon id="Path" fill="#FFE2E2" transform="translate(37.500000, 58.000000) scale(1, -1) translate(-37.500000, -58.000000) " points="23.8957949 41 72 65.9324415 48.6965774 75 3 52.5386569"></polygon>
+                    <polygon id="Path-2" fill="#FFFFFF" points="70 24.6536984 22.4798548 7.10542736e-15 2.13162821e-13 12.0952187 45.94131 37"></polygon>
+                    <polygon id="Path-2" fill="#FFE2E2" points="72 104.995411 25.1069978 81 1 93.4673387 49.0590289 119"></polygon>
+                    <polygon id="Path" fill="#E89E9E" transform="translate(12.025644, 49.804818) scale(1, -1) translate(-12.025644, -49.804818) " points="23.9100992 24.6076862 0.0208264463 36.997604 -3.41060513e-13 75.0019498 24.0512873 62.6109655"></polygon>
+                    <polygon id="Path" fill="#E89E9E" transform="translate(12.500000, 104.500000) scale(1, -1) translate(-12.500000, -104.500000) " points="24 90 1 103.330322 1 119 24 106.872228"></polygon>
+                </g>
+                <g id="Group-4">
+                    <rect id="Rectangle" fill-opacity="0" fill="#000000" x="1.27897692e-13" y="1.42108547e-14" width="70.2146" height="130.97"></rect>
+                    <polygon id="Path" fill="#D88E8E" points="0.002 18.7669661 21.407 31.0196 21.407 89.1075 0.002 101.1943"></polygon>
+                    <polygon id="Path" fill="#FFE2E2" points="21.6760293 51.0388507 69.4733754 78.963103 46.0400596 88.5394163 -2.20268248e-13 62.2814091"></polygon>
+                    <polygon id="Path" fill="#FFFFFF" points="70.2153113 32.0294524 22.549 6 2.13162821e-13 18.77017 46.0826197 45.0647166"></polygon>
+                    <polygon id="Path" fill="#F6B8B8" points="70.2 32 46.021 45.0584 46 85.7601 70.2 72.6289"></polygon>
+                    <polygon id="Path" fill="#FFE2E2" opacity="0.97" points="66.6124212 115 21.519 89 -1.42108547e-13 100.5916 46.1977929 127.314923"></polygon>
+                    <polygon id="Path" fill="#F6B8B8" points="70.2 69 46 80.9451 46.224 127.2743 70.2 114.327212"></polygon>
+                </g>
+                <g id="Group-2" transform="translate(61.000000, 107.000000)">
+                    <polygon id="Path" fill="#FFFFFF" points="36 9.14636127 18.2343339 0 0.216153763 9.14636127 18.2343339 19"></polygon>
+                    <polygon id="Path" fill="#F6B8B8" points="36 9 18 18.8411357 18 38 36 28.1040923"></polygon>
+                    <polygon id="Path" fill="#E89E9E" transform="translate(9.108077, 23.546088) scale(-1, 1) translate(-9.108077, -23.546088) " points="18 9.09217568 0.216153763 18.8701359 0.216153763 38 18 28.2987125"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
