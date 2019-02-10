@@ -35,15 +35,7 @@ let ogImage = "../static/og.png";
 let description = "The premier hackathon of the south.";
 
 const Home = () => (
-  <Provider
-    theme={{
-      fonts: {
-        sans: "'Open Sans', sans-serif",
-        mono: "'Overpass Mono', monospace"
-      }
-    }}
-  >
-    <Head title={title} description={description} url={url} ogImage={ogImage} />
+    <>
     <Nav />
     <Intro />
     <About />
@@ -58,7 +50,7 @@ const Home = () => (
                 background: ${base};
             }
         `}</style>
-  </Provider>
+    </>
 );
 
 export default Home;

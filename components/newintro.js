@@ -39,16 +39,15 @@ const NewIntro = () => (
         <Image
             src="../static/hr85.png"
             css={{
-                display: "block",
                 marginLeft: "auto",
                 marginRight: "auto",
-                marginTop: "25%",
+                marginTop: "10%",
                 width: "50%"
             }}
             /> 
-        <div>
-        <a href="/8" className="special"><Image src="../static/btn.svg" /></a>
-        <a href="https://goo.gl/forms/0p6Jf974trcf1Qc92" className="special2">Sign up now →</a>
+        <div className="buttons">
+          <Link href="/8"><Image className="special2" src="../static/btn2.svg" /></Link>
+          <a href="https://goo.gl/forms/0p6Jf974trcf1Qc92"><Image className="special" src="../static/btn.svg" /></a>
         </div>
         <div className="social">
         {links.map(({ key, href, label, icon }) => (
@@ -59,39 +58,33 @@ const NewIntro = () => (
             </Link>
         ))}
         </div>
-        <style jsx>{`
-            .special {
-                display: inline-block;
-                margin-left: 40%;
-                margin-right: 35%;
-                margin-top: 1.5em;
-                color: #E89E9E;
-                font-size: 1.5em !important;
+        <style jsx global>{`
+            a.img {
+              margin-right: 0px !important;
             }
 
-            .special2 {
-                display: inline-block;
-                margin-left: 40%;
-                margin-right: 35%;
-                color: #fff;
-                font-size: 1.5em !important;
+            a {
+              display: inline !important;
             }
 
-            @media only screen and (max-width: 770px) {
-                .special, .special2 {
-                    font-size: 1em !important;
-                }
+            .buttons {
+              display: flex;
+              flex-flow: column nowrap;
+              align-items: center;
+              justify-content: center;
+              margin-top: 3em;
             }
-            
+
+            img.special { cursor: pointer; display: inline; padding-top: 2em; height: 100px; }
+            img.special2 { cursor: pointer; display: inline; padding-top: 2em; height: 50px !important; }
+
             .icon {
                 padding: 4px 13px;
             }
 
             .social {
                 text-align: center;
-                position: absolute;
-                bottom: 5%;
-                left: 41%;
+                margin-top: 10em;
             }
         `}</style>
     </Box>
