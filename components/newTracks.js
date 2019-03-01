@@ -48,7 +48,7 @@ const Tracks = () => (
         transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
       }
       .card:hover {
-        opacity: 0.6;
+        background: rgba(255, 255, 255, 0.1);
         transform: scale(1.03);
       }
       .info {

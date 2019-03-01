@@ -2,7 +2,7 @@ export const cards = [
   {
       icon: "https://icon.now.sh/compose/ffffff",
       title: "Register",
-      href: "https://www.google.com/maps?safe=strict&rlz=1C1CHBF_enUS799US799&q=lilie+idea+lab&um=1&ie=UTF-8&sa=X&ved=0ahUKEwj9m8aBrL_gAhVIlKwKHUpFDzAQ_AUIESgE",
+      href: "https://docs.google.com/forms/d/e/1FAIpQLSfIFYOps4mVOVhfhgxmW4kzR3yxviEFc5zATsugW3ITEUrjfQ/viewform",
       text: "If you haven't registered, now is the time! →"
   },
   {
@@ -24,7 +24,7 @@ export const cards = [
     text: "First timer? Most of your inquiries are answered →"
   },
   {
-    icon: "https://icon.now.sh/done_all/ffffff",
+    icon: "https://icon.now.sh/call_split/ffffff",
     title: "Tracks",
     to: "tracks",
     text: "Complete a track to win a prize →"
@@ -36,9 +36,9 @@ export const cards = [
     text: "Have a question? Reach out via email →"
   },
   {
-    icon: "https://icon.now.sh/casino/ffffff",
+    icon: "https://icon.now.sh/monetization_on/ffffff",
     title: "Prizes",
-    to: "faq",
+    to: "prizes",
     text: "What can you win at HackRice? Worth a look →"
   },
   {

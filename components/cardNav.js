@@ -49,7 +49,7 @@ const CardNav = props => (
         padding: 18px 18px 18px;
         text-align: left;
         text-decoration: none;
-        transition: border-color 0.3s ease-in-out, background 0.3s ease-in-out;
+        transition: border-color 0.3s ease-in-out, background 0.3s ease-in-out, transform 0.3s ease-in-out;
       }
 
       .cardTitle {
@@ -59,6 +59,7 @@ const CardNav = props => (
       .card:hover {
         background: rgba(255, 255, 255, 0.1);
         cursor: pointer;
+        transform: scale(1.03);
       }
 
       .card h3 {

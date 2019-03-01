@@ -2,6 +2,8 @@ import Link from "next/link";
 import CardNav from "./cardNav";
 import Calendar from "./newCalendar";
 import Tracks from "./newTracks";
+import Prizes from "./prizes.js"
+import Questions from "./newFaqs";
 import { Box, Image } from "rebass";
 
 import { newbase } from "../styles/colors.json";
@@ -28,6 +30,12 @@ const NewIntro = () => (
     </div>
     <div className="tracks">
       <Tracks />
+    </div>
+    <div className='prizes'>
+      <Prizes/>
+    </div>
+    <div className="faqs">
+      <Questions/>
     </div>
     <div className="social">
       {links.map(({ key, href, icon }) => (
