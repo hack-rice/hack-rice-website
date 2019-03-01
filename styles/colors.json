@@ -26,5 +26,6 @@
     "#3f5c73",
     "#2c4152"
   ],
-  "white": ["#ffffff"]
+  "white": ["#ffffff"],
+  "lightAccentColor": "#F6B8B8"
 }
