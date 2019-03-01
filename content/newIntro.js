@@ -2,7 +2,7 @@ export const cards = [
   {
       icon: "https://icon.now.sh/compose/ffffff",
       title: "Register",
-      href: "https://www.google.com/maps?safe=strict&rlz=1C1CHBF_enUS799US799&q=lilie+idea+lab&um=1&ie=UTF-8&sa=X&ved=0ahUKEwj9m8aBrL_gAhVIlKwKHUpFDzAQ_AUIESgE",
+      href: "https://docs.google.com/forms/d/e/1FAIpQLSfIFYOps4mVOVhfhgxmW4kzR3yxviEFc5zATsugW3ITEUrjfQ/viewform?usp=sf_link",
       text: "If you haven't registered, now is the time! →"
   },
   {
