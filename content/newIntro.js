@@ -12,22 +12,16 @@ export const cards = [
     text: "Find out when hacking begins and ends, and more →"
   },
   {
-    icon: "https://icon.now.sh/question_answer/ffffff",
+    icon: "https://icon.now.sh/question_answer/FFFFFF/",
     title: "FAQs",
     to: "faq",
     text: "First timer? Most of your inquiries are answered →"
   },
   {
-    icon: "https://icon.now.sh/format_shapes/ffffff",
-    title: "Judging",
-    to: "judging",
-    text: "How will your project be evaluated? Read on →"
-  },
-  {
     icon: "https://icon.now.sh/done_all/ffffff",
-    title: "Tracks & Challenges",
+    title: "Tracks",
     to: "tracks",
-    text: "Complete a track or compete to win a sponsor challenge →"
+    text: "Complete a track to win a prize →"
   },
   {
     icon: "https://icon.now.sh/phone/ffffff",
