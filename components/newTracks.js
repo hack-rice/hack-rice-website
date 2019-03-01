@@ -1,7 +1,7 @@
 import { Box, Flex } from 'rebass';
 import { Element } from 'react-scroll';
 import { trackCards, title } from '../content/newTracks';
-import { lightAccentColor, trackColor } from '../styles/colors.json';
+import { lightAccentColor } from '../styles/colors.json';
 
 const Tracks = () => (
     <Element name='tracks'>
@@ -46,7 +46,7 @@ const Tracks = () => (
                 border-color:${lightAccentColor};
             }
             .card:hover {
-                background-color: ${trackColor};
+                opacity: 0.6;
             }
             .info {
                 padding: 1px;
