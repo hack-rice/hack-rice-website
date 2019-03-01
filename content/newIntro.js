@@ -24,7 +24,7 @@ export const cards = [
     text: "First timer? Most of your inquiries are answered →"
   },
   {
-    icon: "https://icon.now.sh/done_all/ffffff",
+    icon: "https://icon.now.sh/call_split/ffffff",
     title: "Tracks",
     to: "tracks",
     text: "Complete a track to win a prize →"
@@ -36,10 +36,16 @@ export const cards = [
     text: "Have a question? Reach out via email →"
   },
   {
-    icon: "https://icon.now.sh/casino/ffffff",
+    icon: "https://icon.now.sh/monetization_on/ffffff",
     title: "Prizes",
-    to: "faq",
+    to: "prizes",
     text: "What can you win at HackRice? Worth a look →"
+  },
+  {
+    icon:"https://icon.now.sh/person_pin_circle/ffffff",
+    title: "Find a Mentor",
+    href: "https://hackrice-helpq.herokuapp.com/",
+    text: "Looking for a mentor? Find one here! →"
   }
 ].map(card => {
   card.key = `card-${card.title}`;
