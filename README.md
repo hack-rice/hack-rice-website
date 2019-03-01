@@ -13,7 +13,7 @@ This app is built using [Next.js](https://github.com/zeit/next.js/) and [Rebass]
 ##### 1. Clone repository.
 
 ```
-$ git clone https://github.com/achalvs/synapse-frontend && cd synapse-frontend
+$ git clone https://github.com/hack-rice/hackrice-website && cd hackrice
 ```
 
 ##### 2. Install `npm` packages.
