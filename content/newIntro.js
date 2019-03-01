@@ -40,6 +40,12 @@ export const cards = [
     title: "Prizes",
     to: "faq",
     text: "What can you win at HackRice? Worth a look →"
+  },
+  {
+    icon:"https://icon.now.sh/person_pin_circle/ffffff",
+    title: "Find a Mentor",
+    href: "https://hackrice-helpq.herokuapp.com/",
+    text: "Looking for a mentor? Find one here! →"
   }
 ].map(card => {
   card.key = `card-${card.title}`;
