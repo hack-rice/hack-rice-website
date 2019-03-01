@@ -18,12 +18,6 @@ export const cards = [
     text: "First timer? Most of your inquiries are answered →"
   },
   {
-    icon: "https://icon.now.sh/bitcoin/ffffff",
-    title: "Sponsors",
-    href: "../static/sponsors.pdf",
-    text: "Want to recruit & mentor our hackers? View tiers →"
-  },
-  {
     icon: "https://icon.now.sh/format_shapes/ffffff",
     title: "Judging",
     to: "judging",
@@ -47,30 +41,6 @@ export const cards = [
     to: "faq",
     text: "What can you win at HackRice? Worth a look →"
   },
-  {
-    icon: "https://icon.now.sh/map/ffffff",
-    title: "Maps",
-    to: "maps",
-    text: "Need help finding your way around Rice? →"
-  },
-  {
-    icon: "https://icon.now.sh/slack/ffffff",
-    title: "Slack",
-    href: "https://hackrice8.slack.com",
-    text: "Join our Slack to chat with hackers & receive updates →"
-  },
-  {
-    icon: "https://icon.now.sh/accessibility/ffffff",
-    title: "Find a Team",
-    href: "https://crowdforge.io/hackathons/hackrice",
-    text: "Looking for a team to hack with? Click here →"
-  },
-  {
-    icon: "https://icon.now.sh/help_outline/ffffff",
-    title: "Need help?",
-    href: "https://m.me/hackrice",
-    text: "If you're having an urgent problem, message us! →"
-  }
 ].map(card => {
   card.key = `card-${card.title}`;
   return card;
