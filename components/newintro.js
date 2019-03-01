@@ -1,6 +1,7 @@
 import Link from "next/link";
 import CardNav from "./cardNav";
 import Calendar from "./newCalendar";
+import Tracks from "./newTracks";
 import { Box, Image } from "rebass";
 
 import { newbase } from "../styles/colors.json";
@@ -24,6 +25,9 @@ const NewIntro = () => (
     </div>
     <div className="calendar">
         <Calendar />
+    </div>
+    <div className="tracks">
+      <Tracks />
     </div>
     <div className="social">
       {links.map(({ key, href, icon }) => (
@@ -54,6 +58,10 @@ const NewIntro = () => (
 
       .calendar {
         margin-top: 3em;
+      }
+
+      .tracks {
+        margin-top: 2em;
       }
     `}</style>
   </Box>

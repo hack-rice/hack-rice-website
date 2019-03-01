@@ -11,7 +11,7 @@ import colors from "../styles/colors.json";
 
 const Calendar = () => (
   <Element name="calendar">
-    <Box bg="#e89e9ec7" color="#9F5A58">
+    <Box bg="#e89e9ec7" color="#9F5A58" py={3} >
       <Box mx={5} px={3} pt={4}>
         <h2 className="title">{title}</h2>
       </Box>
