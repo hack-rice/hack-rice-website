@@ -1,7 +1,6 @@
 import React from "react";
 import NextHead from "next/head";
 import { string } from "prop-types";
-
 const Head = props => (
   <NextHead>
     <meta charSet="UTF-8" />
@@ -21,7 +20,6 @@ const Head = props => (
     <meta property="og:image" content={props.ogImage} />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
-    {/* Fonts */}
     <link
       href="https://fonts.googleapis.com/css?family=Overpass+Mono:300,400,600,700"
       rel="stylesheet"

@@ -20,7 +20,7 @@ injectGlobal`
   body { max-width: 900px; margin: 2% auto; color: #fff; }
   a {
       color: #fff;
-      font-family: 'Overpass Mono';
+      font-family: "Overpass Mono", monospace !important;
       font-size: 0.9em !important;
       font-weight: 300;
       text-decoration: none;
@@ -31,11 +31,12 @@ injectGlobal`
 // Variables for <head>
 let title = "HackRice 8";
 let url = "https://hack.rice.edu";
-let ogImage = "../static/og.png";
+let ogImage = "../static/og2.png";
 let description = "The premier hackathon of the south.";
 
 const Home = () => (
-    <>
+  <Provider>
+    <Head title={title} description={description} url={url} ogImage={ogImage} />
     <Nav />
     <Intro />
     <About />
@@ -50,7 +51,7 @@ const Home = () => (
                 background: ${base};
             }
         `}</style>
-    </>
+  </Provider>
 );
 
 export default Home;

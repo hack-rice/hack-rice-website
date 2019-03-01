@@ -1,5 +1,11 @@
 export const cards = [
   {
+      icon: "https://icon.now.sh/compose/ffffff",
+      title: "Register",
+      href: "https://www.google.com/maps?safe=strict&rlz=1C1CHBF_enUS799US799&q=lilie+idea+lab&um=1&ie=UTF-8&sa=X&ved=0ahUKEwj9m8aBrL_gAhVIlKwKHUpFDzAQ_AUIESgE",
+      text: "If you haven't registered, now is the time! →"
+  },
+  {
     icon: "https://icon.now.sh/send/ffffff",
     title: "Submissions",
     href: "https://hackrice8.devpost.com/",
@@ -40,7 +46,7 @@ export const cards = [
     title: "Prizes",
     to: "faq",
     text: "What can you win at HackRice? Worth a look →"
-  },
+  }
 ].map(card => {
   card.key = `card-${card.title}`;
   return card;
