@@ -32,7 +32,7 @@
   text-decoration: none;
   transition: border-color 0.3s ease-in-out, background 0.3s ease-in-out;
   height: auto;
-  width: 300px;
+  width: 280px;
   transition: transform 0.15s ease-in-out;
 }
 
@@ -73,6 +73,9 @@
 .rc-collapse-content-box > p {
   margin: 0px !important;
   padding: 0px !important;
+  font-size: 0.9em;
+  line-height: 1.3em;
+  font-weight: normal;
 }
 
 tr:nth-child(even) {

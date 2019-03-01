@@ -11,7 +11,7 @@ import colors from "../styles/colors.json";
 
 const Calendar = () => (
   <Element name="calendar">
-    <Box bg="#e89e9ec7" color="#9F5A58" py={3} >
+    <Box bg="#e89e9ea0" color="#9F5A58" py={3} >
       <Box mx={5} px={3} pt={4}>
         <h2 className="title">{title}</h2>
       </Box>
@@ -57,8 +57,8 @@ const Calendar = () => (
 
         .dayName {
           font-size: 1.2em;
-          font-weight: 600;
-          color: #9F5A58;
+          font-weight: bold;
+          color: #fff;
           text-transform: uppercase;
         }
 
@@ -74,7 +74,7 @@ const Calendar = () => (
         }
 
         .dayItem {
-          border: 1px solid rgba(0, 0, 0, 0.1);
+          border: 1px solid rgba(255, 255, 255, 0.1);
           background: #f6b8b878;
           color: #9F5A58;
           padding: 8px 10px;

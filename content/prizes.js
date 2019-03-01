@@ -19,11 +19,11 @@ return prize;});
 export const trackWinners = [
     {
         
-        place: "First Timers Track Winner",
+        place: "First Timers Track",
         prize: "Google Home Minis"
     },
     {
-        place: "FinTech Track Winner",
+        place: "FinTech Track",
         prize: "Amazon Echo Plus"
     }
 ].map(prize => {prize.key = `item-${prize.place}`;

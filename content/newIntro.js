@@ -8,7 +8,7 @@ export const cards = [
   {
     icon: "https://icon.now.sh/send/ffffff",
     title: "Submissions",
-    href: "https://hackrice8.devpost.com/",
+    href: "http://hackrice-8-5.devpost.com",
     text: "Submit your project through the HackRice Devpost →"
   },
   {

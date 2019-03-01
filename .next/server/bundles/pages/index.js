@@ -228,10 +228,10 @@ _defaultExport.__scopedHash = "4154084816";
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-var _defaultExport = [".rc-collapse{background-color:unset;color:#fff;border:unset;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:space-around;-webkit-justify-content:space-around;-ms-flex-pack:space-around;justify-content:space-around;padding:0.5em;}", ".rc-collapse-header{text-indent:unset !important;}", ".rc-collapse-header:focus{border:none;box-shadow:unset;outline:none;}", ".rc-collapse>.rc-collapse-item:first-child{border-top:4px solid rgba(255,255,255,1) !important;border-left:4px solid rgba(255,255,255,1) !important;}", ".faqCard{border:1px solid rgba(255,255,255,0.2);color:#ecedf0;font-family:\"Overpass Mono\",monospace;font-weight:300;padding:18px;text-align:left;-webkit-text-decoration:none;text-decoration:none;-webkit-transition:border-color 0.3s ease-in-out,background 0.3s ease-in-out;transition:border-color 0.3s ease-in-out,background 0.3s ease-in-out;height:auto;width:300px;-webkit-transition:-webkit-transform 0.15s ease-in-out;-webkit-transition:transform 0.15s ease-in-out;transition:transform 0.15s ease-in-out;}", ".faqCard:hover{-webkit-transform:scale(1.05);-ms-transform:scale(1.05);transform:scale(1.05);}", ".rc-collapse-item-active{height:auto !important;}", ".arrow{display:none;content:\"\";margin-right:0px !important;border:none !important;}", ".rc-collapse-header{color:#fff !important;height:auto !important;line-height:unset !important;}", ".rc-collapse-content{background-color:unset;color:#fff;padding:0px;font-family:\"Open Sans\",sans-serif !important;font-size:0.9em;line-height:1.5em !important;}", ".rc-collapse-content-box{margin-bottom:15px !important;}", ".rc-collapse-content-box>p{margin:0px !important;padding:0px !important;}", "tr:nth-child(even){background-color:rgba(255,255,255,0.05);}"];
-_defaultExport.__hash = "1381846463";
-_defaultExport.__scoped = [".rc-collapse.jsx-488722942{background-color:unset;color:#fff;border:unset;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:space-around;-webkit-justify-content:space-around;-ms-flex-pack:space-around;justify-content:space-around;padding:0.5em;}", ".rc-collapse-header.jsx-488722942{text-indent:unset !important;}", ".rc-collapse-header.jsx-488722942:focus{border:none;box-shadow:unset;outline:none;}", ".rc-collapse.jsx-488722942>.rc-collapse-item.jsx-488722942:first-child{border-top:4px solid rgba(255,255,255,1) !important;border-left:4px solid rgba(255,255,255,1) !important;}", ".faqCard.jsx-488722942{border:1px solid rgba(255,255,255,0.2);color:#ecedf0;font-family:\"Overpass Mono\",monospace;font-weight:300;padding:18px;text-align:left;-webkit-text-decoration:none;text-decoration:none;-webkit-transition:border-color 0.3s ease-in-out,background 0.3s ease-in-out;transition:border-color 0.3s ease-in-out,background 0.3s ease-in-out;height:auto;width:300px;-webkit-transition:-webkit-transform 0.15s ease-in-out;-webkit-transition:transform 0.15s ease-in-out;transition:transform 0.15s ease-in-out;}", ".faqCard.jsx-488722942:hover{-webkit-transform:scale(1.05);-ms-transform:scale(1.05);transform:scale(1.05);}", ".rc-collapse-item-active.jsx-488722942{height:auto !important;}", ".arrow.jsx-488722942{display:none;content:\"\";margin-right:0px !important;border:none !important;}", ".rc-collapse-header.jsx-488722942{color:#fff !important;height:auto !important;line-height:unset !important;}", ".rc-collapse-content.jsx-488722942{background-color:unset;color:#fff;padding:0px;font-family:\"Open Sans\",sans-serif !important;font-size:0.9em;line-height:1.5em !important;}", ".rc-collapse-content-box.jsx-488722942{margin-bottom:15px !important;}", ".rc-collapse-content-box.jsx-488722942>p.jsx-488722942{margin:0px !important;padding:0px !important;}", "tr.jsx-488722942:nth-child(even){background-color:rgba(255,255,255,0.05);}"];
-_defaultExport.__scopedHash = "488722942";
+var _defaultExport = [".rc-collapse{background-color:unset;color:#fff;border:unset;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:space-around;-webkit-justify-content:space-around;-ms-flex-pack:space-around;justify-content:space-around;padding:0.5em;}", ".rc-collapse-header{text-indent:unset !important;}", ".rc-collapse-header:focus{border:none;box-shadow:unset;outline:none;}", ".rc-collapse>.rc-collapse-item:first-child{border-top:4px solid rgba(255,255,255,1) !important;border-left:4px solid rgba(255,255,255,1) !important;}", ".faqCard{border:1px solid rgba(255,255,255,0.2);color:#ecedf0;font-family:\"Overpass Mono\",monospace;font-weight:300;padding:18px;text-align:left;-webkit-text-decoration:none;text-decoration:none;-webkit-transition:border-color 0.3s ease-in-out,background 0.3s ease-in-out;transition:border-color 0.3s ease-in-out,background 0.3s ease-in-out;height:auto;width:280px;-webkit-transition:-webkit-transform 0.15s ease-in-out;-webkit-transition:transform 0.15s ease-in-out;transition:transform 0.15s ease-in-out;}", ".faqCard:hover{-webkit-transform:scale(1.05);-ms-transform:scale(1.05);transform:scale(1.05);}", ".rc-collapse-item-active{height:auto !important;}", ".arrow{display:none;content:\"\";margin-right:0px !important;border:none !important;}", ".rc-collapse-header{color:#fff !important;height:auto !important;line-height:unset !important;}", ".rc-collapse-content{background-color:unset;color:#fff;padding:0px;font-family:\"Open Sans\",sans-serif !important;font-size:0.9em;line-height:1.5em !important;}", ".rc-collapse-content-box{margin-bottom:15px !important;}", ".rc-collapse-content-box>p{margin:0px !important;padding:0px !important;font-size:0.9em;line-height:1.3em;font-weight:normal;}", "tr:nth-child(even){background-color:rgba(255,255,255,0.05);}"];
+_defaultExport.__hash = "2296635189";
+_defaultExport.__scoped = [".rc-collapse.jsx-2217165812{background-color:unset;color:#fff;border:unset;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:space-around;-webkit-justify-content:space-around;-ms-flex-pack:space-around;justify-content:space-around;padding:0.5em;}", ".rc-collapse-header.jsx-2217165812{text-indent:unset !important;}", ".rc-collapse-header.jsx-2217165812:focus{border:none;box-shadow:unset;outline:none;}", ".rc-collapse.jsx-2217165812>.rc-collapse-item.jsx-2217165812:first-child{border-top:4px solid rgba(255,255,255,1) !important;border-left:4px solid rgba(255,255,255,1) !important;}", ".faqCard.jsx-2217165812{border:1px solid rgba(255,255,255,0.2);color:#ecedf0;font-family:\"Overpass Mono\",monospace;font-weight:300;padding:18px;text-align:left;-webkit-text-decoration:none;text-decoration:none;-webkit-transition:border-color 0.3s ease-in-out,background 0.3s ease-in-out;transition:border-color 0.3s ease-in-out,background 0.3s ease-in-out;height:auto;width:280px;-webkit-transition:-webkit-transform 0.15s ease-in-out;-webkit-transition:transform 0.15s ease-in-out;transition:transform 0.15s ease-in-out;}", ".faqCard.jsx-2217165812:hover{-webkit-transform:scale(1.05);-ms-transform:scale(1.05);transform:scale(1.05);}", ".rc-collapse-item-active.jsx-2217165812{height:auto !important;}", ".arrow.jsx-2217165812{display:none;content:\"\";margin-right:0px !important;border:none !important;}", ".rc-collapse-header.jsx-2217165812{color:#fff !important;height:auto !important;line-height:unset !important;}", ".rc-collapse-content.jsx-2217165812{background-color:unset;color:#fff;padding:0px;font-family:\"Open Sans\",sans-serif !important;font-size:0.9em;line-height:1.5em !important;}", ".rc-collapse-content-box.jsx-2217165812{margin-bottom:15px !important;}", ".rc-collapse-content-box.jsx-2217165812>p.jsx-2217165812{margin:0px !important;padding:0px !important;font-size:0.9em;line-height:1.3em;font-weight:normal;}", "tr.jsx-2217165812:nth-child(even){background-color:rgba(255,255,255,0.05);}"];
+_defaultExport.__scopedHash = "2217165812";
 /* harmony default export */ __webpack_exports__["a"] = (_defaultExport);
 
 /***/ }),
@@ -310,20 +310,20 @@ var cardNav_CardNav = function CardNav(props) {
       width: [1, 1 / 2, 1 / 3]
     }, external__react__default.a.createElement("a", {
       href: href,
-      className: style__default.a.dynamic([["2482026976", [colors_default.a["gray"][1], colors_default.a["gray"][1]]]])
+      className: style__default.a.dynamic([["2341866401", [colors_default.a["gray"][1], colors_default.a["gray"][1]]]])
     }, external__react__default.a.createElement("div", {
-      className: style__default.a.dynamic([["2482026976", [colors_default.a["gray"][1], colors_default.a["gray"][1]]]]) + " " + "card"
+      className: style__default.a.dynamic([["2341866401", [colors_default.a["gray"][1], colors_default.a["gray"][1]]]]) + " " + "card"
     }, external__react__default.a.createElement("h3", {
-      className: style__default.a.dynamic([["2482026976", [colors_default.a["gray"][1], colors_default.a["gray"][1]]]])
+      className: style__default.a.dynamic([["2341866401", [colors_default.a["gray"][1], colors_default.a["gray"][1]]]])
     }, external__react__default.a.createElement("img", {
       src: icon,
-      className: style__default.a.dynamic([["2482026976", [colors_default.a["gray"][1], colors_default.a["gray"][1]]]])
+      className: style__default.a.dynamic([["2341866401", [colors_default.a["gray"][1], colors_default.a["gray"][1]]]])
     }), external__react__default.a.createElement("span", {
-      className: style__default.a.dynamic([["2482026976", [colors_default.a["gray"][1], colors_default.a["gray"][1]]]]) + " " + "spacer"
+      className: style__default.a.dynamic([["2341866401", [colors_default.a["gray"][1], colors_default.a["gray"][1]]]]) + " " + "spacer"
     }), external__react__default.a.createElement("span", {
-      className: style__default.a.dynamic([["2482026976", [colors_default.a["gray"][1], colors_default.a["gray"][1]]]]) + " " + "cardTitle"
+      className: style__default.a.dynamic([["2341866401", [colors_default.a["gray"][1], colors_default.a["gray"][1]]]]) + " " + "cardTitle"
     }, title)), external__react__default.a.createElement("p", {
-      className: style__default.a.dynamic([["2482026976", [colors_default.a["gray"][1], colors_default.a["gray"][1]]]])
+      className: style__default.a.dynamic([["2341866401", [colors_default.a["gray"][1], colors_default.a["gray"][1]]]])
     }, text)))) : external__react__default.a.createElement(external__rebass_["Box"], {
       key: key,
       width: [1, 1 / 2, 1 / 3]
@@ -332,21 +332,21 @@ var cardNav_CardNav = function CardNav(props) {
       smooth: true,
       duration: 500
     }, external__react__default.a.createElement("div", {
-      className: style__default.a.dynamic([["2482026976", [colors_default.a["gray"][1], colors_default.a["gray"][1]]]]) + " " + "card"
+      className: style__default.a.dynamic([["2341866401", [colors_default.a["gray"][1], colors_default.a["gray"][1]]]]) + " " + "card"
     }, external__react__default.a.createElement("h3", {
-      className: style__default.a.dynamic([["2482026976", [colors_default.a["gray"][1], colors_default.a["gray"][1]]]])
+      className: style__default.a.dynamic([["2341866401", [colors_default.a["gray"][1], colors_default.a["gray"][1]]]])
     }, external__react__default.a.createElement("img", {
       src: icon,
-      className: style__default.a.dynamic([["2482026976", [colors_default.a["gray"][1], colors_default.a["gray"][1]]]])
+      className: style__default.a.dynamic([["2341866401", [colors_default.a["gray"][1], colors_default.a["gray"][1]]]])
     }), external__react__default.a.createElement("span", {
-      className: style__default.a.dynamic([["2482026976", [colors_default.a["gray"][1], colors_default.a["gray"][1]]]]) + " " + "spacer"
+      className: style__default.a.dynamic([["2341866401", [colors_default.a["gray"][1], colors_default.a["gray"][1]]]]) + " " + "spacer"
     }), external__react__default.a.createElement("span", {
-      className: style__default.a.dynamic([["2482026976", [colors_default.a["gray"][1], colors_default.a["gray"][1]]]]) + " " + "cardTitle"
+      className: style__default.a.dynamic([["2341866401", [colors_default.a["gray"][1], colors_default.a["gray"][1]]]]) + " " + "cardTitle"
     }, title)), external__react__default.a.createElement("p", {
-      className: style__default.a.dynamic([["2482026976", [colors_default.a["gray"][1], colors_default.a["gray"][1]]]])
+      className: style__default.a.dynamic([["2341866401", [colors_default.a["gray"][1], colors_default.a["gray"][1]]]])
     }, text))));
   }), external__react__default.a.createElement(style__default.a, {
-    styleId: "2482026976",
+    styleId: "2341866401",
     css: ["a{-webkit-text-decoration:none;text-decoration:none;}", ".card{border:1px solid ".concat(colors_default.a["gray"][1], ";color:").concat(colors_default.a["gray"][1], ";font-family:\"Overpass Mono\",monospace;margin:10px;min-height:110px !important;padding:18px 18px 18px;text-align:left;-webkit-text-decoration:none;text-decoration:none;-webkit-transition:border-color 0.3s ease-in-out,background 0.3s ease-in-out,-webkit-transform 0.3s ease-in-out;-webkit-transition:border-color 0.3s ease-in-out,background 0.3s ease-in-out,transform 0.3s ease-in-out;transition:border-color 0.3s ease-in-out,background 0.3s ease-in-out,transform 0.3s ease-in-out;}"), ".cardTitle{text-transform:uppercase;}", ".card:hover{background:rgba(255,255,255,0.1);cursor:pointer;-webkit-transform:scale(1.03);-ms-transform:scale(1.03);transform:scale(1.03);}", ".card h3{margin:0;font-size:18px;}", ".card p{margin:0;padding:12px 0 0;font-size:13px;font-weight:300;}", ".spacer{margin-right:5px;}"],
     dynamic: [colors_default.a["gray"][1], colors_default.a["gray"][1]]
   }));
@@ -429,7 +429,7 @@ var newCalendar_Calendar = function Calendar() {
   return external__react__default.a.createElement(external__react_scroll_["Element"], {
     name: "calendar"
   }, external__react__default.a.createElement(external__rebass_["Box"], {
-    bg: "#e89e9ec7",
+    bg: "#e89e9ea0",
     color: "#9F5A58",
     py: 3
   }, external__react__default.a.createElement(external__rebass_["Box"], {
@@ -437,7 +437,7 @@ var newCalendar_Calendar = function Calendar() {
     px: 3,
     pt: 4
   }, external__react__default.a.createElement("h2", {
-    className: style__default.a.dynamic([["1243645028", [colors_default.a["white"]]]]) + " " + "title"
+    className: style__default.a.dynamic([["1184772042", [colors_default.a["white"]]]]) + " " + "title"
   }, newCalendar_title)), external__react__default.a.createElement(external__rebass_["Flex"], {
     my: 1,
     pb: 4,
@@ -447,9 +447,9 @@ var newCalendar_Calendar = function Calendar() {
     px: 3,
     width: [1, 1 / 2]
   }, external__react__default.a.createElement("h2", {
-    className: style__default.a.dynamic([["1243645028", [colors_default.a["white"]]]]) + " " + "dayName"
+    className: style__default.a.dynamic([["1184772042", [colors_default.a["white"]]]]) + " " + "dayName"
   }, dayOne), external__react__default.a.createElement("ul", {
-    className: style__default.a.dynamic([["1243645028", [colors_default.a["white"]]]]) + " " + "dayContent"
+    className: style__default.a.dynamic([["1184772042", [colors_default.a["white"]]]]) + " " + "dayContent"
   }, friday.map(function (_ref) {
     var key = _ref.key,
         title = _ref.title,
@@ -457,21 +457,21 @@ var newCalendar_Calendar = function Calendar() {
         detail = _ref.detail;
     return external__react__default.a.createElement("li", {
       key: key,
-      className: style__default.a.dynamic([["1243645028", [colors_default.a["white"]]]]) + " " + "dayItem"
+      className: style__default.a.dynamic([["1184772042", [colors_default.a["white"]]]]) + " " + "dayItem"
     }, external__react__default.a.createElement("span", {
-      className: style__default.a.dynamic([["1243645028", [colors_default.a["white"]]]]) + " " + "itemTitle"
+      className: style__default.a.dynamic([["1184772042", [colors_default.a["white"]]]]) + " " + "itemTitle"
     }, title), external__react__default.a.createElement("span", {
-      className: style__default.a.dynamic([["1243645028", [colors_default.a["white"]]]]) + " " + "itemTime"
+      className: style__default.a.dynamic([["1184772042", [colors_default.a["white"]]]]) + " " + "itemTime"
     }, time), external__react__default.a.createElement("span", {
-      className: style__default.a.dynamic([["1243645028", [colors_default.a["white"]]]]) + " " + "itemDetail"
+      className: style__default.a.dynamic([["1184772042", [colors_default.a["white"]]]]) + " " + "itemDetail"
     }, detail));
   }))), external__react__default.a.createElement(external__rebass_["Box"], {
     px: 3,
     width: [1, 1 / 2]
   }, external__react__default.a.createElement("h2", {
-    className: style__default.a.dynamic([["1243645028", [colors_default.a["white"]]]]) + " " + "dayName"
+    className: style__default.a.dynamic([["1184772042", [colors_default.a["white"]]]]) + " " + "dayName"
   }, dayTwo), external__react__default.a.createElement("ul", {
-    className: style__default.a.dynamic([["1243645028", [colors_default.a["white"]]]]) + " " + "dayContent"
+    className: style__default.a.dynamic([["1184772042", [colors_default.a["white"]]]]) + " " + "dayContent"
   }, saturday.map(function (_ref2) {
     var key = _ref2.key,
         title = _ref2.title,
@@ -479,17 +479,17 @@ var newCalendar_Calendar = function Calendar() {
         detail = _ref2.detail;
     return external__react__default.a.createElement("li", {
       key: key,
-      className: style__default.a.dynamic([["1243645028", [colors_default.a["white"]]]]) + " " + "dayItem"
+      className: style__default.a.dynamic([["1184772042", [colors_default.a["white"]]]]) + " " + "dayItem"
     }, external__react__default.a.createElement("span", {
-      className: style__default.a.dynamic([["1243645028", [colors_default.a["white"]]]]) + " " + "itemTitle"
+      className: style__default.a.dynamic([["1184772042", [colors_default.a["white"]]]]) + " " + "itemTitle"
     }, title), external__react__default.a.createElement("span", {
-      className: style__default.a.dynamic([["1243645028", [colors_default.a["white"]]]]) + " " + "itemTime"
+      className: style__default.a.dynamic([["1184772042", [colors_default.a["white"]]]]) + " " + "itemTime"
     }, time), external__react__default.a.createElement("span", {
-      className: style__default.a.dynamic([["1243645028", [colors_default.a["white"]]]]) + " " + "itemDetail"
+      className: style__default.a.dynamic([["1184772042", [colors_default.a["white"]]]]) + " " + "itemDetail"
     }, detail));
   })))), external__react__default.a.createElement(style__default.a, {
-    styleId: "1243645028",
-    css: ["h1.__jsx-style-dynamic-selector,h2.__jsx-style-dynamic-selector{font-family:\"Overpass Mono\",monospace;}", ".title.__jsx-style-dynamic-selector{display:inline-block;text-transform:uppercase;color:".concat(colors_default.a["white"], ";background:#9F5A58;padding:2px 10px;}"), ".dayName.__jsx-style-dynamic-selector{font-size:1.2em;font-weight:600;color:#9F5A58;text-transform:uppercase;}", ".dayContent.__jsx-style-dynamic-selector{display:inline-block;vertical-align:top;width:48%;float:left;margin:0px;list-style-type:none;padding:0;width:100%;}", ".dayItem.__jsx-style-dynamic-selector{border:1px solid rgba(0,0,0,0.1);background:#f6b8b878;color:#9F5A58;padding:8px 10px;-webkit-transition:border 0.3s ease-in-out,background 0.3s ease-in-out,box-shadow 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;-webkit-transition:border 0.3s ease-in-out,background 0.3s ease-in-out,box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;transition:border 0.3s ease-in-out,background 0.3s ease-in-out,box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;margin-bottom:1em;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-flow:row wrap;-ms-flex-flow:row wrap;flex-flow:row wrap;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}", ".dayItem.__jsx-style-dynamic-selector:hover{background:#f6b8b8;border:1px solid #9F5A58;box-shadow:0px 3px 5px 2px rgba(97,100,178,0.05);-webkit-transform:scale(1.05);-ms-transform:scale(1.05);transform:scale(1.05);}", ".dayContent.__jsx-style-dynamic-selector ul.__jsx-style-dynamic-selector li.__jsx-style-dynamic-selector{-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;-webkit-flex-flow:row wrap;-ms-flex-flow:row wrap;flex-flow:row wrap;-webkit-align-content:center;-ms-flex-line-pack:center;align-content:center;}", ".itemTime.__jsx-style-dynamic-selector{display:block;margin-top:2px;font-size:0.8em;font-family:\"Overpass Mono\";}", ".itemTitle.__jsx-style-dynamic-selector{margin-top:5px;display:inline-block;font-size:0.8em;font-weight:400;font-family:\"Overpass Mono\";background:rgba(255,255,255,0.3);padding:2px 5px;color:#9F5A58;}", ".itemDetail.__jsx-style-dynamic-selector{clear:both;display:block;-webkit-flex:1 1 100%;-ms-flex:1 1 100%;flex:1 1 100%;font-size:0.8em;margin-top:0.5em;}"],
+    styleId: "1184772042",
+    css: ["h1.__jsx-style-dynamic-selector,h2.__jsx-style-dynamic-selector{font-family:\"Overpass Mono\",monospace;}", ".title.__jsx-style-dynamic-selector{display:inline-block;text-transform:uppercase;color:".concat(colors_default.a["white"], ";background:#9F5A58;padding:2px 10px;}"), ".dayName.__jsx-style-dynamic-selector{font-size:1.2em;font-weight:bold;color:#fff;text-transform:uppercase;}", ".dayContent.__jsx-style-dynamic-selector{display:inline-block;vertical-align:top;width:48%;float:left;margin:0px;list-style-type:none;padding:0;width:100%;}", ".dayItem.__jsx-style-dynamic-selector{border:1px solid rgba(255,255,255,0.1);background:#f6b8b878;color:#9F5A58;padding:8px 10px;-webkit-transition:border 0.3s ease-in-out,background 0.3s ease-in-out,box-shadow 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;-webkit-transition:border 0.3s ease-in-out,background 0.3s ease-in-out,box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;transition:border 0.3s ease-in-out,background 0.3s ease-in-out,box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;margin-bottom:1em;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-flow:row wrap;-ms-flex-flow:row wrap;flex-flow:row wrap;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}", ".dayItem.__jsx-style-dynamic-selector:hover{background:#f6b8b8;border:1px solid #9F5A58;box-shadow:0px 3px 5px 2px rgba(97,100,178,0.05);-webkit-transform:scale(1.05);-ms-transform:scale(1.05);transform:scale(1.05);}", ".dayContent.__jsx-style-dynamic-selector ul.__jsx-style-dynamic-selector li.__jsx-style-dynamic-selector{-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;-webkit-flex-flow:row wrap;-ms-flex-flow:row wrap;flex-flow:row wrap;-webkit-align-content:center;-ms-flex-line-pack:center;align-content:center;}", ".itemTime.__jsx-style-dynamic-selector{display:block;margin-top:2px;font-size:0.8em;font-family:\"Overpass Mono\";}", ".itemTitle.__jsx-style-dynamic-selector{margin-top:5px;display:inline-block;font-size:0.8em;font-weight:400;font-family:\"Overpass Mono\";background:rgba(255,255,255,0.3);padding:2px 5px;color:#9F5A58;}", ".itemDetail.__jsx-style-dynamic-selector{clear:both;display:block;-webkit-flex:1 1 100%;-ms-flex:1 1 100%;flex:1 1 100%;font-size:0.8em;margin-top:0.5em;}"],
     dynamic: [colors_default.a["white"]]
   })));
 };
@@ -529,7 +529,7 @@ var newTracks_Tracks = function Tracks() {
     mx: "auto",
     pt: 3
   }, "mx", 3), external__react__default.a.createElement("h2", {
-    className: style__default.a.dynamic([["2872309253", [colors["lightAccentColor"]]]]) + " " + "title"
+    className: "jsx-3957782734" + " " + "title"
   }, "Tracks"), external__react__default.a.createElement(external__rebass_["Flex"], {
     justifyContent: "center"
   }, trackCards.map(function (_ref) {
@@ -542,27 +542,26 @@ var newTracks_Tracks = function Tracks() {
       width: [1, 1 / 2]
     }, external__react__default.a.createElement("a", {
       href: href,
-      className: style__default.a.dynamic([["2872309253", [colors["lightAccentColor"]]]])
+      className: "jsx-3957782734"
     }, external__react__default.a.createElement("div", {
-      className: style__default.a.dynamic([["2872309253", [colors["lightAccentColor"]]]]) + " " + "card"
+      className: "jsx-3957782734" + " " + "card"
     }, external__react__default.a.createElement(external__rebass_["Box"], {
       key: key,
       px: 2,
       py: 2
     }, external__react__default.a.createElement("div", {
-      className: style__default.a.dynamic([["2872309253", [colors["lightAccentColor"]]]]) + " " + "info"
+      className: "jsx-3957782734" + " " + "info"
     }, external__react__default.a.createElement("img", {
       src: icon,
-      className: style__default.a.dynamic([["2872309253", [colors["lightAccentColor"]]]])
+      className: "jsx-3957782734"
     }), external__react__default.a.createElement("span", {
-      className: style__default.a.dynamic([["2872309253", [colors["lightAccentColor"]]]]) + " " + "label"
+      className: "jsx-3957782734" + " " + "label"
     }, " ", title)), external__react__default.a.createElement("p", {
-      className: style__default.a.dynamic([["2872309253", [colors["lightAccentColor"]]]]) + " " + "trackInfo"
+      className: "jsx-3957782734" + " " + "trackInfo"
     }, text)))));
   }))), external__react__default.a.createElement(style__default.a, {
-    styleId: "2872309253",
-    css: [".title.__jsx-style-dynamic-selector{display:inline-block;font-family:Overpass Mono;text-transform:uppercase;color:#a95656;background:#ffffff;padding:2px 10px;margin-left:0.5em;}", ".label.__jsx-style-dynamic-selector{font-size:1.2em;font-weight:bold;}", ".card.__jsx-style-dynamic-selector{height:210px !important;border:1.5px solid;border-color:".concat(colors["lightAccentColor"], ";-webkit-transition:-webkit-transform 0.3s ease-in-out,opacity 0.3s ease-in-out;-webkit-transition:transform 0.3s ease-in-out,opacity 0.3s ease-in-out;transition:transform 0.3s ease-in-out,opacity 0.3s ease-in-out;}"), ".card.__jsx-style-dynamic-selector:hover{background:rgba(255,255,255,0.1);-webkit-transform:scale(1.03);-ms-transform:scale(1.03);transform:scale(1.03);}", ".info.__jsx-style-dynamic-selector{padding:1px;}", "a.__jsx-style-dynamic-selector{color:inherit;-webkit-text-decoration:none;text-decoration:none;}", ".trackInfo.__jsx-style-dynamic-selector{font-family:\"Open Sans\";font-weight:normal;text-transform:none !important;}"],
-    dynamic: [colors["lightAccentColor"]]
+    styleId: "3957782734",
+    css: [".title.jsx-3957782734{display:inline-block;font-family:Overpass Mono;text-transform:uppercase;color:#a95656;background:#ffffff;padding:2px 10px;margin-left:0.5em;}", ".label.jsx-3957782734{font-size:1.2em;font-weight:bold;}", ".card.jsx-3957782734{height:210px !important;background:none;border:1.5px solid;border-color:rgba(255,255,255,0.1);-webkit-transition:-webkit-transform 0.3s ease-in-out,border-color 0.3s ease-in-out;-webkit-transition:transform 0.3s ease-in-out,border-color 0.3s ease-in-out;transition:transform 0.3s ease-in-out,border-color 0.3s ease-in-out;}", ".card.jsx-3957782734:hover{-webkit-transform:scale(1.03);-ms-transform:scale(1.03);transform:scale(1.03);border-color:#fff;}", ".info.jsx-3957782734{padding:1px;}", "a.jsx-3957782734{color:inherit;-webkit-text-decoration:none;text-decoration:none;}", ".trackInfo.jsx-3957782734{font-family:\"Open Sans\";font-weight:normal;text-transform:none !important;}"]
   }));
 };
 
@@ -583,10 +582,10 @@ var places = [{
   return prize;
 });
 var trackWinners = [{
-  place: "First Timers Track Winner",
+  place: "First Timers Track",
   prize: "Google Home Minis"
 }, {
-  place: "FinTech Track Winner",
+  place: "FinTech Track",
   prize: "Amazon Echo Plus"
 }].map(function (prize) {
   prize.key = "item-".concat(prize.place);
@@ -604,57 +603,51 @@ var prizes_Prizes = function Prizes() {
   return external__react__default.a.createElement(external__react_scroll_["Element"], {
     name: "prizes"
   }, external__react__default.a.createElement(external__rebass_["Box"], {
-    bg: "#e89e9ec7",
     color: "#9F5A58",
     py: 4,
     my: 50
   }, external__react__default.a.createElement(external__rebass_["Box"], {
-    mx: 5,
     px: 3
   }, external__react__default.a.createElement("h2", {
-    className: style__default.a.dynamic([["1639826769", [colors_default.a["white"]]]]) + " " + "title"
-  }, prizes_title)), external__react__default.a.createElement(external__rebass_["Flex"], {
-    justifyContent: "center",
-    flexWrap: "wrap"
+    style: {
+      "marginBottom": "0.5em"
+    },
+    className: "jsx-1424030150" + " " + "title"
+  }, prizes_title), external__react__default.a.createElement("p", {
+    style: {
+      "color": "#f6b8b8",
+      "marginLeft": "0.8em"
+    },
+    className: "jsx-1424030150"
+  }, "Each team member will receive one of the mentioned prizes.")), external__react__default.a.createElement(external__rebass_["Flex"], {
+    justifyContent: "flexStart",
+    flexWrap: "wrap",
+    mx: 2
   }, places.map(function (_ref) {
     var place = _ref.place,
         prize = _ref.prize,
         key = _ref.key;
-    return external__react__default.a.createElement(external__rebass_["Box"], {
-      width: [1, 1 / 4],
-      key: key,
-      mx: 2,
-      my: 2
-    }, external__react__default.a.createElement("div", {
-      className: style__default.a.dynamic([["1639826769", [colors_default.a["white"]]]]) + " " + 'prize'
+    return external__react__default.a.createElement("div", {
+      className: "jsx-1424030150" + " " + "prize"
     }, external__react__default.a.createElement("h3", {
-      className: style__default.a.dynamic([["1639826769", [colors_default.a["white"]]]]) + " " + 'itemTitle'
-    }, place), external__react__default.a.createElement("p", {
-      className: style__default.a.dynamic([["1639826769", [colors_default.a["white"]]]]) + " " + 'item'
-    }, prize)));
-  })), external__react__default.a.createElement(external__rebass_["Flex"], {
-    justifyContent: "center",
-    flexWrap: "wrap"
-  }, trackWinners.map(function (_ref2) {
+      className: "jsx-1424030150" + " " + "itemTitle"
+    }, place), external__react__default.a.createElement("span", {
+      className: "jsx-1424030150" + " " + "item"
+    }, prize));
+  }), trackWinners.map(function (_ref2) {
     var place = _ref2.place,
         prize = _ref2.prize,
         key = _ref2.key;
-    return external__react__default.a.createElement(external__rebass_["Box"], {
-      width: [1, 9 / 24],
-      key: key,
-      mx: 2,
-      my: 2
-    }, external__react__default.a.createElement("div", {
-      className: style__default.a.dynamic([["1639826769", [colors_default.a["white"]]]]) + " " + 'prize'
+    return external__react__default.a.createElement("div", {
+      className: "jsx-1424030150" + " " + "prize"
     }, external__react__default.a.createElement("h3", {
-      className: style__default.a.dynamic([["1639826769", [colors_default.a["white"]]]]) + " " + 'itemTitle'
-    }, place), external__react__default.a.createElement("p", {
-      className: style__default.a.dynamic([["1639826769", [colors_default.a["white"]]]]) + " " + 'item'
-    }, prize)));
+      className: "jsx-1424030150" + " " + "itemTitle"
+    }, place), external__react__default.a.createElement("span", {
+      className: "jsx-1424030150" + " " + "item"
+    }, prize));
   }))), external__react__default.a.createElement(style__default.a, {
-    styleId: "1639826769",
-    css: [".title.__jsx-style-dynamic-selector{display:inline-block;text-transform:uppercase;color:".concat(colors_default.a["white"], ";background:#9F5A58;padding:2px 10px;}"), ".prize.__jsx-style-dynamic-selector{border:1px solid rgba(0,0,0,0.1);background:#f6b8b878;color:#9F5A58;padding:8px 10px;-webkit-transition:border 0.3s ease-in-out,-webkit-transform 0.3s ease-in-out,background 0.3s ease-in-out;-webkit-transition:border 0.3s ease-in-out,transform 0.3s ease-in-out,background 0.3s ease-in-out;transition:border 0.3s ease-in-out,transform 0.3s ease-in-out,background 0.3s ease-in-out;}", ".prize.__jsx-style-dynamic-selector:hover{background:#f6b8b8;-webkit-transform:scale(1.03);-ms-transform:scale(1.03);transform:scale(1.03);border:1px solid #9F5A58;}", ".itemTitle.__jsx-style-dynamic-selector{margin-top:5px;display:inline-block;font-size:1.2em;font-weight:400;font-family:\"Overpass Mono\";background:rgba(255,255,255,0.3);padding:4px 5px;color:#9F5A58;}", ".item.__jsx-style-dynamic-selector{margin-top:-2px;}"],
-    dynamic: [colors_default.a["white"]]
+    styleId: "1424030150",
+    css: ["h3.jsx-1424030150{margin-bottom:5px;}", ".title.jsx-1424030150{display:inline-block;font-family:Overpass Mono;text-transform:uppercase;color:#a95656;background:#ffffff;padding:2px 10px;margin-left:0.5em;}", ".prize.jsx-1424030150{border:2px solid rgba(255,255,255,0.1);color:#fff;padding:10px 25px;-webkit-transition:border 0.3s ease-in-out,-webkit-transform 0.3s ease-in-out, background 0.3s ease-in-out;-webkit-transition:border 0.3s ease-in-out,transform 0.3s ease-in-out, background 0.3s ease-in-out;transition:border 0.3s ease-in-out,transform 0.3s ease-in-out, background 0.3s ease-in-out;margin:0.8em 0.8em 0.8em 1.2em;}", ".prize.jsx-1424030150:hover{-webkit-transform:scale(1.03);-ms-transform:scale(1.03);transform:scale(1.03);border:2px solid #fff;}", ".itemTitle.jsx-1424030150{margin-top:5px;display:inline-block;font-size:1.2em;font-weight:bold;color:#fff;}", ".item.jsx-1424030150{display:block;margin-bottom:8px;}"]
   }));
 };
 
@@ -684,12 +677,6 @@ var faqs = [{
     className: "styledlink",
     href: "http://static.mlh.io/docs/mlh-code-of-conduct.pdf"
   }, "MLH Code of Conduct."))
-}, {
-  question: "Is there a HackRice Facebook page?",
-  answer: external__react__default.a.createElement(external__react__default.a.Fragment, null, "Yes there is! Click", " ", external__react__default.a.createElement("a", {
-    className: "styledlink",
-    href: "https://www.facebook.com/hackrice/"
-  }, "here"), " ", "to access it!")
 }, {
   question: "How long is HackRice?",
   answer: "The event is held from Friday, March 1st to Saturday, March 2nd. Students hack for 24 hours. View the schedule for more info."
@@ -874,12 +861,12 @@ var links = [{
 var cards = [{
   icon: "https://icon.now.sh/compose/ffffff",
   title: "Register",
-  href: "https://docs.google.com/forms/d/e/1FAIpQLSfIFYOps4mVOVhfhgxmW4kzR3yxviEFc5zATsugW3ITEUrjfQ/viewform",
+  href: "https://docs.google.com/forms/d/e/1FAIpQLSfIFYOps4mVOVhfhgxmW4kzR3yxviEFc5zATsugW3ITEUrjfQ/viewform?usp=sf_link",
   text: "If you haven't registered, now is the time! →"
 }, {
   icon: "https://icon.now.sh/send/ffffff",
   title: "Submissions",
-  href: "https://hackrice8.devpost.com/",
+  href: "http://hackrice-8-5.devpost.com",
   text: "Submit your project through the HackRice Devpost →"
 }, {
   icon: "https://icon.now.sh/calendar/ffffff",
