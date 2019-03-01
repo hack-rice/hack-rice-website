@@ -1,6 +1,6 @@
 export const title = "Tracks & Challenges";
 
-export const track_cards = [
+export const trackCards = [
     {
         title: "First Timers",
         icon: `https://icon.now.sh/laptop_mac/${lightAccentColor.slice(1)}/34`,
