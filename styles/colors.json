@@ -27,5 +27,6 @@
     "#2c4152"
   ],
   "white": ["#ffffff"],
-  "lightAccentColor": "#F6B8B8"
+  "lightAccentColor": "#F6B8B8",
+  "base9": "#60b2b2"
 }

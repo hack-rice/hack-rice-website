@@ -15,7 +15,7 @@ export const links = [
       icon: "https://icon.now.sh/twitter/ffffff"
     },
     {
-      href: "mailto:officialhackrice@gmail.com",
+      href: "mailto:hack@rice.edu",
       label: `Email`,
       icon: "https://icon.now.sh/email/ffffff"
     },

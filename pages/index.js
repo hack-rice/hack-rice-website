@@ -1,8 +1,9 @@
-import { Provider, Heading } from "rebass";
+import { Provider } from "rebass";
 import { injectGlobal } from "styled-components";
+import { base9 } from "../styles/colors.json";
 
 import Head from "../components/head";
-import NewIntro from "../components/newintro";
+import TempIntro from "../components/tempIntro";
 
 // Set global body styling.
 injectGlobal`
@@ -11,7 +12,7 @@ injectGlobal`
 `;
 
 // Variables for <head>
-let title = "HackRice 8.5";
+let title = "HackRice 9";
 let url = "https://hack.rice.edu";
 let ogImage = "../static/og.png";
 let description = "The premier hackathon of the south.";
@@ -26,10 +27,10 @@ const Home = () => (
     }}
   >
     <Head title={title} description={description} url={url} ogImage={ogImage} />
-    <NewIntro />
+    <TempIntro />
     <style jsx global>{`
       html {
-        background: #a95656 !important;
+        background: #60b2b2 !important;
       }
     `}</style>
   </Provider>
