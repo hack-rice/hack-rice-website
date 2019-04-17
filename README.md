@@ -62,11 +62,11 @@ const friday = [
 We infer that adding an event is adding an object to an array corresponding to each day of the hackathon.
 
 Now, let's say we want to push this change to production. Note that this project is configured to be hosted
-on Github Pages, and thus the script `next deploy` in `package.json` will need to be modified to your
+on Github Pages, and thus the script `deploy` in `package.json` will need to be modified to your
 mode of deployment. Run the following command:
 
 ```
-$ next deploy
+$ npm run-script deploy
 ```
 
 This will:
@@ -81,7 +81,7 @@ You will need to run
 ```
 $ git push
 ```
-in order for changes to be reflected on the hosted Github Pages project. 
+in order for changes to be reflected on the hosted Github Pages project.
 
 ### Contributors
 
