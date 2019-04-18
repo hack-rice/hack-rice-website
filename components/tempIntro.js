@@ -6,6 +6,9 @@ import { base9 } from "../styles/colors.json";
 import { links } from "../content/links";
 import colors from "../styles/colors.json";
 
+import About from "../components/about.js"
+import Questions from "../components/faq9.js"
+
 const TempIntro = () => (
   <Box bg={base9}>
     <Image
@@ -36,6 +39,10 @@ const TempIntro = () => (
     <div className="cards">
       <CardNav cards={cards} />
     </div>
+
+    <About />
+
+    <Questions />
 
     <div className="social">
       {links.map(({ key, href, icon }) => (

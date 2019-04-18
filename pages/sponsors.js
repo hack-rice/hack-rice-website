@@ -2,7 +2,7 @@ import { Provider } from "rebass";
 import { injectGlobal } from "styled-components";
 import { base9 } from "../styles/colors.json";
 
-import Head from "../components/head";
+import RedirectHead from "../components/redirectHead";
 import TempIntro from "../components/tempIntro";
 import Questions from "../components/faq";
 
@@ -27,7 +27,7 @@ const Home = () => (
       }
     }}
   >
-    <Head title={title} description={description} url={url} ogImage={ogImage} />
+    <RedirectHead title={title} description={description} url={url} ogImage={ogImage} />
     <TempIntro />
     <style jsx global>{`
       html {

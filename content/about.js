@@ -2,10 +2,10 @@ export const title = "What is HackRice?";
 
 export const p1 = (
   <>
-    HackRice is a hackathon held bi-annually at Rice University. It brings
+    HackRice is Rice University's annual hackathon. It brings
     together over{" "}
     <span style={{ fontWeight: "600" }}>
-      four hundred of the brightest minds
+      four hundred of the brightest minds in the country
     </span>{" "}
     to develop & showcase their{" "}
     <span style={{ fontWeight: "600" }}>
@@ -16,7 +16,7 @@ export const p1 = (
 
 export const p2 = (
   <>
-    Participants join into{" "}
+    Participants form {" "}
     <span style={{ fontWeight: "600" }}>teams of up to 4</span> to work on a
     project — typically software, and sometimes hardware — in an environment{" "}
     <span style={{ fontWeight: "600" }}>designed for collaboration.</span>

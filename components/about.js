@@ -23,23 +23,8 @@ const About = () => (
         <p>{p1}</p>
         <p>{p2}</p>
         <p>{p3}</p>
-        <a href={link1}>
-          <button>{button1}</button>
-        </a>
-        <a href={link2}>
-          <button>{button2}</button>
-        </a>
       </Box>
       <Flex justifyContent="center" width={[1]}>
-        <Image
-          style={{
-            maxWidth: "200%",
-            height: "150px",
-            bottom: "0px"
-          }}
-          mt={4}
-          src="../static/sallyport.svg"
-        />
       </Flex>
       <style jsx>{`
         @import url("https://rsms.me/inter/inter-ui.css");

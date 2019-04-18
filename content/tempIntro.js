@@ -29,7 +29,7 @@ export const cards = [
   {
     icon: "https://icon.now.sh/send/ffffff",
     title: "Sponsors",
-    href: "../static/sponsorPacket.pdf",
+    href: "../static/sponsorships.pdf",
     text: "Thanks for your interest! Check out our sponsorship packet →"
   },
   {

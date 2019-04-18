@@ -20,7 +20,7 @@ export default class MyDocument extends Document {
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <meta charSet="utf-8" />
 
-          <title>HackRice 8.5</title>
+          <title>HackRice 9</title>
 
           {this.props.styleTags}
         </Head>
