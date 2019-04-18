@@ -61,7 +61,7 @@ const friday = [
 
 We infer that adding an event is adding an object to an array corresponding to each day of the hackathon.
 
-#### 5. Push your changes to production.
+##### 5. Push your changes to production.
 
 Now, let's say we want to push this change to production. Note that this project is configured to be hosted
 on Github Pages, and thus the script `deploy` in `package.json` will need to be modified to your
