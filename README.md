@@ -6,7 +6,7 @@
 
 ![](https://i.imgur.com/Rc6yZAC.png)
 
-This app is built using [Next.js](https://github.com/zeit/next.js/) and [Rebass](https://rebassjs.org).
+This app is built using [Next.js](https://github.com/zeit/next.js/) and [Rebass](https://rebassjs.org). The following assumes you have [npm](https://www.npmjs.com/) installed.
 
 ### Getting Started
 
@@ -61,7 +61,7 @@ const friday = [
 
 We infer that adding an event is adding an object to an array corresponding to each day of the hackathon.
 
-#### 5. **MUST READ** Push your changes to production.
+#### 5. Push your changes to production.
 
 Now, let's say we want to push this change to production. Note that this project is configured to be hosted
 on Github Pages, and thus the script `deploy` in `package.json` will need to be modified to your
@@ -81,7 +81,7 @@ This will:
 You will need to run
 
 ```
-$ git commit -m "your message"
+$ git commit -m "your commit message here"
 $ git push
 ```
 in order for changes to be reflected on the hosted Github Pages project.
