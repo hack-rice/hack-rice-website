@@ -67,28 +67,28 @@ module.exports =
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 29);
+/******/ 	return __webpack_require__(__webpack_require__.s = 23);
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ 29:
+/***/ 23:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(30);
+module.exports = __webpack_require__(24);
 
 
 /***/ }),
 
-/***/ 30:
+/***/ 24:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(31)
+module.exports = __webpack_require__(25)
 
 
 /***/ }),
 
-/***/ 31:
+/***/ 25:
 /***/ (function(module, exports) {
 
 module.exports = require("next/error");

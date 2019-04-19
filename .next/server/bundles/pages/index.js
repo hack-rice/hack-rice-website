@@ -67,7 +67,7 @@ module.exports =
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 22);
+/******/ 	return __webpack_require__(__webpack_require__.s = 16);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -80,19 +80,19 @@ module.exports = require("react");
 /* 1 */
 /***/ (function(module, exports) {
 
-module.exports = require("rebass");
+module.exports = {"base":"#6164B2","light":"#b6baf9","black":"#3d3e4c","gray":["#f9f9fa","#eff0f9","#dfe0e6","#d1d2db","#c2c2cf","#b1b1c2","#9d9eb2","#8687a0","#696a82","#3d3e4c"],"gray2":["#ebf1f5","#d6e2eb","#bfd1e0","#a5bfd3","#86a9c4","#618eb2","#5780a0","#4c708c","#3f5c73","#2c4152"],"white":["#ffffff"],"lightAccentColor":"#F6B8B8","base9":"#60b2b2"}
 
 /***/ }),
 /* 2 */
 /***/ (function(module, exports) {
 
-module.exports = {"base":"#6164B2","light":"#b6baf9","black":"#3d3e4c","gray":["#f9f9fa","#eff0f9","#dfe0e6","#d1d2db","#c2c2cf","#b1b1c2","#9d9eb2","#8687a0","#696a82","#3d3e4c"],"gray2":["#ebf1f5","#d6e2eb","#bfd1e0","#a5bfd3","#86a9c4","#618eb2","#5780a0","#4c708c","#3f5c73","#2c4152"],"white":["#ffffff"],"lightAccentColor":"#F6B8B8","base9":"#60b2b2"}
+module.exports = require("styled-jsx/style");
 
 /***/ }),
 /* 3 */
 /***/ (function(module, exports) {
 
-module.exports = require("styled-jsx/style");
+module.exports = require("rebass");
 
 /***/ }),
 /* 4 */
@@ -108,171 +108,12 @@ module.exports = require("styled-components");
 
 /***/ }),
 /* 6 */
-/***/ (function(module, exports) {
-
-module.exports = require("next/link");
-
-/***/ }),
-/* 7 */
-/***/ (function(module, exports) {
-
-module.exports = require("rc-collapse");
-
-/***/ }),
-/* 8 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-var _defaultExport = [".rc-collapse{background-color:#f7f7f7;border-radius:3px;border:1px solid #d9d9d9;}", ".rc-collapse-anim-active{-webkit-transition:height 0.2s ease-out;transition:height 0.2s ease-out;}", ".rc-collapse>.rc-collapse-item{border-top:1px solid #d9d9d9;}", ".rc-collapse>.rc-collapse-item:first-child{border-top:none;}", ".rc-collapse>.rc-collapse-item>.rc-collapse-header{display:-ms-flexbox;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-ms-flex-align:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;line-height:22px;padding:10px 16px;color:#666;cursor:pointer;}", ".rc-collapse>.rc-collapse-item>.rc-collapse-header .arrow{display:inline-block;content:'\\20';width:0;height:0;font-size:0;line-height:0;border-top:3px solid transparent;border-bottom:3px solid transparent;border-left:4px solid #666;vertical-align:middle;margin-right:8px;}", ".rc-collapse>.rc-collapse-item>.rc-collapse-header .rc-collapse-extra{margin:0 16px 0 auto;}", ".rc-collapse>.rc-collapse-item-disabled>.rc-collapse-header{cursor:not-allowed;color:#999;background-color:#f3f3f3;}", ".rc-collapse-content{overflow:hidden;color:#666;padding:0 16px;background-color:#fff;}", ".rc-collapse-content>.rc-collapse-content-box{margin-top:16px;margin-bottom:16px;}", ".rc-collapse-content-inactive{display:none;}", ".rc-collapse-item:last-child>.rc-collapse-content{border-radius:0 0 3px 3px;}", ".rc-collapse>.rc-collapse-item-active>.rc-collapse-header .arrow{position:relative;top:2px;border-left:3px solid transparent;border-right:3px solid transparent;border-top:4px solid #666;margin-right:6px;}"];
-_defaultExport.__hash = "2694693201";
-_defaultExport.__scoped = [".rc-collapse.jsx-4154084816{background-color:#f7f7f7;border-radius:3px;border:1px solid #d9d9d9;}", ".rc-collapse-anim-active.jsx-4154084816{-webkit-transition:height 0.2s ease-out;transition:height 0.2s ease-out;}", ".rc-collapse.jsx-4154084816>.rc-collapse-item.jsx-4154084816{border-top:1px solid #d9d9d9;}", ".rc-collapse.jsx-4154084816>.rc-collapse-item.jsx-4154084816:first-child{border-top:none;}", ".rc-collapse.jsx-4154084816>.rc-collapse-item.jsx-4154084816>.rc-collapse-header.jsx-4154084816{display:-ms-flexbox;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-ms-flex-align:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;line-height:22px;padding:10px 16px;color:#666;cursor:pointer;}", ".rc-collapse.jsx-4154084816>.rc-collapse-item.jsx-4154084816>.rc-collapse-header.jsx-4154084816 .arrow.jsx-4154084816{display:inline-block;content:'\\20';width:0;height:0;font-size:0;line-height:0;border-top:3px solid transparent;border-bottom:3px solid transparent;border-left:4px solid #666;vertical-align:middle;margin-right:8px;}", ".rc-collapse.jsx-4154084816>.rc-collapse-item.jsx-4154084816>.rc-collapse-header.jsx-4154084816 .rc-collapse-extra.jsx-4154084816{margin:0 16px 0 auto;}", ".rc-collapse.jsx-4154084816>.rc-collapse-item-disabled.jsx-4154084816>.rc-collapse-header.jsx-4154084816{cursor:not-allowed;color:#999;background-color:#f3f3f3;}", ".rc-collapse-content.jsx-4154084816{overflow:hidden;color:#666;padding:0 16px;background-color:#fff;}", ".rc-collapse-content.jsx-4154084816>.rc-collapse-content-box.jsx-4154084816{margin-top:16px;margin-bottom:16px;}", ".rc-collapse-content-inactive.jsx-4154084816{display:none;}", ".rc-collapse-item.jsx-4154084816:last-child>.rc-collapse-content.jsx-4154084816{border-radius:0 0 3px 3px;}", ".rc-collapse.jsx-4154084816>.rc-collapse-item-active.jsx-4154084816>.rc-collapse-header.jsx-4154084816 .arrow.jsx-4154084816{position:relative;top:2px;border-left:3px solid transparent;border-right:3px solid transparent;border-top:4px solid #666;margin-right:6px;}"];
-_defaultExport.__scopedHash = "4154084816";
-/* harmony default export */ __webpack_exports__["a"] = (_defaultExport);
-
-/***/ }),
-/* 9 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-var _defaultExport = [".rc-collapse{background-color:unset;color:#fff;border:unset;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:space-around;-webkit-justify-content:space-around;-ms-flex-pack:space-around;justify-content:space-around;padding:0.5em;}", ".rc-collapse-header{text-indent:unset !important;}", ".rc-collapse-header:focus{border:none;box-shadow:unset;outline:none;}", ".rc-collapse>.rc-collapse-item:first-child{border-top:4px solid rgba(255,255,255,1) !important;border-left:4px solid rgba(255,255,255,1) !important;}", ".faqCard{border:1px solid rgba(255,255,255,0.2);color:#ecedf0;font-family:\"Overpass Mono\",monospace;font-weight:300;padding:18px;text-align:left;-webkit-text-decoration:none;text-decoration:none;-webkit-transition:border-color 0.3s ease-in-out,background 0.3s ease-in-out;transition:border-color 0.3s ease-in-out,background 0.3s ease-in-out;height:auto;width:280px;-webkit-transition:-webkit-transform 0.15s ease-in-out;-webkit-transition:transform 0.15s ease-in-out;transition:transform 0.15s ease-in-out;}", ".faqCard:hover{-webkit-transform:scale(1.05);-ms-transform:scale(1.05);transform:scale(1.05);}", ".rc-collapse-item-active{height:auto !important;}", ".arrow{display:none;content:\"\";margin-right:0px !important;border:none !important;}", ".rc-collapse-header{color:#fff !important;height:auto !important;line-height:unset !important;}", ".rc-collapse-content{background-color:unset;color:#fff;padding:0px;font-family:\"Open Sans\",sans-serif !important;font-size:0.9em;line-height:1.5em !important;}", ".rc-collapse-content-box{margin-bottom:15px !important;}", ".rc-collapse-content-box>p{margin:0px !important;padding:0px !important;font-size:0.9em;line-height:1.3em;font-weight:normal;}", "tr:nth-child(even){background-color:rgba(255,255,255,0.05);}"];
-_defaultExport.__hash = "2296635189";
-_defaultExport.__scoped = [".rc-collapse.jsx-2217165812{background-color:unset;color:#fff;border:unset;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:space-around;-webkit-justify-content:space-around;-ms-flex-pack:space-around;justify-content:space-around;padding:0.5em;}", ".rc-collapse-header.jsx-2217165812{text-indent:unset !important;}", ".rc-collapse-header.jsx-2217165812:focus{border:none;box-shadow:unset;outline:none;}", ".rc-collapse.jsx-2217165812>.rc-collapse-item.jsx-2217165812:first-child{border-top:4px solid rgba(255,255,255,1) !important;border-left:4px solid rgba(255,255,255,1) !important;}", ".faqCard.jsx-2217165812{border:1px solid rgba(255,255,255,0.2);color:#ecedf0;font-family:\"Overpass Mono\",monospace;font-weight:300;padding:18px;text-align:left;-webkit-text-decoration:none;text-decoration:none;-webkit-transition:border-color 0.3s ease-in-out,background 0.3s ease-in-out;transition:border-color 0.3s ease-in-out,background 0.3s ease-in-out;height:auto;width:280px;-webkit-transition:-webkit-transform 0.15s ease-in-out;-webkit-transition:transform 0.15s ease-in-out;transition:transform 0.15s ease-in-out;}", ".faqCard.jsx-2217165812:hover{-webkit-transform:scale(1.05);-ms-transform:scale(1.05);transform:scale(1.05);}", ".rc-collapse-item-active.jsx-2217165812{height:auto !important;}", ".arrow.jsx-2217165812{display:none;content:\"\";margin-right:0px !important;border:none !important;}", ".rc-collapse-header.jsx-2217165812{color:#fff !important;height:auto !important;line-height:unset !important;}", ".rc-collapse-content.jsx-2217165812{background-color:unset;color:#fff;padding:0px;font-family:\"Open Sans\",sans-serif !important;font-size:0.9em;line-height:1.5em !important;}", ".rc-collapse-content-box.jsx-2217165812{margin-bottom:15px !important;}", ".rc-collapse-content-box.jsx-2217165812>p.jsx-2217165812{margin:0px !important;padding:0px !important;font-size:0.9em;line-height:1.3em;font-weight:normal;}", "tr.jsx-2217165812:nth-child(even){background-color:rgba(255,255,255,0.05);}"];
-_defaultExport.__scopedHash = "2217165812";
-/* harmony default export */ __webpack_exports__["a"] = (_defaultExport);
-
-/***/ }),
-/* 10 */
-/***/ (function(module, exports) {
-
-module.exports = require("next/head");
-
-/***/ }),
-/* 11 */
-/***/ (function(module, exports) {
-
-module.exports = require("prop-types");
-
-/***/ }),
-/* 12 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 
 // EXTERNAL MODULE: external "styled-jsx/style"
-var style_ = __webpack_require__(3);
-var style__default = /*#__PURE__*/__webpack_require__.n(style_);
-
-// EXTERNAL MODULE: external "react"
-var external__react_ = __webpack_require__(0);
-var external__react__default = /*#__PURE__*/__webpack_require__.n(external__react_);
-
-// EXTERNAL MODULE: external "react-scroll"
-var external__react_scroll_ = __webpack_require__(4);
-var external__react_scroll__default = /*#__PURE__*/__webpack_require__.n(external__react_scroll_);
-
-// EXTERNAL MODULE: external "rebass"
-var external__rebass_ = __webpack_require__(1);
-var external__rebass__default = /*#__PURE__*/__webpack_require__.n(external__rebass_);
-
-// CONCATENATED MODULE: ./content/about.js
-
-var title = "What is HackRice?";
-var p1 = external__react__default.a.createElement(external__react__default.a.Fragment, null, "HackRice is Rice University's annual hackathon. It brings together over", " ", external__react__default.a.createElement("span", {
-  style: {
-    fontWeight: "600"
-  }
-}, "four hundred of the brightest minds in the country"), " ", "to develop & showcase their", " ", external__react__default.a.createElement("span", {
-  style: {
-    fontWeight: "600"
-  }
-}, "creative and entrepreneurial talents."));
-var p2 = external__react__default.a.createElement(external__react__default.a.Fragment, null, "Participants form ", " ", external__react__default.a.createElement("span", {
-  style: {
-    fontWeight: "600"
-  }
-}, "teams of up to 4"), " to work on a project \u2014 typically software, and sometimes hardware \u2014 in an environment", " ", external__react__default.a.createElement("span", {
-  style: {
-    fontWeight: "600"
-  }
-}, "designed for collaboration."));
-var p3 = external__react__default.a.createElement(external__react__default.a.Fragment, null, "Teams showcase projects after", " ", external__react__default.a.createElement("span", {
-  style: {
-    fontWeight: "600"
-  }
-}, "36 hours"), " of hacking. This is an excellent opportunity for students to", " ", external__react__default.a.createElement("span", {
-  style: {
-    fontWeight: "600"
-  }
-}, "build a network"), " of creators, receive ", external__react__default.a.createElement("span", {
-  style: {
-    fontWeight: "600"
-  }
-}, "internship & job offers"), " ", "from world-class sponsors, and", " ", external__react__default.a.createElement("span", {
-  style: {
-    fontWeight: "600"
-  }
-}, "learn modern tools & systems."));
-var link1 = "https://hackrice.typeform.com/to/s2Mllk";
-var link2 = "../static/sponsors.pdf";
-var button1 = "I want to apply.";
-var button2 = "I want to become a sponsor.";
-// EXTERNAL MODULE: ./styles/colors.json
-var colors = __webpack_require__(2);
-var colors_default = /*#__PURE__*/__webpack_require__.n(colors);
-
-// CONCATENATED MODULE: ./components/about.js
-
-
-
-
-
-
-
-var about_About = function About() {
-  return external__react__default.a.createElement(external__react_scroll_["Element"], {
-    name: "about",
-    style: {
-      overflowX: "hidden"
-    }
-  }, external__react__default.a.createElement(external__rebass_["Flex"], {
-    mx: 2,
-    mt: 4,
-    flexWrap: "wrap"
-  }, external__react__default.a.createElement(external__rebass_["Box"], {
-    width: 1,
-    mx: 2
-  }, external__react__default.a.createElement("h2", {
-    className: style__default.a.dynamic([["1028647368", [colors_default.a["gray"][1], colors_default.a["gray"][1], colors_default.a["gray"][1]]]]) + " " + "title"
-  }, title)), external__react__default.a.createElement(external__rebass_["Box"], {
-    width: [1],
-    mx: 2,
-    mb: 1
-  }, external__react__default.a.createElement("p", {
-    className: style__default.a.dynamic([["1028647368", [colors_default.a["gray"][1], colors_default.a["gray"][1], colors_default.a["gray"][1]]]])
-  }, p1), external__react__default.a.createElement("p", {
-    className: style__default.a.dynamic([["1028647368", [colors_default.a["gray"][1], colors_default.a["gray"][1], colors_default.a["gray"][1]]]])
-  }, p2), external__react__default.a.createElement("p", {
-    className: style__default.a.dynamic([["1028647368", [colors_default.a["gray"][1], colors_default.a["gray"][1], colors_default.a["gray"][1]]]])
-  }, p3)), external__react__default.a.createElement(external__rebass_["Flex"], {
-    justifyContent: "center",
-    width: [1]
-  }), external__react__default.a.createElement(style__default.a, {
-    styleId: "1028647368",
-    css: ["@import url(\"https://rsms.me/inter/inter-ui.css\");", "p.__jsx-style-dynamic-selector{font-weight:300;font-size:1em;line-height:1.6em;}", "p.__jsx-style-dynamic-selector strong.__jsx-style-dynamic-selector{font-weight:400 !important;}", ".title.__jsx-style-dynamic-selector{display:inline-block;text-transform:uppercase;color:".concat(colors_default.a["gray"][1], ";margin:unset;font-family:\"Overpass Mono\",monospace;}"), ".sallyport.__jsx-style-dynamic-selector{height:80px !important;}", "button.__jsx-style-dynamic-selector{background:none;border:1px solid ".concat(colors_default.a["gray"][1], ";color:").concat(colors_default.a["gray"][1], ";font-family:\"Overpass Mono\",monospace;font-size:1em;margin-top:0.4em;margin-right:1em;padding:6px 10px;text-transform:uppercase;-webkit-transition:border-color 0.3s ease-in-out,background 0.3s ease-in-out;transition:border-color 0.3s ease-in-out,background 0.3s ease-in-out;}"), "button.__jsx-style-dynamic-selector:hover{background:rgba(255,255,255,0.1);cursor:pointer;}"],
-    dynamic: [colors_default.a["gray"][1], colors_default.a["gray"][1], colors_default.a["gray"][1]]
-  })));
-};
-
-/* harmony default export */ var about = __webpack_exports__["a"] = (about_About);
-
-/***/ }),
-/* 13 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-
-// EXTERNAL MODULE: external "styled-jsx/style"
-var style_ = __webpack_require__(3);
+var style_ = __webpack_require__(2);
 var style__default = /*#__PURE__*/__webpack_require__.n(style_);
 
 // EXTERNAL MODULE: external "react"
@@ -280,25 +121,31 @@ var external__react_ = __webpack_require__(0);
 var external__react__default = /*#__PURE__*/__webpack_require__.n(external__react_);
 
 // EXTERNAL MODULE: external "rc-collapse"
-var external__rc_collapse_ = __webpack_require__(7);
+var external__rc_collapse_ = __webpack_require__(11);
 var external__rc_collapse__default = /*#__PURE__*/__webpack_require__.n(external__rc_collapse_);
 
-// EXTERNAL MODULE: ./node_modules/rc-collapse/assets/index.css
-var assets = __webpack_require__(8);
-
-// EXTERNAL MODULE: ./styles/collapse.css
-var collapse = __webpack_require__(9);
-
+// CONCATENATED MODULE: ./node_modules/rc-collapse/assets/index.css
+var _defaultExport = [".rc-collapse{background-color:#f7f7f7;border-radius:3px;border:1px solid #d9d9d9;}", ".rc-collapse-anim-active{-webkit-transition:height 0.2s ease-out;transition:height 0.2s ease-out;}", ".rc-collapse>.rc-collapse-item{border-top:1px solid #d9d9d9;}", ".rc-collapse>.rc-collapse-item:first-child{border-top:none;}", ".rc-collapse>.rc-collapse-item>.rc-collapse-header{display:-ms-flexbox;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-ms-flex-align:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;line-height:22px;padding:10px 16px;color:#666;cursor:pointer;}", ".rc-collapse>.rc-collapse-item>.rc-collapse-header .arrow{display:inline-block;content:'\\20';width:0;height:0;font-size:0;line-height:0;border-top:3px solid transparent;border-bottom:3px solid transparent;border-left:4px solid #666;vertical-align:middle;margin-right:8px;}", ".rc-collapse>.rc-collapse-item>.rc-collapse-header .rc-collapse-extra{margin:0 16px 0 auto;}", ".rc-collapse>.rc-collapse-item-disabled>.rc-collapse-header{cursor:not-allowed;color:#999;background-color:#f3f3f3;}", ".rc-collapse-content{overflow:hidden;color:#666;padding:0 16px;background-color:#fff;}", ".rc-collapse-content>.rc-collapse-content-box{margin-top:16px;margin-bottom:16px;}", ".rc-collapse-content-inactive{display:none;}", ".rc-collapse-item:last-child>.rc-collapse-content{border-radius:0 0 3px 3px;}", ".rc-collapse>.rc-collapse-item-active>.rc-collapse-header .arrow{position:relative;top:2px;border-left:3px solid transparent;border-right:3px solid transparent;border-top:4px solid #666;margin-right:6px;}"];
+_defaultExport.__hash = "2694693201";
+_defaultExport.__scoped = [".rc-collapse.jsx-4154084816{background-color:#f7f7f7;border-radius:3px;border:1px solid #d9d9d9;}", ".rc-collapse-anim-active.jsx-4154084816{-webkit-transition:height 0.2s ease-out;transition:height 0.2s ease-out;}", ".rc-collapse.jsx-4154084816>.rc-collapse-item.jsx-4154084816{border-top:1px solid #d9d9d9;}", ".rc-collapse.jsx-4154084816>.rc-collapse-item.jsx-4154084816:first-child{border-top:none;}", ".rc-collapse.jsx-4154084816>.rc-collapse-item.jsx-4154084816>.rc-collapse-header.jsx-4154084816{display:-ms-flexbox;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-ms-flex-align:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;line-height:22px;padding:10px 16px;color:#666;cursor:pointer;}", ".rc-collapse.jsx-4154084816>.rc-collapse-item.jsx-4154084816>.rc-collapse-header.jsx-4154084816 .arrow.jsx-4154084816{display:inline-block;content:'\\20';width:0;height:0;font-size:0;line-height:0;border-top:3px solid transparent;border-bottom:3px solid transparent;border-left:4px solid #666;vertical-align:middle;margin-right:8px;}", ".rc-collapse.jsx-4154084816>.rc-collapse-item.jsx-4154084816>.rc-collapse-header.jsx-4154084816 .rc-collapse-extra.jsx-4154084816{margin:0 16px 0 auto;}", ".rc-collapse.jsx-4154084816>.rc-collapse-item-disabled.jsx-4154084816>.rc-collapse-header.jsx-4154084816{cursor:not-allowed;color:#999;background-color:#f3f3f3;}", ".rc-collapse-content.jsx-4154084816{overflow:hidden;color:#666;padding:0 16px;background-color:#fff;}", ".rc-collapse-content.jsx-4154084816>.rc-collapse-content-box.jsx-4154084816{margin-top:16px;margin-bottom:16px;}", ".rc-collapse-content-inactive.jsx-4154084816{display:none;}", ".rc-collapse-item.jsx-4154084816:last-child>.rc-collapse-content.jsx-4154084816{border-radius:0 0 3px 3px;}", ".rc-collapse.jsx-4154084816>.rc-collapse-item-active.jsx-4154084816>.rc-collapse-header.jsx-4154084816 .arrow.jsx-4154084816{position:relative;top:2px;border-left:3px solid transparent;border-right:3px solid transparent;border-top:4px solid #666;margin-right:6px;}"];
+_defaultExport.__scopedHash = "4154084816";
+/* harmony default export */ var assets = (_defaultExport);
+// CONCATENATED MODULE: ./styles/collapse.css
+var collapse__defaultExport = [".rc-collapse{background-color:unset;color:#fff;border:unset;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:space-around;-webkit-justify-content:space-around;-ms-flex-pack:space-around;justify-content:space-around;padding:0.5em;}", ".rc-collapse-header{text-indent:unset !important;}", ".rc-collapse-header:focus{border:none;box-shadow:unset;outline:none;}", ".rc-collapse>.rc-collapse-item:first-child{border-top:4px solid rgba(255,255,255,1) !important;border-left:4px solid rgba(255,255,255,1) !important;}", ".faqCard{border:1px solid rgba(255,255,255,0.2);color:#ecedf0;font-family:\"Overpass Mono\",monospace;font-weight:300;padding:18px;text-align:left;-webkit-text-decoration:none;text-decoration:none;-webkit-transition:border-color 0.3s ease-in-out,background 0.3s ease-in-out;transition:border-color 0.3s ease-in-out,background 0.3s ease-in-out;height:auto;width:280px;-webkit-transition:-webkit-transform 0.15s ease-in-out;-webkit-transition:transform 0.15s ease-in-out;transition:transform 0.15s ease-in-out;}", ".faqCard:hover{-webkit-transform:scale(1.05);-ms-transform:scale(1.05);transform:scale(1.05);}", ".rc-collapse-item-active{height:auto !important;}", ".arrow{display:none;content:\"\";margin-right:0px !important;border:none !important;}", ".rc-collapse-header{color:#fff !important;height:auto !important;line-height:unset !important;}", ".rc-collapse-content{background-color:unset;color:#fff;padding:0px;font-family:\"Open Sans\",sans-serif !important;font-size:0.9em;line-height:1.5em !important;}", ".rc-collapse-content-box{margin-bottom:15px !important;}", ".rc-collapse-content-box>p{margin:0px !important;padding:0px !important;font-size:0.9em;line-height:1.3em;font-weight:normal;}", "tr:nth-child(even){background-color:rgba(255,255,255,0.05);}"];
+collapse__defaultExport.__hash = "2296635189";
+collapse__defaultExport.__scoped = [".rc-collapse.jsx-2217165812{background-color:unset;color:#fff;border:unset;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:space-around;-webkit-justify-content:space-around;-ms-flex-pack:space-around;justify-content:space-around;padding:0.5em;}", ".rc-collapse-header.jsx-2217165812{text-indent:unset !important;}", ".rc-collapse-header.jsx-2217165812:focus{border:none;box-shadow:unset;outline:none;}", ".rc-collapse.jsx-2217165812>.rc-collapse-item.jsx-2217165812:first-child{border-top:4px solid rgba(255,255,255,1) !important;border-left:4px solid rgba(255,255,255,1) !important;}", ".faqCard.jsx-2217165812{border:1px solid rgba(255,255,255,0.2);color:#ecedf0;font-family:\"Overpass Mono\",monospace;font-weight:300;padding:18px;text-align:left;-webkit-text-decoration:none;text-decoration:none;-webkit-transition:border-color 0.3s ease-in-out,background 0.3s ease-in-out;transition:border-color 0.3s ease-in-out,background 0.3s ease-in-out;height:auto;width:280px;-webkit-transition:-webkit-transform 0.15s ease-in-out;-webkit-transition:transform 0.15s ease-in-out;transition:transform 0.15s ease-in-out;}", ".faqCard.jsx-2217165812:hover{-webkit-transform:scale(1.05);-ms-transform:scale(1.05);transform:scale(1.05);}", ".rc-collapse-item-active.jsx-2217165812{height:auto !important;}", ".arrow.jsx-2217165812{display:none;content:\"\";margin-right:0px !important;border:none !important;}", ".rc-collapse-header.jsx-2217165812{color:#fff !important;height:auto !important;line-height:unset !important;}", ".rc-collapse-content.jsx-2217165812{background-color:unset;color:#fff;padding:0px;font-family:\"Open Sans\",sans-serif !important;font-size:0.9em;line-height:1.5em !important;}", ".rc-collapse-content-box.jsx-2217165812{margin-bottom:15px !important;}", ".rc-collapse-content-box.jsx-2217165812>p.jsx-2217165812{margin:0px !important;padding:0px !important;font-size:0.9em;line-height:1.3em;font-weight:normal;}", "tr.jsx-2217165812:nth-child(even){background-color:rgba(255,255,255,0.05);}"];
+collapse__defaultExport.__scopedHash = "2217165812";
+/* harmony default export */ var collapse = (collapse__defaultExport);
 // EXTERNAL MODULE: external "rebass"
-var external__rebass_ = __webpack_require__(1);
+var external__rebass_ = __webpack_require__(3);
 var external__rebass__default = /*#__PURE__*/__webpack_require__.n(external__rebass_);
 
-// CONCATENATED MODULE: ./content/faq.js
+// CONCATENATED MODULE: ./content/faq9.js
 
 var title = "QUESTIONS & ANSWERS";
 var questions = [{
   question: "How long is HackRice?",
-  answer: "The event is held from Friday, September 14th to Sunday, September 16th. Students hack for 36 hours. View the schedule for more info."
+  answer: "The event is held from Friday, September 20th to Sunday, September 22th. Students hack for 36 hours. Stay tuned for more info."
 }, {
   question: "How many hackers attend HackRice? Where are they from?",
   answer: "We expect around 400 hackers from schools around the country, including (but not limited to) UT Austin, Berkeley, USC, University of Waterloo, Georgia Tech, University of Washington, and many more."
@@ -312,12 +159,6 @@ var questions = [{
     href: "https://www.facebook.com/hackrice/"
   }, "here"), " ", "to access it!")
 }, {
-  question: "How do I submit my project? Is there a Devpost?",
-  answer: external__react__default.a.createElement(external__react__default.a.Fragment, null, "You can submit your project on", " ", external__react__default.a.createElement("a", {
-    className: "styledlink",
-    href: "https://hackrice8.devpost.com/"
-  }, "this Devpost link"))
-}, {
   question: "Who is eligible to participate in HackRice?",
   answer: external__react__default.a.createElement(external__react__default.a.Fragment, null, "Any current student over the age of 18 is eligible to apply to HackRice. Since we are an MLH member event, participants must also accept the", " ", external__react__default.a.createElement("a", {
     className: "styledlink",
@@ -325,28 +166,16 @@ var questions = [{
   }, "MLH Code of Conduct."))
 }, {
   question: "Will my travel be reimbursed?",
-  answer: external__react__default.a.createElement(external__react__default.a.Fragment, null, "Yes! Hackers who ride in team cars or take buses or trains to HackRice will receive reimbursement for their travel costs up to $100. ", external__react__default.a.createElement("br", null), external__react__default.a.createElement("br", null), " Hackers who fly in will recieve reimbursement on a first-come, first-served basis. Initially, up to $200 will be provided. As funds are exhausted, up to $100 reimbursement will be provided. ", external__react__default.a.createElement("br", null), " ", external__react__default.a.createElement("br", null), " ", "Tickets must be standard economy or lower.")
+  answer: external__react__default.a.createElement(external__react__default.a.Fragment, null, "Yes! Stay tuned for more information as we finalize the details for HackRice 9.")
 }, {
-  question: "Will international travel be reimbursed?",
-  answer: external__react__default.a.createElement(external__react__default.a.Fragment, null, "We cannot reimburse hackers flying internationally any more than is listed above, and international hackers should contact us at", " ", external__react__default.a.createElement("a", {
-    className: "styledlink",
-    href: "mailto:officialhackrice@gmail.com"
-  }, "officialhackrice@gmail.com"))
-}, {
-  question: "How do I file for a reimbursement?",
-  answer: external__react__default.a.createElement(external__react__default.a.Fragment, null, "To recieve your reimbursement, please fill out the reimbursement section of the admission form ", external__react__default.a.createElement("b", null, "within one week"), ". There will be a reimbursment booth at the event where you will be able to finalize your reimbursment details!")
-}, {
-  question: "What prizes can I win?",
-  answer: external__react__default.a.createElement(external__react__default.a.Fragment, null, external__react__default.a.createElement("table", null, external__react__default.a.createElement("tr", null, external__react__default.a.createElement("th", null, "Achievement"), external__react__default.a.createElement("th", null, "Prize")), external__react__default.a.createElement("tr", null, external__react__default.a.createElement("td", null, "Grand Prize"), external__react__default.a.createElement("td", null, "Juiced Electric Skateboard")), external__react__default.a.createElement("tr", null, external__react__default.a.createElement("td", null, "Second Place"), external__react__default.a.createElement("td", null, "Nintendo Switch")), external__react__default.a.createElement("tr", null, external__react__default.a.createElement("td", null, "Third Place"), external__react__default.a.createElement("td", null, "Fancy Coffee Machine")), external__react__default.a.createElement("tr", null, external__react__default.a.createElement("td", null, "New Hackers Track Winner"), external__react__default.a.createElement("td", null, "Sunrise Alarm Clock")), external__react__default.a.createElement("tr", null, external__react__default.a.createElement("td", null, "Data Science Track Winner"), external__react__default.a.createElement("td", null, "Amazon Echo Plus")), external__react__default.a.createElement("tr", null, external__react__default.a.createElement("td", null, "Design Track Winner"), external__react__default.a.createElement("td", null, "Polaroid Cube"))))
-}, {
-  question: "Will there be free food?",
+  question: "Will there be food?",
   answer: "Yes! We will provide catered meals during the day along with snacks and free caffeine through the night to keep you going."
 }, {
   question: "What are the acceptance criteria?",
-  answer: "Rice students and alumni are guaranteed acceptance. For Non-Rice students, we ask for their previous hackathon and coding experiences, so that we can invite people who have demonstrated interest and skill. The admission process will be competitive and rolling! We also will take into account people who have never been to a hackathon before, so please apply!"
+  answer: "Rice students, alumni, and University of Houston undergraduates are guaranteed acceptance. For Non-Rice students, we ask for some background information so that we can invite people who have demonstrated interest and skill. The admission process will be competitive and rolling! We also will take into account people who have never been to a hackathon before, so please apply!"
 }, {
   question: "What do I need to bring?",
-  answer: "Please bring a student ID so we can verify and register you on-site! You'll also need to bring a computer, whatever software you feel might be necessary for development, sleeping bag, and pillow. We also recommend that you bring power strips for convenience. Teammates are free to share equipment with each other."
+  answer: "Please bring a student and legal ID so we can verify and register you on-site! You'll also need to bring a computer, whatever software you feel might be necessary for development, a sleeping bag, and a pillow. We also recommend that you bring power strips for convenience. Teammates are free to share equipment with each other."
 }, {
   question: "What if I'm not very experienced?",
   answer: "We do our best to point people in the right direction and use tools and languages with a low barrier to entry. There will also be upperclassmen participating in the hackathon who can guide you in the right direction. We will also be having workshops the week before the hackathon!"
@@ -364,15 +193,15 @@ var questions = [{
   return item;
 });
 // EXTERNAL MODULE: ./styles/colors.json
-var colors = __webpack_require__(2);
+var colors = __webpack_require__(1);
 var colors_default = /*#__PURE__*/__webpack_require__.n(colors);
 
 // EXTERNAL MODULE: external "react-scroll"
 var external__react_scroll_ = __webpack_require__(4);
 var external__react_scroll__default = /*#__PURE__*/__webpack_require__.n(external__react_scroll_);
 
-// CONCATENATED MODULE: ./components/faq.js
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return faq_Questions; });
+// CONCATENATED MODULE: ./components/faq9.js
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return faq9_Questions; });
 
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
@@ -398,7 +227,7 @@ function _assertThisInitialized(self) { if (self === void 0) { throw new Referen
 
 
 
-var faq_Questions =
+var faq9_Questions =
 /*#__PURE__*/
 function (_React$Component) {
   _inherits(Questions, _React$Component);
@@ -465,11 +294,11 @@ function (_React$Component) {
             headerClass: "faqCardTitle"
           }, external__react__default.a.createElement("p", null, answer)));
         }), external__react__default.a.createElement(style__default.a, {
-          styleId: assets["a" /* default */].__hash,
-          css: assets["a" /* default */]
+          styleId: assets.__hash,
+          css: assets
         }), external__react__default.a.createElement(style__default.a, {
-          styleId: collapse["a" /* default */].__hash,
-          css: collapse["a" /* default */]
+          styleId: collapse.__hash,
+          css: collapse
         })));
       }
 
@@ -479,7 +308,7 @@ function (_React$Component) {
         mt: 4,
         justifyContent: "center"
       }, external__react__default.a.createElement("h2", {
-        className: style__default.a.dynamic([["1472164806", [colors_default.a["base"]]]]) + " " + "title"
+        className: "jsx-546392901" + " " + "title"
       }, title)), external__react__default.a.createElement(external__rebass_["Flex"], {
         flexDirection: "row",
         flexWrap: "wrap",
@@ -487,9 +316,8 @@ function (_React$Component) {
         mb: 5,
         pt: 2
       }, cols), external__react__default.a.createElement(style__default.a, {
-        styleId: "1472164806",
-        css: [".title.__jsx-style-dynamic-selector{display:inline-block;text-transform:uppercase;background:".concat(colors_default.a["base"], ";border-top:4px solid rgba(255,255,255,1) !important;border-left:4px solid rgba(255,255,255,1) !important;border:1px solid rgba(255,255,255,0.2);font-family:\"Overpass Mono\",monospace;padding:5px 10px 2px 10px;box-sizing:content-box;margin-left:auto;margin-right:auto;height:40px;font-family:\"Overpass Mono\",monospace;}")],
-        dynamic: [colors_default.a["base"]]
+        styleId: "546392901",
+        css: [".title.jsx-546392901{display:inline-block;text-transform:uppercase;background:#349898;border-top:4px solid rgba(255,255,255,1) !important;border-left:4px solid rgba(255,255,255,1) !important;border:1px solid rgba(255,255,255,0.2);font-family:\"Overpass Mono\",monospace;padding:5px 10px 2px 10px;box-sizing:content-box;margin-left:auto;margin-right:auto;height:40px;font-family:\"Overpass Mono\",monospace;}"]
       }));
     }
   }]);
@@ -500,95 +328,25 @@ function (_React$Component) {
 
 
 /***/ }),
-/* 14 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/* 7 */
+/***/ (function(module, exports) {
 
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_head__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_head___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_next_head__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_prop_types__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_prop_types__);
-
-
-
-
-var Head = function Head(props) {
-  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_head___default.a, null, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
-    charSet: "UTF-8"
-  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("title", null, props.title), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
-    name: "description",
-    content: props.description
-  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
-    name: "viewport",
-    content: "width=device-width, initial-scale=1"
-  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("link", {
-    rel: "icon",
-    sizes: "192x192",
-    href: "/static/touch-icon.png"
-  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("link", {
-    rel: "apple-touch-icon",
-    href: "/static/touch-icon.png"
-  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("link", {
-    rel: "mask-icon",
-    href: "/static/favicon-mask.svg",
-    color: "#49B882"
-  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("link", {
-    rel: "icon",
-    href: "/static/favicon.ico"
-  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
-    property: "og:url",
-    content: props.url
-  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
-    property: "og:title",
-    content: props.title
-  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
-    property: "og:description",
-    content: props.description
-  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
-    name: "twitter:site",
-    content: props.url
-  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
-    name: "twitter:card",
-    content: "summary_large_image"
-  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
-    name: "twitter:image",
-    content: props.ogImage
-  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
-    property: "og:image",
-    content: props.ogImage
-  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
-    property: "og:image:width",
-    content: "1200"
-  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
-    property: "og:image:height",
-    content: "630"
-  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("link", {
-    href: "https://fonts.googleapis.com/css?family=Overpass+Mono:300,400,600,700",
-    rel: "stylesheet"
-  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("link", {
-    href: "https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700",
-    rel: "stylesheet"
-  }));
-};
-
-Head.defaultProps = {
-  title: "",
-  description: "",
-  url: "",
-  ogImage: ""
-};
-/* harmony default export */ __webpack_exports__["a"] = (Head);
+module.exports = require("next/head");
 
 /***/ }),
-/* 15 */
+/* 8 */
+/***/ (function(module, exports) {
+
+module.exports = require("prop-types");
+
+/***/ }),
+/* 9 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 
 // EXTERNAL MODULE: external "styled-jsx/style"
-var style_ = __webpack_require__(3);
+var style_ = __webpack_require__(2);
 var style__default = /*#__PURE__*/__webpack_require__.n(style_);
 
 // EXTERNAL MODULE: external "react"
@@ -596,11 +354,11 @@ var external__react_ = __webpack_require__(0);
 var external__react__default = /*#__PURE__*/__webpack_require__.n(external__react_);
 
 // EXTERNAL MODULE: external "next/link"
-var link_ = __webpack_require__(6);
+var link_ = __webpack_require__(10);
 var link__default = /*#__PURE__*/__webpack_require__.n(link_);
 
 // EXTERNAL MODULE: external "rebass"
-var external__rebass_ = __webpack_require__(1);
+var external__rebass_ = __webpack_require__(3);
 var external__rebass__default = /*#__PURE__*/__webpack_require__.n(external__rebass_);
 
 // EXTERNAL MODULE: external "react-scroll"
@@ -608,7 +366,7 @@ var external__react_scroll_ = __webpack_require__(4);
 var external__react_scroll__default = /*#__PURE__*/__webpack_require__.n(external__react_scroll_);
 
 // EXTERNAL MODULE: ./styles/colors.json
-var colors = __webpack_require__(2);
+var colors = __webpack_require__(1);
 var colors_default = /*#__PURE__*/__webpack_require__.n(colors);
 
 // CONCATENATED MODULE: ./components/cardNav.js
@@ -739,195 +497,94 @@ var links = [{
   link.key = "nav-link-".concat(link.href, "-").concat(link.label);
   return link;
 });
-// EXTERNAL MODULE: ./components/about.js + 1 modules
-var about = __webpack_require__(12);
+// CONCATENATED MODULE: ./content/about.js
 
-// EXTERNAL MODULE: external "rc-collapse"
-var external__rc_collapse_ = __webpack_require__(7);
-var external__rc_collapse__default = /*#__PURE__*/__webpack_require__.n(external__rc_collapse_);
-
-// EXTERNAL MODULE: ./node_modules/rc-collapse/assets/index.css
-var assets = __webpack_require__(8);
-
-// EXTERNAL MODULE: ./styles/collapse.css
-var collapse = __webpack_require__(9);
-
-// CONCATENATED MODULE: ./content/faq9.js
-
-var faq9_title = "QUESTIONS & ANSWERS";
-var questions = [{
-  question: "How long is HackRice?",
-  answer: "The event is held from Friday, September 20th to Sunday, September 22th. Students hack for 36 hours. Stay tuned for more info."
-}, {
-  question: "How many hackers attend HackRice? Where are they from?",
-  answer: "We expect around 400 hackers from schools around the country, including (but not limited to) UT Austin, Berkeley, USC, University of Waterloo, Georgia Tech, University of Washington, and many more."
-}, {
-  question: "How many hackers per team are permitted?",
-  answer: "Team are limited to 4 hackers. That being said, you don't have to have 4 hackers to compete."
-}, {
-  question: "Is there a HackRice Facebook page?",
-  answer: external__react__default.a.createElement(external__react__default.a.Fragment, null, "Yes there is! Click", " ", external__react__default.a.createElement("a", {
-    className: "styledlink",
-    href: "https://www.facebook.com/hackrice/"
-  }, "here"), " ", "to access it!")
-}, {
-  question: "Who is eligible to participate in HackRice?",
-  answer: external__react__default.a.createElement(external__react__default.a.Fragment, null, "Any current student over the age of 18 is eligible to apply to HackRice. Since we are an MLH member event, participants must also accept the", " ", external__react__default.a.createElement("a", {
-    className: "styledlink",
-    href: "http://static.mlh.io/docs/mlh-code-of-conduct.pdf"
-  }, "MLH Code of Conduct."))
-}, {
-  question: "Will my travel be reimbursed?",
-  answer: external__react__default.a.createElement(external__react__default.a.Fragment, null, "Yes! Stay tuned for more information as we finalize the details for HackRice 9.")
-}, {
-  question: "Will there be food?",
-  answer: "Yes! We will provide catered meals during the day along with snacks and free caffeine through the night to keep you going."
-}, {
-  question: "What are the acceptance criteria?",
-  answer: "Rice students, alumni, and University of Houston undergraduates are guaranteed acceptance. For Non-Rice students, we ask for some background information so that we can invite people who have demonstrated interest and skill. The admission process will be competitive and rolling! We also will take into account people who have never been to a hackathon before, so please apply!"
-}, {
-  question: "What do I need to bring?",
-  answer: "Please bring a student and legal ID so we can verify and register you on-site! You'll also need to bring a computer, whatever software you feel might be necessary for development, a sleeping bag, and a pillow. We also recommend that you bring power strips for convenience. Teammates are free to share equipment with each other."
-}, {
-  question: "What if I'm not very experienced?",
-  answer: "We do our best to point people in the right direction and use tools and languages with a low barrier to entry. There will also be upperclassmen participating in the hackathon who can guide you in the right direction. We will also be having workshops the week before the hackathon!"
-}, {
-  question: "Can Rice alumni attend?",
-  answer: "Rice alumni are eligible to attend the event to hack or mentor other students, but alumni submissions will not be eligible for prizes. We will not be able to reimburse alumni for travel."
-}, {
-  question: "What if I don't have a team before the event?",
-  answer: "You don't have to form a team before the event, or at all. At the start of the event, we will provide plenty of time to break out and form a new one if you choose to."
-}, {
-  question: "Do I need to stay the whole time?",
-  answer: "Nope, we are not a lock-in. We realize that 36 hours is a long time, and that some people might need fresh air or to tend to other commitments. You may leave and go as you deem necessary, though we prefer you to stay!"
-}].map(function (item) {
-  item.key = "faq-".concat(item.question);
-  return item;
-});
-// CONCATENATED MODULE: ./components/faq9.js
-
-
-function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
-
-function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
-
-function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
-
-
-
-
-
-
-
-
-
-
-var faq9_Questions =
-/*#__PURE__*/
-function (_React$Component) {
-  _inherits(Questions, _React$Component);
-
-  function Questions() {
-    var _ref;
-
-    var _temp, _this;
-
-    _classCallCheck(this, Questions);
-
-    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
-      args[_key] = arguments[_key];
-    }
-
-    return _possibleConstructorReturn(_this, (_temp = _this = _possibleConstructorReturn(this, (_ref = Questions.__proto__ || Object.getPrototypeOf(Questions)).call.apply(_ref, [this].concat(args))), Object.defineProperty(_assertThisInitialized(_this), "state", {
-      configurable: true,
-      enumerable: true,
-      writable: true,
-      value: {
-        accordion: true,
-        activeKey: null,
-        questions: questions
-      }
-    }), Object.defineProperty(_assertThisInitialized(_this), "onChange", {
-      configurable: true,
-      enumerable: true,
-      writable: true,
-      value: function value(activeKey) {
-        _this.setState({
-          activeKey: activeKey
-        });
-      }
-    }), _temp));
+var about_title = "What is HackRice?";
+var p1 = external__react__default.a.createElement(external__react__default.a.Fragment, null, "HackRice is Rice University's annual hackathon. It brings together over", " ", external__react__default.a.createElement("span", {
+  style: {
+    fontWeight: "600"
   }
+}, "four hundred of the brightest minds in the country"), " ", "to develop & showcase their", " ", external__react__default.a.createElement("span", {
+  style: {
+    fontWeight: "600"
+  }
+}, "creative and entrepreneurial talents."));
+var p2 = external__react__default.a.createElement(external__react__default.a.Fragment, null, "Participants form ", " ", external__react__default.a.createElement("span", {
+  style: {
+    fontWeight: "600"
+  }
+}, "teams of up to 4"), " to work on a project \u2014 typically software, and sometimes hardware \u2014 in an environment", " ", external__react__default.a.createElement("span", {
+  style: {
+    fontWeight: "600"
+  }
+}, "designed for collaboration."));
+var p3 = external__react__default.a.createElement(external__react__default.a.Fragment, null, "Teams showcase projects after", " ", external__react__default.a.createElement("span", {
+  style: {
+    fontWeight: "600"
+  }
+}, "36 hours"), " of hacking. This is an excellent opportunity for students to", " ", external__react__default.a.createElement("span", {
+  style: {
+    fontWeight: "600"
+  }
+}, "build a network"), " of creators, receive ", external__react__default.a.createElement("span", {
+  style: {
+    fontWeight: "600"
+  }
+}, "internship & job offers"), " ", "from world-class sponsors, and", " ", external__react__default.a.createElement("span", {
+  style: {
+    fontWeight: "600"
+  }
+}, "learn modern tools & systems."));
+var link1 = "https://hackrice.typeform.com/to/s2Mllk";
+var link2 = "../static/sponsors.pdf";
+var button1 = "I want to apply.";
+var button2 = "I want to become a sponsor.";
+// CONCATENATED MODULE: ./components/about.js
 
-  _createClass(Questions, [{
-    key: "render",
-    value: function render() {
-      var _this2 = this;
 
-      var state = this.state;
-      var shift = questions.length / 3;
-      var cols = [];
 
-      for (var i = 0; i < questions.length; i += shift) {
-        cols.push(external__react__default.a.createElement(external__rebass_["Flex"], {
-          flexWrap: "wrap",
-          flexDirection: "column",
-          width: [1, 1 / 2, 1 / 3]
-        }, questions.slice(i, i + shift).map(function (_ref2) {
-          var key = _ref2.key,
-              question = _ref2.question,
-              answer = _ref2.answer;
-          return external__react__default.a.createElement(external__rc_collapse__default.a, {
-            key: key,
-            accordion: false,
-            onChange: _this2.onChange,
-            activeKey: state.activeKey
-          }, external__react__default.a.createElement(external__rc_collapse_["Panel"], {
-            className: "faqCard",
-            key: key,
-            header: question,
-            headerClass: "faqCardTitle"
-          }, external__react__default.a.createElement("p", null, answer)));
-        }), external__react__default.a.createElement(style__default.a, {
-          styleId: assets["a" /* default */].__hash,
-          css: assets["a" /* default */]
-        }), external__react__default.a.createElement(style__default.a, {
-          styleId: collapse["a" /* default */].__hash,
-          css: collapse["a" /* default */]
-        })));
-      }
 
-      return external__react__default.a.createElement(external__react_scroll_["Element"], {
-        name: "faq"
-      }, external__react__default.a.createElement(external__rebass_["Flex"], {
-        mt: 4,
-        justifyContent: "center"
-      }, external__react__default.a.createElement("h2", {
-        className: "jsx-546392901" + " " + "title"
-      }, faq9_title)), external__react__default.a.createElement(external__rebass_["Flex"], {
-        flexDirection: "row",
-        flexWrap: "wrap",
-        mt: 2,
-        mb: 5,
-        pt: 2
-      }, cols), external__react__default.a.createElement(style__default.a, {
-        styleId: "546392901",
-        css: [".title.jsx-546392901{display:inline-block;text-transform:uppercase;background:#349898;border-top:4px solid rgba(255,255,255,1) !important;border-left:4px solid rgba(255,255,255,1) !important;border:1px solid rgba(255,255,255,0.2);font-family:\"Overpass Mono\",monospace;padding:5px 10px 2px 10px;box-sizing:content-box;margin-left:auto;margin-right:auto;height:40px;font-family:\"Overpass Mono\",monospace;}"]
-      }));
+
+
+
+var about_About = function About() {
+  return external__react__default.a.createElement(external__react_scroll_["Element"], {
+    name: "about",
+    style: {
+      overflowX: "hidden"
     }
-  }]);
+  }, external__react__default.a.createElement(external__rebass_["Flex"], {
+    mx: 2,
+    mt: 4,
+    flexWrap: "wrap"
+  }, external__react__default.a.createElement(external__rebass_["Box"], {
+    width: 1,
+    mx: 2
+  }, external__react__default.a.createElement("h2", {
+    className: style__default.a.dynamic([["1028647368", [colors_default.a["gray"][1], colors_default.a["gray"][1], colors_default.a["gray"][1]]]]) + " " + "title"
+  }, about_title)), external__react__default.a.createElement(external__rebass_["Box"], {
+    width: [1],
+    mx: 2,
+    mb: 1
+  }, external__react__default.a.createElement("p", {
+    className: style__default.a.dynamic([["1028647368", [colors_default.a["gray"][1], colors_default.a["gray"][1], colors_default.a["gray"][1]]]])
+  }, p1), external__react__default.a.createElement("p", {
+    className: style__default.a.dynamic([["1028647368", [colors_default.a["gray"][1], colors_default.a["gray"][1], colors_default.a["gray"][1]]]])
+  }, p2), external__react__default.a.createElement("p", {
+    className: style__default.a.dynamic([["1028647368", [colors_default.a["gray"][1], colors_default.a["gray"][1], colors_default.a["gray"][1]]]])
+  }, p3)), external__react__default.a.createElement(external__rebass_["Flex"], {
+    justifyContent: "center",
+    width: [1]
+  }), external__react__default.a.createElement(style__default.a, {
+    styleId: "1028647368",
+    css: ["@import url(\"https://rsms.me/inter/inter-ui.css\");", "p.__jsx-style-dynamic-selector{font-weight:300;font-size:1em;line-height:1.6em;}", "p.__jsx-style-dynamic-selector strong.__jsx-style-dynamic-selector{font-weight:400 !important;}", ".title.__jsx-style-dynamic-selector{display:inline-block;text-transform:uppercase;color:".concat(colors_default.a["gray"][1], ";margin:unset;font-family:\"Overpass Mono\",monospace;}"), ".sallyport.__jsx-style-dynamic-selector{height:80px !important;}", "button.__jsx-style-dynamic-selector{background:none;border:1px solid ".concat(colors_default.a["gray"][1], ";color:").concat(colors_default.a["gray"][1], ";font-family:\"Overpass Mono\",monospace;font-size:1em;margin-top:0.4em;margin-right:1em;padding:6px 10px;text-transform:uppercase;-webkit-transition:border-color 0.3s ease-in-out,background 0.3s ease-in-out;transition:border-color 0.3s ease-in-out,background 0.3s ease-in-out;}"), "button.__jsx-style-dynamic-selector:hover{background:rgba(255,255,255,0.1);cursor:pointer;}"],
+    dynamic: [colors_default.a["gray"][1], colors_default.a["gray"][1], colors_default.a["gray"][1]]
+  })));
+};
 
-  return Questions;
-}(external__react__default.a.Component);
-
+/* harmony default export */ var about = (about_About);
+// EXTERNAL MODULE: ./components/faq9.js + 3 modules
+var faq9 = __webpack_require__(6);
 
 // CONCATENATED MODULE: ./components/tempIntro.js
 
@@ -983,7 +640,7 @@ var tempIntro_TempIntro = function TempIntro() {
     className: style__default.a.dynamic([["986405310", [colors_default.a["gray"][1], colors_default.a["gray"][1]]]]) + " " + "cards"
   }, external__react__default.a.createElement(cardNav, {
     cards: cards
-  })), external__react__default.a.createElement(about["a" /* default */], null), external__react__default.a.createElement(faq9_Questions, null), external__react__default.a.createElement("div", {
+  })), external__react__default.a.createElement(about, null), external__react__default.a.createElement(faq9["a" /* default */], null), external__react__default.a.createElement("div", {
     className: style__default.a.dynamic([["986405310", [colors_default.a["gray"][1], colors_default.a["gray"][1]]]]) + " " + "social"
   }, links.map(function (_ref2) {
     var key = _ref2.key,
@@ -1008,37 +665,141 @@ var tempIntro_TempIntro = function TempIntro() {
 /* harmony default export */ var tempIntro = __webpack_exports__["a"] = (tempIntro_TempIntro);
 
 /***/ }),
-/* 16 */,
-/* 17 */,
-/* 18 */,
-/* 19 */,
-/* 20 */,
-/* 21 */,
-/* 22 */
+/* 10 */
+/***/ (function(module, exports) {
+
+module.exports = require("next/link");
+
+/***/ }),
+/* 11 */
+/***/ (function(module, exports) {
+
+module.exports = require("rc-collapse");
+
+/***/ }),
+/* 12 */,
+/* 13 */,
+/* 14 */,
+/* 15 */,
+/* 16 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(23);
+module.exports = __webpack_require__(17);
 
 
 /***/ }),
-/* 23 */
+/* 17 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_styled_jsx_style__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_styled_jsx_style___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_styled_jsx_style__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rebass__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rebass___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rebass__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_styled_components__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_styled_components___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_styled_components__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__styles_colors_json__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__styles_colors_json___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4__styles_colors_json__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_head__ = __webpack_require__(14);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_tempIntro__ = __webpack_require__(15);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__components_faq__ = __webpack_require__(13);
+
+// EXTERNAL MODULE: external "styled-jsx/style"
+var style_ = __webpack_require__(2);
+var style__default = /*#__PURE__*/__webpack_require__.n(style_);
+
+// EXTERNAL MODULE: external "react"
+var external__react_ = __webpack_require__(0);
+var external__react__default = /*#__PURE__*/__webpack_require__.n(external__react_);
+
+// EXTERNAL MODULE: external "rebass"
+var external__rebass_ = __webpack_require__(3);
+var external__rebass__default = /*#__PURE__*/__webpack_require__.n(external__rebass_);
+
+// EXTERNAL MODULE: external "styled-components"
+var external__styled_components_ = __webpack_require__(5);
+var external__styled_components__default = /*#__PURE__*/__webpack_require__.n(external__styled_components_);
+
+// EXTERNAL MODULE: ./styles/colors.json
+var colors = __webpack_require__(1);
+var colors_default = /*#__PURE__*/__webpack_require__.n(colors);
+
+// EXTERNAL MODULE: external "next/head"
+var head_ = __webpack_require__(7);
+var head__default = /*#__PURE__*/__webpack_require__.n(head_);
+
+// EXTERNAL MODULE: external "prop-types"
+var external__prop_types_ = __webpack_require__(8);
+var external__prop_types__default = /*#__PURE__*/__webpack_require__.n(external__prop_types_);
+
+// CONCATENATED MODULE: ./components/head.js
+
+
+
+
+var head_Head = function Head(props) {
+  return external__react__default.a.createElement(head__default.a, null, external__react__default.a.createElement("meta", {
+    charSet: "UTF-8"
+  }), external__react__default.a.createElement("title", null, props.title), external__react__default.a.createElement("meta", {
+    name: "description",
+    content: props.description
+  }), external__react__default.a.createElement("meta", {
+    name: "viewport",
+    content: "width=device-width, initial-scale=1"
+  }), external__react__default.a.createElement("link", {
+    rel: "icon",
+    sizes: "192x192",
+    href: "/static/touch-icon.png"
+  }), external__react__default.a.createElement("link", {
+    rel: "apple-touch-icon",
+    href: "/static/touch-icon.png"
+  }), external__react__default.a.createElement("link", {
+    rel: "mask-icon",
+    href: "/static/favicon-mask.svg",
+    color: "#49B882"
+  }), external__react__default.a.createElement("link", {
+    rel: "icon",
+    href: "/static/favicon.ico"
+  }), external__react__default.a.createElement("meta", {
+    property: "og:url",
+    content: props.url
+  }), external__react__default.a.createElement("meta", {
+    property: "og:title",
+    content: props.title
+  }), external__react__default.a.createElement("meta", {
+    property: "og:description",
+    content: props.description
+  }), external__react__default.a.createElement("meta", {
+    name: "twitter:site",
+    content: props.url
+  }), external__react__default.a.createElement("meta", {
+    name: "twitter:card",
+    content: "summary_large_image"
+  }), external__react__default.a.createElement("meta", {
+    name: "twitter:image",
+    content: props.ogImage
+  }), external__react__default.a.createElement("meta", {
+    property: "og:image",
+    content: props.ogImage
+  }), external__react__default.a.createElement("meta", {
+    property: "og:image:width",
+    content: "1200"
+  }), external__react__default.a.createElement("meta", {
+    property: "og:image:height",
+    content: "630"
+  }), external__react__default.a.createElement("link", {
+    href: "https://fonts.googleapis.com/css?family=Overpass+Mono:300,400,600,700",
+    rel: "stylesheet"
+  }), external__react__default.a.createElement("link", {
+    href: "https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700",
+    rel: "stylesheet"
+  }));
+};
+
+head_Head.defaultProps = {
+  title: "",
+  description: "",
+  url: "",
+  ogImage: ""
+};
+/* harmony default export */ var head = (head_Head);
+// EXTERNAL MODULE: ./components/tempIntro.js + 5 modules
+var tempIntro = __webpack_require__(9);
+
+// EXTERNAL MODULE: ./components/faq9.js + 3 modules
+var faq9 = __webpack_require__(6);
+
+// CONCATENATED MODULE: ./pages/index.js
 var _templateObject = /*#__PURE__*/ _taggedTemplateLiteral(["\n  * { box-sizing: border-box; }\n  body { max-width: 900px; margin: 2% auto; color: #fff;}\n"]);
 
 
@@ -1053,33 +814,33 @@ function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(
 
  // Set global body styling.
 
-Object(__WEBPACK_IMPORTED_MODULE_3_styled_components__["injectGlobal"])(_templateObject); // Variables for <head>
+Object(external__styled_components_["injectGlobal"])(_templateObject); // Variables for <head>
 
 var title = "HackRice 9";
 var url = "https://hack.rice.edu";
 var ogImage = "../static/og.png";
 var description = "The premier hackathon of the south.";
 
-var Home = function Home() {
-  return __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_rebass__["Provider"], {
+var pages_Home = function Home() {
+  return external__react__default.a.createElement(external__rebass_["Provider"], {
     theme: {
       fonts: {
         sans: "'Open Sans', sans-serif",
         mono: "'Overpass Mono', monospace"
       }
     }
-  }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_5__components_head__["a" /* default */], {
+  }, external__react__default.a.createElement(head, {
     title: title,
     description: description,
     url: url,
     ogImage: ogImage
-  }), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_6__components_tempIntro__["a" /* default */], null), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_0_styled_jsx_style___default.a, {
+  }), external__react__default.a.createElement(tempIntro["a" /* default */], null), external__react__default.a.createElement(style__default.a, {
     styleId: "1287042519",
     css: ["html{background:#60b2b2 !important;}"]
   }));
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (Home);
+/* harmony default export */ var pages = __webpack_exports__["default"] = (pages_Home);
 
 /***/ })
 /******/ ]);
