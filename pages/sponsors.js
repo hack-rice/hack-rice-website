@@ -8,6 +8,8 @@ import { injectGlobal } from "styled-components";
 import colors from "../styles/colors.json";
 import RedirectHead from "../components/redirectHead";
 import CenterImage from "../components/centerImage";
+import RedirectText from "../components/redirectText";
+
 // Set global body styling.
 injectGlobal`
   * { box-sizing: border-box; }
@@ -32,6 +34,7 @@ const Home = () => (
   >
     <RedirectHead title={title} description={description} url={url} ogImage={ogImage} />
     <CenterImage />
+    <RedirectText />
     <style jsx global>{`
       html {
         background: ${colors["base"]} !important;
