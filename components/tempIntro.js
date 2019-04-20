@@ -5,9 +5,8 @@ import { intro, bullets, cards } from "../content/tempIntro";
 import { base9 } from "../styles/colors.json";
 import { links } from "../content/links";
 import colors from "../styles/colors.json";
-
-import About from "../components/about.js"
-// import Questions from "../components/faq.js"
+import About from "../components/about.js";
+import Questions from "../components/faq.js";
 
 const TempIntro = () => (
   <Box bg={base9}>
@@ -42,6 +41,7 @@ const TempIntro = () => (
 
     <About />
 
+    <Questions />
 
     <div className="social">
       {links.map(({ key, href, icon }) => (
