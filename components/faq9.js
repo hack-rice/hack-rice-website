@@ -69,7 +69,7 @@ export default class Questions extends React.Component {
             .title {
               display: inline-block;
               text-transform: uppercase;
-              background: #349898;
+              background: ${colors["dark"]};
               border-top: 4px solid rgba(255, 255, 255, 1) !important;
               border-left: 4px solid rgba(255, 255, 255, 1) !important;
               border: 1px solid rgba(255, 255, 255, 0.2);

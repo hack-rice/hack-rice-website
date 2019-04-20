@@ -1,6 +1,7 @@
 {
-  "base": "#6164B2",
+  "base": "#60b2b2",
   "light": "#b6baf9",
+  "dark": "#349898",
   "black": "#3d3e4c",
   "gray": [
     "#f9f9fa",
@@ -27,6 +28,5 @@
     "#2c4152"
   ],
   "white": ["#ffffff"],
-  "lightAccentColor": "#F6B8B8",
-  "base9": "#60b2b2"
+  "lightAccentColor": "#F6B8B8"
 }

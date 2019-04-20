@@ -1,6 +1,6 @@
 import { Provider } from "rebass";
 import { injectGlobal } from "styled-components";
-import { base9 } from "../styles/colors.json";
+import { base } from "../styles/colors.json";
 
 import Head from "../components/head";
 import TempIntro from "../components/tempIntro";
@@ -31,7 +31,7 @@ const Home = () => (
     <TempIntro />
     <style jsx global>{`
       html {
-        background: #60b2b2 !important;
+        background: base !important;
       }
     `}</style>
   </Provider>
