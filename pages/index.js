@@ -4,7 +4,6 @@ import { base } from "../styles/colors.json";
 
 import Head from "../components/head";
 import TempIntro from "../components/tempIntro";
-import Questions from "../components/faq9";
 
 // Set global body styling.
 injectGlobal`
@@ -31,7 +30,7 @@ const Home = () => (
     <TempIntro />
     <style jsx global>{`
       html {
-        background: base !important;
+        background: #60b2b2 !important;
       }
     `}</style>
   </Provider>

@@ -4,7 +4,7 @@ import { base9 } from "../styles/colors.json";
 
 import RedirectHead from "../components/redirectHead";
 import TempIntro from "../components/tempIntro";
-import Questions from "../components/faq9";
+import Questions from "../components/faq";
 
 // Set global body styling.
 injectGlobal`

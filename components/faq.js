@@ -3,7 +3,7 @@ import Collapse, { Panel } from "rc-collapse";
 import defaultCss from "rc-collapse/assets/index.css";
 import customCss from "../styles/collapse.css";
 import { Box, Flex } from "rebass";
-import { title, questions } from "../content/faq9";
+import { title, questions } from "../content/faq";
 import colors from "../styles/colors.json";
 import { Element } from "react-scroll";
 
