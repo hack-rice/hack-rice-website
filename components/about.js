@@ -47,10 +47,6 @@ const About = () => (
           font-family: "Overpass Mono", monospace;
         }
 
-        .sallyport {
-          height: 80px !important;
-        }
-
         button {
           background: none;
           border: 1px solid ${colors["gray"][1]};

@@ -1,9 +1,5 @@
-import Link from "next/link";
-import CardNav from "./cardNav";
-import { Box, Image } from "rebass";
+import { Box } from "rebass";
 import { intro, bullets } from "../content/introText";
-import { links } from "../content/links";
-import colors from "../styles/colors.json";
 
 const IntroText = () => (
   <Box>

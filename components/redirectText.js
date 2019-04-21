@@ -1,9 +1,5 @@
-import Link from "next/link";
-import CardNav from "./cardNav";
-import { Box, Image } from "rebass";
+import { Box } from "rebass";
 import { intro, bullets } from "../content/redirectText";
-import { links } from "../content/links";
-import colors from "../styles/colors.json";
 
 const RedirectText = () => (
   <Box>
@@ -11,7 +7,7 @@ const RedirectText = () => (
       <h1 className="introText">{intro}</h1>
       {bullets.map(({ key, href, button, note, icon }) => (
         <div key={key} className="introItem">
-          <img className="icon" src={icon} />
+          <img className="icon" src={icon} alt="icon" />
           <a href={href} className="styledlink">
             {button}
           </a>
@@ -21,7 +17,7 @@ const RedirectText = () => (
       ))}
     </Box>
 
-    <style jsx global>{`
+    <style>{`
       .introText {
         font-family: "Overpass Mono";
         font-size: 1.5em;

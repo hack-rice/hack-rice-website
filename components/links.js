@@ -8,12 +8,12 @@ const Links = () => (
       {links.map(({ key, href, icon }) => (
         <Link href={href} key={key}>
           <a>
-            <img src={icon} className="icon" />
+            <img src={icon} className="icon" alt="icon" />
           </a>
         </Link>
       ))}
     </div>
-    <style jsx global>{`
+    <style>{`
       .icon {
         padding: 4px 13px;
       }
