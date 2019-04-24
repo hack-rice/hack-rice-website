@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { Box } from "rebass";
-import { links } from "../content/links";
 
 /**
  * React component that represents the social media links in a webpage.
@@ -11,7 +10,7 @@ import { links } from "../content/links";
 const Links = props => (
   <Box>
     <div className="social">
-      {links.map(({ key, href, icon }) => (
+      {props.links.map(({ key, href, icon }) => (
         <Link href={href} key={key}>
           <a>
             <img src={icon} className="icon" alt="icon" />

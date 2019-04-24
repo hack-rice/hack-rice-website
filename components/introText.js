@@ -1,5 +1,4 @@
 import { Box } from "rebass";
-import { intro, bullets } from "../content/introText";
 
 /**
  * React component that represents the intro text in the web page. It consists
@@ -11,8 +10,8 @@ import { intro, bullets } from "../content/introText";
 const IntroText = props => (
   <Box>
    <Box width="auto" px={2}>
-      <h1 className="introText">{intro}</h1>
-      {bullets.map(({ key, href, button, note, icon }) => (
+      <h1 className="introText">{props.intro}</h1>
+      {props.bullets.map(({ key, href, button, note, icon }) => (
         <div key={key} className="introItem">
           <img className="icon" src={icon} />
           <a href={href} className="styledlink">

@@ -13,6 +13,10 @@ import { Element } from "react-scroll";
  * then also display the answers onClick.
  */
 export default class Questions extends React.Component {
+    constructor(props) {
+        super(props);
+    }
+
     // represent state in the components
   state = {
     accordion: true,
@@ -32,10 +36,10 @@ export default class Questions extends React.Component {
 
     let cols = [];
 
-    for (let i = 0; i < questions.length; i += shift) {
+    for (let i = 0; i < this.props.questions.length; i += shift) {
       cols.push(
         <Flex flexWrap="wrap" flexDirection="column" width={[1, 1 / 2, 1 / 3]}>
-          {questions.slice(i, i + shift).map(({ key, question, answer }) => (
+          {this.props.questions.slice(i, i + shift).map(({ key, question, answer }) => (
             <Collapse
               key={key}
               accordion={false}
@@ -65,7 +69,7 @@ export default class Questions extends React.Component {
     return (
       <Element name="faq">
         <Flex mt={4} justifyContent="center">
-          <h2 className="title">{title}</h2>
+          <h2 className="title">{this.props.title}</h2>
         </Flex>
         <Flex flexDirection="row" flexWrap="wrap" mt={2} mb={5} pt={2}>
           {cols}

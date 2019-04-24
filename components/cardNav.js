@@ -1,6 +1,4 @@
 import { Flex, Box } from "rebass";
-import {cards} from "../content/cardNav";
-
 import * as Scroll from "react-scroll";
 let ScrollingLink = Scroll.Link;
 import colors from "../styles/colors.json";
@@ -13,7 +11,7 @@ import colors from "../styles/colors.json";
  */
 const CardNav = props => (
   <Flex flexWrap="wrap" mx={-2} pt={2}>
-    {cards.map(({ key, href, to, title, text, icon }) =>
+    {props.cards.map(({ key, href, to, title, text, icon }) =>
       href != undefined ? (
         <Box key={key} width={[1, 1 / 2, 1 / 3]}>
           <a href={href}>

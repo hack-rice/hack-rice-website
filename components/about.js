@@ -1,6 +1,5 @@
 import { Element } from "react-scroll";
 import { Box, Flex } from "rebass";
-import { title, lines } from "../content/about";
 import colors from "../styles/colors.json";
 import React from "react";
 
@@ -15,10 +14,10 @@ const About = props => (
   <Element name="about" style={{ overflowX: "hidden" }}>
     <Flex mx={2} mt={4} flexWrap="wrap">
       <Box width={1} mx={2}>
-        <h2 className="title">{title}</h2>
+        <h2 className="title">{props.title}</h2>
       </Box>
       <Box width={[1]} mx={2} mb={1}>
-        {lines.map(ln => <p>{ln}</p>)}
+        {props.lines.map(ln => <p>{ln}</p>)}
       </Box>
       <Flex justifyContent="center" width={[1]}>
       </Flex>

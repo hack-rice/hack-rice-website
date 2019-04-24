@@ -2,7 +2,7 @@
  * A list of objects that describe our social media links.
  * Each object needs (1) a link, (2) a label, and (3) an
  * icon from "https://icon.now.sh/"
- * @type {Object[]}
+ * @type {{href:string, label:string, icon:string}[]}
  */
 export const links = [
     {

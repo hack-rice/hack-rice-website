@@ -10,7 +10,7 @@ import { Box, Image } from "rebass";
 const CenterImage = props => (
   <Box>
     <Image
-      src= "../static/blueH.png"
+      src= { props.pathToImage }
       css={{
         marginLeft: "auto",
         marginRight: "auto",

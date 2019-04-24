@@ -28,6 +28,7 @@ const Head = props => (
     <meta property="og:image" content={props.ogImage} />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
+      {props.addMeta}
     <link
       href="https://fonts.googleapis.com/css?family=Overpass+Mono:300,400,600,700"
       rel="stylesheet"
