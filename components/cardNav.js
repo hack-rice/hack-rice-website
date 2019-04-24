@@ -6,6 +6,7 @@ import colors from "../styles/colors.json";
 /**
  * A component that displays links in cards.
  *
+ * @param props
  * @returns {React.Component}
  * @constructor
  */

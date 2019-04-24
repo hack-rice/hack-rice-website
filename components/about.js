@@ -7,6 +7,7 @@ import React from "react";
  * A react component that describes what our event is about. Contains a title and
  * an array of lines.
  *
+ * @param props
  * @returns {React.Component}
  * @constructor
  */

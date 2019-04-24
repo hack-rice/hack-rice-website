@@ -6,7 +6,7 @@ export const title = "QUESTIONS & ANSWERS";
 
 /**
  * A list of questions and answers.
- * @type {Object[]}
+ * @type {{question : string, answer : string}[]}
  */
 export const questions = [
   {

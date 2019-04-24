@@ -6,7 +6,7 @@ export const intro = "HackRice 9: Coming Soon...";
 
 /**
  * A list of bullet points that introduce the event.
- * @type {Object[]}
+ * @type {{icon : string, button : string, href : string, note : string}[]}
  */
 export const bullets = [
   {

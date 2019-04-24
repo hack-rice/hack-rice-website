@@ -11,6 +11,7 @@ import { Element } from "react-scroll";
  * React component that contains our frequently asked questions. These
  * are manifested as cards that (by default) display the question, and
  * then also display the answers onClick.
+ * @param props
  */
 export default class Questions extends React.Component {
     constructor(props) {

@@ -4,7 +4,7 @@ import { Box } from "rebass";
 /**
  * React component that represents the social media links in a webpage.
  * @param props
- * @returns {*}
+ * @returns {React.Component}
  * @constructor
  */
 const Links = props => (

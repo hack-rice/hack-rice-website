@@ -1,6 +1,6 @@
 /**
  * The list that contains all of the card data.
- * @type {Object[]}
+ * @type {{icon : string, title : string, href : string, text : string}[]}
  */
 export const cards = [
   {
