@@ -1,7 +1,15 @@
 import { Box } from "rebass";
 import { intro, bullets } from "../content/redirectText";
 
-const RedirectText = () => (
+/**
+ * The text that appears on the webpage while it is in the process of redirecting.
+ * See redirectHead.
+ *
+ * @param props
+ * @returns {React.Component}
+ * @constructor
+ */
+const RedirectText = props => (
   <Box>
    <Box width="auto" px={2}>
       <h1 className="introText">{intro}</h1>

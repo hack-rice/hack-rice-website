@@ -1,3 +1,9 @@
+/**
+ * A list of objects that describe our social media links.
+ * Each object needs (1) a link, (2) a label, and (3) an
+ * icon from "https://icon.now.sh/"
+ * @type {Object[]}
+ */
 export const links = [
     {
       href: "https://facebook.com/hackrice",

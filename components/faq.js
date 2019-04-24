@@ -7,7 +7,13 @@ import { title, questions } from "../content/faq";
 import colors from "../styles/colors.json";
 import { Element } from "react-scroll";
 
+/**
+ * React component that contains our frequently asked questions. These
+ * are manifested as cards that (by default) display the question, and
+ * then also display the answers onClick.
+ */
 export default class Questions extends React.Component {
+    // represent state in the components
   state = {
     accordion: true,
     activeKey: null,

@@ -1,6 +1,14 @@
 import React from "react";
 import NextHead from "next/head";
 import { string } from "prop-types";
+
+/**
+ * React component that represents the head of the webpage.
+ *
+ * @param props
+ * @returns {React.Component}
+ * @constructor
+ */
 const Head = props => (
   <NextHead>
     <meta charSet="UTF-8" />

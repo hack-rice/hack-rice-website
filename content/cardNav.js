@@ -1,3 +1,7 @@
+/**
+ * The list that contains all of the card data.
+ * @type {Object[]}
+ */
 export const cards = [
   {
       icon: "https://icon.now.sh/compose/ffffff",

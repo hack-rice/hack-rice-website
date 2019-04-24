@@ -1,10 +1,16 @@
 import { Flex, Box } from "rebass";
-import { cards } from "../content/cardNav"
+import {cards} from "../content/cardNav";
 
 import * as Scroll from "react-scroll";
 let ScrollingLink = Scroll.Link;
 import colors from "../styles/colors.json";
 
+/**
+ * A component that displays links in cards.
+ *
+ * @returns {React.Component}
+ * @constructor
+ */
 const CardNav = props => (
   <Flex flexWrap="wrap" mx={-2} pt={2}>
     {cards.map(({ key, href, to, title, text, icon }) =>

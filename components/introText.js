@@ -1,7 +1,14 @@
 import { Box } from "rebass";
 import { intro, bullets } from "../content/introText";
 
-const IntroText = () => (
+/**
+ * React component that represents the intro text in the web page. It consists
+ * of a title and bullet points that expand on that title.
+ * @param props
+ * @returns {React.Component}
+ * @constructor
+ */
+const IntroText = props => (
   <Box>
    <Box width="auto" px={2}>
       <h1 className="introText">{intro}</h1>

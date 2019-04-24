@@ -1,5 +1,13 @@
+/**
+ * The text that appears at the top of the hackrice web page.
+ * @type {string}
+ */
 export const intro = "HackRice 9: Coming Soon...";
 
+/**
+ * A list of bullet points that introduce the event.
+ * @type {Object[]}
+ */
 export const bullets = [
   {
     icon: "https://icon.now.sh/calendar/ffffff",

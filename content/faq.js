@@ -1,5 +1,13 @@
+/**
+ * The title of the section.
+ * @type {string}
+ */
 export const title = "QUESTIONS & ANSWERS";
 
+/**
+ * A list of questions and answers.
+ * @type {Object[]}
+ */
 export const questions = [
   {
     question: "How long is HackRice?",

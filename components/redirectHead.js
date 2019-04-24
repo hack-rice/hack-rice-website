@@ -1,6 +1,16 @@
 import React from "react";
 import NextHead from "next/head";
 import { string } from "prop-types";
+
+/**
+ * React component that populates the head of the web page, and then
+ * redirects to the sponsorship packet. This is necessary because we want
+ * the /sponsors route to link to the packet.
+ *
+ * @param props
+ * @returns {React.Component}
+ * @constructor
+ */
 const RedirectHead = props => (
   <NextHead>
     <meta charSet="UTF-8" />
@@ -32,6 +42,10 @@ const RedirectHead = props => (
   </NextHead>
 );
 
+/**
+ *
+ * @type {{description: string, title: string, ogImage: string, url: string}}
+ */
 RedirectHead.propTypes = {
   title: string,
   description: string,

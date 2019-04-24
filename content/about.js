@@ -1,6 +1,17 @@
+/**
+ * The title of our about section.
+ *
+ * @type {string} title
+ */
 export const title = "What is HackRice?";
 
-export const p1 = (
+/**
+ * An array of lines, to be placed in separate <p> blocks. Represents the main
+ * content of our about section.
+ *
+ * @type {React.Fragment[]} lines
+ */
+export const lines = ([
   <>
     HackRice is Rice University's annual hackathon. It brings
     together over{" "}
@@ -11,19 +22,15 @@ export const p1 = (
     <span style={{ fontWeight: "600" }}>
       creative and entrepreneurial talents.
     </span>
-  </>
-);
+  </>,
 
-export const p2 = (
   <>
     Participants form {" "}
     <span style={{ fontWeight: "600" }}>teams of up to 4</span> to work on a
     project — typically software, and sometimes hardware — in an environment{" "}
     <span style={{ fontWeight: "600" }}>designed for collaboration.</span>
-  </>
-);
+  </>,
 
-export const p3 = (
   <>
     Teams showcase projects after{" "}
     <span style={{ fontWeight: "600" }}>36 hours</span> of hacking. This is an
@@ -32,10 +39,5 @@ export const p3 = (
     receive <span style={{ fontWeight: "600" }}>internship & job offers</span>{" "}
     from world-class sponsors, and{" "}
     <span style={{ fontWeight: "600" }}>learn modern tools & systems.</span>
-  </>
+  </>]
 );
-
-export const link1 = "https://hackrice.typeform.com/to/s2Mllk";
-export const link2 = "../static/sponsors.pdf";
-export const button1 = "I want to apply.";
-export const button2 = "I want to become a sponsor.";
