@@ -23,7 +23,7 @@ const IntroText = props => (
       ))}
     </Box>
 
-    <style jsx global>{`
+    <style jsx>{`
       .introText {
         font-family: "Overpass Mono";
         font-size: 1.5em;

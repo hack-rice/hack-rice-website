@@ -41,7 +41,7 @@ const CardNav = props => (
         </Box>
       )
     )}
-    <style jsx global>{`
+    <style jsx>{`
 
       a {
         text-decoration: none;

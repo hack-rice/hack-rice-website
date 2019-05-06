@@ -20,7 +20,7 @@ const CenterImage = props => (
       }}
     />
 
-    <style jsx global>{`
+    <style jsx>{`
       @media (max-width: 575px) {
         .note {
           display: block;

@@ -18,7 +18,7 @@ const Links = props => (
         </Link>
       ))}
     </div>
-    <style>{`
+    <style jsx>{`
       .icon {
         padding: 4px 13px;
       }
