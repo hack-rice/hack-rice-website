@@ -22,7 +22,7 @@ import { links } from "../content/links";
 // Set global body styling.
 injectGlobal`
   * { box-sizing: border-box; }
-  body { max-width: 900px; margin: auto; color: #fff; margin-bottom: 2%;}
+  body { max-width: 900px; margin: auto; color: #fff; margin-bottom: 2%; margin-top: 0%;}
 `;
 
 // Variables for <head>
