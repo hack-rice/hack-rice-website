@@ -10,6 +10,7 @@ import CardNav from "../components/cardNav";
 import About from "../components/about";
 import Questions from "../components/faq";
 import Links from "../components/links";
+import Mlh from "../components/mlh";
 
 // import necessary contents
 import { title as aboutTitle, lines } from "../content/about";
@@ -21,7 +22,7 @@ import { links } from "../content/links";
 // Set global body styling.
 injectGlobal`
   * { box-sizing: border-box; }
-  body { max-width: 900px; margin: 2% auto; color: #fff;}
+  body { max-width: 900px; margin: auto; color: #fff; margin-bottom: 2%;}
 `;
 
 // Variables for <head>
@@ -48,12 +49,13 @@ const Home = () => (
     }}
   >
     <Head title={title} description={description} url={url} ogImage={ogImage} />
-    <CenterImage pathToImage = "../static/blueH.png" />
-    <IntroText intro = { intro } bullets = { bullets } />
-    <CardNav cards = { cards } />
-    <About lines = { lines } title = { aboutTitle } />
-    <Questions title = { questionsTitle } questions = { questions } />
-    <Links links = { links } />
+    <Mlh />
+    <CenterImage pathToImage="../static/blueH.png" />
+    <IntroText intro={intro} bullets={bullets} />
+    <CardNav cards={cards} />
+    <About lines={lines} title={aboutTitle} />
+    <Questions title={questionsTitle} questions={questions} />
+    <Links links={links} />
     <style jsx global>{`
       html {
         background: ${colors["base"]} !important;
