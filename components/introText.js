@@ -31,6 +31,10 @@ const IntroText = props => (
         text-transform: uppercase;
       }
 
+      .introItem {
+        margin-bottom: 10px;
+      }
+
       a.styledlink {
         color: #fff;
         text-decoration: none;
