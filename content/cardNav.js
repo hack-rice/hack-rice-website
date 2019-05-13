@@ -6,12 +6,12 @@ export const cards = [
   {
       icon: "https://icon.now.sh/compose/ffffff",
       title: "Register",
-      href: "https://hr9-registration.herokuapp.com/login",
+      href: "https://hr9-registration.herokuapp.com",
       text: "Registration is open for students outside of Rice! Apply now →"
   },
   {
     icon: "https://icon.now.sh/send/ffffff",
-    title: "Sponsors",
+    title: "Sponsor",
     href: "../static/sponsorships.pdf",
     text: "Thanks for your interest! Check out our sponsorship packet →"
   },
