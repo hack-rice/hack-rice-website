@@ -2,7 +2,7 @@
  * The text that appears at the top of the hackrice web page.
  * @type {string}
  */
-export const intro = "HackRice 9: Coming Soon...";
+export const intro = "HackRice 9: Apply now!";
 
 /**
  * A list of bullet points that introduce the event.
