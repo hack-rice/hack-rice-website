@@ -2,7 +2,7 @@
  * The text that appears at the top of the hackrice web page.
  * @type {string}
  */
-export const intro = "HackRice 9: Registration Closes <s>August 10</s> August 13!";
+export const intro = <>HackRicex 9: Registration Closes <s>August 10</s> August 13!</>;
 
 /**
  * A list of bullet points that introduce the event.
