@@ -7,7 +7,7 @@ export const cards = [
     icon: "https://icon.now.sh/compose/ffffff",
     title: "Register",
     href: "https://hr9-registration.herokuapp.com",
-    text: "Registration has closed! Visit our registration portal →"
+    text: "Registration has closed for students outside Rice! Visit our registration portal →"
   },
   {
     icon: "https://icon.now.sh/send/ffffff",
