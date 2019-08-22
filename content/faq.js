@@ -53,11 +53,7 @@ export const questions = [
   },
   {
     question: "Will my travel be reimbursed?",
-    answer: (
-      <>
-        Yes! Stay tuned for more information as we finalize the details for HackRice 9.
-      </>
-    )
+    answer: "Yes! Check your acceptance email for more details. Please note that reimbursement will be given on a first come, first serve basis for applicants accepted on or after August 18. For those applicants, reimbursement is not guaranteed."
   },
   {
     question: "Will there be food?",
@@ -93,6 +89,10 @@ export const questions = [
     question: "Do I need to stay the whole time?",
     answer:
       "Nope, we are not a lock-in. We realize that 36 hours is a long time, and that some people might need fresh air or to tend to other commitments. You may leave and go as you deem necessary, though we prefer you to stay!"
+  },
+  {
+    question: "When does the event start? When will it end?",
+    answer: "Opening ceremonies will start at 7pm on September 20, and the event should be completely finished by 3pm on September 22."
   }
 ].map(item => {
   item.key = `faq-${item.question}`;
