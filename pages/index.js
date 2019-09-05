@@ -8,6 +8,7 @@ import CenterImage from "../components/centerImage";
 import IntroText from "../components/introText";
 import CardNav from "../components/cardNav";
 import About from "../components/about";
+import Schedule from '../components/schedule';
 import Questions from "../components/faq";
 import Links from "../components/links";
 import Mlh from "../components/mlh";
@@ -17,6 +18,7 @@ import { title as aboutTitle, lines } from "../content/about";
 import { cards } from "../content/cardNav";
 import { title as questionsTitle, questions } from "../content/faq";
 import { intro, bullets } from "../content/introText";
+import { friday, saturday, sunday } from '../content/schedule';
 import { links } from "../content/links";
 
 // Set global body styling.
@@ -54,6 +56,7 @@ const Home = () => (
     <IntroText intro={intro} bullets={bullets} />
     <CardNav cards={cards} />
     <About lines={lines} title={aboutTitle} />
+    <Schedule friday={friday} saturday={saturday} sunday={sunday} />
     <Questions title={questionsTitle} questions={questions} />
     <Links links={links} />
     <style jsx global>{`
