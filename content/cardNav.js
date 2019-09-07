@@ -10,7 +10,7 @@ export const cards = [
     text: "Are you a Rice student? Register for HackRice 9 →"
   },
   {
-    icon: "https://icon.now.sh/compose/ffffff",
+    icon: "https://icon.now.sh/external/ffffff",
     title: "(Non-Rice) Portal",
     href: "https://hr9-registration.herokuapp.com",
     text: "Registration has closed for students outside Rice! Visit our registration portal →"

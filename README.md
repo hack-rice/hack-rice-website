@@ -65,7 +65,7 @@ We infer that adding an event is adding an object to an array corresponding to e
 
 Now, let's say we want to push this change to production. Note that this project is configured to be hosted
 on Github Pages, and thus the script `deploy` in `package.json` will need to be modified to your
-mode of deployment. Run the following command:
+mode of deployment. (Note that this script only works on Mac/Linux.) Run the following command:
 
 ```
 $ npm run-script deploy
