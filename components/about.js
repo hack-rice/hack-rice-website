@@ -38,7 +38,7 @@ const About = props => (
         .title {
           display: inline-block;
           text-transform: uppercase;
-          color: ${colors["gray"][1]};
+          color: ${colors["gray"][0]};
           margin: unset;
           font-family: "Overpass Mono", monospace;
         }

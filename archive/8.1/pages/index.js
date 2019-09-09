@@ -5,7 +5,7 @@ import Head from "../components/head";
 import Nav from "../components/nav";
 import Intro from "../components/intro";
 import About from "../components/about";
-import Calendar from "../components/calendar";
+import Calendar from "../../../components/calendar";
 import Questions from "../components/faq";
 import Judging from "../components/judging";
 import Sponsors from "../components/sponsors";
