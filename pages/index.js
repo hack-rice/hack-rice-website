@@ -13,6 +13,7 @@ import Questions from "../components/faq";
 import Links from "../components/links";
 import Mlh from "../components/mlh";
 import Calendar from "../components/calendar";
+import Sponsors from "../components/sponsors"
 
 // import necessary contents
 import { title as aboutTitle, lines } from "../content/about";
@@ -57,9 +58,9 @@ const Home = () => (
     <IntroText intro={intro} bullets={bullets} />
     <CardNav cards={cards} />
     <About lines={lines} title={aboutTitle} />
-    {/*<Schedule friday={friday} saturday={saturday} sunday={sunday} />*/}
     <Calendar/>
     <Questions title={questionsTitle} questions={questions} />
+    <Sponsors/>
     <Links links={links} />
     <style jsx global>{`
       html {

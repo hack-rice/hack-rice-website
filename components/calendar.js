@@ -128,7 +128,7 @@ const Calendar = () => (
           font-family: "Overpass Mono";
           background: #DEF7F2;
           padding: 2px 5px;
-          color: ${colors["base"]};
+          color: ${colors["dark"]};
         }
 
         .itemDetail {

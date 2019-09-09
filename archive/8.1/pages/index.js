@@ -8,7 +8,7 @@ import About from "../components/about";
 import Calendar from "../../../components/calendar";
 import Questions from "../components/faq";
 import Judging from "../components/judging";
-import Sponsors from "../components/sponsors";
+import Sponsors from "../../../components/sponsors";
 import Tracks from "../components/tracks";
 import Map from "../components/map";
 

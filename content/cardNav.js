@@ -26,6 +26,12 @@ export const cards = [
     title: "Contact",
     href: "mailto:hack@rice.edu",
     text: "Have a question? Reach out via email →"
+  },
+  {
+    icon: "https://icon.now.sh/slack/ffffff",
+    title: "Slack",
+    href: "https://join.slack.com/t/hackrice9/shared_invite/enQtNzUwMjg3MzAyMjQ2LWExOGI4YjQ0NTk3ZWMzZThiNzczMTgxMTAxYjhiMTkzYTVlZWQ5ODU2NDllM2YyNmM5NGYzZmZlODYyZmJkOGY",
+    text: "Want to stay connected with the event? Join our Slack channel →"
   }
 ].map(card => {
   card.key = `card-${card.title}`;
