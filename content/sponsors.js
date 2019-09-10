@@ -29,6 +29,12 @@ export const files = [
     blurb: "More info coming soon!"
   },
   {
+    name: "cognite.png",
+    height: "50px",
+    link: "https://www.cognite.com/",
+    blurb: "More info coming soon!"
+  },
+  {
     name: "facebook.svg",
     height: "30px",
     link: "https://www.facebook.com/",
@@ -39,6 +45,16 @@ export const files = [
     name: "twosigma.svg",
     height: "30px",
     link: "https://www.twosigma.com/"
+  },
+  {
+    name: "foreflight.png",
+    height: "55px",
+    link: "https://www.foreflight.com/"
+  },
+  {
+    name: "nov.png",
+    height: "30px",
+    link: "https://www.nov.com/"
   },
   {
     name: "capital.svg",
