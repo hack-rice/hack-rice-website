@@ -72,6 +72,11 @@ export const files = [
     link: "https://csweb.rice.edu/"
   },
   {
+    name: "d2k.png",
+    height: "70px",
+    link: "https://d2k.rice.edu/"
+  },
+  {
     name: "mlh.svg",
     height: "40px",
     link: "https://mlh.io/"
