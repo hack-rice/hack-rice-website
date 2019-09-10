@@ -1,6 +1,13 @@
-export const title = "Sponsored by";
+export const title = "Generously Sponsored by";
 
 export const files = [
+  {
+    name: "bill.png",
+    height: "50px",
+    link: "https://www.bill.com/",
+    blurb:
+        "More info coming soon!"
+  },
   {
     name: "schlumberger.svg",
     height: "30px",
@@ -16,6 +23,18 @@ export const files = [
       "J.P. Morgan is a leader in financial services, offering solutions to clients in more than 100 countries with one of the most comprehensive global product platforms available. We have been helping our clients to do business and manage their wealth for more than 200 years. Our business has been built upon our core principle of putting our clients’ interests first. J.P. Morgan is a leader in asset management, investment banking, private banking, treasury and securities services, and commercial banking. Our broad global platform and strength enable us to create long-lasting value for clients."
   },
   {
+    name: "ge.png",
+    height: "60px",
+    link: "https://www.ge.com/",
+    blurb: "More info coming soon!"
+  },
+  {
+    name: "cognite.png",
+    height: "50px",
+    link: "https://www.cognite.com/",
+    blurb: "More info coming soon!"
+  },
+  {
     name: "facebook.svg",
     height: "30px",
     link: "https://www.facebook.com/",
@@ -23,21 +42,19 @@ export const files = [
       "People are at the heart of every connection we build. We design products and deliver services that bring the world closer together — one connection at a time."
   },
   {
-    name: "bp.svg",
-    height: "40px",
-    link: "https://www.bp.com/",
-    blurb:
-      "Heat. Light. Power. Meeting society’s growing demand for energy is an immense responsibility. And at BP, it’s a responsibility we all share. We find, develop and produce energy resources every day – energy that’s behind the products we all rely on. Doing all of that sustainably, securely and at a reasonable cost is our challenge. It’s one we rise to as a team. A team made of diverse people with different perspectives who work together to make change happen. Scientific breakthroughs, engineering firsts, process improvements – everything we achieve is down to the drive, ambition and collaboration of our people. And you could be one of them."
-  },
-  {
     name: "twosigma.svg",
     height: "30px",
     link: "https://www.twosigma.com/"
   },
   {
-    name: "palantir.svg",
+    name: "foreflight.png",
+    height: "55px",
+    link: "https://www.foreflight.com/"
+  },
+  {
+    name: "nov.png",
     height: "30px",
-    link: "https://palantir.com"
+    link: "https://www.nov.com/"
   },
   {
     name: "capital.svg",
@@ -46,48 +63,13 @@ export const files = [
   },
   {
     name: "chevron.svg",
-    height: "40px",
+    height: "60px",
     link: "https://www.chevron.com/"
   },
   {
-    name: "extrahop.svg",
-    height: "30px",
-    link: "https://www.extrahop.com/"
-  },
-  {
-    name: "hbk.svg",
-    height: "30px",
-    link: "https://www.hbk.com"
-  },
-  {
-    name: "hcss.svg",
-    height: "30px",
-    link: "https://www.hcss.com/"
-  },
-  {
-    name: "indeed.svg",
-    height: "30px",
-    link: "https://www.indeed.com/"
-  },
-  {
     name: "ricecs.svg",
-    height: "30px",
-    link: "https://csweb.rice.edu/"
-  },
-  {
-    name: "lilie.png",
-    height: "50px",
-    link: "https://entrepreneurship.rice.edu/lab/"
-  },
-  {
-    name: "tech.svg",
-    height: "30px",
-    link: "https://get.tech/"
-  },
-  {
-    name: "tiffs.svg",
     height: "40px",
-    link: "https://www.cookiedelivery.com/"
+    link: "https://csweb.rice.edu/"
   },
   {
     name: "mlh.svg",

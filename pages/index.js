@@ -60,7 +60,7 @@ const Home = () => (
     <About lines={lines} title={aboutTitle} />
     <Calendar/>
     <Questions title={questionsTitle} questions={questions} />
-    {/*<Sponsors/>*/}
+    <Sponsors/>
     <Links links={links} />
     <style jsx global>{`
       html {
