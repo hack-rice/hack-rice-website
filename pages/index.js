@@ -8,7 +8,6 @@ import CenterImage from "../components/centerImage";
 import IntroText from "../components/introText";
 import CardNav from "../components/cardNav";
 import About from "../components/about";
-import Schedule from '../components/schedule';
 import Questions from "../components/faq";
 import Links from "../components/links";
 import Mlh from "../components/mlh";
@@ -20,7 +19,6 @@ import { title as aboutTitle, lines } from "../content/about";
 import { cards } from "../content/cardNav";
 import { title as questionsTitle, questions } from "../content/faq";
 import { intro, bullets } from "../content/introText";
-import { friday, saturday, sunday } from '../content/schedule';
 import { links } from "../content/links";
 
 // Set global body styling.
@@ -36,9 +34,9 @@ let ogImage = "../static/blueH.png";
 let description = "The premier hackathon of the south.";
 
 /**
- * This is the react component that makes up most of the web page. It also functions
- * as a "controller" that unites our code in /components and /content and promotes
- * maximum decoupling.
+ * This is the react component that makes up most of the web page. It also bridges
+ * the gap between /content and /components, allowing us to reuse components with
+ * different content.
  *
  * @returns {React.Component}
  * @constructor

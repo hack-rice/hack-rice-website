@@ -80,6 +80,11 @@ export const files = [
     name: "mlh.svg",
     height: "40px",
     link: "https://mlh.io/"
+  },
+  {
+    name: "kind.png",
+    height: "40px",
+    link: "https://www.kindsnacks.com/"
   }
 ].map(item => {
   item.key = `image-${item.name}`;
