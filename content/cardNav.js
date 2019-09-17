@@ -16,7 +16,7 @@ export const cards = [
     text: "Registration has closed for students outside Rice! Visit our registration portal →"
   },
   {
-    icon: "https://icon.now.sh/send/ffffff",
+    icon: "https://icon.now.sh/attach_money/ffffff",
     title: "Sponsor",
     href: "../static/sponsorships.pdf",
     text: "Thanks for your interest! Check out our sponsorship packet →"
