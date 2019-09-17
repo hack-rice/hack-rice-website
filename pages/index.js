@@ -59,7 +59,7 @@ const Home = () => (
     <CardNav cards={cards} />
     <About lines={lines} title={aboutTitle} />
     <Calendar/>
-    {/*<Tracks/>*/}
+    <Tracks/>
     <About lines={billLines} title={billTitle} />
     <Questions title={questionsTitle} questions={questions} />
     <Sponsors/>
