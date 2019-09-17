@@ -9,7 +9,7 @@ export const cards = [
         text: "We live in a society where everything is customized, from your phone case to your coffee order. So why shouldn't your browser be too? Chrome extensions allow you to craft and tailor your ideal browsing experience in a few short lines of code. In this track, you'll build a Chrome extension from scratch using HTML/CSS and JavaScript."
     },
     {
-        icon: "https://icon.now.sh/timeline/ffffff",
+        icon: "https://icon.now.sh/user/ffffff",
         type: "track",
         title: "Ethics Track",
         href: "https://github.com/hack-rice/HR9-Ethics-Track",
@@ -32,7 +32,7 @@ export const cards = [
             </p>)
     },
     {
-        icon: "https://icon.now.sh/border_color/ffffff",
+        icon: "https://icon.now.sh/timeline/ffffff",
         type: "track",
         title: "Data Science and Machine Learning Track",
         href: "https://github.com/hack-rice/HR9-DS-ML-Track",
