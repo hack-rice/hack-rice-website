@@ -6,14 +6,14 @@ export const files = [
     height: "50px",
     link: "https://www.bill.com/",
     blurb:
-        "More info coming soon!"
+        "Here at Bill.com, our mission is to make it simple to connect and do business. We are a cloud-based, collaborative business payments platform that makes life easier for businesses of all sizes. As the industry leader in B2B payments, we manage over $70 billion annually and work with some of the top financial institutions and accounting firms in the country."
   },
   {
     name: "schlumberger.svg",
     height: "30px",
     link: "https://www.slb.com/",
     blurb:
-      "Schlumberger is the world's leading provider of technology for reservoir \n characterization, drilling, production, and processing to the oil and gas industry. Working in more than 85 countries and employing approximately 100,000 people who represent over 140 nationalities, Schlumberger supplies the industry's most comprehensive range of products and services, from exploration through production and integrated pore-to-pipeline solutions for hydrocarbon recovery that optimize reservoir performance."
+      "Do you thrive on software, data, science, and innovation? Schlumberger drives technological advancements in one of the world’s most dynamic industries, continually pushing the limits of what is possible in a work environment that brings out the best in each team member. Our multidisciplinary team has an insatiable appetite for innovation, and we help them explore their passions through continuous research, learning, training, and development opportunities."
   },
   {
     name: "jpmorgan.svg",
@@ -32,7 +32,7 @@ export const files = [
     name: "cognite.png",
     height: "50px",
     link: "https://www.cognite.com/",
-    blurb: "More info coming soon!"
+    blurb: "Cognite is a global software company supporting the full-scale digital transformation of heavy-asset industries around the world. With Cognite Data Fusion (CDF), we supply contextualized data to drive industrial applications that increase safety and efficiency and drive revenue. We are currently around 250 employees spread on offices in Oslo, Norway (HQ), US (Austin and Houston), Austria and New Zealand. We're always looking for new talent to join our team, and offer both year-round internships and graduate positions within software engineering, design, 3D, project management, customer success, solution architecture and many more!"
   },
   {
     name: "facebook.svg",
