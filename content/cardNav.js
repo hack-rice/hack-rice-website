@@ -32,6 +32,12 @@ export const cards = [
     title: "Slack",
     href: "https://join.slack.com/t/hackrice9/shared_invite/enQtNzUwMjg3MzAyMjQ2LWExOGI4YjQ0NTk3ZWMzZThiNzczMTgxMTAxYjhiMTkzYTVlZWQ5ODU2NDllM2YyNmM5NGYzZmZlODYyZmJkOGY",
     text: "Want to stay connected with the event? Join our Slack channel →"
+  },
+  {
+    icon: "https://icon.now.sh/lightbulb_outline/ffffff",
+    title: "Forum",
+    href: "https://rice-forum.herokuapp.com",
+    text: "Have an awesome hackathon idea? Share it on Forum →"
   }
 ].map(card => {
   card.key = `card-${card.title}`;

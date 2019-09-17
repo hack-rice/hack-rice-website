@@ -12,7 +12,8 @@ import Questions from "../components/faq";
 import Links from "../components/links";
 import Mlh from "../components/mlh";
 import Calendar from "../components/calendar";
-import Sponsors from "../components/sponsors"
+import Sponsors from "../components/sponsors";
+import Tracks from "../components/tracks";
 
 // import necessary contents
 import { title as aboutTitle, lines } from "../content/about";
@@ -58,6 +59,7 @@ const Home = () => (
     <CardNav cards={cards} />
     <About lines={lines} title={aboutTitle} />
     <Calendar/>
+    <Tracks/>
     <About lines={billLines} title={billTitle} />
     <Questions title={questionsTitle} questions={questions} />
     <Sponsors/>
