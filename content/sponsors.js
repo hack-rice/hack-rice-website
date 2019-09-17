@@ -66,6 +66,11 @@ export const files = [
     link: "https://www.chevron.com/"
   },
   {
+    name: "microsoft.png",
+    height: "70px",
+    link: "https://microsoft.com"
+  },
+  {
     name: "ricecs.svg",
     height: "40px",
     link: "https://csweb.rice.edu/"
