@@ -20,6 +20,7 @@ import { cards } from "../content/cardNav";
 import { title as questionsTitle, questions } from "../content/faq";
 import { intro, bullets } from "../content/introText";
 import { links } from "../content/links";
+import {billLines, billTitle} from "../content/aboutBill";
 
 // Set global body styling.
 injectGlobal`
@@ -57,6 +58,7 @@ const Home = () => (
     <CardNav cards={cards} />
     <About lines={lines} title={aboutTitle} />
     <Calendar/>
+    <About lines={billLines} title={billTitle} />
     <Questions title={questionsTitle} questions={questions} />
     <Sponsors/>
     <Links links={links} />
