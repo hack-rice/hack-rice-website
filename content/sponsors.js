@@ -26,7 +26,7 @@ export const files = [
     name: "ge.png",
     height: "60px",
     link: "https://www.ge.com/",
-    blurb: "More info coming soon!"
+    blurb: "GE Healthcare is the $19 billion healthcare business of GE (NYSE: GE). We are a leading provider of medical imaging, monitoring, and enterprise medical software. Software engineering plays a huge role in our development of intelligent devices, data analytics, applications and services. With over 100 years of experience in the healthcare industry and more than 50,000 employees globally, the company helps improve outcomes more efficiently for patients, healthcare providers, researchers and life sciences companies around the world. Registration link: https://jobs.gecareers.com/global/en/event/5d657a374cedfd00086dd371/HackRice-9"
   },
   {
     name: "cognite.png",
@@ -38,8 +38,7 @@ export const files = [
     name: "facebook.svg",
     height: "30px",
     link: "https://www.facebook.com/",
-    blurb:
-      "People are at the heart of every connection we build. We design products and deliver services that bring the world closer together — one connection at a time."
+    blurb: "Founded in 2004, Facebook's mission is to give people the power to build community and bring the world closer together. People use Facebook to stay connected with friends and family, to discover what's going on in the world, and to share and express what matters to them."
   },
   {
     name: "twosigma.svg",
