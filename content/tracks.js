@@ -51,11 +51,6 @@ export const cards = [
                     will work closely with hackers on how to use the Bill.com API, and host a
                     Q&A workshop to share best practices
                 </p>
-                <p>
-                    Find their "getting started" guide <a href="https://docs.google.com/document/d/154aVkbCMp0_NQgSIhCm5t5iqqsXPrrmygN0p7_g7qX4/edit">
-                    here
-                </a>!
-                </p>
             </>
         )
     },
@@ -102,6 +97,7 @@ export const cards = [
         icon: "https://icon.now.sh/airplanemode_active/ffffff",
         type: "challenge",
         title: "ForeFlight: Airport Recommendation Challenge",
+        href: "http://bit.ly/HackRiceForeFlight2019",
         text: (
             <>
                 <p>
@@ -112,12 +108,7 @@ export const cards = [
                     can recommend a new flying destination. Then, if you’re up for the challenge,
                     package the model into an iOS app for on-the-go flight planning!
                 </p>
-                <p>
-                    <a href="http://bit.ly/HackRiceForeFlight2019">
-                        http://bit.ly/HackRiceForeFlight2019
-                    </a>
-                </p>
-                </>
+            </>
         )
     },
     {
@@ -136,7 +127,7 @@ export const cards = [
             "At Two Sigma, we use machine learning, distributed computing and other technologies to find connections in the world’s data. We work with vast quantities of information from over a thousand diverse sources. We love learning from others, and we want to see what you can do in the data science space. We’ll award a prize for the best use of data analysis, data science, or big data technologies."
     },
     {
-        icon: "https://icon.now.sh/report_problem/ffffff",
+        icon: "https://icon.now.sh/thumb_up/ffffff",
         type: "challenge",
         title: "JP Morgan Chase",
         text:
