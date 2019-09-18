@@ -78,6 +78,7 @@ export const cards = [
         icon: "https://icon.now.sh/report_problem/ffffff",
         type: "challenge",
         title: "Bill.com",
+        href: "https://docs.google.com/document/d/154aVkbCMp0_NQgSIhCm5t5iqqsXPrrmygN0p7_g7qX4/edit",
         text:
             "This year, Bill.com will be challenging hackers to think of creative ways to make it easier for businesses to connect and do business. The Bill.com team will work closely with hackers on how to use the Bill.com API, and host a Q&A workshop to share best practices"
     }
