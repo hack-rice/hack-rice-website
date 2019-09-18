@@ -22,6 +22,30 @@ export const cards = [
     text: "Thanks for your interest! Check out our sponsorship packet →"
   },
   {
+    icon: "https://icon.now.sh/calendar/ffffff",
+    title: "Schedule",
+    to: "calendar",
+    text: "Find out when hacking begins and ends, and more →"
+  },
+  {
+    icon: "https://icon.now.sh/question_answer/ffffff",
+    title: "FAQs",
+    to: "faq",
+    text: "First timer? Most of your inquiries are answered →"
+  },
+  {
+    icon: "https://icon.now.sh/done_all/ffffff",
+    title: "Tracks & Challenges",
+    to: "tracks",
+    text: "Complete a track or compete to win a sponsor challenge →"
+  },
+  {
+    icon: "https://icon.now.sh/casino/ffffff",
+    title: "Prizes",
+    to: "prizes",
+    text: "What can you win at HackRice? Worth a look →"
+  },
+  {
     icon: "https://icon.now.sh/phone/ffffff",
     title: "Contact",
     href: "mailto:hack@rice.edu",
@@ -38,6 +62,18 @@ export const cards = [
     title: "Forum",
     href: "https://rice-forum.herokuapp.com",
     text: "Have an awesome hackathon idea? Share it on Forum →"
+  },
+  {
+    icon: "https://icon.now.sh/accessibility/ffffff",
+    title: "Find a Team",
+    href: "https://crowdforge.io/hackathons/hackrice9",
+    text: "Looking for a team to hack with? Click here →"
+  },
+  {
+    icon: "https://icon.now.sh/help_outline/ffffff",
+    title: "Need help?",
+    href: "https://m.me/hackrice",
+    text: "If you're having an urgent problem, message us! →"
   }
 ].map(card => {
   card.key = `card-${card.title}`;
