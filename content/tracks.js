@@ -46,10 +46,21 @@ export const cards = [
         text: (
             <>
                 <p>
-                    This year, Bill.com will be challenging hackers to think of creative ways to
-                    make it easier for businesses to connect and do business. The Bill.com team
-                    will work closely with hackers on how to use the Bill.com API, and host a
-                    Q&A workshop to share best practices
+                    At Bill.com, we are constantly looking for new and exciting ways to make
+                    it simple for business owners to connect and do business. To this year's
+                    hackers we ask: "What are some outside of the box ways to leverage
+                    technology to accomplish this?"
+                </p>
+                <p>
+                    We want to challenge you to reimagine our user experience by embedding
+                    Bill.com everywhere, and will be providing home devices, smartwatches and
+                    tablets for anyone interested in developing on these systems.
+                </p>
+                <p>
+                    The Bill.com team will work closely with hackers to leverage the Bill.com
+                    API and client libraries, and host a Q&A workshop to help get teams up and
+                    running with their projects. We look forward to meeting all of the this
+                    year's participants and seeing what you all come up with!
                 </p>
             </>
         )
