@@ -11,7 +11,7 @@ export const friday = [
     detail: "Come to the Grand Hall to check into the event."
   },
   {
-    time: "5–7:00 PM",
+    time: "4–7:00 PM",
     title: "Sponsor Setup",
     detail: "Sponsors will arrive, register & set up their tables."
   },
