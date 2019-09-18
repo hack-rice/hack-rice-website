@@ -14,6 +14,7 @@ import Mlh from "../components/mlh";
 import Calendar from "../components/calendar";
 import Sponsors from "../components/sponsors";
 import Tracks from "../components/tracks";
+import Prizes from "../components/prizes"
 
 // import necessary contents
 import { title as aboutTitle, lines } from "../content/about";
@@ -60,6 +61,7 @@ const Home = () => (
     <About lines={lines} title={aboutTitle} />
     <Calendar/>
     <Tracks/>
+    <Prizes/>
     <About lines={billLines} title={billTitle} />
     <Questions title={questionsTitle} questions={questions} />
     <Sponsors/>
