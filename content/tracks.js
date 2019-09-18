@@ -39,6 +39,27 @@ export const cards = [
         text: "This track will allow you to explore interesting data sets using machine learning and other data science techniques. The goal is simple – find something interesting in your data and present it in a compelling manner. Projects with a social impact are especially encouraged."
     },
     {
+        icon: "https://icon.now.sh/bitcoin/ffffff",
+        type: "challenge",
+        title: "Bill.com",
+        href: "https://docs.google.com/document/d/154aVkbCMp0_NQgSIhCm5t5iqqsXPrrmygN0p7_g7qX4/edit",
+        text: (
+            <>
+                <p>
+                    This year, Bill.com will be challenging hackers to think of creative ways to
+                    make it easier for businesses to connect and do business. The Bill.com team
+                    will work closely with hackers on how to use the Bill.com API, and host a
+                    Q&A workshop to share best practices
+                </p>
+                <p>
+                    Find their "getting started" guide <a href="https://docs.google.com/document/d/154aVkbCMp0_NQgSIhCm5t5iqqsXPrrmygN0p7_g7qX4/edit">
+                    here
+                </a>!
+                </p>
+            </>
+        )
+    },
+    {
         icon: "https://icon.now.sh/local_gas_station/ffffff",
         type: "challenge",
         title: "Schlumberger",
@@ -46,10 +67,58 @@ export const cards = [
             "From classical statistical methods to real-time constraint optimization, Bayesian neural networks, and reinforcement learning, Schlumberger uses Machine Learning to gain maximum insight from huge volumes of data.  Our challenge for you: use Machine Learning to solve a problem of your choice.  We will grade you on your idea, your implementation, and the amount of fun you had hacking! "
     },
     {
+        icon: "https://icon.now.sh/local_gas_station/ffffff",
+        type: "challenge",
+        title: "Chevron’s real-time work order scheduling optimization",
+        text:(
+            <>
+                <p>
+                    Background: Chevron has large scale operations and complex process facilities (refineries and
+                    liquified natural gas production facilities). Scheduling work orders on these facilities with differing repair
+                    requirements, specialized technicians, and potentially hours of drive time between locations can be
+                    difficult.
+                </p>
+
+                <p>
+                    Challenge: Build a work order tracking system that tracks (1) the work orders that are submitted and
+                    (2) the technicians that are completing them to optimize how technicians are assigned and work orders
+                    are completed. Knowing where technicians are, what they are certified/qualified to repair, how long they
+                    are planning to being there, other work orders in the same or nearby location, etc will be invaluable in
+                    being able to dynamically schedule and dispatch existing and new work orders to technicians at the
+                    beginning of the day and while onsite. Updating each technician with their schedule of work orders can
+                    be done through any means of mobile technology, SMS, call, mobile app, etc.
+                </p>
+            </>
+        )
+
+    },
+    {
         icon: "https://icon.now.sh/facebook/ffffff",
         type: "challenge",
         title: "Facebook",
         text: "More information coming soon!"
+    },
+    {
+        icon: "https://icon.now.sh/airplanemode_active/ffffff",
+        type: "challenge",
+        title: "ForeFlight: Airport Recommendation Challenge",
+        text: (
+            <>
+                <p>
+                    A pilot decides she wants to go flying this weekend because the weather is
+                    really nice, but she can’t decide where she wants to go. We know what airports
+                    she’s flown to in the past; what’s an airport she’s never been to but would
+                    enjoy flying to? Use our historical data to build a machine learning model that
+                    can recommend a new flying destination. Then, if you’re up for the challenge,
+                    package the model into an iOS app for on-the-go flight planning!
+                </p>
+                <p>
+                    <a href="http://bit.ly/HackRiceForeFlight2019">
+                        http://bit.ly/HackRiceForeFlight2019
+                    </a>
+                </p>
+                </>
+        )
     },
     {
         icon: "https://icon.now.sh/domain/ffffff",
@@ -66,21 +135,12 @@ export const cards = [
         text:
             "At Two Sigma, we use machine learning, distributed computing and other technologies to find connections in the world’s data. We work with vast quantities of information from over a thousand diverse sources. We love learning from others, and we want to see what you can do in the data science space. We’ll award a prize for the best use of data analysis, data science, or big data technologies."
     },
-    // {
-    //     icon: "https://icon.now.sh/report_problem/ffffff",
-    //     type: "challenge",
-    //     title: "JP Morgan Chase",
-    //     href: "../static/files/jpmorgan.pdf",
-    //     text:
-    //         "We challenge you to create a web or mobile application that would either promote financial literacy for individuals (college students, unbanked adults, small businesses, etc) on or provide financial advisory/education on derivatives, futures trading, or how to invest to companies. In addition to providing gamified, guided learning, the application should present users with interactive scenarios. Click through for more details about this challenge."
-    // },
     {
         icon: "https://icon.now.sh/report_problem/ffffff",
         type: "challenge",
-        title: "Bill.com",
-        href: "https://docs.google.com/document/d/154aVkbCMp0_NQgSIhCm5t5iqqsXPrrmygN0p7_g7qX4/edit",
+        title: "JP Morgan Chase",
         text:
-            "This year, Bill.com will be challenging hackers to think of creative ways to make it easier for businesses to connect and do business. The Bill.com team will work closely with hackers on how to use the Bill.com API, and host a Q&A workshop to share best practices"
+            "Our challenge will be the JPMorgan Chase “Best Hack for Social Good"
     }
 ].map(card => {
     card.key = `card-${card.title}`;
