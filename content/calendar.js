@@ -7,7 +7,7 @@ export const dayThree = "Sunday, 9/22";
 export const friday = [
   {
     time: "5–6:30 PM",
-    title: "General Hacker Registration",
+    title: "Hacker Check in",
     detail: "Come to the Grand Hall to check into the event."
   },
   {
@@ -36,7 +36,13 @@ export const friday = [
     time: "8:30 PM",
     title: "First-Timers Track Workshop",
     detail:
-      "Come to Miner Lounge to walk through the first workshop for the First-Timers track."
+      "Come to Farnsworth Pavilion to walk through the first workshop for the First-Timers track."
+  },
+  {
+    time: "9:30 PM",
+    title: "Bill.com Workshop",
+    detail:
+        "Come to Farnsworth Pavilion to hear representatives from Bill.com talk about their challenge and best practices."
   }
 ].map(item => {
   item.key = `item-${item.title}`;
@@ -50,9 +56,24 @@ export const saturday = [
     detail: "Bagels from Einstein Bros!"
   },
   {
+    time: "9:30 AM",
+    title: "GE Healthcare Workshop",
+    detail: "Come to Farnsworth Pavilion to hear representatives from GE Healthcare talk about ..."
+  },
+  {
+    time: "9:30 AM",
+    title: "JP Morgan Workshop",
+    detail: "Come to Farnsworth Pavilion to hear representatives from JP Morgan talk about ..."
+  },
+  {
     time: "12 PM",
     title: "Lunch",
     detail: "Potbelly Sandwiches for lunch."
+  },
+  {
+    time: "1 PM",
+    title: "Schlumberger Workshop",
+    detail: "Come to Farnsworth Pavilion to hear representatives from Schlumberger talk about ..."
   },
   {
     time: "7:30 PM",
