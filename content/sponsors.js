@@ -35,6 +35,12 @@ export const files = [
     blurb: "Cognite is a global software company supporting the full-scale digital transformation of heavy-asset industries around the world. With Cognite Data Fusion (CDF), we supply contextualized data to drive industrial applications that increase safety and efficiency and drive revenue. We are currently around 250 employees spread on offices in Oslo, Norway (HQ), US (Austin and Houston), Austria and New Zealand. We're always looking for new talent to join our team, and offer both year-round internships and graduate positions within software engineering, design, 3D, project management, customer success, solution architecture and many more!"
   },
   {
+    name: "aramco.png",
+    height: "60px",
+    link: "https://www.aramcoservices.com/",
+    blurb: "Aramco Services Company (ASC) is the U.S.-based subsidiary of Saudi Aramco, a world leader in integrated energy and chemicals, and has had a presence in the U.S. for more than 60 years.  ASC is a contributor to the U.S. energy sector through employment, partnerships with energy peers and oil services companies, joint industry and academic collaborations, and research and technology development.   The company is headquartered in Houston, and maintains offices in New York, Washington D.C., Boston, and Detroit.  ASC is committed to being a positive contributor in the communities where its employees live and work, and to making a difference through outreach that benefits the arts, geosciences, education and the environment. "
+  },
+  {
     name: "facebook.svg",
     height: "30px",
     link: "https://www.facebook.com/",
