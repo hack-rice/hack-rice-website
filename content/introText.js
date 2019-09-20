@@ -2,13 +2,19 @@
  * The text that appears at the top of the hackrice web page.
  * @type {string}
  */
-export const intro = "HackRice 9: The Premier Hackathon of the South";
+export const intro = "HackRice 9: We Are NOT Cancelled!";
 
 /**
  * A list of bullet points that introduce the event.
  * @type {{icon : string, button : string, href : string, note : string}[]}
  */
 export const bullets = [
+  {
+    icon: "https://icon.now.sh/compose/ffffff",
+    button: "view opening slideshow",
+    href: "https://docs.google.com/presentation/d/13nDqdmwK4NWyTBz4_O8f1gm7KlQJN_QAd4FeqJN4ac8/edit?usp=sharing",
+    note: "view the slides from the opening ceremony!"
+  },
   {
     icon: "https://icon.now.sh/calendar/ffffff",
     button: "September 20–22, 2019",

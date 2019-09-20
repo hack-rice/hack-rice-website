@@ -8,7 +8,7 @@
     "build": "next build",
     "start": "next start",
     "export": "next build && next export -o docs",
-    "deploy": "next build && next export -o docs && cd docs && touch CNAME && echo \"hack.rice.edu\" >> CNAME && touch .nojekyll && cd .. && git add ."
+    "deploy": "next build && next export -o docs && cd docs && touch CNAME && echo hack.rice.edu >> CNAME && touch .nojekyll && cd .. && git add ."
   },
   "author": "",
   "license": "ISC",
