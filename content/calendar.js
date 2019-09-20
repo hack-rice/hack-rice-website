@@ -6,12 +6,12 @@ export const dayThree = "Sunday, 9/22";
 
 export const friday = [
   {
-    time: "5–6:30 PM",
+    time: "5:30–6:55 PM",
     title: "Hacker Check in",
     detail: "Come to the Grand Hall to check into the event."
   },
   {
-    time: "4–7:00 PM",
+    time: "5–7:00 PM",
     title: "Sponsor Setup",
     detail: "Sponsors will arrive, register & set up their tables."
   },

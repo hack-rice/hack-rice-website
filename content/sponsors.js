@@ -95,6 +95,11 @@ export const files = [
     name: "kind.png",
     height: "40px",
     link: "https://www.kindsnacks.com/"
+  },
+  {
+    name: "ultrapress.png",
+    height: "30px",
+    link: "https://ultrapress.com/"
   }
 ].map(item => {
   item.key = `image-${item.name}`;
