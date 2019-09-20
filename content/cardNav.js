@@ -16,6 +16,12 @@ export const cards = [
     text: "Registration has closed for students outside Rice! Visit our registration portal →"
   },
   {
+    icon: "https://icon.now.sh/people/ffffff",
+    title: "Help-Q",
+    href: "https://hackrice-helpq.herokuapp.com/",
+    text: "Get help from a mentor"
+  },
+  {
     icon: "https://icon.now.sh/attach_money/ffffff",
     title: "Sponsor",
     href: "../static/sponsorships.pdf",
