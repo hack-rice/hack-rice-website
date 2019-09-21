@@ -76,7 +76,7 @@ export const cards = [
         icon: "https://icon.now.sh/local_gas_station/ffffff",
         type: "challenge",
         title: "Chevron’s real-time work order scheduling optimization",
-        text:(
+        text: (
             <>
                 <p>
                     Background: Chevron has large scale operations and complex process facilities (refineries and
@@ -102,7 +102,14 @@ export const cards = [
         icon: "https://icon.now.sh/facebook/ffffff",
         type: "challenge",
         title: "Facebook",
-        text: "More information coming soon!"
+        text: (
+            <>
+                <p>Best Algorithmically Complex App:</p>
+                <p>We challenge you to put the skills Luay has taught you to good use.</p>
+                <p>Oculus Gos will be awarded to the team that utilizes a non-trivial algorithm or AI as part of their application to create value for users.</p>
+                <p>While external libraries and services may be used to aid your app, we will only evaluate the components of the app created by your team.</p>
+            </>
+        )
     },
     {
         icon: "https://icon.now.sh/airplanemode_active/ffffff",
