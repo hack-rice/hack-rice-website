@@ -56,14 +56,9 @@ export const saturday = [
     detail: "Bagels from Einstein Bros!"
   },
   {
-    time: "9:30 AM",
+    time: "10 AM",
     title: "GE Healthcare Workshop",
     detail: "Come to Farnsworth Pavilion to hear representatives from GE Healthcare talk about ..."
-  },
-  {
-    time: "9:30 AM",
-    title: "JP Morgan Workshop",
-    detail: "Come to Farnsworth Pavilion to hear representatives from JP Morgan talk about ..."
   },
   {
     time: "12 PM",
