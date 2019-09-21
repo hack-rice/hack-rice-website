@@ -94,6 +94,10 @@ export const cards = [
                     beginning of the day and while onsite. Updating each technician with their schedule of work orders can
                     be done through any means of mobile technology, SMS, call, mobile app, etc.
                 </p>
+
+                <p>
+                    Data set <a href="https://drive.google.com/file/d/0B8KsuSvk0vSINUktRHNnbXhCdVoxS19qRWZxNnZzZFRsMWZN/view?usp=sharing">here</a>!
+                </p>
             </>
         )
 

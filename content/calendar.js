@@ -33,13 +33,13 @@ export const friday = [
     detail: "Start building your project!."
   },
   {
-    time: "8:30 PM",
+    time: "9 PM",
     title: "First-Timers Track Workshop",
     detail:
       "Come to Farnsworth Pavilion to walk through the first workshop for the First-Timers track."
   },
   {
-    time: "9:30 PM",
+    time: "10 PM",
     title: "Bill.com Workshop",
     detail:
         "Come to Farnsworth Pavilion to hear representatives from Bill.com talk about their challenge and best practices."
