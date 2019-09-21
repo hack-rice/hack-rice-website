@@ -4,6 +4,12 @@
  */
 export const cards = [
   {
+    icon: "https://icon.now.sh/send/ffffff",
+    title: "Submissions",
+    href: "https://hackrice-9.devpost.com/",
+    text: "Submit your project through the HackRice Devpost →"
+  },
+  {
     icon: "https://icon.now.sh/compose/ffffff",
     title: "Rice Registration",
     href: "https://forms.gle/wLN8cmDXp9nnJ18q6",
@@ -19,7 +25,7 @@ export const cards = [
     icon: "https://icon.now.sh/people/ffffff",
     title: "Help-Q",
     href: "https://hackrice-helpq.herokuapp.com/",
-    text: "Get help from a mentor"
+    text: "Get help from a mentor →"
   },
   {
     icon: "https://icon.now.sh/attach_money/ffffff",
