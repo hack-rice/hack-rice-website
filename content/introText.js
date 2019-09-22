@@ -2,7 +2,7 @@
  * The text that appears at the top of the hackrice web page.
  * @type {string}
  */
-export const intro = "HackRice 9: We Are NOT Cancelled!";
+export const intro = "HackRice 9: See ya next year!";
 
 /**
  * A list of bullet points that introduce the event.
