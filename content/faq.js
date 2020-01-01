@@ -12,7 +12,7 @@ export const questions = [
   {
     question: "How long is HackRice?",
     answer:
-      "The event is held from Friday, September 20th to Sunday, September 22th. Students hack for 36 hours. Stay tuned for more info."
+      "The event is held from Friday, September 18th to Sunday, September 20th. Students hack for 36 hours. Stay tuned for more info."
   },
   {
     question: "How many hackers attend HackRice? Where are they from?",
@@ -92,7 +92,7 @@ export const questions = [
   },
   {
     question: "When does the event start? When will it end?",
-    answer: "Opening ceremonies will start at 7pm on September 20, and the event should be completely finished by 3pm on September 22."
+    answer: "Opening ceremonies will start at 7pm on September 18, and the event should be completely finished by 3pm on September 20."
   }
 ].map(item => {
   item.key = `faq-${item.question}`;

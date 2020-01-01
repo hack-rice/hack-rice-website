@@ -31,7 +31,7 @@ injectGlobal`
 `;
 
 // Variables for <head>
-let title = "HackRice 9";
+let title = "HackRice 10";
 let url = "https://hack.rice.edu";
 let ogImage = "../static/blueH.png";
 let description = "The premier hackathon of the south.";
@@ -57,14 +57,14 @@ const Home = () => (
     <Mlh />
     <CenterImage pathToImage="../static/blueH.png" />
     <IntroText intro={intro} bullets={bullets} />
-    <CardNav cards={cards} />
+    {/* <CardNav cards={cards} /> */}
     <About lines={lines} title={aboutTitle} />
-    <Calendar/>
-    <Tracks/>
-    <Prizes/>
-    <About lines={billLines} title={billTitle} />
+    {/* <Calendar/> */}
+    {/* <Tracks/> */}
+    {/* <Prizes/> */}
+    {/* <About lines={billLines} title={billTitle} /> */}
     <Questions title={questionsTitle} questions={questions} />
-    <Sponsors/>
+    {/* <Sponsors/> */}
     <Links links={links} />
     <style jsx global>{`
       html {

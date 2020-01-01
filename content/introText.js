@@ -2,24 +2,32 @@
  * The text that appears at the top of the hackrice web page.
  * @type {string}
  */
-export const intro = "HackRice 9: See ya next year!";
+export const intro = "HackRice 10: Coming soon!";
 
 /**
  * A list of bullet points that introduce the event.
  * @type {{icon : string, button : string, href : string, note : string}[]}
  */
 export const bullets = [
+  // {
+  //   icon: "https://icon.now.sh/compose/ffffff",
+  //   button: "view opening slideshow",
+  //   href: "https://docs.google.com/presentation/d/13nDqdmwK4NWyTBz4_O8f1gm7KlQJN_QAd4FeqJN4ac8/edit?usp=sharing",
+  //   note: "view the slides from the opening ceremony!"
+  // },
+
   {
     icon: "https://icon.now.sh/compose/ffffff",
-    button: "view opening slideshow",
-    href: "https://docs.google.com/presentation/d/13nDqdmwK4NWyTBz4_O8f1gm7KlQJN_QAd4FeqJN4ac8/edit?usp=sharing",
-    note: "view the slides from the opening ceremony!"
+    button: "Sign up for updates",
+    href: "https://forms.gle/ggfHhPSYHVD3WEFT8",
+    note: "We'll let you know when applications are open!"
   },
+
   {
     icon: "https://icon.now.sh/calendar/ffffff",
-    button: "September 20–22, 2019",
+    button: "September 18–20, 2020",
     href:
-      "https://calendar.google.com/event?action=TEMPLATE&tmeid=MnN1MjB1bWdiMGt2cWFtbWl1dXE1aWt0Z3AgYXZzN0ByaWNlLmVkdQ&tmsrc=achal%40rice.edu",
+      "https://calendar.google.com/event?action=TEMPLATE&tmeid=Mm0zMTU5bHJqbzJ0b2ZxNnJ0MnJndHJqaTMgY3c3NEByaWNlLmVkdQ&tmsrc=cw74%40rice.edu",
     note: "36 hours of non-stop building"
   },
   {

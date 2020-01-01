@@ -25,11 +25,11 @@ export const links = [
       label: `Email`,
       icon: "https://icon.now.sh/email/ffffff"
     },
-    {
-      href: "https://hackrice8.devpost.com/",
-      label: "Devpost",
-      icon: "https://icon.now.sh/build/ffffff"
-    }
+    // {
+    //   href: "https://hackrice-9.devpost.com/",
+    //   label: "Devpost",
+    //   icon: "https://icon.now.sh/build/ffffff"
+    // }
   ].map(link => {
     link.key = `nav-link-${link.href}-${link.label}`;
     return link;
