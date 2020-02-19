@@ -27,12 +27,12 @@ export const cards = [
     href: "https://hackrice-helpq.herokuapp.com/",
     text: "Get help from a mentor →"
   },
-  {
-    icon: "https://icon.now.sh/attach_money/ffffff",
-    title: "Sponsor",
-    href: "../static/sponsorships.pdf",
-    text: "Thanks for your interest! Check out our sponsorship packet →"
-  },
+  // {
+  //   icon: "https://icon.now.sh/attach_money/ffffff",
+  //   title: "Sponsor",
+  //   href: "../static/sponsorships.pdf",
+  //   text: "Thanks for your interest! Check out our sponsorship packet →"
+  // },
   {
     icon: "https://icon.now.sh/calendar/ffffff",
     title: "Schedule",

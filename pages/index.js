@@ -8,6 +8,7 @@ import CenterImage from "../components/centerImage";
 import IntroText from "../components/introText";
 import CardNav from "../components/cardNav";
 import About from "../components/about";
+import Sponsorship from "../components/sponsorship";
 import Questions from "../components/faq";
 import Links from "../components/links";
 import Mlh from "../components/mlh";
@@ -17,7 +18,8 @@ import Tracks from "../components/tracks";
 import Prizes from "../components/prizes"
 
 // import necessary contents
-import { title as aboutTitle, lines } from "../content/about";
+import { title as aboutTitle, lines as aboutLines} from "../content/about";
+import { title as sponsorshipTitle, bullets as sponsorlinks } from "../content/sponsorship";
 import { cards } from "../content/cardNav";
 import { title as questionsTitle, questions } from "../content/faq";
 import { intro, bullets } from "../content/introText";
@@ -31,7 +33,7 @@ injectGlobal`
 `;
 
 // Variables for <head>
-let title = "HackRice 10";
+let title = "HackRice X";
 let url = "https://hack.rice.edu";
 let ogImage = "../static/blueH.png";
 let description = "The premier hackathon of the south.";
@@ -58,7 +60,8 @@ const Home = () => (
     <CenterImage pathToImage="../static/blueH.png" />
     <IntroText intro={intro} bullets={bullets} />
     {/* <CardNav cards={cards} /> */}
-    <About lines={lines} title={aboutTitle} />
+    <About lines={aboutLines} title={aboutTitle} />
+    <Sponsorship bullets={sponsorlinks} title={sponsorshipTitle} />
     {/* <Calendar/> */}
     {/* <Tracks/> */}
     {/* <Prizes/> */}

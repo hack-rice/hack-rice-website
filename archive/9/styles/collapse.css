@@ -1,0 +1,83 @@
+.rc-collapse {
+  background-color: unset;
+  color: #fff;
+  border: unset;
+  display: flex;
+  justify-content: space-around;
+  padding: 0.5em;
+}
+
+.rc-collapse-header {
+  text-indent: unset !important;
+}
+
+.rc-collapse-header:focus {
+  border: none;
+  box-shadow: unset;
+  outline: none;
+}
+
+.rc-collapse > .rc-collapse-item:first-child {
+  border-top: 4px solid rgba(255, 255, 255, 1) !important;
+  border-left: 4px solid rgba(255, 255, 255, 1) !important;
+}
+
+.faqCard {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #ecedf0;
+  font-family: "Overpass Mono", monospace;
+  font-weight: 300;
+  padding: 18px;
+  text-align: left;
+  text-decoration: none;
+  transition: border-color 0.3s ease-in-out, background 0.3s ease-in-out;
+  height: auto;
+  width: 280px;
+  transition: transform 0.15s ease-in-out;
+}
+
+.faqCard:hover {
+  transform: scale(1.05);
+}
+
+.rc-collapse-item-active {
+  height: auto !important;
+}
+
+.arrow {
+  display: none;
+  content: "";
+  margin-right: 0px !important;
+  border: none !important;
+}
+
+.rc-collapse-header {
+  color: #fff !important;
+  height: auto !important;
+  line-height: unset !important;
+}
+
+.rc-collapse-content {
+  background-color: unset;
+  color: #fff;
+  padding: 0px;
+  font-family: "Open Sans", sans-serif !important;
+  font-size: 0.9em;
+  line-height: 1.5em !important;
+}
+
+.rc-collapse-content-box {
+  margin-bottom: 15px !important;
+}
+
+.rc-collapse-content-box > p {
+  margin: 0px !important;
+  padding: 0px !important;
+  font-size: 0.9em;
+  line-height: 1.3em;
+  font-weight: normal;
+}
+
+tr:nth-child(even) {
+  background-color: rgba(255, 255, 255, 0.05);
+}

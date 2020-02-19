@@ -11,6 +11,11 @@ export const links = [
       icon: "https://icon.now.sh/facebook/ffffff"
     },
     {
+      href: "https://www.linkedin.com/company/hackrice/about/",
+      label: "LinkedIn",
+      icon: "https://icon.now.sh/linkedin/ffffff"
+    },
+    {
       href: "https://medium.com/@hackrice",
       label: "Medium",
       icon: "https://icon.now.sh/medium/ffffff"
