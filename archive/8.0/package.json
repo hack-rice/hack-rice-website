@@ -8,7 +8,9 @@
     "build": "next build",
     "start": "next start",
     "export": "next build && next export -o docs",
-    "deploy": "next build && next export -o docs && git checkout -- docs/CNAME && git checkout -- docs/.nojekyll && git add docs && git commit -m \"chore: regen site\" && git push origin master"
+    "deploy": "next build && next export -o docs && git checkout -- docs/CNAME && git checkout -- docs/.nojekyll && git add docs && git commit -m \"chore: regen site\" && git push origin master",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "keywords": [],
   "author": "",
@@ -35,6 +37,8 @@
     "react-accessible-accordion": "^2.4.3",
     "react-dom": "^16.4.1",
     "react-grid-gallery": "^0.5.1",
-    "sass-loader": "^6.0.6"
-  }
+    "sass-loader": "^6.0.6",
+    "snyk": "^1.316.1"
+  },
+  "snyk": true
 }
