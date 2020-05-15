@@ -2,7 +2,7 @@
  * The heading that appears while a user is being redirected.
  * @type {string}
  */
-export const intro = "HackRice 10: Redirecting to sponsorship package...";
+export const intro = "HackRice X: Redirecting to sponsorship package...";
 
 /**
  * A list of bullet points that help a user if the page doesn't redirect.

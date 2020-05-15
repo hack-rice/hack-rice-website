@@ -11,8 +11,8 @@ import React from "react";
  * @returns {React.Component}
  * @constructor
  */
-const About = props => (
-  <Element name="about" style={{ overflowX: "hidden" }}>
+const Covid = props => (
+  <Element name="covid" style={{ overflowX: "hidden" }}>
     <Flex mx={2} mt={4} flexWrap="wrap">
       <Box width={1} mx={2}>
         <h2 className="title">{props.title}</h2>
@@ -48,4 +48,4 @@ const About = props => (
   </Element>
 );
 
-export default About;
+export default Covid;

@@ -8,6 +8,7 @@ import CenterImage from "../components/centerImage";
 import IntroText from "../components/introText";
 import CardNav from "../components/cardNav";
 import About from "../components/about";
+import Covid from "../components/covid";
 import Sponsorship from "../components/sponsorship";
 import Questions from "../components/faq";
 import Links from "../components/links";
@@ -19,6 +20,7 @@ import Prizes from "../components/prizes"
 
 // import necessary contents
 import { title as aboutTitle, lines as aboutLines} from "../content/about";
+import { title as covidTitle, lines as covidLines} from "../content/covid";
 import { title as sponsorshipTitle, bullets as sponsorlinks } from "../content/sponsorship";
 import { cards } from "../content/cardNav";
 import { title as questionsTitle, questions } from "../content/faq";
@@ -35,7 +37,7 @@ injectGlobal`
 // Variables for <head>
 let title = "HackRice X";
 let url = "https://hack.rice.edu";
-let ogImage = "../static/blueH.png";
+let ogImage = "../static/xlogo.jpg";
 let description = "The premier hackathon of the south.";
 
 /**
@@ -57,11 +59,12 @@ const Home = () => (
   >
     <Head title={title} description={description} url={url} ogImage={ogImage} />
     <Mlh />
-    <CenterImage pathToImage="../static/blueH.png" />
+    <CenterImage pathToImage="../static/xlogo.jpg" />
     <IntroText intro={intro} bullets={bullets} />
     {/* <CardNav cards={cards} /> */}
+    <Covid lines={covidLines} title={covidTitle} />
     <About lines={aboutLines} title={aboutTitle} />
-    <Sponsorship bullets={sponsorlinks} title={sponsorshipTitle} />
+    {/* <Sponsorship bullets={sponsorlinks} title={sponsorshipTitle} /> */}
     {/* <Calendar/> */}
     {/* <Tracks/> */}
     {/* <Prizes/> */}
