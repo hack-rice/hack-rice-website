@@ -8,6 +8,7 @@ import CenterImage from "../components/centerImage";
 import IntroText from "../components/introText";
 import CardNav from "../components/cardNav";
 import About from "../components/about";
+import BLM from "../components/blm";
 import Covid from "../components/covid";
 import Sponsorship from "../components/sponsorship";
 import Questions from "../components/faq";
@@ -20,6 +21,7 @@ import Prizes from "../components/prizes"
 
 // import necessary contents
 import { title as aboutTitle, lines as aboutLines} from "../content/about";
+import { title as blmTitle, lines as blmLines} from "../content/blm";
 import { title as covidTitle, lines as covidLines} from "../content/covid";
 import { title as sponsorshipTitle, bullets as sponsorlinks } from "../content/sponsorship";
 import { cards } from "../content/cardNav";
@@ -63,6 +65,7 @@ const Home = () => (
     <IntroText intro={intro} bullets={bullets} />
     {/* <CardNav cards={cards} /> */}
     <Covid lines={covidLines} title={covidTitle} />
+    <BLM lines={blmLines} title={blmTitle} />
     <About lines={aboutLines} title={aboutTitle} />
     {/* <Sponsorship bullets={sponsorlinks} title={sponsorshipTitle} /> */}
     {/* <Calendar/> */}

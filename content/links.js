@@ -8,27 +8,27 @@ export const links = [
     {
       href: "https://facebook.com/hackrice",
       label: "Facebook",
-      icon: "https://icon.now.sh/facebook/ffffff"
+      icon: "https://icon.now.sh/facebook/cccbd2"
     },
     {
       href: "https://www.linkedin.com/company/hackrice/about/",
       label: "LinkedIn",
-      icon: "https://icon.now.sh/linkedin/ffffff"
+      icon: "https://icon.now.sh/linkedin/cccbd2"
     },
     {
       href: "https://medium.com/@hackrice",
       label: "Medium",
-      icon: "https://icon.now.sh/medium/ffffff"
+      icon: "https://icon.now.sh/medium/cccbd2"
     },
     {
       href: "https://twitter.com/hackingrice",
       label: "Twitter",
-      icon: "https://icon.now.sh/twitter/ffffff"
+      icon: "https://icon.now.sh/twitter/cccbd2"
     },
     {
       href: "mailto:hack@rice.edu",
       label: `Email`,
-      icon: "https://icon.now.sh/email/ffffff"
+      icon: "https://icon.now.sh/email/cccbd2"
     },
     // {
     //   href: "https://hackrice-9.devpost.com/",
