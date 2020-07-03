@@ -1,6 +1,6 @@
 .rc-collapse {
   background-color: unset;
-  color: #cccbd2;
+  color: #ffffff;
   border: unset;
   display: flex;
   justify-content: space-around;
@@ -18,13 +18,13 @@
 }
 
 .rc-collapse > .rc-collapse-item:first-child {
-  border-top: 4px solid rgba(204, 203, 210, 1) !important;
-  border-left: 4px solid rgba(204, 203, 210, 1) !important;
+  border-top: 4px solid rgba(255, 255, 255, 1) !important;
+  border-left: 4px solid rgba(255, 255, 255, 1) !important;
 }
 
 .faqCard {
-  border: 1px solid rgba(204, 203, 210, 0.2);
-  color: #3d3e4c;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #ffffff;
   font-family: "Overpass Mono", monospace;
   font-weight: 300;
   padding: 18px;
@@ -52,14 +52,14 @@
 }
 
 .rc-collapse-header {
-  color: #cccbd2 !important;
+  color: #ffffff !important;
   height: auto !important;
   line-height: unset !important;
 }
 
 .rc-collapse-content {
   background-color: unset;
-  color: #cccbd2;
+  color: #ffffff;
   padding: 0px;
   font-family: "Open Sans", sans-serif !important;
   font-size: 0.9em;

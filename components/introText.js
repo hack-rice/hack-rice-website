@@ -25,7 +25,7 @@ const IntroText = props => (
 
     <style jsx>{`
       .introText {
-        color: #cccbd2;
+        color: #ffffff;
         font-family: "Overpass Mono";
         font-size: 1.5em;
         font-weight: 700;
