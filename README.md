@@ -13,7 +13,7 @@ This app is built using [Next.js](https://github.com/zeit/next.js/) and [Rebass]
 ##### 1. Clone repository.
 
 ```
-$ git clone https://github.com/hack-rice/hackrice-website && cd hackrice
+$ git clone https://github.com/hack-rice/hack-rice-website && cd hackrice
 ```
 
 ##### 2. Install `npm` packages.
