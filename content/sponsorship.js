@@ -11,16 +11,12 @@ export const title = "Interested in Sponsoring?";
  */
 export const bullets = [
     {
-      icon: "https://icon.now.sh/assessment/ffffff",
-      button: "Sponsorship Prospectus",
-      href: "../static/hrxprospectus.pdf",
+      icon: "https://icon.now.sh/email/ffffff",
+      button: "Email us",
+      href: "mailto:hack@rice.edu",
+      note: "for more information!",
     },
-  
-    {
-      icon: "https://icon.now.sh/tag/ffffff",
-      button: "Sponsorship Brochure",
-      href: "../static/hrxbrochure.pdf",
-    },
+
   ].map(bullet => {
     bullet.key = `bullet-${bullet.button}`;
     return bullet;

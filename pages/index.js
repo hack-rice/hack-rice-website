@@ -67,7 +67,7 @@ const Home = () => (
     <Covid lines={covidLines} title={covidTitle} />
     <BLM lines={blmLines} title={blmTitle} />
     <About lines={aboutLines} title={aboutTitle} />
-    {/* <Sponsorship bullets={sponsorlinks} title={sponsorshipTitle} /> */}
+    <Sponsorship bullets={sponsorlinks} title={sponsorshipTitle} />
     {/* <Calendar/> */}
     {/* <Tracks/> */}
     {/* <Prizes/> */}

@@ -12,7 +12,7 @@ import React from "react";
  */
 const SponsorInfo = props => (
   <Box>
-   <Box width="auto" px={2} mx={2}>
+   <Box width="auto" px={2} mx={2} mt={4}>
       <h1 className="SponsorSection">{props.title}</h1>
       {props.bullets.map(({ key, href, button, note, icon }) => (
         <div key={key} className="SponsorLinks">
@@ -39,7 +39,7 @@ const SponsorInfo = props => (
       }
 
       a.styledlink {
-        color: #fff;
+        color: #cccbd2;
         text-decoration: none;
         background: rgba(255, 255, 255, 0.1);
         transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
@@ -51,7 +51,7 @@ const SponsorInfo = props => (
       }
 
       a.styledlink:hover {
-        color: #60b2b2;
+        color: #191919;
         background: rgba(255, 255, 255, 1);
       }
 
@@ -60,6 +60,7 @@ const SponsorInfo = props => (
         font-size: 0.8em;
         font-weight: 300;
         font-family: "Overpass Mono";
+        color: #cccbd2
       }
 
       .spacer {
