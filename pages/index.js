@@ -34,7 +34,7 @@ import {billLines, billTitle} from "../content/aboutBill";
 // Set global body styling.
 injectGlobal`
   * { box-sizing: border-box; }
-  body { max-width: 90%; margin: auto; color: #fff; margin-bottom: 2%;}
+  body { max-width: 90%; margin-left: 5%; margin-right: 5%; color: #fff; margin-bottom: 2%;}
 `;
 
 // Variables for <head>
