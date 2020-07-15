@@ -19,11 +19,11 @@ import { intro, bullets } from "../content/redirectText";
 // Set global body styling.
 injectGlobal`
   * { box-sizing: border-box; }
-  body { max-width: 85vw; margin: auto; color: #fff;}
+  body { max-width: 85vw; margin: auto; color: #fff; margin-bottom: 2%;}
 `;
 
 // Variables for <head>
-let title = "HackRice 9";
+let title = "HackRice X";
 let url = "https://hack.rice.edu";
 let ogImage = "../static/blueH.png";
 let description = "The premier hackathon of the south.";
