@@ -34,7 +34,7 @@ import {billLines, billTitle} from "../content/aboutBill";
 // Set global body styling.
 injectGlobal`
   * { box-sizing: border-box; }
-  body { max-width: 88%; margin: auto; color: #fff; margin-bottom: 2%;}
+  body { max-width: 90%; margin: auto; color: #fff; margin-bottom: 2%;}
 `;
 
 // Variables for <head>
@@ -68,11 +68,7 @@ const Home = () => (
       rightSide={<IntroText intro={intro} bullets={bullets}/>}
     />
     {/* <CardNav cards={cards} /> */}
-<<<<<<< HEAD
-    <About lines={aboutLines} title={aboutTitle}/>
-=======
     <About lines={aboutLines} title={aboutTitle} />
->>>>>>> 2c7cd4e67cf96c5945fee59512e22372bed81db6
     <Covid lines={covidLines} title={covidTitle} />
     <BLM lines={blmLines} title={blmTitle} />
     <Sponsorship bullets={sponsorlinks} title={sponsorshipTitle} />
