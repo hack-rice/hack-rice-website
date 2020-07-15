@@ -64,9 +64,9 @@ const Home = () => (
     <CenterImage pathToImage="../static/hr.png" />
     <IntroText intro={intro} bullets={bullets} />
     {/* <CardNav cards={cards} /> */}
+    <About lines={aboutLines} title={aboutTitle} />
     <Covid lines={covidLines} title={covidTitle} />
     <BLM lines={blmLines} title={blmTitle} />
-    <About lines={aboutLines} title={aboutTitle} />
     <Sponsorship bullets={sponsorlinks} title={sponsorshipTitle} />
     {/* <Calendar/> */}
     {/* <Tracks/> */}
