@@ -72,7 +72,7 @@ export default class Questions extends React.Component {
         <Flex mt={4} justifyContent="center">
           <h2 className="title">{this.props.title}</h2>
         </Flex>
-        <Flex flexDirection="row" flexWrap="wrap" mt={2} mb={5} pt={2}>
+        <Flex flexDirection="row" flexWrap="wrap" mt={2} mb={5} px={["2%","5%","7%","9%","11%"]}>
           {cols}
         </Flex>
         <style jsx>

@@ -9,7 +9,7 @@ import { Box } from "rebass";
  */
 const IntroText = props => (
   <Box>
-   <Box width="auto" px={2} mx={2}>
+   <Box px={2} mx={2}>
       <h1 className="introText">{props.intro}</h1>
       {props.bullets.map(({ key, href, button, note, icon }) => (
         <div key={key} className="introItem">

@@ -11,7 +11,7 @@ import React from "react";
  * @constructor
  */
 const SponsorInfo = props => (
-  <Box>
+  <Box px={["2%","5%","7%","9%","11%"]}>
    <Box width="auto" px={2} mx={2} mt={4}>
       <h1 className="SponsorSection">{props.title}</h1>
       {props.bullets.map(({ key, href, button, note, icon }) => (

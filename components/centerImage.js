@@ -14,20 +14,20 @@ const CenterImage = props => (
       css={{
         marginLeft: "auto",
         marginRight: "auto",
-        marginTop: "10%",
-        marginBottom: "10%",
-        width: "25%"
+        // marginTop: "10%",
+        // marginBottom: "10%",
+        // width: "25%"
       }}
     />
 
-    <style jsx>{`
+    {/* <style jsx>{`
       @media (max-width: 575px) {
         .note {
           display: block;
           margin-top: 1em;
         }
       }
-    `}</style>
+    `}</style> */}
   </Box>
 );
 

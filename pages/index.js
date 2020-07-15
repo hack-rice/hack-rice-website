@@ -18,6 +18,7 @@ import Calendar from "../components/calendar";
 import Sponsors from "../components/sponsors";
 import Tracks from "../components/tracks";
 import Prizes from "../components/prizes"
+import HorizontalSplit from "../components/horizontalsplit";
 
 // import necessary contents
 import { title as aboutTitle, lines as aboutLines} from "../content/about";
@@ -33,7 +34,7 @@ import {billLines, billTitle} from "../content/aboutBill";
 // Set global body styling.
 injectGlobal`
   * { box-sizing: border-box; }
-  body { max-width: 900px; margin: auto; color: #fff; margin-bottom: 2%;}
+  body { max-width: 88%; margin: auto; color: #fff; margin-bottom: 2%;}
 `;
 
 // Variables for <head>
@@ -50,6 +51,7 @@ let description = "The premier hackathon of the south.";
  * @returns {React.Component}
  * @constructor
  */
+
 const Home = () => (
   <Provider
     theme={{
@@ -61,12 +63,14 @@ const Home = () => (
   >
     <Head title={title} description={description} url={url} ogImage={ogImage} />
     <Mlh />
-    <CenterImage pathToImage="../static/hr.png" />
-    <IntroText intro={intro} bullets={bullets} />
+    <HorizontalSplit
+      leftSide={<CenterImage pathToImage="../static/hr.png"/>}
+      rightSide={<IntroText intro={intro} bullets={bullets}/>}
+    />
     {/* <CardNav cards={cards} /> */}
+    <About lines={aboutLines} title={aboutTitle}/>
     <Covid lines={covidLines} title={covidTitle} />
     <BLM lines={blmLines} title={blmTitle} />
-    <About lines={aboutLines} title={aboutTitle} />
     <Sponsorship bullets={sponsorlinks} title={sponsorshipTitle} />
     {/* <Calendar/> */}
     {/* <Tracks/> */}

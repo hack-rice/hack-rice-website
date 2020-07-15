@@ -13,8 +13,8 @@ import colors from "../styles/colors.json";
 
 const Calendar = () => (
   <Element name="calendar">
-    <Box bg={"#F4FEFC"} color={colors["base"]}>
-      <Box mx={4} px={3} pt={4}>
+    <Box bg={"#ffffff"} color={colors["base"]}>
+      <Box mx={4} px={3} pt={4} mt={4}>
         <h2 className="title">{title}</h2>
       </Box>
       <Flex my={1} pb={4} mx={4} flexWrap="wrap">
@@ -126,7 +126,7 @@ const Calendar = () => (
           font-size: 0.8em;
           font-weight: 400;
           font-family: "Overpass Mono";
-          background: #DEF7F2;
+          background: #cccbd2;
           padding: 2px 5px;
           color: ${colors["dark"]};
         }

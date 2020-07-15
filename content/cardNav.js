@@ -13,20 +13,20 @@ export const cards = [
     icon: "https://icon.now.sh/compose/ffffff",
     title: "Rice Registration",
     href: "https://forms.gle/wLN8cmDXp9nnJ18q6",
-    text: "Are you a Rice student? Register for HackRice 9 →"
+    text: "Are you a Rice student? Register for HackRice X →"
   },
   {
     icon: "https://icon.now.sh/external/ffffff",
     title: "(Non-Rice) Portal",
-    href: "https://hr9-registration.herokuapp.com",
+    href: "https://hrx-registration.herokuapp.com",
     text: "Registration has closed for students outside Rice! Visit our registration portal →"
   },
-  {
-    icon: "https://icon.now.sh/people/ffffff",
-    title: "Help-Q",
-    href: "https://hackrice-helpq.herokuapp.com/",
-    text: "Get help from a mentor →"
-  },
+  // {
+  //   icon: "https://icon.now.sh/people/ffffff",
+  //   title: "Help-Q",
+  //   href: "https://hackrice-helpq.herokuapp.com/",
+  //   text: "Get help from a mentor →"
+  // },
   // {
   //   icon: "https://icon.now.sh/attach_money/ffffff",
   //   title: "Sponsor",
@@ -69,18 +69,18 @@ export const cards = [
     href: "https://join.slack.com/t/hackrice9/shared_invite/enQtNzUwMjg3MzAyMjQ2LWExOGI4YjQ0NTk3ZWMzZThiNzczMTgxMTAxYjhiMTkzYTVlZWQ5ODU2NDllM2YyNmM5NGYzZmZlODYyZmJkOGY",
     text: "Want to stay connected with the event? Join our Slack channel →"
   },
-  {
-    icon: "https://icon.now.sh/lightbulb_outline/ffffff",
-    title: "Forum",
-    href: "https://rice-forum.herokuapp.com",
-    text: "Have an awesome hackathon idea? Share it on Forum →"
-  },
-  {
-    icon: "https://icon.now.sh/accessibility/ffffff",
-    title: "Find a Team",
-    href: "https://crowdforge.io/hackathons/hackrice9",
-    text: "Looking for a team to hack with? Click here →"
-  },
+  // {
+  //   icon: "https://icon.now.sh/lightbulb_outline/ffffff",
+  //   title: "Forum",
+  //   href: "https://rice-forum.herokuapp.com",
+  //   text: "Have an awesome hackathon idea? Share it on Forum →"
+  // },
+  // {
+  //   icon: "https://icon.now.sh/accessibility/ffffff",
+  //   title: "Find a Team",
+  //   href: "https://crowdforge.io/hackathons/hackrice9",
+  //   text: "Looking for a team to hack with? Click here →"
+  // },
   {
     icon: "https://icon.now.sh/help_outline/ffffff",
     title: "Need help?",

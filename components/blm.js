@@ -13,7 +13,7 @@ import React from "react";
  */
 const BLM = props => (
   <Element name="blm" style={{ overflowX: "hidden" }}>
-    <Flex mx={2} mt={4} flexWrap="wrap">
+    <Flex mx={2} mt={4} flexWrap="wrap" px={["2%","5%","7%","9%","11%"]}>
       <Box width={1} mx={2}>
         <h2 className="title">{props.title}</h2>
       </Box>
