@@ -14,11 +14,6 @@ export const questions = [
     answer:
       "The event is held from Friday, September 18th to Sunday, September 20th. Students hack for 36 hours. Stay tuned for more info."
   },
-  // {
-  //   question: "How many hackers attend HackRice? Where are they from?",
-  //   answer:
-  //     "We expect around 400 hackers from schools around the country, including (but not limited to) UT Austin, Berkeley, USC, University of Waterloo, Georgia Tech, University of Washington, and many more."
-  // },
   {
     question: "How many hackers attend HackRice? Where are they from?",
     answer:
@@ -56,50 +51,21 @@ export const questions = [
       </>
     )
   },
-  // {
-  //   question: "Will my travel be reimbursed?",
-  //   answer: "Yes! Check your acceptance email for more details. Please note that reimbursement will be given on a first come, first serve basis for applicants accepted on or after August 18. For those applicants, reimbursement is not guaranteed."
-  // },
-  // {
-  //   question: "Will there be food?",
-  //   answer:
-  //     "Yes! We will provide catered meals during the day along with snacks and free caffeine through the night to keep you going."
-  // },
-  // {
-  //   question: "What are the acceptance criteria?",
-  //   answer:
-  //     "Rice students, alumni, and University of Houston undergraduates are guaranteed acceptance. For Non-Rice students, we ask for some background information so that we can invite people who have demonstrated interest and skill. The admission process will be competitive and rolling! We also will take into account people who have never been to a hackathon before, so please apply!"
-  // },
   {
     question: "What are the acceptance criteria?",
     answer:
       "All Rice students are guaranteed acceptance. For Non-Rice students, we ask for some background information so that we can invite people who have demonstrated interest and skill. Above all else, we're looking for passion and excitement!"
   },
-  // {
-  //   question: "What do I need to bring?",
-  //   answer:
-  //     "Please bring a student and legal ID so we can verify and register you on-site! You'll also need to bring a computer, whatever software you feel might be necessary for development, a sleeping bag, and a pillow. We also recommend that you bring power strips for convenience. Teammates are free to share equipment with each other."
-  // },
   {
     question: "What do I need to participate?",
     answer:
       "Please ensure that you have a reliable wifi connection and a webcam to record your pitch and presentation for judging. You will also need a computer and whatever software you feel might be necessary for development. We want everyone to have fun and get the most out HackRice, so please reach out if you have any difficulty obtaining the resources you need!"
   },
-  // {
-  //   question: "What if I'm not very experienced?",
-  //   answer:
-  //     "We do our best to point people in the right direction and use tools and languages with a low barrier to entry. There will also be upperclassmen participating in the hackathon who can guide you in the right direction. We will also be having workshops the week before the hackathon!"
-  // },
   {
     question: "What if I'm not very experienced?",
     answer:
       "We do our best to point people in the right direction and use tools and languages with a low barrier to entry. You will have access to our mentors and the HackRice team at all times! We will also be having workshops the week before the hackathon!"
   },
-  // {
-  //   question: "Can Rice alumni attend?",
-  //   answer:
-  //     "Rice alumni are eligible to attend the event to hack or mentor other students, but alumni submissions will not be eligible for prizes. We will not be able to reimburse alumni for travel."
-  // },
   {
     question: "Can Rice alumni attend?",
     answer:
@@ -110,11 +76,6 @@ export const questions = [
     answer:
       "You don't have to form a team before the event, or at all. At the start of the event, we will provide plenty of time to break out and form a new one if you choose to."
   },
-  // {
-  //   question: "Do I need to stay the whole time?",
-  //   answer:
-  //     "Nope, we are not a lock-in. We realize that 36 hours is a long time, and that some people might need fresh air or to tend to other commitments. You may leave and go as you deem necessary, though we prefer you to stay!"
-  // },
   {
     question: "How can I stay connected in a virtual hackathon?",
     answer:

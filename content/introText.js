@@ -44,13 +44,6 @@ export const bullets = [
     href: "https://maps.google.com/",
     note: "participate from anywhere and everywhere"
   }
-
-  // {
-  //   icon: "https://icon.now.sh/wb_sunny/ffffff",
-  //   button: "held @ rice memorial center",
-  //   href: "https://goo.gl/maps/mnRG8hDRQj52",
-  //   note: "on our majestic campus in houston"
-  // }
   
 ].map(bullet => {
   bullet.key = `bullet-${bullet.button}`;
