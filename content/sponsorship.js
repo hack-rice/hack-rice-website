@@ -11,7 +11,8 @@ export const title = "Interested in Sponsoring?";
  */
 export const bullets = [
     {
-      icon: "https://icon.now.sh/email/ffffff",
+      // icon: "https://icon.now.sh/email/ffffff",
+      icon: "mail.svg",
       button: "Email us",
       href: "mailto:hack@rice.edu",
       note: "for more information!",

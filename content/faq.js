@@ -12,7 +12,7 @@ export const questions = [
   {
     question: "How long is HackRice?",
     answer:
-      "The event is held from Friday, September 18th to Sunday, September 20th. Students hack for 36 hours. Stay tuned for more info."
+      "The event is held from Friday, September 18th to Sunday, September 20th. Students hack for 36 hours!"
   },
   {
     question: "How many hackers attend HackRice? Where are they from?",
@@ -40,7 +40,7 @@ export const questions = [
     question: "Who is eligible to participate in HackRice?",
     answer: (
       <>
-        Any current student over the age of 18 is eligible to apply to HackRice.
+        As a virtual event this year, we are excited to open up HackRice X to a larger and more diverse pool of hackers! Any current student over the age of 15 is eligible to apply to HackRice.
         Since we are an MLH member event, participants must also accept the{" "}
         <a
           className="styledlink"

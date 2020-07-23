@@ -24,14 +24,16 @@ export const bullets = [
   // },
 
   {
-    icon: "https://icon.now.sh/compose/ffffff",
+    // icon: "https://icon.now.sh/compose/ffffff",
+    icon: "apply.svg",
     button: "Apply here",
     href: "https://hrx-registration.herokuapp.com/",
     note: "applications are now open!"
   },
 
   {
-    icon: "https://icon.now.sh/calendar/ffffff",
+    // icon: "https://icon.now.sh/calendar/ffffff",
+    icon: "date.svg",
     button: "September 18–20, 2020",
     href:
       "https://calendar.google.com/event?action=TEMPLATE&tmeid=Mm0zMTU5bHJqbzJ0b2ZxNnJ0MnJndHJqaTMgY3c3NEByaWNlLmVkdQ&tmsrc=cw74%40rice.edu",
@@ -39,7 +41,8 @@ export const bullets = [
   },
 
   {
-    icon: "https://icon.now.sh/wb_sunny/ffffff",
+    // icon: "https://icon.now.sh/wb_sunny/ffffff",
+    icon: "globe.svg",
     button: "held virtually",
     href: "https://maps.google.com/",
     note: "participate from anywhere and everywhere"

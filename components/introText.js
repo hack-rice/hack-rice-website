@@ -13,7 +13,7 @@ const IntroText = props => (
       <h1 className="introText">{props.intro}</h1>
       {props.bullets.map(({ key, href, button, note, icon }) => (
         <div key={key} className="introItem">
-          {/* <img className="icon" src={icon} /> */}
+          <img src={`../static/${icon}`} className="icon" alt="icon"/>
           <a href={href} className="styledlink">
             {button}
           </a>
@@ -42,8 +42,8 @@ const IntroText = props => (
         text-decoration: none;
         background: rgba(255, 255, 255, 0.1);
         transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
-        padding: 3px 5px;
-        margin: 3px;
+        padding: 4px 5px;
+        margin: 4px;
         text-transform: uppercase;
         font-size: 0.85em;
         font-weight: 500;
@@ -59,6 +59,10 @@ const IntroText = props => (
         font-size: 0.8em;
         font-weight: 300;
         font-family: "Overpass Mono";
+      }
+
+      .icon {
+        width: .85em;
       }
 
       .spacer {
