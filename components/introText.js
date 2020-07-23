@@ -13,7 +13,7 @@ const IntroText = props => (
       <h1 className="introText">{props.intro}</h1>
       {props.bullets.map(({ key, href, button, note, icon }) => (
         <div key={key} className="introItem">
-          <img className="icon" src={icon} />
+          {/* <img className="icon" src={icon} /> */}
           <a href={href} className="styledlink">
             {button}
           </a>

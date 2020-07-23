@@ -7,13 +7,14 @@ import { Box } from "rebass";
  * @returns {React.Component}
  * @constructor
  */
+
 const Links = props => (
   <Box>
     <div className="social">
       {props.links.map(({ key, href, icon }) => (
         <Link href={href} key={key}>
           <a>
-            <img src={icon} className="icon" alt="icon" />
+            {/* <img src={icon} className="icon" alt="icon" /> */}
           </a>
         </Link>
       ))}

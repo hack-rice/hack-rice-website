@@ -16,7 +16,7 @@ const SponsorInfo = props => (
       <h1 className="SponsorSection">{props.title}</h1>
       {props.bullets.map(({ key, href, button, note, icon }) => (
         <div key={key} className="SponsorLinks">
-          <img className="icon" src={icon} />
+          {/* <img className="icon" src={icon} /> */}
           <a href={href} className="styledlink">
             {button}
           </a>
