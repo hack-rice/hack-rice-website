@@ -19,7 +19,7 @@ import { intro, bullets } from "../content/redirectText";
 // Set global body styling.
 injectGlobal`
   * { box-sizing: border-box; }
-  body { max-width: 85vw; margin: auto; color: #fff; margin-bottom: 2%;}
+  body { max-height: 100%; margin: auto; color: #fff; margin-bottom: 2%;}
 `;
 
 // Variables for <head>
