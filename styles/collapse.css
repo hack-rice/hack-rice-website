@@ -84,3 +84,17 @@
 tr:nth-child(even) {
   background-color: rgba(204, 203, 210, 0.05);
 }
+
+.card {
+  color: #cccbd2;
+  display: inline-block;
+  font-size: .9em;
+}
+
+.styledlink {
+  color: #cccbd2;
+}
+
+.styledlink:visited {
+  color: #cccbd2;
+}

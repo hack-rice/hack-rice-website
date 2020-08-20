@@ -30,7 +30,7 @@ export const questions = [
       <>
         Yes there is! Click{" "}
         <a className="styledlink" href="https://www.facebook.com/hackrice/">
-          here
+          <b>here</b>
         </a>{" "}
         to access it!
       </>
@@ -43,11 +43,11 @@ export const questions = [
         As a virtual event this year, we are excited to open up HackRice X to a larger and more diverse pool of hackers! Any current student over the age of 15 is eligible to apply to HackRice.
         Since we are an MLH member event, participants must also accept the{" "}
         <a
-          className="styledlink"
+          className="styledlink" link="#ffffff" vlink="#ffffff" alink="#ffffff"
           href="http://static.mlh.io/docs/mlh-code-of-conduct.pdf"
         >
-          MLH Code of Conduct.
-        </a>
+          <b>MLH Code of Conduct</b>
+        </a>.
       </>
     )
   },

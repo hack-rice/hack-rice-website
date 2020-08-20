@@ -53,7 +53,7 @@ export default class Questions extends React.Component {
                 header={question}
                 headerClass="faqCardTitle"
               >
-                <p>{answer}</p>
+                <span className="card">{answer}</span>
               </Panel>
             </Collapse>
           ))}
@@ -91,8 +91,7 @@ export default class Questions extends React.Component {
               margin-left: auto;
               margin-right: auto;
               height: 40px;
-              font-family: "Overpass Mono", monospace;
-            }
+            },
           `}
         </style>
       </Element>

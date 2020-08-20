@@ -70,7 +70,7 @@ const Home = () => (
     {/* <CardNav cards={cards} /> */}
     <About lines={aboutLines} title={aboutTitle} />
     <Covid lines={covidLines} title={covidTitle} />
-    <BLM lines={blmLines} title={blmTitle} />
+    {/* <BLM lines={blmLines} title={blmTitle} /> */}
     <Sponsorship bullets={sponsorlinks} title={sponsorshipTitle} />
     {/* <Calendar/> */}
     {/* <Tracks/> */}

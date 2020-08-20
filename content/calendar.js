@@ -1,4 +1,5 @@
 export const title = "Schedule";
+export const note = "Please refer to your Hacker Handbook (emailed to you) for passwords and more details."
 
 export const dayOne = "Friday, 9/18";
 export const dayTwo = "Saturday, 9/19";
@@ -6,8 +7,9 @@ export const dayThree = "Sunday, 9/20";
 
 export const friday = [
   {
-    time: "5:00–6:55 PM CT",
+    time: "5-7 PM CT",
     title: "Check-in & Networking",
+    // href: "https://hack.rice.edu", //example
     detail: "Check in and hang out with fellow hackers and our sponsors!"
   },
   {
@@ -28,7 +30,7 @@ export const friday = [
     detail: "Start building your project!"
   },
   {
-    time: "9 PM CT",
+    time: "8:30 PM CT",
     title: "First-Timers Track Workshop",
     detail:
       "Our first workshop for the First-Timers track."
@@ -38,6 +40,12 @@ export const friday = [
     title: "Workshop 2",
     detail:
         "Description"
+  },
+  {
+    time: "11:30 PM CT",
+    title: "Late Night Snack",
+    detail:
+        "Join us with a late night snack for a fun activity with fellow hackers and a raffle!"
   }
 ].map(item => {
   item.key = `item-${item.title}`;
@@ -48,12 +56,12 @@ export const saturday = [
   {
     time: "9 AM CT",
     title: "Breakfast",
-    detail: "Hop on for a virtual breakfast and a raffle!"
+    detail: "Hop on for a virtual breakfast, mini-event, and a raffle!"
   },
   {
     time: "10 AM CT",
-    title: "Workshop",
-    detail: "Come to Farnsworth Pavilion to hear representatives from GE Healthcare talk about ..."
+    title: "Workshop 3",
+    detail: "Description"
   },
   {
     time: "12 PM CT",
@@ -61,14 +69,20 @@ export const saturday = [
     detail: "Come hear about X from Y."
   },
   {
-    time: "1 PM CT",
-    title: "Workshop",
-    detail: "Description"
+    time: "2:30 PM CT",
+    title: "Google Tech Talk",
+    detail: "Come join us for a live tech talk by Google engineers, Ryan Matsumoto and Andrea Wu!"
   },
   {
     time: "7:30 PM CT",
     title: "Dinner",
-    detail: "Description."
+    detail: "Eat dinner together virtually and participate in an activity and raffle!"
+  },
+  {
+    time: "11:30 PM CT",
+    title: "Late Night Snack",
+    detail:
+        "Another late night snacking session, plus a mini-event and a raffle!"
   }
 ].map(item => {
   item.key = `item-${item.detail}`;
@@ -87,7 +101,12 @@ export const sunday = [
     detail: "Judging commences!"
   },
   {
-    time: "11 AM",
+    time: "10:00 AM",
+    title: "Guest Speaker",
+    detail: "While our judges are busying reviewing submissions, tune in for our guest speaker, Dr. Greg Davis, principal technologist at NASA-JPL!"
+  },
+  {
+    time: "11:45 AM",
     title: "Brunch",
     detail: "Get some yummy food and tune in for our final raffle!"
   },

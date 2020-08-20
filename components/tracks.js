@@ -6,11 +6,11 @@ import { Element } from "react-scroll";
 
 const Tracks = () => (
     <Element name="tracks">
-        <Box px={3} pt={4} pb={4} bg={colors["base"]} color={colors["gray"][1]}>
-            <Box mx={1} mt={4}>
+        <Box pt={4} mt={4} pb={4} bg={colors["base"]} color={colors["gray"][1]}>
+            <Box mt={4}>
                 <h2 className="title">{title}</h2>
             </Box>
-            <Flex flexWrap="wrap" mx={-2} pt={2}>
+            <Flex flexWrap="wrap">
                 {cards.map(
                     ({ key, href, title, type, text, icon }) =>
                         href !== undefined ? (
@@ -52,7 +52,7 @@ const Tracks = () => (
           color: ${colors["white"]};
           border: 1px solid rgba(255, 255, 255, 0.2);
           padding: 2px 10px;
-          margin: unset;
+          // margin: unset;
           font-family: "Overpass Mono", monospace;
           box-sizing: content-box;
         }
@@ -61,8 +61,10 @@ const Tracks = () => (
           border: 1px solid rgba(255, 255, 255, 0.2);
           color: ${colors["gray"][1]};
           font-family: "Overpass Mono", monospace;
-          margin: 10px;
+          margin-bottom: 10px;
+          margin-top: 10px;
           min-height: 110px !important;
+          min-width: 100%;
           padding: 18px 18px 18px;
           text-align: left;
           text-decoration: none;
@@ -110,6 +112,15 @@ const Tracks = () => (
           box-sizing: content-box;
           text-transform: uppercase;
         }
+        
+        .styledlink {
+          color: #ffffff;
+        }
+
+        .styledlink:visited {
+          color: #ffffff;
+        }
+
       `}</style>
         </Box>
     </Element>

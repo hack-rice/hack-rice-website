@@ -1,4 +1,5 @@
 export const title = 'Prizes';
+export const note = 'Each winning team member will receive the prize.';
 
 export const places = [
     {
@@ -27,8 +28,8 @@ export const trackWinners = [
         prize: "BOSE Sunglasses"
     },
     {
-        place: "Ethics Track",
-        prize: "Expensive Dinner with Luay"
+        place: "x Track",
+        prize: "x"
     },
     {
         place: "Design Track",
