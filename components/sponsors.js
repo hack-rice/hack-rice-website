@@ -25,7 +25,6 @@ const Sponsors = () => (
     flexWrap="wrap"
     width={1}
     mb={4}
-    // css={{ background: colors['base'] }}
     css={{ background: colors['base'] }}
   >
     <Flex
@@ -34,7 +33,7 @@ const Sponsors = () => (
       justifyContent="space-around"
       alignItems="center"
       width={1}
-      mx={5}
+      mx={3}
       my={3}
     >
       <h2 className="title">{title}</h2>
