@@ -1,4 +1,4 @@
-export const title = "Generously Sponsored by:";
+export const title = "Sponsored by:";
 
 export const files = [
   {
