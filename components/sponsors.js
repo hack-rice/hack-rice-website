@@ -34,7 +34,6 @@ const Sponsors = () => (
       alignItems="center"
       width={1}
       mx={3}
-      my={3}
     >
       <h2 className="title">{title}</h2>
       {files.map(
