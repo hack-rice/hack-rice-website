@@ -25,6 +25,7 @@ const Sponsors = () => (
     flexWrap="wrap"
     width={1}
     mb={4}
+    // css={{ background: colors['base'] }}
     css={{ background: colors['base'] }}
   >
     <Flex

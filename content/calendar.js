@@ -65,8 +65,8 @@ export const saturday = [
   },
   {
     time: "12 PM CT",
-    title: "Lunch and Speaker",
-    detail: "Come hear about X from Y."
+    title: "Lunch and Panel",
+    detail: "Grab lunch and tune in for our Diversity in Tech panel! Our panelists will share and discuss their experiences, advice, and more!"
   },
   {
     time: "2:30 PM CT",
@@ -103,26 +103,26 @@ export const sunday = [
   {
     time: "10:00 AM",
     title: "Guest Speaker",
-    detail: "While our judges are busying reviewing submissions, tune in for our guest speaker, Dr. Greg Davis, principal technologist at NASA-JPL!"
+    detail: "While our judges are busying reviewing submissions, join us for our guest speaker, Dr. Greg Davis, principal technologist at NASA-JPL!"
   },
   {
     time: "11:45 AM",
-    title: "Brunch",
-    detail: "Get some yummy food and tune in for our final raffle!"
+    title: "Raffle and Top 5 Teams",
+    detail: "Don't miss our final raffle, and we'll also be announcing the top 5 finalists!"
   },
   {
-    time: "11:30 AM",
+    time: "12:00 PM",
     title: "Finalists Judging",
-    detail: "The top 5 projects will present live!"
+    detail: "The top 5 projects will present and demo live!"
   },
   {
-    time: "1 PM",
+    time: "1:15 PM",
     title: "Closing Ceremony",
     detail: "Winners will be announced and prizes awarded"
   },
   {
     time: "2 PM",
-    title: "Finale!",
+    title: "End!",
     detail: "Hope you had a wonderful event, and we look forward to HackRice 11 :)"
   }
 ].map(item => {
