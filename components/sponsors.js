@@ -68,7 +68,7 @@ const Sponsors = () => (
           background: ${colors["white"]};
           padding: 2px 10px;
           margin: unset;
-          height: 40px;
+          height: auto;
           font-family: "Overpass Mono", monospace;
         }
       `}
