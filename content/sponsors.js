@@ -57,9 +57,15 @@ export const files = [
   },
   {
     name: "echoar.png",
-    height: "20px",
+    height: "30px",
     link: "https://www.echoar.xyz/"
   },
+  {
+    name: "gatherly.png",
+    height: "40px",
+    link: "https://www.gatherly.io/"
+  },
+  
 
 ].map(item => {
   item.key = `image-${item.name}`;
