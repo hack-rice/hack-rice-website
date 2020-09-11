@@ -55,6 +55,11 @@ export const files = [
     height: "40px",
     link: "https://mlh.io/"
   },
+  {
+    name: "echoar.png",
+    height: "20px",
+    link: "https://www.echoar.xyz/"
+  },
 
 ].map(item => {
   item.key = `image-${item.name}`;
