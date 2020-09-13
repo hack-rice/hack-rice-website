@@ -6,30 +6,21 @@ export const cards = [
         type: "track",
         title: "First Timers' Track",
         href: "https://github.com/hack-rice/HR9-First-Timers-Track",
-        text: "We live in a society where everything is customized, from your phone case to your coffee order. So why shouldn't your browser be too? Chrome extensions allow you to craft and tailor your ideal browsing experience in a few short lines of code. In this track, you'll build a Chrome extension from scratch using HTML/CSS and JavaScript."
+        text: "Websites and webpages are the building blocks of the internet and currently, there exists a website for almost any entity in existence, so in light of recent events, our challenge for you is to create one to support social justice! In this track, your goal is to create a website/webpage related to social justice, we’ll leave the specifics of the purpose to your desire."
     },
     {
         // icon: "https://icon.now.sh/user/ffffff",
         type: "track",
-        title: "Ethics Track",
+        title: "Biomedical Track",
         href: "https://github.com/hack-rice/HR9-Ethics-Track",
-        text: "Computing and technology are neutral for the most part. They can be used to enhance the best aspects of human nature (such as empathy, creativity, and generosity), or they can allow the worst aspects of it (such as prejudice, selfishness, and irrational thinking) to flourish and cause harm. Incorporating ethics into design and coding involves trying to anticipate all the ways – positive and negative – humans may use and interact with tech. While it’s difficult to exert complete control over human users, tech can be designed to promote particular behavior and outcomes."
+        text: "This track is an opportunity to work at the interface between computer science and medicine. People with healthcare interests and backgrounds can use computation and technology to strategize and find creative solutions to health-related problems on a global scale. Tech can be designed to handle large data sets, extrapolate outcomes, and promote good behaviors."
     },
     {
         // icon: "https://icon.now.sh/border_color/ffffff",
         type: "track",
-        title: "Design Track",
+        title: "Finance Track",
         href: "https://github.com/hack-rice/HR9-Design-Track",
-        text: (
-            <p>
-                Based off the CSS Zen Garden, this track aims to show you the power of HTML and CSS.
-                <br />
-                <br />
-                CSS stands for Cascading Style Sheets with an emphasis placed on “Style.” While HTML is used to structure a web document (defining things like headlines and paragraphs, and allowing you to embed images, video, and other media), CSS comes through and specifies your document’s style—page layouts, colors, and fonts are all determined with CSS. (<a className="styledlink" href="https://skillcrush.com/2012/04/03/css/">source</a>)
-                <br />
-                <br />
-                "Although there are new tools and technologies to help with frontend design, we want to focus our attention back on the basics. CSS is a powerful and often overlooked tool, and with this design track, we hope you will learn something new about CSS.")
-            </p>)
+        text: "In the midst of the coronavirus pandemic, economies around the globe have been significantly impacted: from plummeting stocks to businesses shutting down and record high unemployment rates in some places. Many aspects of the economy have become more reliant on technology throughout the years, but the spread of COVID-19 has expedited this process."
     },
     {
         // icon: "https://icon.now.sh/timeline/ffffff",

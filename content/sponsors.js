@@ -22,6 +22,11 @@ export const files = [
     height: "55px",
     link: "https://energytransfer.com"
   },
+    {
+    name: "nov.png",
+    height: "35px",
+    link: "https://www.nov.com/"
+  },
   {
     name: "vedo.png",
     height: "50px",
@@ -103,11 +108,7 @@ export const files = [
   //   height: "55px",
   //   link: "https://www.foreflight.com/"
   // },
-  // {
-  //   name: "nov.png",
-  //   height: "30px",
-  //   link: "https://www.nov.com/"
-  // },
+
   // {
   //   name: "capital.svg",
   //   height: "35px",
