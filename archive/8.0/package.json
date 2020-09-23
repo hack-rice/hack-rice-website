@@ -26,14 +26,14 @@
     "babel-plugin-wrap-in-js": "^1.1.0",
     "font-awesome": "^4.7.0",
     "glob": "^7.1.2",
-    "next": "latest",
+    "next": "7.0.0",
     "node-sass": "^4.4.0",
     "postcss-easy-import": "^3.0.0",
     "postcss-loader": "^2.0.7",
     "raw-loader": "^0.5.1",
-    "react": "^16.4.1",
+    "react": "^16.5.0",
     "react-accessible-accordion": "^2.4.3",
-    "react-dom": "^16.4.1",
+    "react-dom": "^16.5.0",
     "react-grid-gallery": "^0.5.1",
     "sass-loader": "^6.0.6"
   }
