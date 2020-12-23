@@ -24,7 +24,7 @@ export const links = [
       icon: "medium.svg"
     },
     {
-      href: "https://twitter.com/hackingrice",
+      href: "https://twitter.com/_hackrice",
       label: "Twitter",
       // icon: "https://icon.now.sh/twitter/cccbd2"
       icon: "twitter.svg"

@@ -2,7 +2,7 @@
  * The text that appears at the top of the hackrice web page.
  * @type {string}
  */
-export const intro = "HackRice X";
+export const intro = "HackRice XI";
 
 /**
  * A list of bullet points that introduce the event.
@@ -16,36 +16,45 @@ export const bullets = [
   //   note: "view the slides from the opening ceremony!"
   // },
 
-  // {
-  //   icon: "https://icon.now.sh/compose/ffffff",
-  //   button: "Sign up for updates",
-  //   href: "https://forms.gle/ggfHhPSYHVD3WEFT8",
-  //   note: "We'll let you know when applications are open!"
-  // },
-
   {
     // icon: "https://icon.now.sh/compose/ffffff",
     icon: "apply.svg",
-    button: "Apply here",
-    href: "https://hrx-registration.herokuapp.com/",
-    note: "applications are now open!"
+    button: "Sign up for updates",
+    href: "https://forms.gle/8uYM5HrT9Ydcpu1ZA",
+    note: "We'll let you know when applications are open!"
   },
+
+  // {
+  //   // icon: "https://icon.now.sh/compose/ffffff",
+  //   icon: "apply.svg",
+  //   button: "Apply here",
+  //   href: "https://hrx-registration.herokuapp.com/",
+  //   note: "applications are now open!"
+  // },
 
   {
     // icon: "https://icon.now.sh/calendar/ffffff",
     icon: "date.svg",
-    button: "September 18–20, 2020",
-    href:
-      "https://calendar.google.com/event?action=TEMPLATE&tmeid=Mm0zMTU5bHJqbzJ0b2ZxNnJ0MnJndHJqaTMgY3c3NEByaWNlLmVkdQ&tmsrc=cw74%40rice.edu",
+    button: "Fall 2021, TBD",
+    href: "https://hack.rice.edu",
+      // "https://calendar.google.com/event?action=TEMPLATE&tmeid=Mm0zMTU5bHJqbzJ0b2ZxNnJ0MnJndHJqaTMgY3c3NEByaWNlLmVkdQ&tmsrc=cw74%40rice.edu",
     note: "36 hours of non-stop building"
   },
+
+  // {
+  //   // icon: "https://icon.now.sh/wb_sunny/ffffff",
+  //   icon: "globe.svg",
+  //   button: "held virtually",
+  //   href: "https://maps.google.com/",
+  //   note: "participate from anywhere and everywhere"
+  // }
 
   {
     // icon: "https://icon.now.sh/wb_sunny/ffffff",
     icon: "globe.svg",
-    button: "held virtually",
-    href: "https://maps.google.com/",
-    note: "participate from anywhere and everywhere"
+    button: "held @ rice memorial center",
+    href: "https://goo.gl/maps/mnRG8hDRQj52",
+    note: "on our majestic campus in houston (hopefully!)"
   }
   
 ].map(bullet => {

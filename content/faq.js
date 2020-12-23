@@ -40,7 +40,8 @@ export const questions = [
     question: "Who is eligible to participate in HackRice?",
     answer: (
       <>
-        As a virtual event this year, we are excited to open up HackRice X to a larger and more diverse pool of hackers! Any current student over the age of 15 is eligible to apply to HackRice.
+        {/* As a virtual event this year, we are excited to open up HackRice X to a larger and more diverse pool of hackers! Any current student over the age of 15 is eligible to apply to HackRice. */}
+        Any current student over the age of 18 is eligible to apply to HackRice.
         Since we are an MLH member event, participants must also accept the{" "}
         <a
           className="styledlink" link="#ffffff" vlink="#ffffff" alink="#ffffff"
@@ -56,10 +57,24 @@ export const questions = [
     answer:
       "All Rice students are guaranteed acceptance. For Non-Rice students, we ask for some background information so that we can invite people who have demonstrated interest and skill. Above all else, we're looking for passion and excitement!"
   },
+  // {
+  //   question: "What do I need to participate?",
+  //   answer:
+  //     "Please ensure that you have a reliable wifi connection and a webcam to record your pitch and presentation for judging. You will also need a computer and whatever software you feel might be necessary for development. We want everyone to have fun and get the most out HackRice, so please reach out if you have any difficulty obtaining the resources you need!"
+  // },
   {
-    question: "What do I need to participate?",
+    question: "Will my travel be reimbursed?",
+    answer: "Yes! Check your acceptance email for more details. Please note that reimbursement will be given on a first come, first serve basis for applicants accepted on or after August 18. For those applicants, reimbursement is not guaranteed."
+  },
+  {
+    question: "Will there be food?",
     answer:
-      "Please ensure that you have a reliable wifi connection and a webcam to record your pitch and presentation for judging. You will also need a computer and whatever software you feel might be necessary for development. We want everyone to have fun and get the most out HackRice, so please reach out if you have any difficulty obtaining the resources you need!"
+      "Yes! We will provide catered meals during the day along with snacks and free caffeine through the night to keep you going."
+  },
+  {
+    question: "What do I need to bring?",
+    answer:
+      "Please bring a student and legal ID so we can verify and register you on-site! You'll also need to bring a computer, whatever software you feel might be necessary for development, a sleeping bag, and a pillow. We also recommend that you bring power strips for convenience. Teammates are free to share equipment with each other."
   },
   {
     question: "What if I'm not very experienced?",
@@ -75,16 +90,16 @@ export const questions = [
     question: "What if I don't have a team before the event?",
     answer:
       "You don't have to form a team before the event, or at all. At the start of the event, we will provide plenty of time to break out and form a new one if you choose to."
-  },
-  {
-    question: "How can I stay connected in a virtual hackathon?",
-    answer:
-      "We will have a dedicated Zoom for activities and socializing throughout the event, as well as Slack and Discord channels. The HackRice team is also working hard to prepare lots of fun events, workshops, raffles, and so on!"
-  },
-  {
-    question: "When does the event start? When will it end?",
-    answer: "Opening ceremonies will start at 7pm on September 18, and the event should be completely finished by 3pm on September 20."
   }
+  // {
+  //   question: "How can I stay connected in a virtual hackathon?",
+  //   answer:
+  //     "We will have a dedicated Zoom for activities and socializing throughout the event, as well as Slack and Discord channels. The HackRice team is also working hard to prepare lots of fun events, workshops, raffles, and so on!"
+  // },
+  // {
+  //   question: "When does the event start? When will it end?",
+  //   answer: "Opening ceremonies will start at 7pm on September 18, and the event should be completely finished by 3pm on September 20."
+  // }
 ].map(item => {
   item.key = `faq-${item.question}`;
   return item;
