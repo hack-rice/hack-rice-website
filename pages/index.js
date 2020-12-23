@@ -38,7 +38,7 @@ injectGlobal`
 `;
 
 // Variables for <head>
-let title = "HackRice X";
+let title = "HackRice XI";
 let url = "https://hack.rice.edu";
 let ogImage = "../static/hr.png";
 let description = "The premier hackathon of the south.";
