@@ -35,7 +35,7 @@ export const bullets = [
   {
     // icon: "https://icon.now.sh/calendar/ffffff",
     icon: "date.svg",
-    button: "Fall 2021, TBD",
+    button: "Sep 17-19, 2021",
     href: "https://hack.rice.edu",
       // "https://calendar.google.com/event?action=TEMPLATE&tmeid=Mm0zMTU5bHJqbzJ0b2ZxNnJ0MnJndHJqaTMgY3c3NEByaWNlLmVkdQ&tmsrc=cw74%40rice.edu",
     note: "36 hours of non-stop building"
