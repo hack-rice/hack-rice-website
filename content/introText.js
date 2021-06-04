@@ -19,9 +19,9 @@ export const bullets = [
   {
     // icon: "https://icon.now.sh/compose/ffffff",
     icon: "apply.svg",
-    button: "Sign up for updates",
+    button: "Application for non-rice students",
     href: "https://forms.gle/8uYM5HrT9Ydcpu1ZA",
-    note: "We'll let you know when applications are open!"
+    note: "Registration for rice students will be open soon!"
   },
 
   // {
@@ -56,7 +56,7 @@ export const bullets = [
     href: "https://goo.gl/maps/mnRG8hDRQj52",
     note: "on our majestic campus in houston (hopefully!)"
   }
-  
+
 ].map(bullet => {
   bullet.key = `bullet-${bullet.button}`;
   return bullet;
