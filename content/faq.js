@@ -64,7 +64,7 @@ export const questions = [
   // },
   {
     question: "Will my travel be reimbursed?",
-    answer: "Yes! Check your acceptance email for more details. Please note that reimbursement will be given on a first come, first serve basis for applicants accepted on or after August 18. For those applicants, reimbursement is not guaranteed."
+    answer: "Yes! We will discount or reimburse hacker travel expenses on a rolling basis to select candidates."
   },
   {
     question: "Will there be food?",
