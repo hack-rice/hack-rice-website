@@ -1,4 +1,4 @@
-export const title = "Generously Sponsored by:";
+export const title = "Previously Sponsored by:";
 
 export const files = [
   {
@@ -44,7 +44,7 @@ export const files = [
     link: "https://www.cognite.com/",
     // blurb: "Cognite is a global software company supporting the full-scale digital transformation of heavy-asset industries around the world. With Cognite Data Fusion (CDF), we supply contextualized data to drive industrial applications that increase safety and efficiency and drive revenue. We are currently around 250 employees spread on offices in Oslo, Norway (HQ), US (Austin and Houston), Austria and New Zealand. We're always looking for new talent to join our team, and offer both year-round internships and graduate positions within software engineering, design, 3D, project management, customer success, solution architecture and many more!"
   },
-  
+
   {
     name: "ricecs.png",
     height: "80px",
@@ -70,7 +70,7 @@ export const files = [
     height: "40px",
     link: "https://www.gatherly.io/"
   },
-  
+
 
 ].map(item => {
   item.key = `image-${item.name}`;
