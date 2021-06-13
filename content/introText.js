@@ -20,7 +20,7 @@ export const bullets = [
     // icon: "https://icon.now.sh/compose/ffffff",
     icon: "apply.svg",
     button: "Application for non-rice students",
-    href: "https://forms.gle/8uYM5HrT9Ydcpu1ZA",
+    href: "https://forms.gle/wVypozYYJgcEXgci8",
     note: "Registration for rice students will be open soon!"
   },
 
