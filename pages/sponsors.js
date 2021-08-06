@@ -27,7 +27,7 @@ let title = "HackRice 11";
 let url = "https://hack.rice.edu";
 let ogImage = "../static/hr11.png";
 let description = "The premier hackathon of the south.";
-let addMeta = <meta httpEquiv="refresh" content="0; URL='../static/sponsorPacket.pdf'" />;
+let addMeta = <meta title="HackRice 11" httpEquiv="refresh" content="0; URL='../static/sponsorPacket.pdf'" />;
 
 /**
  * This is most of the web page that will appear while the user is being
