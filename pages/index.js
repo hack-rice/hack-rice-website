@@ -40,7 +40,7 @@ injectGlobal`
 // Variables for <head>
 let title = "HackRice XI";
 let url = "https://hack.rice.edu";
-let ogImage = "../static/hr.png";
+let ogImage = "../static/hr11.jpg";
 let description = "The premier hackathon of the south.";
 
 /**
@@ -64,7 +64,7 @@ const Home = () => (
     <Head title={title} description={description} url={url} ogImage={ogImage} />
     <Mlh />
     <HorizontalSplit
-      leftSide={<CenterImage pathToImage="../static/hr.png"/>}
+      leftSide={<CenterImage pathToImage="../static/hr11.jpg"/>}
       rightSide={<IntroText intro={intro} bullets={bullets}/>}
     />
     {/* <CardNav cards={cards} /> */}

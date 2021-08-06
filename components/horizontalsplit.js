@@ -9,11 +9,11 @@ import React from "react";
  * @constructor
  */
 const HorizontalSplit = props => (
-<Flex flexWrap="wrap" justifyContent="center">
-    <Box width={[1,.75,,1/2,]} px={["2%",0,0,0,0]}>
+<Flex flexWrap="wrap" style={{marginTop: '30px', justifyContent: 'space-around'}}>
+    <Box width={[1,.75,,0.45,]} px={["2%",0,0,0,0]}>
         {props.leftSide}
     </Box>
-    <Box width={[1,,,1/2,]} px={["2%","5%","7%",0,0]} alignSelf="center" pl="2%">     
+    <Box width={[1,,,1/2,]} px={["2%","5%","7%",0,0]} alignSelf="center" pl="2%">
         {props.rightSide}
     </Box>
 </Flex>

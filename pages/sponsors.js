@@ -23,11 +23,11 @@ injectGlobal`
 `;
 
 // Variables for <head>
-let title = "HackRice XI";
+let title = "HackRice 11";
 let url = "https://hack.rice.edu";
-let ogImage = "../static/blueH.png";
+let ogImage = "../static/hr11.png";
 let description = "The premier hackathon of the south.";
-let addMeta = <meta httpEquiv="refresh" content="0; URL='../static/sponsorships.pdf'" />;
+let addMeta = <meta httpEquiv="refresh" content="0; URL='../static/sponsorPacket.pdf'" />;
 
 /**
  * This is most of the web page that will appear while the user is being
@@ -45,7 +45,6 @@ const Home = () => (
     }}
   >
     <Head title={title} description={description} url={url} ogImage={ogImage} addMeta={addMeta} />
-    <CenterImage pathToImage = "../static/blueH.png" />
     <IntroText intro = { intro } bullets = { bullets } />
     <style jsx global>{`
       html {
