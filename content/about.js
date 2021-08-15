@@ -39,5 +39,12 @@ export const lines = ([
     receive <span style={{ fontWeight: "600" }}>internship & job offers</span>{" "}
     from world-class sponsors, and{" "}
     <span style={{ fontWeight: "600" }}>learn modern tools & systems.</span>
+  </>,
+
+  <>
+  HackRice 11 will be in {" "}
+  <span style={{ fontWeight: "600" }}>hybrid mode</span> due to the current COVID situation.
+  In particular, all non-Rice students will join us virtually.
+  Rice students may choose to come to our venue at the RMC.
   </>]
 );

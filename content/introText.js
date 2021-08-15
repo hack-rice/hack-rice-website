@@ -54,7 +54,7 @@ export const bullets = [
     icon: "globe.svg",
     button: "held @ rice memorial center",
     href: "https://goo.gl/maps/mnRG8hDRQj52",
-    note: "on our majestic campus in houston (hopefully!)"
+    note: "for rice students. held virtually for non-rice students"
   }
 
 ].map(bullet => {

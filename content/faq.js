@@ -64,7 +64,7 @@ export const questions = [
   // },
   {
     question: "Will my travel be reimbursed?",
-    answer: "Yes! We will discount or reimburse hacker travel expenses on a rolling basis to select candidates."
+    answer: "Due to Rice University's most recent COVID policy update, we would like all non-Rice participants to join us virtually."
   },
   {
     question: "Will there be food?",
