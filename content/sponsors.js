@@ -1,4 +1,4 @@
-export const title = "Previously Sponsored by:";
+export const title = "Sponsored by:";
 
 export const files = [
   {
@@ -8,9 +8,9 @@ export const files = [
     // blurb: "Here at Bill.com, our mission is to make it simple to connect and do business. We are a cloud-based, collaborative business payments platform that makes life easier for businesses of all sizes. As the industry leader in B2B payments, we manage over $70 billion annually and work with some of the top financial institutions and accounting firms in the country."
   },
   {
-    name: "twosigma.svg",
-    height: "45px",
-    link: "https://www.twosigma.com/",
+    name: "schlumberger.svg",
+    height: "30px",
+    link: "https://www.slb.com/"
   },
   {
     name: "chevron.png",
@@ -18,19 +18,14 @@ export const files = [
     link: "https://www.chevron.com/"
   },
   {
-    name: "energytransfer.png",
-    height: "55px",
-    link: "https://energytransfer.com"
-  },
-    {
-    name: "nov.png",
-    height: "35px",
-    link: "https://www.nov.com/"
-  },
-  {
     name: "vedo.png",
     height: "50px",
     link: "https://vedosystems.com"
+  },
+  {
+    name: "twosigma.svg",
+    height: "45px",
+    link: "https://www.twosigma.com/"
   },
   {
     name: "facebook.png",
@@ -39,12 +34,11 @@ export const files = [
     // blurb: "Founded in 2004, Facebook's mission is to give people the power to build community and bring the world closer together. People use Facebook to stay connected with friends and family, to discover what's going on in the world, and to share and express what matters to them."
   },
   {
-    name: "cognite.png",
-    height: "55px",
-    link: "https://www.cognite.com/",
-    // blurb: "Cognite is a global software company supporting the full-scale digital transformation of heavy-asset industries around the world. With Cognite Data Fusion (CDF), we supply contextualized data to drive industrial applications that increase safety and efficiency and drive revenue. We are currently around 250 employees spread on offices in Oslo, Norway (HQ), US (Austin and Houston), Austria and New Zealand. We're always looking for new talent to join our team, and offer both year-round internships and graduate positions within software engineering, design, 3D, project management, customer success, solution architecture and many more!"
+    name: "kenkennedy.png",
+    height: "40px",
+    link: "https://kenkennedy.rice.edu/",
+    // blurb: "Founded in 2004, Facebook's mission is to give people the power to build community and bring the world closer together. People use Facebook to stay connected with friends and family, to discover what's going on in the world, and to share and express what matters to them."
   },
-
   {
     name: "ricecs.png",
     height: "80px",
@@ -76,6 +70,24 @@ export const files = [
   item.key = `image-${item.name}`;
   return item;
 });
+
+  // {
+  // name: "nov.png",
+  // height: "35px",
+  // link: "https://www.nov.com/"
+  // },
+// {
+//   name: "cognite.png",
+//   height: "55px",
+//   link: "https://www.cognite.com/",
+//   // blurb: "Cognite is a global software company supporting the full-scale digital transformation of heavy-asset industries around the world. With Cognite Data Fusion (CDF), we supply contextualized data to drive industrial applications that increase safety and efficiency and drive revenue. We are currently around 250 employees spread on offices in Oslo, Norway (HQ), US (Austin and Houston), Austria and New Zealand. We're always looking for new talent to join our team, and offer both year-round internships and graduate positions within software engineering, design, 3D, project management, customer success, solution architecture and many more!"
+// },
+
+// {
+//   name: "energytransfer.png",
+//   height: "55px",
+//   link: "https://energytransfer.com"
+// },
 
   // {
   //   name: "schlumberger.svg",

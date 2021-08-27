@@ -21,16 +21,16 @@ export const bullets = [
     icon: "apply.svg",
     button: "Application for non-rice students",
     href: "https://forms.gle/wVypozYYJgcEXgci8",
-    note: "Registration for rice students will be open soon!"
+    note: ""
   },
 
-  // {
-  //   // icon: "https://icon.now.sh/compose/ffffff",
-  //   icon: "apply.svg",
-  //   button: "Apply here",
-  //   href: "https://hrx-registration.herokuapp.com/",
-  //   note: "applications are now open!"
-  // },
+  {
+    icon: "apply.svg",
+    button: "Registration for Rice students",
+    href: "https://forms.gle/a2SMRmiQcogWsRaX9",
+    note: ""
+  },
+
 
   {
     // icon: "https://icon.now.sh/calendar/ffffff",
