@@ -5,7 +5,7 @@ export const files = [
     name: "bill.png",
     height: "60px",
     link: "https://www.bill.com/",
-    // blurb: "Here at Bill.com, our mission is to make it simple to connect and do business. We are a cloud-based, collaborative business payments platform that makes life easier for businesses of all sizes. As the industry leader in B2B payments, we manage over $70 billion annually and work with some of the top financial institutions and accounting firms in the country."
+    blurb: "Here at Bill.com, our mission is to make it simple to connect and do business. We are a cloud-based, collaborative business payments platform that makes life easier for businesses of all sizes. As the industry leader in B2B payments, we manage over $70 billion annually and work with some of the top financial institutions and accounting firms in the country."
   },
   {
     name: "schlumberger.svg",
@@ -31,7 +31,7 @@ export const files = [
     name: "facebook.png",
     height: "40px",
     link: "https://www.facebook.com/",
-    // blurb: "Founded in 2004, Facebook's mission is to give people the power to build community and bring the world closer together. People use Facebook to stay connected with friends and family, to discover what's going on in the world, and to share and express what matters to them."
+    blurb: "Founded in 2004, Facebook's mission is to give people the power to build community and bring the world closer together. People use Facebook to stay connected with friends and family, to discover what's going on in the world, and to share and express what matters to them."
   },
   {
     name: "kenkennedy.png",

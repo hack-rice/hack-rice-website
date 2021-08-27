@@ -46,7 +46,7 @@ const Sponsors = () => (
               />
             </a>
           ) : (
-            <CustomTooltip text={blurb}>
+            <CustomTooltip text={blurb} style={{backgroundColor: 'transparent', cursor: 'pointer'}}>
               <a href={link}>
                 <Image
                   style={{ margin: "2em 1em", height: `${height}` }}
