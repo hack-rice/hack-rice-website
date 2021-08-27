@@ -36,8 +36,7 @@ export const files = [
   {
     name: "kenkennedy.png",
     height: "40px",
-    link: "https://kenkennedy.rice.edu/",
-    // blurb: "Founded in 2004, Facebook's mission is to give people the power to build community and bring the world closer together. People use Facebook to stay connected with friends and family, to discover what's going on in the world, and to share and express what matters to them."
+    link: "https://kenkennedy.rice.edu/"
   },
   {
     name: "ricecs.png",
