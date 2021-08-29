@@ -20,7 +20,8 @@ export const files = [
   {
     name: "vedo.png",
     height: "50px",
-    link: "https://vedosystems.com"
+    link: "https://vedosystems.com",
+    blurb: "Vedo Systems provides software engineering services for the U.S. Human Spaceflight Program."
   },
   {
     name: "twosigma.svg",
@@ -31,12 +32,13 @@ export const files = [
     name: "facebook.png",
     height: "40px",
     link: "https://www.facebook.com/",
-    blurb: "Founded in 2004, Facebook's mission is to give people the power to build community and bring the world closer together. People use Facebook to stay connected with friends and family, to discover what's going on in the world, and to share and express what matters to them."
+    blurb: "At Facebook, we are constantly iterating, solving problems and working together to connect people all over the world. That’s why it’s important that our workforce reflects the diversity of the people we serve. Hiring people with different backgrounds and points of view helps us make better decisions, build better products and create better experiences for everyone. Our mission is to give people the power to build community and bring the world closer together, and today our products reach 3 billion people!"
   },
   {
     name: "kenkennedy.png",
     height: "40px",
-    link: "https://kenkennedy.rice.edu/"
+    link: "https://kenkennedy.rice.edu/",
+    blurb: "The Ken Kennedy Institute is a multidisciplinary group that works collaboratively on groundbreaking research in artificial intelligence, data, and computing. We foster a clear and strategic pathway to real-world impact."
   },
   {
     name: "ricecs.png",
