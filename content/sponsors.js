@@ -61,9 +61,9 @@ export const files = [
     link: "https://www.echoar.xyz/"
   },
   {
-    name: "gatherly.png",
+    name: "gcloud.png",
     height: "40px",
-    link: "https://www.gatherly.io/"
+    link: "https://cloud.google.com/"
   },
 
 
