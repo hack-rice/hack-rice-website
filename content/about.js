@@ -45,6 +45,10 @@ export const lines = ([
   HackRice 11 will be in {" "}
   <span style={{ fontWeight: "600" }}>hybrid mode</span> due to the current COVID situation.
   In particular, all non-Rice students will join us virtually.
-  Rice students may choose to come to our venue at the RMC.
+  Rice students may choose to come to our venue at the RMC. There will be a {" "}
+  <span style={{ fontWeight: "600" }}>capacity limit</span> of RMC
+  determined by Rice Crisis Management Team. {" "}
+  <span style={{ fontWeight: "600" }}>Register early</span>  to get the opportunity to come to
+  the venue in-person!
   </>]
 );
