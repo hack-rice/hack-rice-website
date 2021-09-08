@@ -19,14 +19,14 @@ export const bullets = [
   {
     // icon: "https://icon.now.sh/compose/ffffff",
     icon: "apply.svg",
-    button: "Application for non-rice students",
+    button: "Application for non-rice students (closed)",
     href: "https://forms.gle/wVypozYYJgcEXgci8",
     note: ""
   },
 
   {
     icon: "apply.svg",
-    button: "Registration for Rice students",
+    button: "Registration for Rice students (ddl. Sep 15)",
     href: "https://forms.gle/a2SMRmiQcogWsRaX9",
     note: ""
   },
