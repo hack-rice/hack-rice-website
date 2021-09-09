@@ -5,7 +5,7 @@ export const files = [
     name: "bill.png",
     height: "60px",
     link: "https://www.bill.com/",
-    blurb: "Here at Bill.com, our mission is to make it simple to connect and do business. We are a cloud-based, collaborative business payments platform that makes life easier for businesses of all sizes. As the industry leader in B2B payments, we manage over $70 billion annually and work with some of the top financial institutions and accounting firms in the country."
+    blurb: "Bill.com is a leading provider of cloud-based software that simplifies, digitizes, and automates back-office financial processes for small and mid-sized businesses. Our customers come from all industries, ranging from startups to established brands and nonprofits to franchises."
   },
   {
     name: "schlumberger.svg",
@@ -15,7 +15,8 @@ export const files = [
   {
     name: "chevron.png",
     height: "80px",
-    link: "https://www.chevron.com/"
+    link: "https://www.chevron.com/",
+    blurb: "Chevron is a global energy company aspiring to be most admired for its people, partnership and performance."
   },
   {
     name: "vedo.png",
