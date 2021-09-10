@@ -10,7 +10,8 @@ export const files = [
   {
     name: "schlumberger.svg",
     height: "30px",
-    link: "https://www.slb.com/"
+    link: "https://www.slb.com/",
+    blurb: "Schlumberger is the leading provider of technology and services to the energy industry across the world."
   },
   {
     name: "chevron.png",
