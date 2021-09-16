@@ -69,7 +69,7 @@ export const questions = [
   {
     question: "Will there be food?",
     answer:
-      "We will provide catering meals and snacks during the event. However, in-door eating at the RMC is not allowed."
+      "We will provide catering meals and snacks during the event. However, in-door eating inside the RMC is not allowed. We will distribute foods at the RMC courtyard."
   },
   {
     question: "What do I need to bring?",
