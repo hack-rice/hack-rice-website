@@ -69,7 +69,7 @@ export const questions = [
   {
     question: "Will there be food?",
     answer:
-      "Due to COVID, we will not provide meal during HackRice 11. We will instead provide snacks outside the RMC."
+      "We will provide catering meals and snacks during the event. However, in-door eating at the RMC is not allowed."
   },
   {
     question: "What do I need to bring?",
