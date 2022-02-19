@@ -27,7 +27,7 @@ const Links = props => (
 
       .social {
         text-align: center;
-        margin-top: 10em;
+        margin-top: 5em;
         padding-bottom: 25px;
       }
 

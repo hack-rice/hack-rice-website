@@ -27,7 +27,7 @@ import { title as covidTitle, lines as covidLines} from "../content/covid";
 import { title as sponsorshipTitle, bullets as sponsorlinks } from "../content/sponsorship";
 import { cards } from "../content/cardNav";
 import { title as questionsTitle, questions } from "../content/faq";
-import { intro, bullets } from "../content/introText";
+import { intro, comingSoon, bullets } from "../content/introText";
 import { links } from "../content/links";
 import {billLines, billTitle} from "../content/aboutBill";
 
@@ -65,19 +65,19 @@ const Home = () => (
     <Mlh />
     <HorizontalSplit
       leftSide={<CenterImage pathToImage="../static/hr11.jpg"/>}
-      rightSide={<IntroText intro={intro} bullets={bullets}/>}
+      rightSide={<IntroText intro={intro} msg={comingSoon} bullets={bullets}/>}
     />
     {/* <CardNav cards={cards} /> */}
     <About lines={aboutLines} title={aboutTitle} />
     {/* <Covid lines={covidLines} title={covidTitle} /> */}
     {/* <BLM lines={blmLines} title={blmTitle} /> */}
-    <Sponsorship bullets={sponsorlinks} title={sponsorshipTitle} />
+    {/* {<Sponsorship bullets={sponsorlinks} title={sponsorshipTitle} />} */}
     {/* <Calendar/> */}
     {/* <Tracks/> */}
     {/* <Prizes/> */}
     {/* <About lines={billLines} title={billTitle} /> */}
-    <Questions title={questionsTitle} questions={questions} />
-    <Sponsors/>
+    {/* {<Questions title={questionsTitle} questions={questions} />} */}
+    {/* {<Sponsors/>} */}
     <Links links={links} />
     <style jsx global>{`
       html {

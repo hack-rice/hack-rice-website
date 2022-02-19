@@ -11,6 +11,7 @@ const IntroText = props => (
   <Box>
    <Box px={2} mx={2}>
       <h1 className="introText">{props.intro}</h1>
+      <p className="note">{props.msg}</p>
       {props.bullets.map(({ key, href, button, note, icon }) => (
         <div key={key} className="introItem">
           <img src={`../static/${icon}`} className="icon" alt="icon"/>
