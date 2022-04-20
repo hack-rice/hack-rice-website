@@ -9,15 +9,22 @@ import { Box } from "rebass";
  */
 const IntroText = props => (
   <Box>
-   <Box px={2} mx={2}>
+   <Box px={0} mx={2}>
       <h1 className="introText">{props.intro}</h1>
       <p className="note">{props.msg}</p>
       {props.bullets.map(({ key, href, button, note, icon }) => (
         <div key={key} className="introItem">
           <img src={`../static/${icon}`} className="icon" alt="icon"/>
-          <a href={href} className="styledlink">
-            {button}
-          </a>
+          {
+              href == "" ?
+              <a target="_blank" className="normallink">
+                {button}
+            </a>
+                :
+                <a href={href} target="_blank" className="styledlink">
+                    {button}
+                </a>
+          }
           <span className="spacer" />
           <span className="note">{note}</span>
         </div>
@@ -38,7 +45,7 @@ const IntroText = props => (
         color: #cccbd2;
       }
 
-      a.styledlink {
+      a.styledlink, a.normallink {
         color: #cccbd2;
         text-decoration: none;
         background: rgba(255, 255, 255, 0.1);

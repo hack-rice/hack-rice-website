@@ -17,13 +17,8 @@
   outline: none;
 }
 
-.rc-collapse > .rc-collapse-item:first-child {
-  border-top: 4px solid rgba(255, 255, 255, 1) !important;
-  border-left: 4px solid rgba(255, 255, 255, 1) !important;
-}
-
 .faqCard {
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
   color: #ffffff;
   font-family: "Overpass Mono", monospace;
   font-weight: 300;

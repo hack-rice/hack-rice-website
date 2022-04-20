@@ -70,9 +70,9 @@ export default class Questions extends React.Component {
     return (
       <Element name="faq">
         <Flex mt={4} justifyContent="center">
-          <h2 className="title">{this.props.title}</h2>
+          <h2 style={{paddingTop: '15px'}} className="title">{this.props.title}</h2>
         </Flex>
-        <Flex flexDirection="row" flexWrap="wrap" mt={2} mb={5} px={["2%","5%","7%","9%","11%"]}>
+        <Flex className="panels" flexDirection="row" flexWrap="wrap" mt={2} mb={5} px={["2%","5%","7%","9%","11%"]}>
           {cols}
         </Flex>
         <style jsx>
@@ -81,9 +81,7 @@ export default class Questions extends React.Component {
               color: #ffffff;
               display: inline-block;
               text-transform: uppercase;
-              background: ${colors["dark"]};
-              border-top: 4px solid rgba(255, 255, 255, 1) !important;
-              border-left: 4px solid rgba(255, 255, 255, 1) !important;
+              background: ${colors["base"]};
               border: 1px solid rgba(255, 255, 255, 0.2);
               font-family: "Overpass Mono", monospace;
               padding: 5px 10px 2px 10px;

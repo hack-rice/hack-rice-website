@@ -17,30 +17,30 @@ export const bullets = [
   //   note: "view the slides from the opening ceremony!"
   // },
 
-//   {
-//     // icon: "https://icon.now.sh/compose/ffffff",
-//     icon: "apply.svg",
-//     button: "Application for non-rice students (closed)",
-//     href: "https://forms.gle/wVypozYYJgcEXgci8",
-//     note: ""
-//   },
+  {
+    // icon: "https://icon.now.sh/compose/ffffff",
+    icon: "apply.svg",
+    button: "Application for non-rice students",
+    href: "",
+    note: "opens soon!"
+  },
 
-//   {
-//     icon: "apply.svg",
-//     button: "Registration for Rice students (ddl. Sep 15)",
-//     href: "https://forms.gle/a2SMRmiQcogWsRaX9",
-//     note: ""
-//   },
+  {
+    icon: "apply.svg",
+    button: "Registration for Rice students",
+    href: "",
+    note: "opens soon!"
+  },
 
 
-//   {
-//     // icon: "https://icon.now.sh/calendar/ffffff",
-//     icon: "date.svg",
-//     button: "Sep 17-19, 2021",
-//     href: "https://hack.rice.edu",
-//       // "https://calendar.google.com/event?action=TEMPLATE&tmeid=Mm0zMTU5bHJqbzJ0b2ZxNnJ0MnJndHJqaTMgY3c3NEByaWNlLmVkdQ&tmsrc=cw74%40rice.edu",
-//     note: "36 hours of non-stop building"
-//   },
+  {
+    // icon: "https://icon.now.sh/calendar/ffffff",
+    icon: "date.svg",
+    button: "Sep 23-35, 2022",
+    href: "https://hack.rice.edu",
+      // "https://calendar.google.com/event?action=TEMPLATE&tmeid=Mm0zMTU5bHJqbzJ0b2ZxNnJ0MnJndHJqaTMgY3c3NEByaWNlLmVkdQ&tmsrc=cw74%40rice.edu",
+    note: "36 hours of non-stop building"
+  },
 
   // {
   //   // icon: "https://icon.now.sh/wb_sunny/ffffff",
@@ -50,13 +50,13 @@ export const bullets = [
   //   note: "participate from anywhere and everywhere"
   // }
 
-//   {
-//     // icon: "https://icon.now.sh/wb_sunny/ffffff",
-//     icon: "globe.svg",
-//     button: "held @ rice memorial center",
-//     href: "https://goo.gl/maps/mnRG8hDRQj52",
-//     note: "for rice students. held virtually for non-rice students"
-//   }
+  {
+    // icon: "https://icon.now.sh/wb_sunny/ffffff",
+    icon: "globe.svg",
+    button: "held @ rice memorial center",
+    href: "https://goo.gl/maps/mnRG8hDRQj52",
+    note: ""
+  }
 
 ].map(bullet => {
   bullet.key = `bullet-${bullet.button}`;

@@ -18,7 +18,7 @@ import Calendar from "../components/calendar";
 import Sponsors from "../components/sponsors";
 import Tracks from "../components/tracks";
 import Prizes from "../components/prizes"
-import HorizontalSplit from "../components/horizontalsplit";
+import VerticalSplit from "../components/verticalsplit";
 
 // import necessary contents
 import { title as aboutTitle, lines as aboutLines} from "../content/about";
@@ -40,7 +40,7 @@ injectGlobal`
 // Variables for <head>
 let title = "HackRice 12";
 let url = "https://hack.rice.edu";
-let ogImage = "../static/hr11.jpg";
+let ogImage = "../static/logo.png";
 let description = "The premier hackathon of the south.";
 
 /**
@@ -62,21 +62,21 @@ const Home = () => (
     }}
   >
     <Head title={title} description={description} url={url} ogImage={ogImage} />
-    <Mlh />
-    <HorizontalSplit
-      leftSide={<CenterImage pathToImage="../static/hr11.jpg"/>}
-      rightSide={<IntroText intro={intro} msg={comingSoon} bullets={bullets}/>}
+    {/* <Mlh /> */}
+    <VerticalSplit
+      leftSide={<CenterImage pathToImage="../static/hr12.png"/>}
+      rightSide={<IntroText intro={intro} msg={""} bullets={bullets}/>}
     />
     {/* <CardNav cards={cards} /> */}
     <About lines={aboutLines} title={aboutTitle} />
     {/* <Covid lines={covidLines} title={covidTitle} /> */}
     {/* <BLM lines={blmLines} title={blmTitle} /> */}
-    {/* {<Sponsorship bullets={sponsorlinks} title={sponsorshipTitle} />} */}
     {/* <Calendar/> */}
     {/* <Tracks/> */}
     {/* <Prizes/> */}
+    <Sponsorship bullets={sponsorlinks} title={sponsorshipTitle} />
     {/* <About lines={billLines} title={billTitle} /> */}
-    {/* {<Questions title={questionsTitle} questions={questions} />} */}
+    <Questions title={questionsTitle} questions={questions} />
     {/* {<Sponsors/>} */}
     <Links links={links} />
     <style jsx global>{`

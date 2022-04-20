@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Box } from "rebass";
+import colors from "../styles/colors.json";
 
 /**
  * React component that represents the social media links in a webpage.
@@ -19,6 +20,7 @@ const Links = props => (
         </Link>
       ))}
     </div>
+    <div className="thanks">Special thanks to Amy Cao for designing our logo!</div>
     <style jsx>{`
       .icon {
         padding: 4px 13px;
@@ -28,7 +30,13 @@ const Links = props => (
       .social {
         text-align: center;
         margin-top: 5em;
-        padding-bottom: 25px;
+        padding-bottom: 20px;
+      }
+
+      .thanks {
+          text-align:center;
+          font-size: 10px;
+          color: ${colors["gray"][2]};
       }
 
       @media (max-width: 575px) {
