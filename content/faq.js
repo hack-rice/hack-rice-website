@@ -42,13 +42,13 @@ export const questions = [
       <>
         {/* As a virtual event this year, we are excited to open up HackRice X to a larger and more diverse pool of hackers! Any current student over the age of 15 is eligible to apply to HackRice. */}
         Any current undergraduate student over the age of 18 is eligible to apply to HackRice.
-        {/*Since we are an MLH member event, participants must also accept the{" "}
+        Since we are an MLH member event, participants must also accept the{" "}
         <a
           className="styledlink" link="#ffffff" vlink="#ffffff" alink="#ffffff"
-          href="http://static.mlh.io/docs/mlh-code-of-conduct.pdf"
+          href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf"
         >
           <b>MLH Code of Conduct</b>
-        </a>.*/}
+        </a>.
       </>
     )
   },

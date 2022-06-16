@@ -62,7 +62,7 @@ const Home = () => (
     }}
   >
     <Head title={title} description={description} url={url} ogImage={ogImage} />
-    {/* <Mlh /> */}
+    <Mlh />
     <VerticalSplit
       leftSide={<CenterImage pathToImage="../static/hr12.png"/>}
       rightSide={<IntroText intro={intro} msg={""} bullets={bullets}/>}
