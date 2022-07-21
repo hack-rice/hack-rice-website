@@ -36,7 +36,7 @@ export const bullets = [
   {
     // icon: "https://icon.now.sh/calendar/ffffff",
     icon: "date.svg",
-    button: "Sep 23-35, 2022",
+    button: "Sep 23-25, 2022",
     href: "",
       // "https://calendar.google.com/event?action=TEMPLATE&tmeid=Mm0zMTU5bHJqbzJ0b2ZxNnJ0MnJndHJqaTMgY3c3NEByaWNlLmVkdQ&tmsrc=cw74%40rice.edu",
     note: "36 hours of non-stop building"
