@@ -28,8 +28,8 @@ export const bullets = [
   {
     icon: "apply.svg",
     button: "Registration for Rice students",
-    href: "",
-    note: "opens soon!"
+    href: "https://forms.gle/9bUxmmoGgGUTwZC37",
+    note: ""
   },
 
 
