@@ -40,7 +40,7 @@ export const friday = [
         "Learn the basis of Git and GitHub to start collaborating efficiently with your team!"
   },
   {
-    time: "8:30 PM",
+    time: "9:30 PM",
     title: "Android App Workshop",
     detail:
       "An intro to Android app development for our First Timers Track."
