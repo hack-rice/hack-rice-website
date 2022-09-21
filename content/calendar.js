@@ -81,6 +81,11 @@ export const saturday = [
     time: "7:30 PM",
     title: "Dinner",
     detail: "Fuel up for the night with Thai food catered by Thai Village!"
+  },
+  {
+    time: "10:00 PM",
+    title: "Late Night Raffle",
+    detail: "Enter our raffle to win some cool merch!"
   }
 ].map(item => {
   item.key = `item-${item.detail}`;
