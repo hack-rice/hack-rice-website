@@ -14,12 +14,9 @@ import colors from "../styles/colors.json";
 
 const Calendar = () => (
   <Element name="calendar">
-    <Box bg={"#ffffff"} color={colors["base"]}>
-      <Box mx={4} px={3} pt={4} mt={4}>
+    <Box bg={colors["base"]} color={colors["white"]}>
+      <Box mx={4} px={3} pt={4} mt={2} mb={2} style={{display: "flex", justifyContent: "space-around"}}>
         <h2 className="title">{title}</h2>
-      </Box>
-      <Box mx={4} px={3}>
-        <p className="note">{note}</p>
       </Box>
       <Flex my={1} pb={4} mx={4} flexWrap="wrap">
         <Box px={3} width={[1, 1 / 3]}>
@@ -71,12 +68,14 @@ const Calendar = () => (
           color: ${colors["white"]};
           background: ${colors["base"]};
           padding: 2px 10px;
+          text-align: center;
+          font-size: 1.7em;
         }
 
         .dayName {
           font-size: 1.2em;
           font-weight: 600;
-          color: ${colors["base"]};
+          color: ${colors["white"]};
           text-transform: uppercase;
           padding: 0px;
         }
@@ -95,7 +94,7 @@ const Calendar = () => (
         .dayItem {
           border: 1px solid rgba(0, 0, 0, 0.1);
           background: rgba(255, 255, 255, 0.2);
-          color: ${colors["base"]};
+          color: ${colors["white"]};
           padding: 8px 10px;
           transition: border 0.3s ease-in-out, box-shadow 0.3s ease-in-out,
             transform 0.3s ease-in-out;
@@ -128,12 +127,11 @@ const Calendar = () => (
         .itemTitle {
           margin-top: 5px;
           display: inline-block;
-          font-size: 0.8em;
+          font-size: 0.9em;
           font-weight: 400;
           font-family: "Overpass Mono";
-          background: #cccbd2;
-          padding: 2px 5px;
-          color: ${colors["dark"]};
+          padding: 1px 2px;
+          color: ${colors["white"]};
         }
 
         .itemDetail {
@@ -142,6 +140,7 @@ const Calendar = () => (
           flex: 1 1 100%;
           font-size: 0.8em;
           margin-top: 0.5em;
+          padding-left: 0px;
         }
 
         .note {

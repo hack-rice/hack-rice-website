@@ -62,8 +62,8 @@ const Sponsors = () => (
         .title {
           display: inline-block;
           text-transform: uppercase;
-          color: ${colors["base"]};
-          background: ${colors["white"]};
+          color: ${colors["white"]};
+          background: ${colors["base"]};
           padding: 2px 10px;
           margin: unset;
           height: 40px;
