@@ -43,7 +43,12 @@ export const friday = [
     time: "9:30 PM",
     title: "First Timer's Workshop",
     detail:
-      "Workshop for our first time hackathon attendees."
+      "Workshop for our first time hackathon attendees. Located in Willy's Pub."
+  },
+  {
+    time: "9:30 PM",
+    title: "Data Science Workshop",
+    detail: "A crash course in the basics of data science. Located in Farnsworth Pavilion."
   },
   {
     time: "11:30 PM",
@@ -59,8 +64,8 @@ export const friday = [
 export const saturday = [
   {
     time: "10 AM",
-    title: "Data Science Workshop",
-    detail: "A crash course in the basics of data science."
+    title: "Resume Review Workshop",
+    detail: "Get some helpful tips on your resume to bring you one step closer to your dream job!"
   },
   {
     time: "12:30 PM",
@@ -84,8 +89,13 @@ export const saturday = [
   },
   {
     time: "10:00 PM",
-    title: "Late Night Raffle",
+    title: "Raffle",
     detail: "Enter our raffle to win some cool merch!"
+  },
+  {
+    time: "11:00 PM",
+    title: "Late Night Activity",
+    detail: "Surprise late night activity!"
   }
 ].map(item => {
   item.key = `item-${item.detail}`;
