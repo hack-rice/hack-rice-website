@@ -41,9 +41,9 @@ export const friday = [
   },
   {
     time: "9:30 PM",
-    title: "Android App Workshop",
+    title: "First Timer's Workshop",
     detail:
-      "An intro to Android app development for our First Timers Track."
+      "Workshop for our first time hackathon attendees."
   },
   {
     time: "11:30 PM",
