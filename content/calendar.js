@@ -69,7 +69,7 @@ export const saturday = [
   },
   {
     time: "12:30 PM",
-    title: "Lunch and Panel",
+    title: "Lunch",
     detail: "Grab some banh mi catered by Oui Banh Mi!"
   },
   {
