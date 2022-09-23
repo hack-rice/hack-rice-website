@@ -40,6 +40,12 @@ export const friday = [
         "Learn the basis of Git and GitHub to start collaborating efficiently with your team!"
   },
   {
+    time: "8:30 PM",
+    title: "Solana Blockchain Workshop",
+    detail:
+        "Learn the basis of the blockchain with one of our sponsors! Check back on Friday for a Zoom link."
+  },
+  {
     time: "9:30 PM",
     title: "First Timer's Workshop",
     detail:
