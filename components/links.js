@@ -20,7 +20,7 @@ const Links = props => (
         </Link>
       ))}
     </div>
-    <div className="thanks">Special thanks to Amy Cao for designing our logo!</div>
+    <div className="thanks">Special thanks to Abby Herrera for designing our logo!</div>
     <style jsx>{`
       .icon {
         padding: 4px 13px;
@@ -36,7 +36,7 @@ const Links = props => (
       .thanks {
           text-align:center;
           font-size: 10px;
-          color: ${colors["gray"][2]};
+          color: #000000;
       }
 
       @media (max-width: 575px) {

@@ -1,6 +1,6 @@
 .rc-collapse {
   background-color: unset;
-  color: #ffffff;
+  color: #000000;
   border: unset;
   display: flex;
   justify-content: space-around;
@@ -18,8 +18,8 @@
 }
 
 .faqCard {
-  border: 1px solid rgba(255, 255, 255, 0.2) !important;
-  color: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.2) !important;
+  color: #000000;
   font-family: "Overpass Mono", monospace;
   font-weight: 300;
   padding: 18px;
@@ -49,14 +49,14 @@
 }
 
 .rc-collapse-header {
-  color: #ffffff !important;
+  color: #000000 !important;
   height: auto !important;
   line-height: unset !important;
 }
 
 .rc-collapse-content {
   background-color: unset;
-  color: #ffffff;
+  color: #000000;
   padding: 0px;
   font-family: "Open Sans", sans-serif !important;
   font-size: 0.9em;
@@ -81,15 +81,15 @@ tr:nth-child(even) {
 }
 
 .card {
-  color: #cccbd2;
+  color: #000000;
   display: inline-block;
   font-size: .9em;
 }
 
 .styledlink {
-  color: #cccbd2;
+  color: #000000;
 }
 
 .styledlink:visited {
-  color: #cccbd2;
+  color: #000000;
 }

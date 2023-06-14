@@ -42,7 +42,7 @@ export const lines = ([
   </>,
 
   <>
-  More information about HackRice 12 will be coming soon!
+  More information about HackRice 13 will be coming soon!
   </>]
 
 //   <>

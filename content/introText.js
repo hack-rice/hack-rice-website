@@ -2,7 +2,7 @@
  * The text that appears at the top of the hackrice web page.
  * @type {string}
  */
-export const intro = "HackRice 12";
+export const intro = "HackRice 13";
 export const comingSoon = "Details coming soon!"
 
 /**
@@ -21,14 +21,15 @@ export const bullets = [
     // icon: "https://icon.now.sh/compose/ffffff",
     icon: "apply.svg",
     button: "Application for non-rice students",
-    href: "https://docs.google.com/forms/d/e/1FAIpQLSeQQhrh_LVuRdUgiqd_vyAb4vMcmiD9Y6yFMHYR5iyls2icuA/viewform?usp=sf_link",
-    note: ""
+    href: "https://forms.gle/rf1p9fC8LVZ7avAP7",
+    note: "",
   },
 
   {
     icon: "apply.svg",
-    button: "Registration for Rice students",
-    href: "https://forms.gle/9bUxmmoGgGUTwZC37",
+    // button: "Registration for Rice students",
+    button: comingSoon,
+    href: "",
     note: ""
   },
 
@@ -36,7 +37,7 @@ export const bullets = [
   {
     // icon: "https://icon.now.sh/calendar/ffffff",
     icon: "date.svg",
-    button: "Sep 23-25, 2022",
+    button: "Sep 22-24, 2023",
     href: "",
       // "https://calendar.google.com/event?action=TEMPLATE&tmeid=Mm0zMTU5bHJqbzJ0b2ZxNnJ0MnJndHJqaTMgY3c3NEByaWNlLmVkdQ&tmsrc=cw74%40rice.edu",
     note: "36 hours of non-stop building"

@@ -33,7 +33,7 @@ const IntroText = props => (
 
     <style jsx>{`
       .introText {
-        color: #ffffff;
+        color: #000000;
         font-family: "Overpass Mono";
         font-size: 1.5em;
         font-weight: 700;
@@ -42,11 +42,11 @@ const IntroText = props => (
 
       .introItem {
         margin-bottom: 10px;
-        color: #cccbd2;
+        color: darkgray;
       }
 
       a.styledlink, a.normallink {
-        color: #cccbd2;
+        color: #000000;
         text-decoration: none;
         background: rgba(255, 255, 255, 0.1);
         transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
@@ -58,7 +58,7 @@ const IntroText = props => (
       }
 
       a.styledlink:hover {
-        color: #191919;
+        color: #000000;
         background: rgba(255, 255, 255, 1);
       }
 

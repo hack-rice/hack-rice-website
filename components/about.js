@@ -29,7 +29,7 @@ const About = props => (
           font-weight: 300;
           font-size: 1em;
           line-height: 1.6em;
-          color: #cccbd2;
+          color: #000000;
         }
 
         p strong {
@@ -39,7 +39,7 @@ const About = props => (
         .title {
           display: inline-block;
           text-transform: uppercase;
-          color: ${colors["gray"][0]};
+          color: #000000;
           margin: unset;
           font-family: "Overpass Mono", monospace;
         }

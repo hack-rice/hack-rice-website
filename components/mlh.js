@@ -26,8 +26,8 @@ const Mlh = () => (
     <a id="mlh-trust-badge"
         style={linkStyle} href="https://mlh.io/na?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2023-season&utm_content=white"
         target="_blank">
-        <img src="https://s3.amazonaws.com/logged-assets/trust-badge/2023/mlh-trust-badge-2023-white.svg"
-            alt="Major League Hacking 2023 Hackathon Season"
+        <img src="https://s3.amazonaws.com/logged-assets/trust-badge/2024/mlh-trust-badge-2024-black.svg"
+            alt="Major League Hacking 2024 Hackathon Season"
             style={imgStyle} />
     </a>
     

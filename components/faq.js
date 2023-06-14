@@ -78,11 +78,11 @@ export default class Questions extends React.Component {
         <style jsx>
           {`
             .title {
-              color: #ffffff;
+              color: #000000;
               display: inline-block;
               text-transform: uppercase;
               background: ${colors["base"]};
-              border: 1px solid rgba(255, 255, 255, 0.2);
+              border: 1px solid rgba(0, 0, 0, 0.2);
               font-family: "Overpass Mono", monospace;
               padding: 5px 10px 2px 10px;
               box-sizing: content-box;
