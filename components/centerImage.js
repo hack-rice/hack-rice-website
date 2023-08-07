@@ -16,7 +16,7 @@ const CenterImage = props => (
         marginRight: "auto",
         // marginTop: "10%",
         // marginBottom: "10%",
-        // width: "25%"
+        width: "75%"
       }}
     />
 

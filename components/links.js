@@ -20,7 +20,7 @@ const Links = props => (
         </Link>
       ))}
     </div>
-    <div className="thanks">Special thanks to Abby Herrera for designing our logo!</div>
+    <div className="thanks">Special thanks to Amy Cao for designing our logo!</div>
     <style jsx>{`
       .icon {
         padding: 4px 13px;

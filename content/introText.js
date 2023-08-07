@@ -20,16 +20,16 @@ export const bullets = [
   {
     // icon: "https://icon.now.sh/compose/ffffff",
     icon: "apply.svg",
-    button: "Application for non-rice students",
+    button: "Application for non-Rice students",
     href: "https://forms.gle/rf1p9fC8LVZ7avAP7",
     note: "",
   },
 
   {
     icon: "apply.svg",
-    // button: "Registration for Rice students",
-    button: comingSoon,
-    href: "",
+    button: "Application for Rice students",
+    // button: comingSoon,
+    href: "https://forms.gle/GhxEC5uT39ow1ahc9",
     note: ""
   },
 
