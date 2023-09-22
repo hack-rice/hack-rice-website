@@ -12,7 +12,7 @@ const CustomTooltip = styled(Tooltip)`
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
     background-color: rgba(255, 255, 255, 1);
-    color: ${colors["base"]};
+    color: ${colors["black"]};
   }
 
   &::after {
@@ -62,7 +62,7 @@ const Sponsors = () => (
         .title {
           display: inline-block;
           text-transform: uppercase;
-          color: ${colors["white"]};
+          color: ${colors["black"]};
           background: ${colors["base"]};
           padding: 2px 10px;
           margin: unset;

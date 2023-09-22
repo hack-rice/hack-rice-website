@@ -2,69 +2,60 @@ export const title = "Sponsored by:";
 
 export const files = [
   {
-    name: "ricecs.png",
+    name: "cs_department_black.png",
     height: "90px",
-    link: "https://csweb.rice.edu/"
+    link: "https://csweb.rice.edu/",
+    blurb: "Rice University's computer science department is a leading hub for innovative research and education in computer science."
   },
   {
-    name: "schlumberger.svg",
-    height: "40px",
+    name: "SLB_Black.png",
+    height: "200px",
     link: "https://www.slb.com/",
     blurb: "Schlumberger is the leading provider of technology and services to the energy industry across the world."
   },
   {
-    name: "chevron.png",
-    height: "90px",
+    name: "Chevron_Black.png",
+    height: "100px",
     link: "https://www.chevron.com/",
     blurb: "Chevron is a global energy company aspiring to be most admired for its people, partnership and performance."
   },
   {
-    name: "techtreeroot.png",
+    name: "Capital_One_Black.png",
     height: "80px",
-    link: "https://www.techtreeroot.org/"
+    link: "https://www.capitalone.com/tech/",
+    blurb: "Capital One is a leading financial institution celebrated for its innovative technology-driven banking and credit card services."
   },
   {
-    name: "mlh.svg",
+    name: "MLH_Black.png",
     height: "60px",
-    link: "https://mlh.io/"
+    link: "https://mlh.io/",
+    blurb: "Major League Hacking (MLH) is a prominent organization at the forefront of fostering innovation and collaboration in the global student technology community."
   },
   {
-    name: "bill.png",
+    name: "ForeFlight_Black.png",
     height: "60px",
-    link: "https://www.bill.com/",
-    blurb: "Bill.com is a leading provider of cloud-based software that simplifies, digitizes, and automates back-office financial processes for small and mid-sized businesses. Our customers come from all industries, ranging from startups to established brands and nonprofits to franchises."
+    link: "https://foreflight.com/",
+    blurb: "ForeFlight is a leading aviation software company renowned for its innovative flight planning and navigation solutions."
   },
   {
-    name: "googlecloud.png",
-    height: "50px",
-    link: "https://cloud.google.com/"
+    name: "D2K_Black.png",
+    height: "120px",
+    link: "https://d2k.rice.edu/",
+    blurb: "Data to Knowledge at Rice University is a pioneering initiative dedicated to unlocking insights and advancing human understanding through cutting-edge data analysis and research."
   },
   {
-    name: "meta.png",
+    name: "Nord_Security_Black.png",
     height: "70px",
-    link: "https://about.facebook.com/",
-    blurb: "At Meta, we are constantly iterating, solving problems and working together to connect people all over the world. That’s why it’s important that our workforce reflects the diversity of the people we serve. Hiring people with different backgrounds and points of view helps us make better decisions, build better products and create better experiences for everyone. Our mission is to give people the power to build community and bring the world closer together, and today our products reach 3 billion people!"
+    link: "https://nordsecurity.com/",
+    blurb: "Nord Security is a trusted cybersecurity company known for its commitment to protecting digital privacy and providing top-tier online security solutions."
   },
   {
-    name: "livenova.png",
-    height: "70px",
-    link: "https://www.livanova.com/en-us"
+    name: "echo3D_Black.png",
+    height: "40px",
+    link: "https://www.echo3d.com/",
+    blurb: "Echo3D is a prominent platform for creating and deploying immersive 3D and augmented reality experiences with ease and efficiency."
   },
-  {
-    name: "solana.png",
-    height: "70px",
-    link: "https://solana.com/"
-  },
-  {
-    name: "scm.png",
-    height: "70px",
-    link: "https://www.scm-lp.com/"
-  },
-  {
-    name: "d2k.png",
-    height: "90px",
-    link: "https://d2k.rice.edu/"
-  },
+  
 
 
 ].map(item => {

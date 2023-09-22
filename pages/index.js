@@ -77,7 +77,7 @@ const Home = () => (
     {/* <Sponsorship bullets={sponsorlinks} title={sponsorshipTitle} /> */}
     {/* <About lines={billLines} title={billTitle} /> */}
     <Questions title={questionsTitle} questions={questions} />
-    {/* {<Sponsors />} */}
+    {<Sponsors />}
     <Links links={links} />
     <style jsx global>{`
       html {
