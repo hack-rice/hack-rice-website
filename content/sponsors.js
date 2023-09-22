@@ -47,7 +47,7 @@ export const files = [
     name: "Nord_Security_Black.png",
     height: "70px",
     link: "https://nordsecurity.com/",
-    blurb: "Nord Security is a trusted cybersecurity company known for its commitment to protecting digital privacy and providing top-tier online security solutions."
+    blurb: "Nord Security is a cybersecurity company known for its commitment to protecting digital privacy and providing top-tier online security solutions."
   },
   {
     name: "echo3D_Black.png",
