@@ -50,7 +50,7 @@ export const files = [
     blurb: "Nord Security is a cybersecurity company known for its commitment to protecting digital privacy and providing top-tier online security solutions."
   },
   {
-    name: "echo3D_Black.png",
+    name: "echo3d_black.png",
     height: "40px",
     link: "https://www.echo3d.com/",
     blurb: "Echo3D is a prominent platform for creating and deploying immersive 3D and augmented reality experiences with ease and efficiency."

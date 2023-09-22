@@ -2,7 +2,7 @@
   "base": "#f2d9d8",
   "light": "#b6baf9",
   "dark": "#1d0069",
-  "black": "#3d3e4c",
+  "black": ["#3d3e4c"],
   "gray": [
     "#ffffff",
     "#eff0f9",

@@ -14,7 +14,7 @@ import colors from "../styles/colors.json";
 
 const Calendar = () => (
   <Element name="calendar">
-    <Box bg={colors["base"]} color={colors["white"]}>
+    <Box bg={colors["base"]} color={colors["black"]}>
       <Box mx={4} px={3} pt={4} mt={2} mb={2} style={{display: "flex", justifyContent: "space-around"}}>
         <h2 className="title">{title}</h2>
       </Box>
@@ -65,7 +65,7 @@ const Calendar = () => (
         .title {
           display: inline-block;
           text-transform: uppercase;
-          color: ${colors["white"]};
+          color: ${colors["black"]};
           background: ${colors["base"]};
           padding: 2px 10px;
           text-align: center;
@@ -75,7 +75,7 @@ const Calendar = () => (
         .dayName {
           font-size: 1.2em;
           font-weight: 600;
-          color: ${colors["white"]};
+          color: ${colors["black"]};
           text-transform: uppercase;
           padding: 0px;
         }
@@ -93,8 +93,8 @@ const Calendar = () => (
 
         .dayItem {
           border: 1px solid rgba(0, 0, 0, 0.1);
-          background: rgba(255, 255, 255, 0.2);
-          color: ${colors["white"]};
+          background: rgba(245, 255, 255, 0.2);
+          color: ${colors["black"]};
           padding: 8px 10px;
           transition: border 0.3s ease-in-out, box-shadow 0.3s ease-in-out,
             transform 0.3s ease-in-out;
@@ -106,7 +106,7 @@ const Calendar = () => (
         }
 
         .dayItem:hover {
-          border: 1px solid ${colors["base"]};
+          border: 1px solid ${colors["black"]};
           box-shadow: 0px 3px 5px 2px rgba(97, 100, 178, 0.05);
           transform: scale(1.05);
         }
@@ -131,7 +131,7 @@ const Calendar = () => (
           font-weight: 400;
           font-family: "Overpass Mono";
           padding: 1px 2px;
-          color: ${colors["white"]};
+          color: ${colors["black"]};
         }
 
         .itemDetail {

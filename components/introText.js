@@ -48,7 +48,7 @@ const IntroText = props => (
       a.styledlink, a.normallink {
         color: #000000;
         text-decoration: none;
-        background: rgba(255, 255, 255, 0.1);
+        background: rgba(245, 255, 255, 0.2);
         transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
         padding: 4px 5px;
         margin: 4px;

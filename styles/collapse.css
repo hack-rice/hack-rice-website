@@ -18,6 +18,7 @@
 }
 
 .faqCard {
+  background-color: rgba(245, 255, 255, 0.2);
   border: 1px solid rgba(0, 0, 0, 0.2) !important;
   color: #000000;
   font-family: "Overpass Mono", monospace;

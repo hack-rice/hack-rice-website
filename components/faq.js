@@ -82,7 +82,6 @@ export default class Questions extends React.Component {
               display: inline-block;
               text-transform: uppercase;
               background: ${colors["base"]};
-              border: 1px solid rgba(0, 0, 0, 0.2);
               font-family: "Overpass Mono", monospace;
               padding: 5px 10px 2px 10px;
               box-sizing: content-box;
